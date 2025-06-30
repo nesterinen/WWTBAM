@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+import { type Stage, type Quiz, type Score } from './Types'
+
 import musicNote from './assets/music-note.svg'
 import musicNoteSlash from './assets/music-note-slash.svg'
 import exitSvg from './assets/exit.svg'
@@ -14,21 +16,31 @@ function StageMachine(
   {
     backToMenu, 
     muted,
-    muteEffects
+    muteEffects,
+    stageMagazine,
+    addScore
   }:
   {
     backToMenu: () => void,
     muted: boolean,
-    muteEffects: boolean
+    muteEffects: boolean,
+    stageMagazine: Stage[],
+    addScore: (score: Score) => void
   }
   ) {
   const [stageIndex, setStageIndex] = useState(0)
   const [lifeLines, setLifeLines] = useState({fiftyFifty: true, todo1: true, todo2: true})
-  const [soundTrack, setSoundTrack] = useState('11 $100-$1,000 Questions.mp3')
+  const [soundTrack, setSoundTrack] = useState(stageMagazine[0].sounds.theme)
+  const [startTime,] = useState(new Date()) 
 
   function nextTrack(){
     if(stageMagazine.length > stageIndex + 1){
       const newTrack = stageMagazine[stageIndex + 1].sounds.theme
+      if(newTrack instanceof HTMLAudioElement && soundTrack instanceof HTMLAudioElement){
+        if(newTrack.src === soundTrack.src){
+          return
+        }
+      }
       if(newTrack) setSoundTrack(newTrack)
     }
   }
@@ -53,33 +65,65 @@ function StageMachine(
     if(muted){
       return
     }
+
+    if(soundTrack instanceof HTMLAudioElement){
+      soundTrack.loop = true
+      soundTrack.play()
+
+      return () => soundTrack.pause()
+    } else {
+      const themeAudio = new Audio('/sounds/' + soundTrack)
+      //const themeAudio = new Audio('/sounds/' + stageMagazine[stageIndex].sounds.theme)
+
+      themeAudio.addEventListener('canplaythrough', () => {
+          themeAudio.loop = true
+          themeAudio.play()
+      })
+
+      return () => {
+        themeAudio.pause()
+      }
+    }
     
-    const themeAudio = new Audio('/sounds/' + soundTrack)
-    //const themeAudio = new Audio('/sounds/' + stageMagazine[stageIndex].sounds.theme)
-    if (soundTrack !== '62 $1,000,000 Win.mp3'){
-      themeAudio.loop = true
-    }
-
-    themeAudio.addEventListener('canplaythrough', () => {
-        themeAudio.play()
-    })
-
-    return () => {
-      themeAudio.pause()
-    }
+    
 
   }, [soundTrack, muted])
 
+  //https://stackoverflow.com/questions/29816872/how-can-i-convert-milliseconds-to-hhmmss-format-using-javascript
+  function msToHMS( ms: number ): string {
+      let seconds = ms / 1000;
+      const hours = Math.floor(seconds / 3600); // 3,600 seconds in 1 hour
+      seconds = seconds % 3600; // seconds remaining after extracting hours
+      const minutes = Math.floor( seconds / 60 ); // 60 seconds in 1 minute
+      seconds = seconds % 60;
+      //return hours+":"+minutes+":"+Math.floor(seconds)
+      return `${hours}h ${minutes}m ${seconds.toFixed(2)}s`
+  }
+
+
   // Losing condition
   if(stageIndex === 666){
+    if(soundTrack instanceof HTMLAudioElement){
+      soundTrack.pause()
+    }
+
+    const timeSpent =  new Date().getTime() - startTime.getTime()
+
+    //playSound('16 $2,000 Lose.mp3')
     return(
       <>
-        <div>YOU LOSE!</div>
+        <h2>YOU LOSE!</h2>
+        <p>{msToHMS(timeSpent)}</p>
+
         <button onClick={() => {
-          setSoundTrack('')
+          setSoundTrack(null)
           backToMenu()
         }}>
           Back to menu
+        </button>
+
+        <button onClick={() => addScore({stage: stageIndex, id: new Date().getTime(), timeSpent, name: 'admin'})}>
+          add score as admin
         </button>
       </>
     )
@@ -87,20 +131,22 @@ function StageMachine(
 
   // Victory condition
   if(stageIndex >= stageMagazine.length){
-
-    /*
-    if(soundTrack !== '62 $1,000,000 Win.mp3'){
-      //setSoundTrack('62 $1,000,000 Win.mp3')
+    if(soundTrack instanceof HTMLAudioElement){
+      soundTrack.pause()
     }
-    */
 
+    // playsound doesnt preload, so its little bit delayed.
+    // replace with something better later.
     playSound('62 $1,000,000 Win.mp3')
+
+    const timeSpent =  msToHMS(new Date().getTime() - startTime.getTime())
 
     return (
       <>
         <div>YOU WIN!</div>
+        <p>{timeSpent}</p>
         <button onClick={() => {
-          //setSoundTrack('')
+          setSoundTrack(null)
           backToMenu()
         }}> Back to menu </button>
       </>
@@ -108,7 +154,7 @@ function StageMachine(
   }
 
 function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<HTMLButtonElement>){
-    const isAnimated = true
+    const isAnimated = false
 
     let animationRevealSpeed = 250
     let animationWaitBeforeNext = 500
@@ -258,6 +304,10 @@ function AudioPreloader(stageMagazine: Stage[]){
     for(const [key, sound] of Object.entries(stage.sounds)){
       if(sound === null) continue
       switch (key) {
+        case 'theme':
+          stageMagazine[index].sounds['theme'] = new Audio('/sounds/' + sound)
+          break;
+
         case 'win':
           stageMagazine[index].sounds['win'] = new Audio('/sounds/' + sound)
           break;
@@ -285,47 +335,128 @@ function AudioPreloader(stageMagazine: Stage[]){
   })
 }
 
-import { type Quiz } from './Types'
-function loadAndRandomizeQuiz(stageMagazine: Stage[], file: { question: string; answer: string; A: string; B: string; C: string; D: string; }[]){
-  file.sort(() => Math.random() - 0.5)
-  const quiz15 = file.splice(0, 15)
-  const formattedQuiz: Quiz[] = []
+/*
+interface Score {
+  //id: Date,
+  //timeSpent: number, // milliseconds
+  stage: number //how many questions correct
+}
 
-  type Corrects = 'A' | 'B' | 'C' | 'D'
-  const keys: Corrects[] = ['A', 'B', 'C', 'D']
+function HighscoresTesting(){
+  const [scores, setScores] = useState<Score[]>([])
 
-  quiz15.map(quiz => {
-    const answers = [quiz.A, quiz.B, quiz.C, quiz.D].sort(() => Math.random() - 0.5)
-    const newQuiz = {
-      question: quiz.question,
-      answers: {
-        A: answers[0],
-        B: answers[1],
-        C: answers[2],
-        D: answers[3]
-      },
-      correct: keys[answers.findIndex(elem => quiz.answer === elem)]
+  useEffect(() => {
+    const scoresFromStorage = localStorage.getItem('highScores')
+    if(scoresFromStorage){
+      const parsedScores: Score[] = JSON.parse(scoresFromStorage)
+      setScores(parsedScores)
     }
-    formattedQuiz.push(newQuiz)
-  })
+  }, [])
 
-  // apply new randomized and formatted array to stageMagazine
-  stageMagazine.map((stage, index) => {
-    stage.quiz = formattedQuiz[index]
-  })
+  function scoreGenerator(){
+    const genScores: Score[] = []
+    for (let i = 0; i < 10; i++){
+      const score = {stage: Math.floor(Math.random() * 10)}
+      genScores.push(score)
+    }
+
+    setScores(genScores)
+    localStorage.setItem('highScores', JSON.stringify(genScores))
+  }
+
+  function addNewScore(){
+    const score: Score = {stage: Math.floor(Math.random() * 10)}
+    setScores([...scores, score])
+    localStorage.setItem('highScores', JSON.stringify([...scores, score]))
+  }
+
+  function flushScores(){
+    setScores([])
+    localStorage.setItem('highScores', '')
+  }
+
+  return (
+    <>
+      <h1>Highscore testing..</h1>
+      <button onClick={() => scoreGenerator()}>test</button>
+      <button onClick={() => addNewScore()}>addnew</button>
+      <button onClick={() => flushScores()}>flush</button>
+      {scores ? 
+        <ul>
+          {scores.map((score, i) => {
+            return <li key={i}>stage:{score.stage}</li>
+          })}
+        </ul>
+        :
+        <h1>no scores</h1>
+      }
+    </>
+  )
+}
+*/
+
+function loadAndRandomizeQuiz(stageMagazine: Stage[], file: { question: string; answer: string; A: string; B: string; C: string; D: string; }[]){
+    file.sort(() => Math.random() - 0.5)
+    //spilce deletes the selected objects from the array.
+    //slice creates shallow copy, otherwise we will run out of questions pretty soon.
+    const quiz15 = file.slice().splice(0, 15) 
+    const formattedQuiz: Quiz[] = []
+  
+    type Corrects = 'A' | 'B' | 'C' | 'D'
+    const keys: Corrects[] = ['A', 'B', 'C', 'D']
+  
+    quiz15.map(quiz => {
+      const answers = [quiz.A, quiz.B, quiz.C, quiz.D].sort(() => Math.random() - 0.5)
+      const newQuiz = {
+        question: quiz.question,
+        answers: {
+          A: answers[0],
+          B: answers[1],
+          C: answers[2],
+          D: answers[3]
+        },
+        correct: keys[answers.findIndex(elem => quiz.answer === elem)]
+      }
+      formattedQuiz.push(newQuiz)
+    })
+
+    if(formattedQuiz.length < 11){
+      console.log('formattedQuiz.length < 11', formattedQuiz)
+    }
+  
+    // apply new randomized and formatted array to stageMagazine
+    return stageMagazine.map((stage, index) => {
+      return {...stage, quiz: formattedQuiz[index]}
+    })
+
+  //  resolve('done')
+  //})
 }
 
 function App() {
+  const [stageMag, setStageMagazine] = useState(stageMagazine)
   const [gameState, setGameState] = useState('menu')
   const [muted, setMuted] = useState(true)
   const [muteEffects, setMuteEffects] = useState(true)
+  //highscores should probably created into custom react hook.
+  const [highscores, setHighscores] = useState<Score[]>([])
 
   useEffect(() => {
-    loadAndRandomizeQuiz(stageMagazine, testiKysym)
+    const newStageMag = loadAndRandomizeQuiz(stageMag, testiKysym)
+    setStageMagazine(newStageMag)
+    //console.log(stageMag)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[gameState])
 
   useEffect(() => {
     AudioPreloader(stageMagazine)
+
+    const scoresFromStorage = localStorage.getItem('highScores')
+    if(scoresFromStorage){
+      const parsedScores: Score[] = JSON.parse(scoresFromStorage)
+      console.log('parsedScores:', parsedScores)
+      setHighscores(parsedScores)
+    }
   }, [])
 
   function switchMute(){
@@ -370,6 +501,16 @@ function App() {
     //<img src={musicNote} alt='music/on' width='32' height='32'/>
   }
 
+  function flushHighscores(){
+    setHighscores([])
+    localStorage.setItem('highScores', '')
+  }
+
+  function addScoreToHighscores(score: Score){
+    setHighscores([...highscores, score])
+    localStorage.setItem('highScores', JSON.stringify([...highscores, score]))
+  }
+
   switch (gameState) {
     case 'menu':
       return (
@@ -378,6 +519,7 @@ function App() {
           <div className='menuButtonsContainer'>
             <button className='menuButton' onClick={() => setGameState('stage')}>pelaa</button>
             <button className='menuButton'>highscores TODO</button>
+            <button onClick={() => flushHighscores()}>flush highscores</button>
           </div>
           <SettingsBar/>
         </>
@@ -386,7 +528,7 @@ function App() {
     case 'stage':
       return (
         <>
-          <StageMachine backToMenu={() => setGameState('menu')} muted={muted} muteEffects={muteEffects}/>
+          <StageMachine backToMenu={() => setGameState('menu')} muted={muted} muteEffects={muteEffects} stageMagazine={stageMag} addScore={addScoreToHighscores}/>
           <SettingsBar/>
         </>
       )
@@ -400,7 +542,6 @@ function App() {
 
 //const prizes = [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000]
 
-import { type Stage } from './Types'
 const stageMagazine: Stage[] = [
   {
     prize: 100,
@@ -420,7 +561,7 @@ const stageMagazine: Stage[] = [
       question: null,
       finalAnswer: null,
       win: null,
-      lose: null
+      lose: '16 $2,000 Lose.mp3'
     },
     animations: {
       todo: false,
@@ -444,7 +585,7 @@ const stageMagazine: Stage[] = [
       question: null,
       finalAnswer: null,
       win: null,
-      lose: null
+      lose: '16 $2,000 Lose.mp3'
     },
     animations: {
       todo: false,
@@ -468,7 +609,7 @@ const stageMagazine: Stage[] = [
       question: null,
       finalAnswer: null,
       win: null,
-      lose: null
+      lose: '16 $2,000 Lose.mp3'
     },
     animations: {
       todo: false,
@@ -492,7 +633,7 @@ const stageMagazine: Stage[] = [
       question: null,
       finalAnswer: null,
       win: null,
-      lose: null
+      lose: '16 $2,000 Lose.mp3'
     },
     animations: {
       todo: false,
@@ -516,7 +657,7 @@ const stageMagazine: Stage[] = [
       question: null,
       finalAnswer: null,
       win: null,
-      lose: null
+      lose: '16 $2,000 Lose.mp3'
     },
     animations: {
       todo: false,

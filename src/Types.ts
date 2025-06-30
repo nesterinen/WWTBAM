@@ -1,4 +1,4 @@
-interface Quiz {
+export interface Quiz {
     question: string
     answers: {
         A: string
@@ -10,7 +10,7 @@ interface Quiz {
 }
 
 interface StageSounds {
-    theme: null | string
+    theme: null | string | HTMLAudioElement
     letsPlay: null | string | HTMLAudioElement
     question: null | string | HTMLAudioElement
     finalAnswer: null | string | HTMLAudioElement
@@ -27,4 +27,11 @@ export interface Stage {
     quiz: Quiz,
     sounds: StageSounds,
     animations: TODO
+}
+
+export interface Score {
+    id: number, //ms since 1970
+    timeSpent: number, // milliseconds spent on a game
+    stage: number, //how many questions correct
+    name: string // player name
 }
