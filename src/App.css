@@ -142,6 +142,28 @@
   margin-bottom: 0.5rem;
 }
 
+.highScoreTable {
+  outline: 1px solid white;
+}
+
+.highScoreTable tr {
+  outline: 1px solid white;
+}
+
+.highScoreTable th, td {
+  padding: 0.8rem;
+}
+
+.deleteScoresButton {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.deleteScoresButton:hover {
+  background-color: red;
+  border-color: darkred !important;
+}
+
 /*
 
 @keyframes logo-spin {

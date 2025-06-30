@@ -12,6 +12,17 @@ import './App.css'
 import testiKysym from './questions/100_testi_kysym.json'
 
 
+//https://stackoverflow.com/questions/29816872/how-can-i-convert-milliseconds-to-hhmmss-format-using-javascript
+function msToHMS( ms: number ): string {
+    let seconds = ms / 1000;
+    const hours = Math.floor(seconds / 3600); // 3,600 seconds in 1 hour
+    seconds = seconds % 3600; // seconds remaining after extracting hours
+    const minutes = Math.floor( seconds / 60 ); // 60 seconds in 1 minute
+    seconds = seconds % 60;
+    //return hours+":"+minutes+":"+Math.floor(seconds)
+    return `${hours}h ${minutes}m ${seconds.toFixed(2)}s`
+}
+
 function StageMachine(
   {
     backToMenu, 
@@ -32,6 +43,12 @@ function StageMachine(
   const [lifeLines, setLifeLines] = useState({fiftyFifty: true, todo1: true, todo2: true})
   const [soundTrack, setSoundTrack] = useState(stageMagazine[0].sounds.theme)
   const [startTime,] = useState(new Date()) 
+  const [gameOver, setGameOver] = useState(false)
+
+  function returnToMenu(){
+      setSoundTrack(null)
+      backToMenu()
+  }
 
   function nextTrack(){
     if(stageMagazine.length > stageIndex + 1){
@@ -89,20 +106,8 @@ function StageMachine(
 
   }, [soundTrack, muted])
 
-  //https://stackoverflow.com/questions/29816872/how-can-i-convert-milliseconds-to-hhmmss-format-using-javascript
-  function msToHMS( ms: number ): string {
-      let seconds = ms / 1000;
-      const hours = Math.floor(seconds / 3600); // 3,600 seconds in 1 hour
-      seconds = seconds % 3600; // seconds remaining after extracting hours
-      const minutes = Math.floor( seconds / 60 ); // 60 seconds in 1 minute
-      seconds = seconds % 60;
-      //return hours+":"+minutes+":"+Math.floor(seconds)
-      return `${hours}h ${minutes}m ${seconds.toFixed(2)}s`
-  }
-
-
   // Losing condition
-  if(stageIndex === 666){
+  if(gameOver){
     if(soundTrack instanceof HTMLAudioElement){
       soundTrack.pause()
     }
@@ -116,13 +121,15 @@ function StageMachine(
         <p>{msToHMS(timeSpent)}</p>
 
         <button onClick={() => {
-          setSoundTrack(null)
-          backToMenu()
+          returnToMenu()
         }}>
           Back to menu
         </button>
 
-        <button onClick={() => addScore({stage: stageIndex, id: new Date().getTime(), timeSpent, name: 'admin'})}>
+          <button onClick={() => {
+            addScore({stage: stageIndex, id: new Date().getTime(), timeSpent, name: 'admin'})
+            returnToMenu()
+          }}>
           add score as admin
         </button>
       </>
@@ -139,16 +146,23 @@ function StageMachine(
     // replace with something better later.
     playSound('62 $1,000,000 Win.mp3')
 
-    const timeSpent =  msToHMS(new Date().getTime() - startTime.getTime())
+    const timeSpent =  new Date().getTime() - startTime.getTime()
 
     return (
       <>
         <div>YOU WIN!</div>
-        <p>{timeSpent}</p>
+        <p>{msToHMS(timeSpent)}</p>
+
         <button onClick={() => {
-          setSoundTrack(null)
-          backToMenu()
+          returnToMenu()
         }}> Back to menu </button>
+
+        <button onClick={() => {
+          addScore({stage: stageIndex, id: new Date().getTime(), timeSpent, name: 'admin'})
+          returnToMenu()
+          }}>
+          add score as admin
+        </button>
       </>
     )
   }
@@ -199,7 +213,7 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
                 button.classList.add('wrongAnswer')
                 playSound(stageMagazine[stageIndex].sounds.lose, 0.3)
                 setTimeout(() => {
-                  setStageIndex(666)
+                  setGameOver(true)
                   classCleanUp()
                 }, animationWaitBeforeNext) // 1000
               }
@@ -215,7 +229,7 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
         classCleanUp()
       } else {
         playSound(stageMagazine[stageIndex].sounds.lose, 0.3)
-        setStageIndex(666)
+        setGameOver(true)
         classCleanUp()
       }
     }
@@ -335,66 +349,6 @@ function AudioPreloader(stageMagazine: Stage[]){
   })
 }
 
-/*
-interface Score {
-  //id: Date,
-  //timeSpent: number, // milliseconds
-  stage: number //how many questions correct
-}
-
-function HighscoresTesting(){
-  const [scores, setScores] = useState<Score[]>([])
-
-  useEffect(() => {
-    const scoresFromStorage = localStorage.getItem('highScores')
-    if(scoresFromStorage){
-      const parsedScores: Score[] = JSON.parse(scoresFromStorage)
-      setScores(parsedScores)
-    }
-  }, [])
-
-  function scoreGenerator(){
-    const genScores: Score[] = []
-    for (let i = 0; i < 10; i++){
-      const score = {stage: Math.floor(Math.random() * 10)}
-      genScores.push(score)
-    }
-
-    setScores(genScores)
-    localStorage.setItem('highScores', JSON.stringify(genScores))
-  }
-
-  function addNewScore(){
-    const score: Score = {stage: Math.floor(Math.random() * 10)}
-    setScores([...scores, score])
-    localStorage.setItem('highScores', JSON.stringify([...scores, score]))
-  }
-
-  function flushScores(){
-    setScores([])
-    localStorage.setItem('highScores', '')
-  }
-
-  return (
-    <>
-      <h1>Highscore testing..</h1>
-      <button onClick={() => scoreGenerator()}>test</button>
-      <button onClick={() => addNewScore()}>addnew</button>
-      <button onClick={() => flushScores()}>flush</button>
-      {scores ? 
-        <ul>
-          {scores.map((score, i) => {
-            return <li key={i}>stage:{score.stage}</li>
-          })}
-        </ul>
-        :
-        <h1>no scores</h1>
-      }
-    </>
-  )
-}
-*/
-
 function loadAndRandomizeQuiz(stageMagazine: Stage[], file: { question: string; answer: string; A: string; B: string; C: string; D: string; }[]){
     file.sort(() => Math.random() - 0.5)
     //spilce deletes the selected objects from the array.
@@ -433,6 +387,69 @@ function loadAndRandomizeQuiz(stageMagazine: Stage[], file: { question: string; 
   //})
 }
 
+function HighscoresMenu({highscores}:{highscores: Score[]}){
+  if(!highscores){
+    return (
+      <h1>No scores yet</h1>
+    )
+  }
+
+  function sortFunction(scoreA:Score, scoreB:Score){
+    if(scoreA.stage > scoreB.stage){
+      return -1
+    } else if (scoreA.stage < scoreB.stage){
+      return 1
+    }
+
+    if (scoreA.timeSpent < scoreB.timeSpent){
+      return -1
+    } else if(scoreA.timeSpent > scoreB.timeSpent){
+      return 1
+    }
+
+    return 0
+  }
+
+  const sortedScores = highscores.sort(sortFunction)
+
+  return (
+    <>
+      <h1>Top10</h1>
+      <table className='highScoreTable'>
+        <tr>
+          <th>Sijoitus</th>
+          <th>Nimimerkki</th>
+          <th>Pisteet</th>
+          <th>Aika</th>
+          <th>Päivämäärä</th>
+        </tr>
+        {sortedScores.slice(0, 10).map((score, i) => {
+          return <tr>
+            <th>{i + 1}</th>
+            <th>{score.name}</th>
+            <th>{score.stage}</th>
+            <th>{msToHMS(score.timeSpent)}</th>
+            <th>{new Date(score.id).toLocaleString('FI-fi')}</th>
+          </tr>
+        })}
+      </table>
+    </>
+  )
+
+  /*
+  return (
+    <>
+      <h1>Top10</h1>
+      <ul>
+        {sortedScores.slice(0, 10).map((score, i) => {
+          return <li key={i}>{i + 1}  Nimimerkki: {score.name} pisteet: {score.stage} aika: {msToHMS(score.timeSpent)}</li>
+        })}
+      </ul>
+    </>
+  )
+  */
+}
+
 function App() {
   const [stageMag, setStageMagazine] = useState(stageMagazine)
   const [gameState, setGameState] = useState('menu')
@@ -441,12 +458,14 @@ function App() {
   //highscores should probably created into custom react hook.
   const [highscores, setHighscores] = useState<Score[]>([])
 
+  /*
   useEffect(() => {
     const newStageMag = loadAndRandomizeQuiz(stageMag, testiKysym)
     setStageMagazine(newStageMag)
     //console.log(stageMag)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   },[gameState])
+  */
 
   useEffect(() => {
     AudioPreloader(stageMagazine)
@@ -490,7 +509,7 @@ function App() {
           }
         </button>
         
-        {gameState === 'stage' ?  
+        {gameState !== 'menu' ?  
           <button className='settingsButton' onClick={() => setGameState('menu')}>
             <img src={exitSvg} alt='exit' width='32' height='32'/>
           </button>
@@ -517,9 +536,8 @@ function App() {
         <>
           <img src={millionareLogo} className="logo" alt="Millionare logo" />
           <div className='menuButtonsContainer'>
-            <button className='menuButton' onClick={() => setGameState('stage')}>pelaa</button>
-            <button className='menuButton'>highscores TODO</button>
-            <button onClick={() => flushHighscores()}>flush highscores</button>
+            <button className='menuButton' onClick={() => setGameState('stage')}>Pelaa</button>
+            <button className='menuButton' onClick={() => setGameState('scores')}>Top10</button>
           </div>
           <SettingsBar/>
         </>
@@ -529,6 +547,20 @@ function App() {
       return (
         <>
           <StageMachine backToMenu={() => setGameState('menu')} muted={muted} muteEffects={muteEffects} stageMagazine={stageMag} addScore={addScoreToHighscores}/>
+          <SettingsBar/>
+        </>
+      )
+
+    case 'scores':
+      return (
+        <>
+          <HighscoresMenu highscores={highscores}/>
+          <button className='deleteScoresButton' onClick={() => {
+            const deleteScores = confirm('Poista kaikki pisteet?')
+            if (deleteScores){
+              flushHighscores()
+            }
+          }}>Poista</button>
           <SettingsBar/>
         </>
       )
@@ -546,14 +578,14 @@ const stageMagazine: Stage[] = [
   {
     prize: 100,
     quiz: {
-      question: 'The Earth is approximately how many miles away from the Sun?',
+      question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
       answers: {
-        A: '9.3 million',
-        B: '39 million',
-        C: '93 million',
-        D: '193 million'
+        A: 'Moth',
+        B: 'Roach',
+        C: 'Fly',
+        D: 'Japanese beetle'
       },
-      correct: 'C'
+      correct: 'A'
     },
     sounds: {
       theme: '11 $100-$1,000 Questions.mp3',
