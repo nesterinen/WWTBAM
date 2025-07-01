@@ -8,6 +8,7 @@ import exitSvg from './assets/exit.svg'
 
 import millionareLogo from '/WWTBAMUS2020Logo.png'
 import './App.css'
+import './css/confetti.css'
 
 import testiKysym from './questions/100_testi_kysym.json'
 
@@ -68,6 +69,9 @@ function StageMachine(
     if (win instanceof HTMLAudioElement){
       win.volume = volume
       win.play()
+      if(soundTrack instanceof HTMLAudioElement){
+        soundTrack.volume = 0
+      }
       return
     }
 
@@ -110,11 +114,34 @@ function StageMachine(
   interface GOSprops {
     title: string,
     stageIndex: number,
-    timeSpent: number
+    timeSpent: number,
+    win: boolean
   }
   function GameOverScreen(props:GOSprops){
+    // victory confetti stuff.
+    function getRandomColor() {
+      const colors = ['#ff6347', '#ffa500', '#32cd32', '#1e90ff', '#ff69b4'];
+      return colors[Math.floor(Math.random() * colors.length)];
+    }
+    useEffect(() => {
+      if(!props.win) return
+      const confettiWrapper = document.querySelector('.confettiWrapper');
+      if(!confettiWrapper) return
+      // Generate confetti
+      for (let i = 0; i < 50; i++) {
+        const confetti = document.createElement('div');
+        confetti.classList.add('confetti-piece');
+        confetti.style.left = `${Math.random() * 100}%`;
+        confetti.style.setProperty('--fall-duration', `${Math.random() * 3 + 3}s`);
+        confetti.style.setProperty('--confetti-color', getRandomColor());
+        confettiWrapper.appendChild(confetti);
+      }
+    })
+
+    const winClass = props.win ? ' win' : ' lose'
+
     return (
-      <div className='GameOverScreen'>
+      <div className={'GameOverScreen' + winClass}>
         <h1>{props.title}</h1>
 
         <div className='gmScores'>
@@ -141,6 +168,12 @@ function StageMachine(
         <button onClick={() => {
           returnToMenu()
         }}>Palaa valikkoon</button>
+
+        {props.win ?
+          <>
+            <div className='confettiWrapper'></div>
+          </>
+        : <></>}
       </div>
     )
   }
@@ -154,7 +187,7 @@ function StageMachine(
     const timeSpent =  new Date().getTime() - startTime.getTime()
 
     return (
-      <GameOverScreen title='Peli ohi!' timeSpent={timeSpent} stageIndex={stageIndex}/>
+      <GameOverScreen title='Peli ohi!' timeSpent={timeSpent} stageIndex={stageIndex} win={false}/>
     )
   }
 
@@ -171,12 +204,12 @@ function StageMachine(
     const timeSpent =  new Date().getTime() - startTime.getTime()
 
     return (
-      <GameOverScreen title='Voitit!' timeSpent={timeSpent} stageIndex={stageIndex}/>
+      <GameOverScreen title='1,000,000' timeSpent={timeSpent} stageIndex={stageIndex} win={true}/>
     )
   }
 
 function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<HTMLButtonElement>){
-    const isAnimated = false
+    const isAnimated = true
 
     let animationRevealSpeed = 250
     let animationWaitBeforeNext = 500
@@ -192,6 +225,12 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
       animationRevealSpeed = 1500
       animationWaitBeforeNext = 2000
     }
+    if(stageMagazine[stageIndex].sounds.win && stageMagazine[stageIndex].sounds.win instanceof HTMLAudioElement){
+      animationWaitBeforeNext = stageMagazine[stageIndex].sounds.win.duration * 1000 - 3000
+      if(animationWaitBeforeNext < 0){
+        animationWaitBeforeNext = 0
+      }
+    }
 
     const buttons = document.querySelector('.answerButtonsContainer')?.querySelectorAll('button')
 
@@ -199,12 +238,19 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
       if(buttons){
         for(const button of buttons){
           button.classList.remove('selectedAnswer', 'correctAnswer', 'wrongAnswer', 'removedBy50')
+          button.disabled = false
         }
       }
     }
 
     if(isAnimated){ //isAnimated
       event.currentTarget.classList.add('selectedAnswer')
+      if(buttons){
+        for(const button of buttons){
+          button.disabled = true
+        }
+      }
+
       setTimeout(async () => {
         if(buttons){
           for(const button of buttons){
@@ -291,22 +337,22 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
           <button className='lifeLineButton'>TODO</button>
         </div>
 
-        <h1 className='questionHeader'>{stageMagazine[stageIndex].quiz.question}</h1>
+        <h1 className='questionHeader sb'>{stageMagazine[stageIndex].quiz.question}</h1>
 
         <div className='answerButtonsContainer'>
-          <button className='answerButton' onClick={(e) => answerFunction('A', e)} id='A'>
+          <button className='answerButton sb' onClick={(e) => answerFunction('A', e)} id='A'>
             A: {stageMagazine[stageIndex].quiz.answers.A}
           </button>
 
-          <button className='answerButton' onClick={(e) => answerFunction('B', e)} id='B'>
+          <button className='answerButton sb' onClick={(e) => answerFunction('B', e)} id='B'>
             B: {stageMagazine[stageIndex].quiz.answers.B}
           </button>
 
-          <button className='answerButton' onClick={(e) => answerFunction('C', e)} id='C'>
+          <button className='answerButton sb' onClick={(e) => answerFunction('C', e)} id='C'>
             C: {stageMagazine[stageIndex].quiz.answers.C}
           </button>
 
-          <button className='answerButton' onClick={(e) => answerFunction('D', e)} id='D'>
+          <button className='answerButton sb' onClick={(e) => answerFunction('D', e)} id='D'>
             D: {stageMagazine[stageIndex].quiz.answers.D}
           </button>
         </div>
@@ -544,8 +590,8 @@ function App() {
         <>
           <img src={millionareLogo} className="logo" alt="Millionare logo" />
           <div className='menuButtonsContainer'>
-            <button className='menuButton' onClick={() => setGameState('stage')}>Pelaa</button>
-            <button className='menuButton' onClick={() => setGameState('scores')}>Top10</button>
+            <button className='menuButton sb' onClick={() => setGameState('stage')}>Pelaa</button>
+            <button className='menuButton sb' onClick={() => setGameState('scores')}>Top10</button>
           </div>
           <SettingsBar/>
         </>
