@@ -152,7 +152,7 @@ function StageMachine(
         </div>
 
         <div className='gmInputContainer'>
-          <input className='gmInput'/>
+          <input className='gmInput' placeholder='nimi'/>
           <button onClick={() => {
             const input: HTMLInputElement | null = document.querySelector('.gmInput')
             if(!input) return
@@ -512,14 +512,14 @@ function App() {
   //highscores should probably created into custom react hook.
   const [highscores, setHighscores] = useState<Score[]>([])
 
-  /*
+  
   useEffect(() => {
     const newStageMag = loadAndRandomizeQuiz(stageMag, testiKysym)
     setStageMagazine(newStageMag)
     //console.log(stageMag)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   },[gameState])
-  */
+  
 
   useEffect(() => {
     AudioPreloader(stageMagazine)
@@ -587,14 +587,14 @@ function App() {
   switch (gameState) {
     case 'menu':
       return (
-        <>
+        <div className='menuState'>
           <img src={millionareLogo} className="logo" alt="Millionare logo" />
           <div className='menuButtonsContainer'>
             <button className='menuButton sb' onClick={() => setGameState('stage')}>Pelaa</button>
             <button className='menuButton sb' onClick={() => setGameState('scores')}>Top10</button>
           </div>
           <SettingsBar/>
-        </>
+        </div>
       )
 
     case 'stage':

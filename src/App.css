@@ -133,6 +133,10 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
+.menuState {
+  width: 80vw;
+  height: 80vh;
+}
 
 .settingsContainer {
   position: absolute;
@@ -157,7 +161,9 @@
 }
 
 .menuButton {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  min-height: 3rem;
+  height: 10vh;
 }
 
 .highScoreTable {
