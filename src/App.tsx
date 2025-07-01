@@ -106,6 +106,45 @@ function StageMachine(
 
   }, [soundTrack, muted])
 
+
+  interface GOSprops {
+    title: string,
+    stageIndex: number,
+    timeSpent: number
+  }
+  function GameOverScreen(props:GOSprops){
+    return (
+      <div className='GameOverScreen'>
+        <h1>{props.title}</h1>
+
+        <div className='gmScores'>
+          <h2>Pisteitä</h2>
+          <h2>Aika</h2>
+          <h2>{props.stageIndex}</h2>
+          <h2>{msToHMS(props.timeSpent)}</h2>
+        </div>
+
+        <div className='gmInputContainer'>
+          <input className='gmInput'/>
+          <button onClick={() => {
+            const input: HTMLInputElement | null = document.querySelector('.gmInput')
+            if(!input) return
+            if(!input.value) {
+              input.style = 'outline: 1px solid red;'
+              return
+            }
+            addScore({stage: stageIndex, id: new Date().getTime(), timeSpent:props.timeSpent, name: input.value})
+            returnToMenu()
+          }}>Lisää nimimerkki Top10</button>
+        </div>
+
+        <button onClick={() => {
+          returnToMenu()
+        }}>Palaa valikkoon</button>
+      </div>
+    )
+  }
+
   // Losing condition
   if(gameOver){
     if(soundTrack instanceof HTMLAudioElement){
@@ -114,25 +153,8 @@ function StageMachine(
 
     const timeSpent =  new Date().getTime() - startTime.getTime()
 
-    //playSound('16 $2,000 Lose.mp3')
-    return(
-      <>
-        <h2>YOU LOSE!</h2>
-        <p>{msToHMS(timeSpent)}</p>
-
-        <button onClick={() => {
-          returnToMenu()
-        }}>
-          Back to menu
-        </button>
-
-          <button onClick={() => {
-            addScore({stage: stageIndex, id: new Date().getTime(), timeSpent, name: 'admin'})
-            returnToMenu()
-          }}>
-          add score as admin
-        </button>
-      </>
+    return (
+      <GameOverScreen title='Peli ohi!' timeSpent={timeSpent} stageIndex={stageIndex}/>
     )
   }
 
@@ -149,21 +171,7 @@ function StageMachine(
     const timeSpent =  new Date().getTime() - startTime.getTime()
 
     return (
-      <>
-        <div>YOU WIN!</div>
-        <p>{msToHMS(timeSpent)}</p>
-
-        <button onClick={() => {
-          returnToMenu()
-        }}> Back to menu </button>
-
-        <button onClick={() => {
-          addScore({stage: stageIndex, id: new Date().getTime(), timeSpent, name: 'admin'})
-          returnToMenu()
-          }}>
-          add score as admin
-        </button>
-      </>
+      <GameOverScreen title='Voitit!' timeSpent={timeSpent} stageIndex={stageIndex}/>
     )
   }
 
@@ -424,7 +432,7 @@ function HighscoresMenu({highscores}:{highscores: Score[]}){
           <th>Päivämäärä</th>
         </tr>
         {sortedScores.slice(0, 10).map((score, i) => {
-          return <tr>
+          return <tr key={i}>
             <th>{i + 1}</th>
             <th>{score.name}</th>
             <th>{score.stage}</th>
@@ -473,7 +481,7 @@ function App() {
     const scoresFromStorage = localStorage.getItem('highScores')
     if(scoresFromStorage){
       const parsedScores: Score[] = JSON.parse(scoresFromStorage)
-      console.log('parsedScores:', parsedScores)
+      //console.log('parsedScores:', parsedScores)
       setHighscores(parsedScores)
     }
   }, [])

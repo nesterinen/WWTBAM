@@ -164,6 +164,38 @@
   border-color: darkred !important;
 }
 
+.GameOverScreen {
+  display: grid;
+  grid-template-columns: 100%;
+  outline: 1px solid red;
+  height: 60vh;
+  width: 60vw;
+}
+
+.GameOverScreen button {
+  margin: 0.25rem;
+}
+
+.GameOverScreen input {
+  margin: 0.25rem;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.gmScores {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.gmScores h2 {
+  margin: 0;
+}
+
+.gmInputContainer {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
 /*
 
 @keyframes logo-spin {
