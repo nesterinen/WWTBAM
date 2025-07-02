@@ -10,8 +10,9 @@ import millionareLogo from '/WWTBAMUS2020Logo.png'
 import './App.css'
 import './css/confetti.css'
 
-import testiKysym from './questions/100_testi_kysym.json'
+import testiKysym from './questions/kysymykset.json'
 
+const salasana = 'root'
 
 //https://stackoverflow.com/questions/29816872/how-can-i-convert-milliseconds-to-hhmmss-format-using-javascript
 function msToHMS( ms: number ): string {
@@ -144,6 +145,17 @@ function StageMachine(
       <div className={'GameOverScreen' + winClass}>
         <h1>{props.title}</h1>
 
+        {props.win ? 
+        <></>
+        :
+        <div style={{}}>
+          <h2>
+            {stageMagazine[stageIndex].quiz.question} <br></br>
+            {stageMagazine[stageIndex].quiz.answers[stageMagazine[stageIndex].quiz.correct]}
+          </h2>
+        </div>
+        }
+
         <div className='gmScores'>
           <h2>Pisteitä</h2>
           <h2>Aika</h2>
@@ -157,7 +169,7 @@ function StageMachine(
             const input: HTMLInputElement | null = document.querySelector('.gmInput')
             if(!input) return
             if(!input.value) {
-              input.style = 'outline: 1px solid red;'
+              input.style = 'outline: 3px solid red;'
               return
             }
             addScore({stage: stageIndex, id: new Date().getTime(), timeSpent:props.timeSpent, name: input.value})
@@ -333,8 +345,6 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
 
         <div className='lifeLineContainer'>
           <button className='lifeLineButton' onClick={() => lifeLine5050()} disabled={!lifeLines.fiftyFifty}>50:50</button>
-          <button className='lifeLineButton'>TODO</button>
-          <button className='lifeLineButton'>TODO</button>
         </div>
 
         <h1 className='questionHeader sb'>{stageMagazine[stageIndex].quiz.question}</h1>
@@ -436,12 +446,16 @@ function loadAndRandomizeQuiz(stageMagazine: Stage[], file: { question: string; 
     return stageMagazine.map((stage, index) => {
       return {...stage, quiz: formattedQuiz[index]}
     })
-
-  //  resolve('done')
-  //})
 }
 
-function HighscoresMenu({highscores}:{highscores: Score[]}){
+function HighscoresMenu(
+  {
+    highscores,
+    deleteById
+    }:{
+    highscores: Score[],
+    deleteById: (id: number) => void
+  }){
   if(!highscores){
     return (
       <h1>No scores yet</h1>
@@ -470,12 +484,14 @@ function HighscoresMenu({highscores}:{highscores: Score[]}){
     <>
       <h1>Top10</h1>
       <table className='highScoreTable'>
+      <tbody>
         <tr>
           <th>Sijoitus</th>
           <th>Nimimerkki</th>
           <th>Pisteet</th>
           <th>Aika</th>
           <th>Päivämäärä</th>
+          <th></th>
         </tr>
         {sortedScores.slice(0, 10).map((score, i) => {
           return <tr key={i}>
@@ -484,24 +500,21 @@ function HighscoresMenu({highscores}:{highscores: Score[]}){
             <th>{score.stage}</th>
             <th>{msToHMS(score.timeSpent)}</th>
             <th>{new Date(score.id).toLocaleString('FI-fi')}</th>
+            <th>
+              <button onClick={() => {
+                const deleteScores = prompt('Poistaaksesi pisteet anna salasana:')
+                if (deleteScores === salasana){
+                  deleteById(score.id)
+                }
+              }}
+              >🗑</button>
+            </th>
           </tr>
         })}
+      </tbody>
       </table>
     </>
   )
-
-  /*
-  return (
-    <>
-      <h1>Top10</h1>
-      <ul>
-        {sortedScores.slice(0, 10).map((score, i) => {
-          return <li key={i}>{i + 1}  Nimimerkki: {score.name} pisteet: {score.stage} aika: {msToHMS(score.timeSpent)}</li>
-        })}
-      </ul>
-    </>
-  )
-  */
 }
 
 function App() {
@@ -584,6 +597,12 @@ function App() {
     localStorage.setItem('highScores', JSON.stringify([...highscores, score]))
   }
 
+  function removeScoreFromHighscores(id: number){
+    const filtered = highscores.filter(val => val.id !== id)
+    setHighscores(filtered)
+    localStorage.setItem('highScores', JSON.stringify(filtered))
+  }
+
   switch (gameState) {
     case 'menu':
       return (
@@ -608,10 +627,11 @@ function App() {
     case 'scores':
       return (
         <>
-          <HighscoresMenu highscores={highscores}/>
+          <HighscoresMenu highscores={highscores} deleteById={removeScoreFromHighscores}/>
           <button className='deleteScoresButton' onClick={() => {
-            const deleteScores = confirm('Poista kaikki pisteet?')
-            if (deleteScores){
+            //const deleteScores = confirm('Poista kaikki pisteet?')
+            const deleteScores = prompt('Poistaaksesi pisteet anna salasana:')
+            if (deleteScores === salasana){
               flushHighscores()
             }
           }}>Poista</button>
