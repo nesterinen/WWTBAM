@@ -89,6 +89,7 @@ function StageMachine(
     }
 
     if(soundTrack instanceof HTMLAudioElement){
+      soundTrack.volume = 1
       soundTrack.loop = true
       soundTrack.play()
 
@@ -520,12 +521,11 @@ function HighscoresMenu(
 function App() {
   const [stageMag, setStageMagazine] = useState(stageMagazine)
   const [gameState, setGameState] = useState('menu')
-  const [muted, setMuted] = useState(true)
-  const [muteEffects, setMuteEffects] = useState(true)
+  const [muted, setMuted] = useState(false)
+  const [muteEffects, setMuteEffects] = useState(false)
   //highscores should probably created into custom react hook.
   const [highscores, setHighscores] = useState<Score[]>([])
 
-  
   useEffect(() => {
     const newStageMag = loadAndRandomizeQuiz(stageMag, testiKysym)
     setStageMagazine(newStageMag)
