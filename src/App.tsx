@@ -352,6 +352,7 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
   }
 
   function lifeLineDoubleDip(){
+    playSound('67 50-50.mp3')
     if(lifeLines.double === true){
       setDoubleDip(true)
       setLifeLines({...lifeLines, double: false})
