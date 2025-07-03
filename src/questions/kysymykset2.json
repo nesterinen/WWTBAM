@@ -1,4 +1,1405 @@
 {
-  "description": "tyhjä",
-  "questions": []
+  "description": "Historia: 175kpl",
+  "questions": [
+  {
+    "question": "Minä vuonna Suomi julistautui itsenäiseksi?",
+    "answer": "1917",
+    "A": "1809",
+    "B": "1905",
+    "C": "1917",
+    "D": "1918"
+  },
+  {
+    "question": "Kuka oli Rooman valtakunnan ensimmäinen keisari?",
+    "answer": "Augustus",
+    "A": "Julius Caesar",
+    "B": "Nero",
+    "C": "Caligula",
+    "D": "Augustus"
+  },
+  {
+    "question": "Mikä sota käytiin vuosina 1939–1940 Suomen ja Neuvostoliiton välillä?",
+    "answer": "Talvisota",
+    "A": "Jatkosota",
+    "B": "Suomen sisällissota",
+    "C": "Talvisota",
+    "D": "Lapin sota"
+  },
+  {
+    "question": "Missä kaupungissa arkkiherttua Franz Ferdinandin salamurha tapahtui, mikä käynnisti ensimmäisen maailmansodan?",
+    "answer": "Sarajevo",
+    "A": "Wien",
+    "B": "Belgrad",
+    "C": "Sarajevo",
+    "D": "Budapest"
+  },
+  {
+    "question": "Kuka oli Suomen ensimmäinen presidentti?",
+    "answer": "K. J. Ståhlberg",
+    "A": "P. E. Svinhufvud",
+    "B": "K. J. Ståhlberg",
+    "C": "C. G. E. Mannerheim",
+    "D": "Lauri Kristian Relander"
+  },
+  {
+    "question": "Minä vuonna Berliinin muuri murtui?",
+    "answer": "1989",
+    "A": "1987",
+    "B": "1989",
+    "C": "1990",
+    "D": "1991"
+  },
+  {
+    "question": "Minkä maan hallitsija oli kuuluisa faarao Tutankhamon?",
+    "answer": "Egypti",
+    "A": "Rooma",
+    "B": "Kreikka",
+    "C": "Persia",
+    "D": "Egypti"
+  },
+  {
+    "question": "Mikä oli Ruotsin vallan aikainen Suomen pääkaupunki?",
+    "answer": "Turku",
+    "A": "Helsinki",
+    "B": "Hämeenlinna",
+    "C": "Turku",
+    "D": "Viipuri"
+  },
+  {
+    "question": "Kuka johti Normandian maihinnousua toisessa maailmansodassa?",
+    "answer": "Dwight D. Eisenhower",
+    "A": "Winston Churchill",
+    "B": "George S. Patton",
+    "C": "Dwight D. Eisenhower",
+    "D": "Bernard Montgomery"
+  },
+  {
+    "question": "Mikä sopimus päätti Suomen ja Ruotsin välisen sodan vuonna 1323?",
+    "answer": "Pähkinäsaaren rauha",
+    "A": "Täyssinän rauha",
+    "B": "Stolbovan rauha",
+    "C": "Uudenkaupungin rauha",
+    "D": "Pähkinäsaaren rauha"
+  },
+  {
+    "question": "Kuka oli Yhdysvaltain presidentti sisällissodan aikana?",
+    "answer": "Abraham Lincoln",
+    "A": "George Washington",
+    "B": "Thomas Jefferson",
+    "C": "Abraham Lincoln",
+    "D": "Theodore Roosevelt"
+  },
+  {
+    "question": "Mikä oli Mikael Agricolan merkittävin saavutus?",
+    "answer": "Hän loi suomen kirjakielen",
+    "A": "Hän johti nuijasotaa",
+    "B": "Hän oli Suomen ensimmäinen kuningas",
+    "C": "Hän loi suomen kirjakielen",
+    "D": "Hän perusti Helsingin"
+  },
+  {
+    "question": "Missä maassa renessanssi sai alkunsa?",
+    "answer": "Italia",
+    "A": "Ranska",
+    "B": "Espanja",
+    "C": "Italia",
+    "D": "Englanti"
+  },
+  {
+    "question": "Mikä oli kieltolaki Suomessa?",
+    "answer": "Alkoholijuomien valmistus-, myynti- ja kuljetuskielto",
+    "A": "Ruotsin kielen käyttökielto",
+    "B": "Tanssimisen kielto julkisilla paikoilla",
+    "C": "Alkoholijuomien valmistus-, myynti- ja kuljetuskielto",
+    "D": "Ulkomaalaisen kirjallisuuden lukukielto"
+  },
+  {
+    "question": "Kuka oli Neuvostoliiton johtaja toisen maailmansodan aikana?",
+    "answer": "Josif Stalin",
+    "A": "Vladimir Lenin",
+    "B": "Nikita Hruštšov",
+    "C": "Josif Stalin",
+    "D": "Mihail Gorbatšov"
+  },
+  {
+    "question": "Minä vuonna Titanicin uppoaminen tapahtui?",
+    "answer": "1912",
+    "A": "1905",
+    "B": "1912",
+    "C": "1914",
+    "D": "1920"
+  },
+  {
+    "question": "Kuka oli Suomen marsalkka ja kuudes presidentti?",
+    "answer": "C. G. E. Mannerheim",
+    "A": "Urho Kekkonen",
+    "B": "Risto Ryti",
+    "C": "C. G. E. Mannerheim",
+    "D": "Kyösti Kallio"
+  },
+  {
+    "question": "Mitä tarkoitetaan 'kylmällä sodalla'?",
+    "answer": "Yhdysvaltojen ja Neuvostoliiton välistä valtataistelua",
+    "A": "Sotaa arktisilla alueilla",
+    "B": "Yhdysvaltojen ja Neuvostoliiton välistä valtataistelua",
+    "C": "Propagandasotaa ilman aseita",
+    "D": "Taloudellista kilpailua"
+  },
+  {
+    "question": "Kuka löysi Amerikan vuonna 1492?",
+    "answer": "Kristoffer Kolumbus",
+    "A": "Vasco da Gama",
+    "B": "Amerigo Vespucci",
+    "C": "Kristoffer Kolumbus",
+    "D": "Fernão de Magalhães"
+  },
+  {
+    "question": "Mikä oli Suomen ja Neuvostoliiton välinen sopimus, joka solmittiin 1948?",
+    "answer": "YYA-sopimus",
+    "A": "Tarton rauhansopimus",
+    "B": "Pariisin rauhansopimus",
+    "C": "YYA-sopimus",
+    "D": "Molotov–Ribbentrop-sopimus"
+  },
+  {
+    "question": "Kuka Ranskan hallitsija teloitettiin giljotiinilla vuonna 1793?",
+    "answer": "Ludvig XVI",
+    "A": "Napoleon Bonaparte",
+    "B": "Ludvig XIV",
+    "C": "Ludvig XVI",
+    "D": "Maximilien Robespierre"
+  },
+  {
+    "question": "Mikä oli nuijasota?",
+    "answer": "Suomalaisten talonpoikien kapina aatelistoa vastaan",
+    "A": "Sota Ruotsin ja Venäjän välillä",
+    "B": "Suomalaisten talonpoikien kapina aatelistoa vastaan",
+    "C": "Uskonnollinen konflikti",
+    "D": "Kamppailu kruunusta"
+  },
+  {
+    "question": "Missä muinaisessa sivilisaatiossa käytettiin hieroglyfejä?",
+    "answer": "Egypti",
+    "A": "Mesopotamia",
+    "B": "Indus-laakso",
+    "C": "Egypti",
+    "D": "Kiina"
+  },
+  {
+    "question": "Mikä oli 'musta surma' keskiajalla?",
+    "answer": "Paisepandemia",
+    "A": "Nälänhätä",
+    "B": "Sota",
+    "C": "Paisepandemia",
+    "D": "Tulivuorenpurkaus"
+  },
+  {
+    "question": "Kuka oli Suomen pitkäaikaisin presidentti?",
+    "answer": "Urho Kekkonen",
+    "A": "Mauno Koivisto",
+    "B": "Urho Kekkonen",
+    "C": "Martti Ahtisaari",
+    "D": "Sauli Niinistö"
+  },
+  {
+    "question": "Kuka oli Englannin kuningatar, joka hallitsi 63 vuotta viktoriaanisella aikakaudella?",
+    "answer": "Viktoria",
+    "A": "Elisabet I",
+    "B": "Maria Stuart",
+    "C": "Viktoria",
+    "D": "Anna"
+  },
+  {
+    "question": "Mistä syystä Yhdysvallat liittyi toiseen maailmansotaan?",
+    "answer": "Hyökkäyksestä Pearl Harboriin",
+    "A": "Saksan hyökkäyksestä Puolaan",
+    "B": "Hyökkäyksestä Pearl Harboriin",
+    "C": "Britannian pyynnöstä",
+    "D": "Neuvostoliiton painostuksesta"
+  },
+  {
+    "question": "Kuka oli kuuluisa mongolivaltakunnan perustaja ja valloittaja?",
+    "answer": "Tšingis-kaani",
+    "A": "Attila",
+    "B": "Kublai-kaani",
+    "C": "Tšingis-kaani",
+    "D": "Timur"
+  },
+  {
+    "question": "Mikä johti Porvoon valtiopäiviin vuonna 1809?",
+    "answer": "Suomen siirtyminen Ruotsin vallan alta Venäjän alaisuuteen",
+    "A": "Nälänhätä",
+    "B": "Suomen siirtyminen Ruotsin vallan alta Venäjän alaisuuteen",
+    "C": "Kuninkaan vierailu",
+    "D": "Kapina"
+  },
+  {
+    "question": "Missä antiikin kaupungissa sijaitsivat ensimmäiset olympiakisat?",
+    "answer": "Olympia",
+    "A": "Ateena",
+    "B": "Sparta",
+    "C": "Olympia",
+    "D": "Rooma"
+  },
+  {
+    "question": "Kuka oli apartheidin vastaisen taistelun symboli Etelä-Afrikassa?",
+    "answer": "Nelson Mandela",
+    "A": "Desmond Tutu",
+    "B": "F. W. de Klerk",
+    "C": "Nelson Mandela",
+    "D": "Steve Biko"
+  },
+  {
+    "question": "Mitä tarkoittaa 'sortokaudet' Suomen historiassa?",
+    "answer": "Venäjän pyrkimyksiä venäläistää Suomi",
+    "A": "Ruotsin vallan viimeisiä vuosia",
+    "B": "Venäjän pyrkimyksiä venäläistää Suomi",
+    "C": "Sodan jälkeistä pula-aikaa",
+    "D": "Sisällissodan aikaa"
+  },
+  {
+    "question": "Kuka keksi kirjapainotaidon Euroopassa 1400-luvulla?",
+    "answer": "Johannes Gutenberg",
+    "A": "Leonardo da Vinci",
+    "B": "Galileo Galilei",
+    "C": "Johannes Gutenberg",
+    "D": "Isaac Newton"
+  },
+  {
+    "question": "Mikä oli 'Berliinin ilmasilta'?",
+    "answer": "Länsivaltojen operaatio Länsi-Berliinin huoltamiseksi",
+    "A": "Silta Itä- ja Länsi-Berliinin välillä",
+    "B": "Länsivaltojen operaatio Länsi-Berliinin huoltamiseksi",
+    "C": "Pakoreitti Itä-Berliinistä",
+    "D": "Neuvostoliiton sotilasoperaatio"
+  },
+  {
+    "question": "Mikä oli Loimaan 'veripellon' tausta?",
+    "answer": "Talonpoikien ja sotilaiden yhteenotto nuijasodassa",
+    "A": "Rikollisjengin välienselvittely",
+    "B": "Talonpoikien ja sotilaiden yhteenotto nuijasodassa",
+    "C": "Suomen sisällissodan taistelu",
+    "D": "Rituaalimurha"
+  },
+  {
+    "question": "Minkä sodan aikana tapahtui Kuuban ohjuskriisi?",
+    "answer": "Kylmä sota",
+    "A": "Toinen maailmansota",
+    "B": "Vietnamin sota",
+    "C": "Kylmä sota",
+    "D": "Korean sota"
+  },
+  {
+    "question": "Kuka oli 'Aurinkokuningas'?",
+    "answer": "Ludvig XIV",
+    "A": "Kaarle Suuri",
+    "B": "Henrik VIII",
+    "C": "Ludvig XIV",
+    "D": "Pietari Suuri"
+  },
+  {
+    "question": "Mikä oli reformaation eli uskonpuhdistuksen keskeinen ajatus?",
+    "answer": "Arvostella katolisen kirkon oppeja ja käytäntöjä",
+    "A": "Palata antiikin uskontoihin",
+    "B": "Yhdistää kaikki kristilliset kirkot",
+    "C": "Arvostella katolisen kirkon oppeja ja käytäntöjä",
+    "D": "Kieltää uskonto kokonaan"
+  },
+  {
+    "question": "Mikä on vanhin tunnettu suomalainen linna?",
+    "answer": "Turun linna",
+    "A": "Olavinlinna",
+    "B": "Hämeen linna",
+    "C": "Turun linna",
+    "D": "Raaseporin linna"
+  },
+  {
+    "question": "Kuka johti Venäjän bolshevikkivallankumousta vuonna 1917?",
+    "answer": "Vladimir Lenin",
+    "A": "Josif Stalin",
+    "B": "Lev Trotski",
+    "C": "Vladimir Lenin",
+    "D": "Nikolai II"
+  },
+  {
+    "question": "Mikä sota päättyi Haminan rauhaan vuonna 1809?",
+    "answer": "Suomen sota",
+    "A": "Pohjan sota",
+    "B": "Suuri Pohjan sota",
+    "C": "Suomen sota",
+    "D": "Kustaa III:n sota"
+  },
+  {
+    "question": "Mitä tutki kuuluisa tiedemies Galileo Galilei?",
+    "answer": "Tähtitiedettä",
+    "A": "Kemiaa",
+    "B": "Biologiaa",
+    "C": "Tähtitiedettä",
+    "D": "Lääketiedettä"
+  },
+  {
+    "question": "Mikä oli 'talvisodan henki'?",
+    "answer": "Suomalaisten voimakas yhteenkuuluvuuden tunne",
+    "A": "Sotilaiden käyttämä alkoholijuoma",
+    "B": "Erityinen sotataktiikka",
+    "C": "Suomalaisten voimakas yhteenkuuluvuuden tunne",
+    "D": "Pelottava aave rintamalla"
+  },
+  {
+    "question": "Mitä Jeanne d'Arc teki?",
+    "answer": "Johti Ranskan armeijaa satavuotisessa sodassa",
+    "A": "Oli Ranskan kuningatar",
+    "B": "Kirjoitti kuuluisan romaanin",
+    "C": "Johti Ranskan armeijaa satavuotisessa sodassa",
+    "D": "Oli kuuluisa taidemaalari"
+  },
+  {
+    "question": "Kuka oli Suomen ensimmäinen naispresidentti?",
+    "answer": "Tarja Halonen",
+    "A": "Elisabeth Rehn",
+    "B": "Riitta Uosukainen",
+    "C": "Tarja Halonen",
+    "D": "Anneli Jäätteenmäki"
+  },
+  {
+    "question": "Missä maassa teollinen vallankumous alkoi?",
+    "answer": "Iso-Britannia",
+    "A": "Saksa",
+    "B": "Yhdysvallat",
+    "C": "Iso-Britannia",
+    "D": "Ranska"
+  },
+  {
+    "question": "Mikä oli 'punainen' osapuoli Suomen sisällissodassa?",
+    "answer": "Työväenliikkeen kannattajat",
+    "A": "Hallituksen joukot",
+    "B": "Tsaarin kannattajat",
+    "C": "Työväenliikkeen kannattajat",
+    "D": "Saksalaiset vapaaehtoiset"
+  },
+  {
+    "question": "Kuka oli kuuluisa Karthagon sotapäällikkö, joka ylitti Alpit norsujen kanssa?",
+    "answer": "Hannibal",
+    "A": "Scipio Africanus",
+    "B": "Julius Caesar",
+    "C": "Hannibal",
+    "D": "Aleksanteri Suuri"
+  },
+  {
+    "question": "Mikä oli Lapuan liike?",
+    "answer": "Antikommunistinen ja oikeistoradikaali liike Suomessa",
+    "A": "Urheiluseura",
+    "B": "Uskonnollinen herätysliike",
+    "C": "Antikommunistinen ja oikeistoradikaali liike Suomessa",
+    "D": "Maataloustuottajien etujärjestö"
+  },
+  {
+    "question": "Missä maassa sijaitsee muinainen Machu Picchun kaupunki?",
+    "answer": "Peru",
+    "A": "Meksiko",
+    "B": "Brasilia",
+    "C": "Peru",
+    "D": "Chile"
+  },
+  {
+    "question": "Mitä tarkoittaa 'valistus' 1700-luvun Euroopassa?",
+    "answer": "Järjen ja tiedon korostamista",
+    "A": "Katulamppujen yleistymistä",
+    "B": "Uutta uskonnollista liikettä",
+    "C": "Järjen ja tiedon korostamista",
+    "D": "Kuninkaiden itsevaltiutta"
+  },
+  {
+    "question": "Mikä oli 'rautaesirippu'?",
+    "answer": "Symbolinen raja Itä- ja Länsi-Euroopan välillä kylmän sodan aikana",
+    "A": "Berliinin muurin toinen nimi",
+    "B": "Uusi panssarivaunumalli",
+    "C": "Symbolinen raja Itä- ja Länsi-Euroopan välillä kylmän sodan aikana",
+    "D": "Teatterin paloturvallisuusväline"
+  },
+  {
+    "question": "Kuka oli viimeinen Venäjän tsaari?",
+    "answer": "Nikolai II",
+    "A": "Pietari Suuri",
+    "B": "Aleksanteri I",
+    "C": "Nikolai II",
+    "D": "Iivana Julma"
+  },
+  {
+    "question": "Mitä tapahtui Suomen autonomian aikana?",
+    "answer": "Suomi kehittyi omaksi kansakunnakseen Venäjän suuriruhtinaskuntana",
+    "A": "Suomi oli täysin itsenäinen",
+    "B": "Suomi oli osa Ruotsia",
+    "C": "Suomi kehittyi omaksi kansakunnakseen Venäjän suuriruhtinaskuntana",
+    "D": "Suomi oli Neuvostoliiton miehittämä"
+  },
+  {
+    "question": "Kuka oli Englannin kuningas, jolla oli kuusi vaimoa?",
+    "answer": "Henrik VIII",
+    "A": "Rikhard Leijonamieli",
+    "B": "Henrik VIII",
+    "C": "Juhana Maaton",
+    "D": "Vilhelm Valloittaja"
+  },
+  {
+    "question": "Mikä oli Bostonin teekutsut?",
+    "answer": "Protesti, jossa amerikkalaiset siirtolaiset heittivät teetä mereen",
+    "A": "Hienostokutsut Bostonissa",
+    "B": "Protesti, jossa amerikkalaiset siirtolaiset heittivät teetä mereen",
+    "C": "Teekauppiaiden kokous",
+    "D": "Kuninkaallinen vierailu"
+  },
+  {
+    "question": "Mikä oli Tarton rauha?",
+    "answer": "Suomen ja Neuvosto-Venäjän välinen rauhansopimus vuonna 1920",
+    "A": "Sopimus Viron kanssa",
+    "B": "Suomen ja Neuvosto-Venäjän välinen rauhansopimus vuonna 1920",
+    "C": "Rauhansopimus toisen maailmansodan jälkeen",
+    "D": "Kauppasopimus Ruotsin kanssa"
+  },
+  {
+    "question": "Kuka kirjoitti 'Kommunistisen manifestin' yhdessä Friedrich Engelsin kanssa?",
+    "answer": "Karl Marx",
+    "A": "Mihail Bakunin",
+    "B": "Vladimir Lenin",
+    "C": "Karl Marx",
+    "D": "Adam Smith"
+  },
+  {
+    "question": "Missä sijaitsee Akropolis-kukkula?",
+    "answer": "Ateena, Kreikka",
+    "A": "Rooma, Italia",
+    "B": "Sparta, Kreikka",
+    "C": "Ateena, Kreikka",
+    "D": "Istanbul, Turkki"
+  },
+  {
+    "question": "Mikä oli Kustaa III:n sota?",
+    "answer": "Ruotsin ja Venäjän välinen sota 1788-1790",
+    "A": "Sota Tanskaa vastaan",
+    "B": "Sota Preussia vastaan",
+    "C": "Ruotsin ja Venäjän välinen sota 1788-1790",
+    "D": "Ruotsin sisällissota"
+  },
+  {
+    "question": "Kuka oli Yhdysvaltain ensimmäinen presidentti?",
+    "answer": "George Washington",
+    "A": "Benjamin Franklin",
+    "B": "John Adams",
+    "C": "George Washington",
+    "D": "Thomas Jefferson"
+  },
+  {
+    "question": "Mitä olivat ristiretket?",
+    "answer": "Euroopan kristittyjen sotaretkiä Pyhään maahan",
+    "A": "Tutkimusmatkoja Amerikkaan",
+    "B": "Euroopan kristittyjen sotaretkiä Pyhään maahan",
+    "C": "Kauppamatkoja Kiinaan",
+    "D": "Sotia viikinkejä vastaan"
+  },
+  {
+    "question": "Mikä johti Mäntsälän kapinaan Suomessa?",
+    "answer": "Lapuan liikkeen pyrkimys kaataa hallitus",
+    "A": "Nälänhätä",
+    "B": "Kieltolain kumoaminen",
+    "C": "Lapuan liikkeen pyrkimys kaataa hallitus",
+    "D": "Maareformi"
+  },
+  {
+    "question": "Kuka oli 'Rautarouva'?",
+    "answer": "Margaret Thatcher",
+    "A": "Angela Merkel",
+    "B": "Indira Gandhi",
+    "C": "Margaret Thatcher",
+    "D": "Golda Meir"
+  },
+  {
+    "question": "Missä maassa sijaitsee kuuluisa Stonehenge?",
+    "answer": "Iso-Britannia",
+    "A": "Irlanti",
+    "B": "Ranska",
+    "C": "Iso-Britannia",
+    "D": "Saksa"
+  },
+  {
+    "question": "Mikä oli 'valkoinen' osapuoli Suomen sisällissodassa?",
+    "answer": "Senaatin eli porvarillisen hallituksen joukot",
+    "A": "Venäläiset joukot",
+    "B": "Sosialistiset kapinalliset",
+    "C": "Senaatin eli porvarillisen hallituksen joukot",
+    "D": "Ruotsalaiset vapaaehtoiset"
+  },
+  {
+    "question": "Kuka oli antiikin Kreikan kuuluisin filosofi, joka tuomittiin kuolemaan?",
+    "answer": "Sokrates",
+    "A": "Platon",
+    "B": "Aristoteles",
+    "C": "Sokrates",
+    "D": "Diogenes"
+  },
+  {
+    "question": "Mikä oli Uudenkaupungin rauha vuonna 1721?",
+    "answer": "Rauha, joka päätti suuren Pohjan sodan",
+    "A": "Rauha, joka päätti 30-vuotisen sodan",
+    "B": "Rauha, joka päätti Suomen sodan",
+    "C": "Rauha, joka päätti suuren Pohjan sodan",
+    "D": "Rauha, joka päätti Kustaa III:n sodan"
+  },
+  {
+    "question": "Mikä oli Vietnamin sota?",
+    "answer": "Konflikti Pohjois- ja Etelä-Vietnamin välillä, johon Yhdysvallat sekaantui",
+    "A": "Sota Vietnamin ja Kiinan välillä",
+    "B": "Konflikti Pohjois- ja Etelä-Vietnamin välillä, johon Yhdysvallat sekaantui",
+    "C": "Ranskan siirtomaasota",
+    "D": "Japanin miehityksen aikainen sota"
+  },
+  {
+    "question": "Kuka keräsi ja julkaisi Kalevalan?",
+    "answer": "Elias Lönnrot",
+    "A": "J. L. Runeberg",
+    "B": "Aleksis Kivi",
+    "C": "Elias Lönnrot",
+    "D": "J. V. Snellman"
+  },
+  {
+    "question": "Mikä oli 'Operaatio Barbarossa'?",
+    "answer": "Saksan hyökkäys Neuvostoliittoon vuonna 1941",
+    "A": "Liittoutuneiden maihinnousu Sisiliaan",
+    "B": "Saksan hyökkäys Neuvostoliittoon vuonna 1941",
+    "C": "Japanin hyökkäys Pearl Harboriin",
+    "D": "Liittoutuneiden maihinnousu Normandiaan"
+  },
+  {
+    "question": "Kuka oli viimeinen Egyptin faarao?",
+    "answer": "Kleopatra VII",
+    "A": "Ramses II",
+    "B": "Tutankhamon",
+    "C": "Kleopatra VII",
+    "D": "Hatšepsut"
+  },
+  {
+    "question": "Mikä oli Suuri Pohjan sota?",
+    "answer": "Laaja konflikti Pohjois-Euroopassa, jossa Ruotsi menetti suurvalta-asemansa",
+    "A": "Sota Norjaa vastaan",
+    "B": "Laaja konflikti Pohjois--Euroopassa, jossa Ruotsi menetti suurvalta-asemansa",
+    "C": "Lyhyt rajasota Venäjän kanssa",
+    "D": "Ruotsin sisäinen valtataistelu"
+  },
+  {
+    "question": "Kuka piti kuuluisan 'I have a dream' -puheen?",
+    "answer": "Martin Luther King Jr.",
+    "A": "Malcolm X",
+    "B": "John F. Kennedy",
+    "C": "Martin Luther King Jr.",
+    "D": "Barack Obama"
+  },
+  {
+    "question": "Minkä kaupungin tuhosi Vesuviuksen purkaus vuonna 79?",
+    "answer": "Pompeji",
+    "A": "Rooma",
+    "B": "Ateena",
+    "C": "Pompeji",
+    "D": "Napoli"
+  },
+  {
+    "question": "Mikä on 'Holokausti'?",
+    "answer": "Natsi-Saksan suorittama juutalaisten joukkotuho",
+    "A": "Ensimmäisen maailmansodan taistelu",
+    "B": "Natsi-Saksan suorittama juutalaisten joukkotuho",
+    "C": "Neuvostoliiton vankileirijärjestelmä",
+    "D": "Japanin sotarikos"
+  },
+  {
+    "question": "Kuka oli Ruotsin kuningas, joka perusti Helsingin vuonna 1550?",
+    "answer": "Kustaa Vaasa",
+    "A": "Kaarle XII",
+    "B": "Kustaa II Aadolf",
+    "C": "Kustaa Vaasa",
+    "D": "Kristiina"
+  },
+  {
+    "question": "Missä Napoleon Bonaparte kärsi lopullisen tappionsa?",
+    "answer": "Waterloon taistelussa",
+    "A": "Trafalgarin taistelussa",
+    "B": "Leipzigin taistelussa",
+    "C": "Waterloon taistelussa",
+    "D": "Austerlitzin taistelussa"
+  },
+  {
+    "question": "Mikä oli 'Pariisin rauha' vuonna 1947?",
+    "answer": "Rauhansopimus, joka päätti toisen maailmansodan liittoutuneiden ja Suomen välillä",
+    "A": "Rauhansopimus, joka päätti ensimmäisen maailmansodan",
+    "B": "Rauhansopimus, joka päätti toisen maailmansodan liittoutuneiden ja Suomen välillä",
+    "C": "Sopimus Euroopan unionin perustamisesta",
+    "D": "Ympäristösopimus"
+  },
+  {
+    "question": "Kuka oli kuuluisa naispuolinen lentäjä, joka katosi Tyynellämerellä?",
+    "answer": "Amelia Earhart",
+    "A": "Bessie Coleman",
+    "B": "Harriet Quimby",
+    "C": "Amelia Earhart",
+    "D": "Jacqueline Cochran"
+  },
+  {
+    "question": "Mitä viikingit tekivät?",
+    "answer": "Tekivät ryöstö- ja kauppamatkoja eri puolille Eurooppaa",
+    "A": "Rakensivat pyramideja",
+    "B": "Tekivät ryöstö- ja kauppamatkoja eri puolille Eurooppaa",
+    "C": "Perustivat Rooman valtakunnan",
+    "D": "Keksivät kirjoitustaidon"
+  },
+  {
+    "question": "Minkä valtakunnan hallitsija oli Aleksanteri Suuri?",
+    "answer": "Makedonia",
+    "A": "Persia",
+    "B": "Rooma",
+    "C": "Makedonia",
+    "D": "Egypti"
+  },
+  {
+    "question": "Mikä oli 'isoviha' Suomen historiassa?",
+    "answer": "Venäläismiehityksen aika Suuren Pohjan sodan aikana",
+    "A": "Kapina Ruotsin kuningasta vastaan",
+    "B": "Venäläismiehityksen aika Suuren Pohjan sodan aikana",
+    "C": "Nälänhätä 1600-luvulla",
+    "D": "Suomen sisällissodan toinen nimi"
+  },
+  {
+    "question": "Kuka oli Intian itsenäisyysliikkeen johtaja?",
+    "answer": "Mahatma Gandhi",
+    "A": "Jawaharlal Nehru",
+    "B": "Indira Gandhi",
+    "C": "Mahatma Gandhi",
+    "D": "Subhas Chandra Bose"
+  },
+  {
+    "question": "Mikä oli Silkkitie?",
+    "answer": "Historiallinen kauppareittien verkosto Aasian ja Euroopan välillä",
+    "A": "Rooman rakentama päätie",
+    "B": "Historiallinen kauppareittien verkosto Aasian ja Euroopan välillä",
+    "C": "Maanalainen rautatie Yhdysvalloissa",
+    "D": "Viikinkien purjehdusreitti"
+  },
+  {
+    "question": "Kuka piti kuuluisan 'Meillä on unelma' -puheen?",
+    "answer": "Martin Luther King Jr.",
+    "A": "Nelson Mandela",
+    "B": "John F. Kennedy",
+    "C": "Martin Luther King Jr.",
+    "D": "Barack Obama"
+  },
+  {
+    "question": "Mikä oli Neuvostoliiton hajoamisen vuosi?",
+    "answer": "1991",
+    "A": "1989",
+    "B": "1990",
+    "C": "1991",
+    "D": "1993"
+  },
+  {
+    "question": "Kenen mukaan Amerikan manner nimettiin?",
+    "answer": "Amerigo Vespucci",
+    "A": "Kristoffer Kolumbus",
+    "B": "George Washington",
+    "C": "Amerigo Vespucci",
+    "D": "Kuningatar Amalia"
+  },
+  {
+    "question": "Mikä oli 'Anjalankosken liitto'?",
+    "answer": "Upseerien salaliitto Kustaa III:n sotaa vastaan",
+    "A": "Urheiluseura",
+    "B": "Upseerien salaliitto Kustaa III:n sotaa vastaan",
+    "C": "Kauppasopimus",
+    "D": "Rauhanyhdistys"
+  },
+  {
+    "question": "Mikä on vanhin tunnettu korkeakulttuuri?",
+    "answer": "Sumerien sivilisaatio Mesopotamiassa",
+    "A": "Egyptin sivilisaatio",
+    "B": "Sumerien sivilisaatio Mesopotamiassa",
+    "C": "Indus-laakson sivilisaatio",
+    "D": "Kiinan sivilisaatio"
+  },
+  {
+    "question": "Kuka oli 'rauhannobelisti' ja Suomen presidentti?",
+    "answer": "Martti Ahtisaari",
+    "A": "Urho Kekkonen",
+    "B": "Mauno Koivisto",
+    "C": "Martti Ahtisaari",
+    "D": "Tarja Halonen"
+  },
+  {
+    "question": "Mikä oli Manhattan-projekti?",
+    "answer": "Yhdysvaltain salainen ohjelma ydinpommin kehittämiseksi",
+    "A": "New Yorkin metron rakennusprojekti",
+    "B": "Yhdysvaltain salainen ohjelma ydinpommin kehittämiseksi",
+    "C": "Avaruusohjelma Kuuhun lentämiseksi",
+    "D": "Pilvenpiirtäjän rakennusprojekti"
+  },
+  {
+    "question": "Missä maassa käytiin 'oopiumsodat' 1800-luvulla?",
+    "answer": "Kiina",
+    "A": "Intia",
+    "B": "Japani",
+    "C": "Kiina",
+    "D": "Thaimaa"
+  },
+  {
+    "question": "Kuka oli viimeinen henkilö, joka teloitettiin Suomessa rauhan aikana noituudesta?",
+    "answer": "Antti Lieroinen",
+    "A": "Anna-Kaisa Räisänen",
+    "B": "Erkki Puranen",
+    "C": "Antti Lieroinen",
+    "D": "Marketta Punasuomalainen"
+  },
+  {
+    "question": "Mikä oli 'sadan päivän keisarius'?",
+    "answer": "Aika, jolloin Napoleon palasi maanpaosta ja hallitsi Ranskaa",
+    "A": "Lyhytikäisen Rooman keisarin hallintokausi",
+    "B": "Aika, jolloin Napoleon palasi maanpaosta ja hallitsi Ranskaa",
+    "C": "Kiinan keisarin juhla",
+    "D": "Sata päivää kestänyt sota"
+  },
+  {
+    "question": "Kuka murhasi Julius Caesarin?",
+    "answer": "Ryhmä senaattoreita",
+    "A": "Hänen vaimonsa",
+    "B": "Kleopatra",
+    "C": "Ryhmä senaattoreita",
+    "D": "Marcus Antonius"
+  },
+  {
+    "question": "Mikä oli 'rautakansleri' Otto von Bismarckin suurin saavutus?",
+    "answer": "Saksan yhdistäminen",
+    "A": "Ranskan valloitus",
+    "B": "Saksan yhdistäminen",
+    "C": "Venäjän voittaminen sodassa",
+    "D": "Sosiaaliturvan luominen"
+  },
+  {
+    "question": "Mitä tarkoitetaan 'suurilla nälkävuosilla' Suomessa 1866–1868?",
+    "answer": "Vakava nälänhätä, joka johtui huonoista sadoista",
+    "A": "Sodan aiheuttama elintarvikepula",
+    "B": "Vakava nälänhätä, joka johtui huonoista sadoista",
+    "C": "Uskonnollinen paasto",
+    "D": "Protesti Venäjän valtaa vastaan"
+  },
+  {
+    "question": "Mikä oli Troijan sota?",
+    "answer": "Mytologinen sota kreikkalaisten ja Troijan kaupungin välillä",
+    "A": "Historiallinen taistelu Roomassa",
+    "B": "Mytologinen sota kreikkalaisten ja Troijan kaupungin välillä",
+    "C": "Persian ja Kreikan välinen sota",
+    "D": "Egyptin sisällissota"
+  },
+  {
+    "question": "Kuka oli ensimmäinen ihminen avaruudessa?",
+    "answer": "Juri Gagarin",
+    "A": "Neil Armstrong",
+    "B": "John Glenn",
+    "C": "Juri Gagarin",
+    "D": "Aleksei Leonov"
+  },
+  {
+    "question": "Mikä oli 'Punaisten ja valkoisten terrori' Suomen sisällissodassa?",
+    "answer": "Molempien osapuolten harjoittamaa väkivaltaa ja teloituksia",
+    "A": "Vain punaisten harjoittamaa väkivaltaa",
+    "B": "Vain valkoisten harjoittamaa väkivaltaa",
+    "C": "Molempien osapuolten harjoittamaa väkivaltaa ja teloituksia",
+    "D": "Ulkomaiden sekaantumista sotaan"
+  },
+  {
+    "question": "Missä maassa sijaitsee Angkor Watin temppelikompleksi?",
+    "answer": "Kambodža",
+    "A": "Thaimaa",
+    "B": "Intia",
+    "C": "Kambodža",
+    "D": "Vietnam"
+  },
+  {
+    "question": "Kuka oli Ranskan vastarintaliikkeen johtaja toisen maailmansodan aikana?",
+    "answer": "Charles de Gaulle",
+    "A": "Philippe Pétain",
+    "B": "Jean Moulin",
+    "C": "Charles de Gaulle",
+    "D": "Georges Clemenceau"
+  },
+  {
+    "question": "Mikä oli 'Täyssinän rauha'?",
+    "answer": "Rauhansopimus Ruotsin ja Venäjän välillä vuonna 1595",
+    "A": "Rauhansopimus Ruotsin ja Tanskan välillä",
+    "B": "Rauhansopimus Ruotsin ja Venäjän välillä vuonna 1595",
+    "C": "Sopimus Suomen autonomiasta",
+    "D": "Suomen ensimmäinen perustuslaki"
+  },
+  {
+    "question": "Mitä tarkoittaa 'Magna Carta'?",
+    "answer": "Asiakirja, joka rajoitti Englannin kuninkaan valtaa",
+    "A": "Kuuluisa maalaus",
+    "B": "Roomalainen laki",
+    "C": "Asiakirja, joka rajoitti Englannin kuninkaan valtaa",
+    "D": "Ranskan perustuslaki"
+  },
+  {
+    "question": "Kuka oli Kiinan kansantasavallan ensimmäinen johtaja?",
+    "answer": "Mao Zedong",
+    "A": "Sun Yat-sen",
+    "B": "Deng Xiaoping",
+    "C": "Mao Zedong",
+    "D": "Tšiang Kai-šek"
+  },
+  {
+    "question": "Mikä oli 'pikkuviha'?",
+    "answer": "Venäläismiehityksen aika hattujen sodan aikana 1741-1743",
+    "A": "Pieni kahakka rajalla",
+    "B": "Venäläismiehityksen aika hattujen sodan aikana 1741-1743",
+    "C": "Perheriita kuninkaallisessa hovissa",
+    "D": "Talonpoikaiskapina"
+  },
+  {
+    "question": "Kuka oli ensimmäinen nainen, joka sai Nobel-palkinnon?",
+    "answer": "Marie Curie",
+    "A": "Bertha von Suttner",
+    "B": "Selma Lagerlöf",
+    "C": "Marie Curie",
+    "D": "Irène Joliot-Curie"
+  },
+  {
+    "question": "Mikä oli 'Ateenan kultakausi'?",
+    "answer": "Aika, jolloin Ateena oli poliittisen, taloudellisen ja sivistyksellisen kukoistuksen huipulla",
+    "A": "Aika, jolloin Ateenassa löydettiin kultaa",
+    "B": "Aika, jolloin Ateena oli poliittisen, taloudellisen ja sivistyksellisen kukoistuksen huipulla",
+    "C": "Sotaisa kausi Spartan kanssa",
+    "D": "Roomalaisten miehityksen aika"
+  },
+  {
+    "question": "Mikä on 'YK'?",
+    "answer": "Yhdistyneet kansakunnat, maailmanlaajuinen hallitustenvälinen järjestö",
+    "A": "Euroopan unioni",
+    "B": "Sotilasliitto NATO",
+    "C": "Yhdistyneet kansakunnat, maailmanlaajuinen hallitustenvälinen järjestö",
+    "D": "Punainen Risti"
+  },
+  {
+    "question": "Kuka oli Suomen presidentti, kun Suomi liittyi Euroopan unioniin?",
+    "answer": "Martti Ahtisaari",
+    "A": "Mauno Koivisto",
+    "B": "Martti Ahtisaari",
+    "C": "Tarja Halonen",
+    "D": "Urho Kekkonen"
+  },
+  {
+    "question": "Mikä oli 'Satavuotinen sota'?",
+    "answer": "Pitkä konflikti Englannin ja Ranskan välillä keskiajalla",
+    "A": "Sota, joka kesti tasan sata vuotta",
+    "B": "Pitkä konflikti Englannin ja Ranskan välillä keskiajalla",
+    "C": "Sota Rooman ja Karthagon välillä",
+    "D": "Maailmansota"
+  },
+  {
+    "question": "Mistä syyskuun 11. päivän iskut vuonna 2001 tunnetaan?",
+    "answer": "Terrori-iskuista Yhdysvaltoihin",
+    "A": "Berliinin muurin murtumisesta",
+    "B": "Terrori-iskuista Yhdysvaltoihin",
+    "C": "Neuvostoliiton hajoamisesta",
+    "D": "Tsunamista Aasiassa"
+  },
+  {
+    "question": "Kuka oli Japanin keisari toisen maailmansodan aikana?",
+    "answer": "Hirohito",
+    "A": "Akihito",
+    "B": "Meiji",
+    "C": "Hirohito",
+    "D": "Taishō"
+  },
+  {
+    "question": "Mikä oli 'Kalmarin unioni'?",
+    "answer": "Pohjoismaiden (Tanska, Norja, Ruotsi) personaaliunioni",
+    "A": "Kauppaliitto Itämerellä",
+    "B": "Sotilasliitto Venäjää vastaan",
+    "C": "Pohjoismaiden (Tanska, Norja, Ruotsi) personaaliunioni",
+    "D": "Kalastajien ammattiliitto"
+  },
+  {
+    "question": "Kuka oli antiikin Rooman tunnetuin oraattori ja poliitikko?",
+    "answer": "Cicero",
+    "A": "Vergilius",
+    "B": "Seneca",
+    "C": "Cicero",
+    "D": "Ovidius"
+  },
+  {
+    "question": "Mikä johti Korean sotaan?",
+    "answer": "Pohjois-Korean hyökkäys Etelä-Koreaan",
+    "A": "Japanin hyökkäys",
+    "B": "Pohjois-Korean hyökkäys Etelä-Koreaan",
+    "C": "Kiinan sisällissota",
+    "D": "Yhdysvaltojen sekaantuminen"
+  },
+  {
+    "question": "Mikä oli J. V. Snellmanin keskeinen tavoite Suomessa?",
+    "answer": "Suomen kielen aseman parantaminen",
+    "A": "Suomen teollistaminen",
+    "B": "Suomen kielen aseman parantaminen",
+    "C": "Suomen itsenäistyminen",
+    "D": "Uuden uskonnon perustaminen"
+  },
+  {
+    "question": "Mikä oli 'Espanjan armada'?",
+    "answer": "Espanjan suuri sotalaivasto, joka yritti valloittaa Englannin",
+    "A": "Kuuluisa espanjalainen tutkimusmatkailija",
+    "B": "Espanjan suuri sotalaivasto, joka yritti valloittaa Englannin",
+    "C": "Madridin pääkatu",
+    "D": "Espanjan kansallislaulu"
+  },
+  {
+    "question": "Kuka oli 'suuri skisma' kirkkohistoriassa?",
+    "answer": "Katolisen kirkon jakautuminen 1300- ja 1400-luvuilla",
+    "A": "Itäisen ja läntisen kirkon ero",
+    "B": "Katolisen kirkon jakautuminen 1300- ja 1400-luvuilla",
+    "C": "Uskonpuhdistus",
+    "D": "Ristiretki"
+  },
+  {
+    "question": "Mikä on 'Rosettan kivi'?",
+    "answer": "Kivi, jonka avulla pystyttiin tulkitsemaan Egyptin hieroglyfejä",
+    "A": "Kuuluisa jalokivi",
+    "B": "Kivi, jonka avulla pystyttiin tulkitsemaan Egyptin hieroglyfejä",
+    "C": "Muinainen rakennus",
+    "D": "Englannin kruununjalokivi"
+  },
+  {
+    "question": "Kuka oli Lapin sodan osapuoli Suomen lisäksi?",
+    "answer": "Saksa",
+    "A": "Neuvostoliitto",
+    "B": "Ruotsi",
+    "C": "Saksa",
+    "D": "Iso-Britannia"
+  },
+  {
+    "question": "Mikä oli 'kolmikantakauppa'?",
+    "answer": "Kaupankäyntijärjestelmä Euroopan, Afrikan ja Amerikan välillä",
+    "A": "Kolmen maan välinen vapaakauppasopimus",
+    "B": "Kaupankäyntijärjestelmä Euroopan, Afrikan ja Amerikan välillä",
+    "C": "Markkinat, joissa oli kolme myyjää",
+    "D": "Pörssikaupan muoto"
+  },
+  {
+    "question": "Kuka oli 'hoviherra' Kaarle Suuren palveluksessa?",
+    "answer": "Ei ollut hoviherraa, vaan hän oli itse hallitsija",
+    "A": "Roland",
+    "B": "Alcuin Yorkilainen",
+    "C": "Ei ollut hoviherraa, vaan hän oli itse hallitsija",
+    "D": "Pipin Pieni"
+  },
+  {
+    "question": "Missä kaupungissa pidettiin toisen maailmansodan jälkeiset sotarikosoikeudenkäynnit Saksassa?",
+    "answer": "Nürnberg",
+    "A": "Berliini",
+    "B": "München",
+    "C": "Nürnberg",
+    "D": "Haag"
+  },
+  {
+    "question": "Mikä oli 'Lokakuun vallankumous'?",
+    "answer": "Bolshevikkien valtaannousu Venäjällä 1917",
+    "A": "Ranskan vallankumouksen vaihe",
+    "B": "Bolshevikkien valtaannousu Venäjällä 1917",
+    "C": "Saksan keisarikunnan luhistuminen",
+    "D": "Kuuban vallankumous"
+  },
+  {
+    "question": "Mikä on vanhin yliopisto Euroopassa?",
+    "answer": "Bolognan yliopisto",
+    "A": "Pariisin yliopisto",
+    "B": "Oxfordin yliopisto",
+    "C": "Bolognan yliopisto",
+    "D": "Salamancan yliopisto"
+  },
+  {
+    "question": "Mihin historialliseen tapahtumaan liittyy lause 'Veni, vidi, vici' (Tulin, näin, voitin)?",
+    "answer": "Julius Caesarin voittoon",
+    "A": "Aleksanteri Suuren valloituksiin",
+    "B": "Napoleonin kruunajaisiin",
+    "C": "Julius Caesarin voittoon",
+    "D": "Rooman perustamiseen"
+  },
+  {
+    "question": "Mikä oli Akseli Gallen-Kallelan rooli Suomen sisällissodassa?",
+    "answer": "Hän suunnitteli univormuja ja kunniamerkkejä valkoiselle armeijalle",
+    "A": "Hän oli punakaartin päällikkö",
+    "B": "Hän oli lääkintämies",
+    "C": "Hän suunnitteli univormuja ja kunniamerkkejä valkoiselle armeijalle",
+    "D": "Hän toimi vakoojana"
+  },
+  {
+    "question": "Mikä oli 'Watergate-skandaali'?",
+    "answer": "Poliittinen skandaali, joka johti presidentti Nixonin eroon",
+    "A": "Vesihuoltoon liittyvä skandaali",
+    "B": "Poliittinen skandaali, joka johti presidentti Nixonin eroon",
+    "C": "Urheilukilpailujen tulosten manipulointi",
+    "D": "Vakoiluskandaali Neuvostoliiton kanssa"
+  },
+  {
+    "question": "Minkä dynastian aikana Kiinan muuri rakennettiin pääosin nykyiseen muotoonsa?",
+    "answer": "Ming-dynastia",
+    "A": "Qin-dynastia",
+    "B": "Han-dynastia",
+    "C": "Ming-dynastia",
+    "D": "Tang-dynastia"
+  },
+  {
+    "question": "Mikä on 'Stalingradin taistelu'?",
+    "answer": "Toisen maailmansodan käännekohta itärintamalla",
+    "A": "Ensimmäisen maailmansodan taistelu",
+    "B": "Toisen maailmansodan käännekohta itärintamalla",
+    "C": "Kylmän sodan konflikti",
+    "D": "Venäjän sisällissodan taistelu"
+  },
+  {
+    "question": "Kuka oli 'sadan päivän presidentti' Suomessa?",
+    "answer": "Lauri Kristian Relander (lempinimi)",
+    "A": "Kyösti Kallio",
+    "B": "Lauri Kristian Relander (lempinimi)",
+    "C": "Risto Ryti",
+    "D": "J. K. Paasikivi"
+  },
+  {
+    "question": "Mikä oli 'Tammisaaren yliopisto'?",
+    "answer": "Tammisaaren vankileirin lempinimi sisällissodan jälkeen",
+    "A": "Suomen ensimmäinen yliopisto",
+    "B": "Salainen oppilaitos",
+    "C": "Tammisaaren vankileirin lempinimi sisällissodan jälkeen",
+    "D": "Kesäyliopisto"
+  },
+  {
+    "question": "Kuka oli Rooman mytologian ylijumala?",
+    "answer": "Jupiter",
+    "A": "Mars",
+    "B": "Neptunus",
+    "C": "Jupiter",
+    "D": "Apollo"
+  },
+  {
+    "question": "Mikä oli 'Marshall-apu'?",
+    "answer": "Yhdysvaltain apuohjelma Euroopan jälleenrakentamiseksi toisen maailmansodan jälkeen",
+    "A": "Sotilaallinen apu",
+    "B": "Yhdysvaltain apuohjelma Euroopan jälleenrakentamiseksi toisen maailmansodan jälkeen",
+    "C": "Kulttuurivaihto-ohjelma",
+    "D": "Lainaohjelma kehitysmaille"
+  },
+  {
+    "question": "Minkä maan pääministeri oli Winston Churchill toisen maailmansodan aikana?",
+    "answer": "Iso-Britannia",
+    "A": "Yhdysvallat",
+    "B": "Ranska",
+    "C": "Iso-Britannia",
+    "D": "Kanada"
+  },
+  {
+    "question": "Mikä oli 'Pietarin verisunnuntai'?",
+    "answer": "Tsaarin joukkojen ampuma rauhanomainen mielenosoitus Venäjällä 1905",
+    "A": "Uskonnollinen juhlapäivä",
+    "B": "Tsaarin joukkojen ampuma rauhanomainen mielenosoitus Venäjällä 1905",
+    "C": "Bolshevikkien vallankaappaus",
+    "D": "Onnettomuus tehtaassa"
+  },
+  {
+    "question": "Kuka oli 'Vilhelm Valloittaja'?",
+    "answer": "Normandian herttua, josta tuli Englannin kuningas",
+    "A": "Viikinkikuningas",
+    "B": "Ranskan kuningas",
+    "C": "Normandian herttua, josta tuli Englannin kuningas",
+    "D": "Saksan keisari"
+  },
+  {
+    "question": "Mikä oli 'Mainilan laukaukset'?",
+    "answer": "Lavastettu välikohtaus, jota Neuvostoliitto käytti tekosyynä talvisodan aloittamiselle",
+    "A": "Suomen armeijan harjoitus",
+    "B": "Lavastettu välikohtaus, jota Neuvostoliitto käytti tekosyynä talvisodan aloittamiselle",
+    "C": "Rajatarkastusaseman tulipalo",
+    "D": "Metsästysonnettomuus"
+  },
+  {
+    "question": "Mikä oli 'Pax Romana'?",
+    "answer": "Pitkä rauhan ja vakauden kausi Rooman valtakunnassa",
+    "A": "Rooman ja Karthagon välinen rauhansopimus",
+    "B": "Pitkä rauhan ja vakauden kausi Rooman valtakunnassa",
+    "C": "Rooman pääkatu",
+    "D": "Keisarin henkivartiokaarti"
+  },
+  {
+    "question": "Kuka purjehti ensimmäisenä maailman ympäri?",
+    "answer": "Fernão de Magalhãesin retkikunta",
+    "A": "Kristoffer Kolumbus",
+    "B": "James Cook",
+    "C": "Fernão de Magalhãesin retkikunta",
+    "D": "Vasco da Gama"
+  },
+  {
+    "question": "Mikä oli 'Versailles'n rauha'?",
+    "answer": "Ensimmäisen maailmansodan päättänyt rauhansopimus",
+    "A": "Toisen maailmansodan päättänyt rauhansopimus",
+    "B": "Ensimmäisen maailmansodan päättänyt rauhansopimus",
+    "C": "Ranskan ja Saksan välinen sopimus",
+    "D": "Napoleonin sotien päättänyt sopimus"
+  },
+  {
+    "question": "Kuka oli kuuluisa atsteekkien hallitsija, kun espanjalaiset saapuivat?",
+    "answer": "Montezuma II",
+    "A": "Atahualpa",
+    "B": "Pachacuti",
+    "C": "Montezuma II",
+    "D": "Cuauhtémoc"
+  },
+  {
+    "question": "Mitä tarkoitetaan 'aksentilla' historiankirjoituksessa?",
+    "answer": "Ei mitään, termi kuuluu kielitieteeseen",
+    "A": "Tapahtuman korostamista",
+    "B": "Lainausmerkkien käyttöä",
+    "C": "Ei mitään, termi kuuluu kielitieteeseen",
+    "D": "Alaviitteen numeroa"
+  },
+  {
+    "question": "Kuka oli Ranskan keisari, joka myi Louisianan Yhdysvalloille?",
+    "answer": "Napoleon Bonaparte",
+    "A": "Ludvig XVI",
+    "B": "Kaarle X",
+    "C": "Napoleon Bonaparte",
+    "D": "Napoleon III"
+  },
+  {
+    "question": "Mikä oli 'talonpoikien marssi Roomaan'?",
+    "answer": "Ei ollut olemassa, mutta fasistien marssi Roomaan oli",
+    "A": "Talonpoikien kapina Italiassa",
+    "B": "Rauhanomainen mielenosoitus",
+    "C": "Ei ollut olemassa, mutta fasistien marssi Roomaan oli",
+    "D": "Uskonnollinen pyhiinvaellus"
+  },
+  {
+    "question": "Mikä on 'Hammurabin laki'?",
+    "answer": "Yksi vanhimmista tunnetuista lakikokoelmista Babyloniasta",
+    "A": "Egyptin faaraon asetus",
+    "B": "Yksi vanhimmista tunnetuista lakikokoelmista Babyloniasta",
+    "C": "Roomalainen perustuslaki",
+    "D": "Kreikkalainen filosofinen teos"
+  },
+  {
+    "question": "Kuka oli 'Puna-Eemeli'?",
+    "answer": "Emil Skog, suomalainen poliitikko",
+    "A": "Eemeli, Seitsemän veljeksen hahmo",
+    "B": "Punakaartin johtaja",
+    "C": "Emil Skog, suomalainen poliitikko",
+    "D": "Kuuluisa vakooja"
+  },
+  {
+    "question": "Mikä oli 'Sikojenlahden maihinnousu'?",
+    "answer": "Yhdysvaltain tukema epäonnistunut yritys syrjäyttää Fidel Castro",
+    "A": "Sikojen aiheuttama tuho rannikolla",
+    "B": "Yhdysvaltain tukema epäonnistunut yritys syrjäyttää Fidel Castro",
+    "C": "Meksikon ja Kuuban välinen konflikti",
+    "D": "Turistien invaasio"
+  },
+  {
+    "question": "Kuka oli Bysantin valtakunnan merkittävin keisari?",
+    "answer": "Justinianus I",
+    "A": "Konstantinus Suuri",
+    "B": "Herakleios",
+    "C": "Justinianus I",
+    "D": "Basileios II"
+  },
+  {
+    "question": "Mikä oli 'kultaryntäys'?",
+    "answer": "Ihmisten massamuutto alueelle, josta on löydetty kultaa",
+    "A": "Pörssiromahdus",
+    "B": "Ihmisten massamuutto alueelle, josta on löydetty kultaa",
+    "C": "Urheilukilpailu",
+    "D": "Kuninkaallinen paraati"
+  },
+  {
+    "question": "Mitä tarkoittaa 'glasnost' ja 'perestroika' Neuvostoliiton historiassa?",
+    "answer": "Avoimuus ja uudelleenrakentaminen",
+    "A": "Sota ja rauha",
+    "B": "Avoimuus ja uudelleenrakentaminen",
+    "C": "Vakautus ja kasvu",
+    "D": "Puhdistus ja kuri"
+  },
+  {
+    "question": "Mikä oli 'musta käsi'?",
+    "answer": "Serbialainen salaseura, joka oli osallisena Franz Ferdinandin murhaan",
+    "A": "Italialainen mafiajärjestö",
+    "B": "Serbialainen salaseura, joka oli osallisena Franz Ferdinandin murhaan",
+    "C": "Anarkistiryhmä Espanjassa",
+    "D": "Venäläinen salainen poliisi"
+  },
+  {
+    "question": "Minkä sodan aikana Yhdysvallat julistautui itsenäiseksi?",
+    "answer": "Amerikan vapaussota",
+    "A": "Ranskan ja intiaanien sota",
+    "B": "Amerikan sisällissota",
+    "C": "Amerikan vapaussota",
+    "D": "Vuoden 1812 sota"
+  },
+  {
+    "question": "Mikä on vanhin edelleen käytössä oleva kansallislippu maailmassa?",
+    "answer": "Tanskan lippu, Dannebrog",
+    "A": "Itävallan lippu",
+    "B": "Tanskan lippu, Dannebrog",
+    "C": "Alankomaiden lippu",
+    "D": "Latvian lippu"
+  },
+  {
+    "question": "Kuka oli 'Spartacus'?",
+    "answer": "Gladiaattori, joka johti suurta orjakapinaa Roomaa vastaan",
+    "A": "Rooman keisari",
+    "B": "Kreikkalainen filosofi",
+    "C": "Gladiaattori, joka johti suurta orjakapinaa Roomaa vastaan",
+    "D": "Sotapäällikkö Persian armeijassa"
+  },
+  {
+    "question": "Mikä oli 'suuri harppaus' Kiinassa?",
+    "answer": "Mao Zedongin kampanja, joka johti valtavaan nälänhätään",
+    "A": "Talousuudistus, joka onnistui",
+    "B": "Mao Zedongin kampanja, joka johti valtavaan nälänhätään",
+    "C": "Avaruusohjelma",
+    "D": "Urheilukilpailu"
+  },
+  {
+    "question": "Mikä oli 'kolmekymmenvuotinen sota'?",
+    "answer": "Uskonnollinen ja poliittinen konflikti Keski-Euroopassa 1618–1648",
+    "A": "Sota Englannin ja Ranskan välillä",
+    "B": "Uskonnollinen ja poliittinen konflikti Keski-Euroopassa 1618–1648",
+    "C": "Espanjan ja Hollannin välinen sota",
+    "D": "Ruotsin ja Puolan välinen sota"
+  },
+  {
+    "question": "Kuka oli Kleopatran kuuluisa roomalainen rakastaja Caesarin jälkeen?",
+    "answer": "Marcus Antonius",
+    "A": "Augustus",
+    "B": "Pompeius",
+    "C": "Marcus Antonius",
+    "D": "Brutus"
+  },
+  {
+    "question": "Mikä oli 'noottikriisi' Suomessa?",
+    "answer": "Neuvostoliiton diplomaattinen nootti, jonka tulkittiin pyrkivän vaikuttamaan Suomen presidentinvaaleihin",
+    "A": "Riita nuottien tekijänoikeuksista",
+    "B": "Neuvostoliiton diplomaattinen nootti, jonka tulkittiin pyrkivän vaikuttamaan Suomen presidentinvaaleihin",
+    "C": "Paperipulasta johtuva kriisi",
+    "D": "Koulujen laulukokeisiin liittyvä riita"
+  },
+  {
+    "question": "Kuka oli viimeinen inka-hallitsija?",
+    "answer": "Atahualpa",
+    "A": "Pachacuti",
+    "B": "Huayna Capac",
+    "C": "Atahualpa",
+    "D": "Túpac Amaru"
+  },
+  {
+    "question": "Mikä oli 'voittamaton armada'?",
+    "answer": "Espanjan laivasto, jonka Englanti voitti vuonna 1588",
+    "A": "Portugalin laivasto",
+    "B": "Ranskan laivasto",
+    "C": "Espanjan laivasto, jonka Englanti voitti vuonna 1588",
+    "D": "Hollannin laivasto"
+  },
+  {
+    "question": "Kuka oli 'Ivan Julma'?",
+    "answer": "Venäjän ensimmäinen tsaari",
+    "A": "Puolan kuningas",
+    "B": "Bysantin keisari",
+    "C": "Venäjän ensimmäinen tsaari",
+    "D": "Mongolikaani"
+  },
+  {
+    "question": "Mikä oli 'Ruusujen sota'?",
+    "answer": "Valtataistelu Englannin kruunusta Lancasterin ja Yorkin sukujen välillä",
+    "A": "Sota kukkien herruudesta",
+    "B": "Valtataistelu Englannin kruunusta Lancasterin ja Yorkin sukujen välillä",
+    "C": "Ranskan ja Englannin välinen sota",
+    "D": "Puutarhureiden välinen kilpailu"
+  },
+  {
+    "question": "Kuka piti 'Veri, työ, tuska ja hiki' -puheen?",
+    "answer": "Winston Churchill",
+    "A": "Franklin D. Roosevelt",
+    "B": "Charles de Gaulle",
+    "C": "Winston Churchill",
+    "D": "Josif Stalin"
+  },
+  {
+    "question": "Mikä oli 'Hong-kongin luovutus'?",
+    "answer": "Iso-Britannia luovutti Hong Kongin takaisin Kiinalle vuonna 1997",
+    "A": "Kiina myi Hong Kongin",
+    "B": "Iso-Britannia luovutti Hong Kongin takaisin Kiinalle vuonna 1997",
+    "C": "Portugali luovutti Macaon",
+    "D": "Hong Kong julistautui itsenäiseksi"
+  },
+  {
+    "question": "Mikä oli 'Barbaarivalloitukset'?",
+    "answer": "Germaanikansojen ja muiden heimojen tunkeutuminen Rooman valtakuntaan",
+    "A": "Viikinkien ryöstöretket",
+    "B": "Germaanikansojen ja muiden heimojen tunkeutuminen Rooman valtakuntaan",
+    "C": "Mongolien hyökkäykset Eurooppaan",
+    "D": "Arabien valloitukset"
+  },
+  {
+    "question": "Kuka oli 'Lentävä hollantilainen'?",
+    "answer": "Legendaarinen aavelaiva",
+    "A": "Kuuluisa lentäjä",
+    "B": "Hollantilainen pikajuoksija",
+    "C": "Legendaarinen aavelaiva",
+    "D": "Oopperan hahmo"
+  },
+  {
+    "question": "Minkä maan hallitsija oli Pietari Suuri?",
+    "answer": "Venäjä",
+    "A": "Preussi",
+    "B": "Itävalta",
+    "C": "Venäjä",
+    "D": "Ruotsi"
+  },
+  {
+    "question": "Mikä oli 'suuri siirtomaasota'?",
+    "answer": "Ensimmäinen maailmansota",
+    "A": "Espanjan ja Englannin välinen sota",
+    "B": "Toinen maailmansota",
+    "C": "Ensimmäinen maailmansota",
+    "D": "Ranskan ja intiaanien sota"
+  },
+  {
+    "question": "Mikä oli 'Molotov-Ribbentrop-sopimus'?",
+    "answer": "Hyökkäämättömyyssopimus Natsi-Saksan ja Neuvostoliiton välillä",
+    "A": "Kauppasopimus",
+    "B": "Hyökkäämättömyyssopimus Natsi-Saksan ja Neuvostoliiton välillä",
+    "C": "Sotilasliitto",
+    "D": "Rauhansopimus"
+  },
+  {
+    "question": "Kuka oli 'Rikhard Leijonamieli'?",
+    "answer": "Englannin kuningas ja ristiretkeilijä",
+    "A": "Ranskan kuningas",
+    "B": "Englannin kuningas ja ristiretkeilijä",
+    "C": "Pyhän saksalais-roomalaisen keisarikunnan keisari",
+    "D": "Skotlannin kuningas"
+  },
+  {
+    "question": "Minkä kaupungin muuri oli kuuluisa siitä, että se erotti idän ja lännen?",
+    "answer": "Berliini",
+    "A": "Jerusalem",
+    "B": "Wien",
+    "C": "Berliini",
+    "D": "Nikosia"
+  },
+  {
+    "question": "Mitä oli 'Kamppailu Afrikasta' (Scramble for Africa)?",
+    "answer": "Euroopan suurvaltojen kilpailu Afrikan siirtomaista",
+    "A": "Afrikan maiden välinen sota",
+    "B": "Urheilukilpailu",
+    "C": "Euroopan suurvaltojen kilpailu Afrikan siirtomaista",
+    "D": "Tutkimusmatka"
+  }
+]
 }

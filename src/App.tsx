@@ -706,7 +706,6 @@ function App() {
         <div className='settingsStage'>
           <label htmlFor='quizSelect' className='quizLabel'>Kysymykset:</label>
           <select onChange={(e) => {
-            console.log('event', e)
             const result = changeQuiz(parseInt(e.target.value))
             const labelElement: HTMLLabelElement | null = document.querySelector('.quizLabel')
             if(result){

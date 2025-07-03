@@ -1,4 +1,1397 @@
 {
-  "description": "tyhjä",
-  "questions": []
+  "description": "Musiikki: 174kpl",
+  "questions": [
+  {
+    "question": "Minkä yhtyeen laulaja oli Freddie Mercury?",
+    "answer": "Queen",
+    "A": "The Rolling Stones",
+    "B": "Pink Floyd",
+    "C": "Queen",
+    "D": "Led Zeppelin"
+  },
+  {
+    "question": "Kuka sävelsi teoksen 'Finlandia'?",
+    "answer": "Jean Sibelius",
+    "A": "Oskar Merikanto",
+    "B": "Jean Sibelius",
+    "C": "Toivo Kuula",
+    "D": "Leevi Madetoja"
+  },
+  {
+    "question": "Mikä seuraavista on The Beatles -yhtyeen rumpalin nimi?",
+    "answer": "Ringo Starr",
+    "A": "John Lennon",
+    "B": "Mick Jagger",
+    "C": "Keith Moon",
+    "D": "Ringo Starr"
+  },
+  {
+    "question": "Minkä maan edustajana ABBA voitti Euroviisut vuonna 1974?",
+    "answer": "Ruotsi",
+    "A": "Norja",
+    "B": "Tanska",
+    "C": "Iso-Britannia",
+    "D": "Ruotsi"
+  },
+  {
+    "question": "Kuka tunnetaan 'Popin kuninkaana'?",
+    "answer": "Michael Jackson",
+    "A": "Elvis Presley",
+    "B": "Michael Jackson",
+    "C": "Prince",
+    "D": "Elton John"
+  },
+  {
+    "question": "Minkä yhtyeen keulakuva on laulaja-kitaristi Ville Valo?",
+    "answer": "HIM",
+    "A": "The Rasmus",
+    "B": "Nightwish",
+    "C": "HIM",
+    "D": "Apulanta"
+  },
+  {
+    "question": "Kuka sävelsi 'Neljä vuodenaikaa'?",
+    "answer": "Antonio Vivaldi",
+    "A": "Johann Sebastian Bach",
+    "B": "Wolfgang Amadeus Mozart",
+    "C": "Antonio Vivaldi",
+    "D": "Ludwig van Beethoven"
+  },
+  {
+    "question": "Minkä yhtyeen albumi on rock-klassikko 'The Dark Side of the Moon'?",
+    "answer": "Pink Floyd",
+    "A": "Genesis",
+    "B": "The Who",
+    "C": "Pink Floyd",
+    "D": "King Crimson"
+  },
+  {
+    "question": "Kuka suomalaisartisti voitti Euroviisut vuonna 2006 kappaleella 'Hard Rock Hallelujah'?",
+    "answer": "Lordi",
+    "A": "Hanna Pakarinen",
+    "B": "Teräsbetoni",
+    "C": "Käärijä",
+    "D": "Lordi"
+  },
+  {
+    "question": "Mikä oli Ludwig van Beethovenin kuuluisa vaiva hänen myöhäisvuosinaan?",
+    "answer": "Kuurous",
+    "A": "Sokeus",
+    "B": "Kuurous",
+    "C": "Mykkyys",
+    "D": "Liikuntakyvyttömyys"
+  },
+  {
+    "question": "Minkä yhtyeen keulakuva oli Kurt Cobain?",
+    "answer": "Nirvana",
+    "A": "Pearl Jam",
+    "B": "Soundgarden",
+    "C": "Nirvana",
+    "D": "Alice in Chains"
+  },
+  {
+    "question": "Mitä soitinta Jimi Hendrix tunnetusti soitti?",
+    "answer": "Sähkökitaraa",
+    "A": "Pianoa",
+    "B": "Rummut",
+    "C": "Bassoa",
+    "D": "Sähkökitaraa"
+  },
+  {
+    "question": "Kuka on 'Ankkurinappi'-hitin esittäjä?",
+    "answer": "J. Karjalainen",
+    "A": "Ismo Alanko",
+    "B": "J. Karjalainen",
+    "C": "Dave Lindholm",
+    "D": "Anssi Kela"
+  },
+  {
+    "question": "Mikä on Bob Marleyn edustama musiikkityyli?",
+    "answer": "Reggae",
+    "A": "Ska",
+    "B": "Calypso",
+    "C": "Reggae",
+    "D": "Funk"
+  },
+  {
+    "question": "Minkä yhtyeen laulaja on Bono?",
+    "answer": "U2",
+    "A": "R.E.M.",
+    "B": "The Smiths",
+    "C": "U2",
+    "D": "Coldplay"
+  },
+  {
+    "question": "Minkä niminen on Eppu Normaali -yhtyeen laulaja?",
+    "answer": "Martti Syrjä",
+    "A": "Pate Mustajärvi",
+    "B": "Olli Lindholm",
+    "C": "Ismo Alanko",
+    "D": "Martti Syrjä"
+  },
+  {
+    "question": "Mikä on maailman myydyin albumi?",
+    "answer": "Michael Jackson - Thriller",
+    "A": "AC/DC - Back in Black",
+    "B": "Pink Floyd - The Dark Side of the Moon",
+    "C": "Michael Jackson - Thriller",
+    "D": "Eagles - Their Greatest Hits"
+  },
+  {
+    "question": "Mikä on korkein naisääni oopperassa?",
+    "answer": "Sopraano",
+    "A": "Altto",
+    "B": "Mezzosopraano",
+    "C": "Sopraano",
+    "D": "Kontra-altto"
+  },
+  {
+    "question": "Mikä soitin on keskeisessä osassa Frédéric Chopinin sävellyksissä?",
+    "answer": "Piano",
+    "A": "Viulu",
+    "B": "Urut",
+    "C": "Piano",
+    "D": "Kitara"
+  },
+  {
+    "question": "Kuka on laulanut hitin 'Aikuinen nainen'?",
+    "answer": "Paula Koivuniemi",
+    "A": "Katri Helena",
+    "B": "Marion Rung",
+    "C": "Paula Koivuniemi",
+    "D": "Lea Laven"
+  },
+  {
+    "question": "Minkä yhtyeen perustajajäsen ja rumpali Dave Grohl oli ennen Foo Fightersia?",
+    "answer": "Nirvana",
+    "A": "Metallica",
+    "B": "Nirvana",
+    "C": "Guns N' Roses",
+    "D": "Soundgarden"
+  },
+  {
+    "question": "Mikä Mozartin ooppera kertoo naistenmiehestä, joka saa lopulta rangaistuksensa?",
+    "answer": "Don Giovanni",
+    "A": "Taikahuilu",
+    "B": "Figaron häät",
+    "C": "Don Giovanni",
+    "D": "Ryöstö seraljista"
+  },
+  {
+    "question": "Mistä kaupungista Dingo-yhtye on kotoisin?",
+    "answer": "Pori",
+    "A": "Tampere",
+    "B": "Rauma",
+    "C": "Turku",
+    "D": "Pori"
+  },
+  {
+    "question": "Kuka tunnetaan 'Soulin kuningattarena'?",
+    "answer": "Aretha Franklin",
+    "A": "Diana Ross",
+    "B": "Tina Turner",
+    "C": "Aretha Franklin",
+    "D": "Whitney Houston"
+  },
+  {
+    "question": "Mikä metalliyhtye tunnetaan maskotistaan nimeltä Eddie?",
+    "answer": "Iron Maiden",
+    "A": "Megadeth",
+    "B": "Judas Priest",
+    "C": "Iron Maiden",
+    "D": "Motörhead"
+  },
+  {
+    "question": "Minkä yhtyeen hitti on 'Hotel California'?",
+    "answer": "Eagles",
+    "A": "Fleetwood Mac",
+    "B": "The Doobie Brothers",
+    "C": "Eagles",
+    "D": "Lynyrd Skynyrd"
+  },
+  {
+    "question": "Minkä soittimen mestari oli jazz-legenda Miles Davis?",
+    "answer": "Trumpetti",
+    "A": "Saksofoni",
+    "B": "Piano",
+    "C": "Trumpetti",
+    "D": "Kontrabasso"
+  },
+  {
+    "question": "Kuka on rockyhtye Popedan pitkäaikainen laulaja?",
+    "answer": "Pate Mustajärvi",
+    "A": "Remu Aaltonen",
+    "B": "Pate Mustajärvi",
+    "C": "Michael Monroe",
+    "D": "A. W. Yrjänä"
+  },
+  {
+    "question": "Kuka artisti esiintyi Ziggy Stardust -alter egona?",
+    "answer": "David Bowie",
+    "A": "Elton John",
+    "B": "Marc Bolan",
+    "C": "David Bowie",
+    "D": "Iggy Pop"
+  },
+  {
+    "question": "Minkä yhtyeen albumi on 'Appetite for Destruction'?",
+    "answer": "Guns N' Roses",
+    "A": "Mötley Crüe",
+    "B": "Bon Jovi",
+    "C": "Guns N' Roses",
+    "D": "Aerosmith"
+  },
+  {
+    "question": "Mikä on Suomen kansainvälisesti menestynein elektronisen musiikin artisti?",
+    "answer": "Darude",
+    "A": "Bomfunk MC's",
+    "B": "Darude",
+    "C": "JS16",
+    "D": "Alma"
+  },
+  {
+    "question": "Mikä on B.B. Kingin kuuluisan kitaran nimi?",
+    "answer": "Lucille",
+    "A": "Blackie",
+    "B": "Frankenstrat",
+    "C": "Lucille",
+    "D": "Micawber"
+  },
+  {
+    "question": "Minkä yhtyeen laulaja-kitaristi oli Lemmy Kilmister?",
+    "answer": "Motörhead",
+    "A": "Black Sabbath",
+    "B": "Motörhead",
+    "C": "AC/DC",
+    "D": "Deep Purple"
+  },
+  {
+    "question": "Mikä on Juice Leskisen tunnetuimpia kappaleita?",
+    "answer": "Viidestoista yö",
+    "A": "Tahroja paperilla",
+    "B": "Rappiolla",
+    "C": "Viidestoista yö",
+    "D": "Mopolla tähtiin"
+  },
+  {
+    "question": "Kuka sävelsi musiikin elokuviin 'Tähtien sota', 'E.T.' ja 'Indiana Jones'?",
+    "answer": "John Williams",
+    "A": "Hans Zimmer",
+    "B": "Ennio Morricone",
+    "C": "John Williams",
+    "D": "Howard Shore"
+  },
+  {
+    "question": "Minkä yhtyeen laulaja on Axl Rose?",
+    "answer": "Guns N' Roses",
+    "A": "Metallica",
+    "B": "Skid Row",
+    "C": "Guns N' Roses",
+    "D": "Poison"
+  },
+  {
+    "question": "Mistä maasta Daft Punk -duo on kotoisin?",
+    "answer": "Ranska",
+    "A": "Saksa",
+    "B": "Iso-Britannia",
+    "C": "Ranska",
+    "D": "Yhdysvallat"
+  },
+  {
+    "question": "Kuka on 'Lumi teki enkelin eteiseen' -kappaleen tunnetuksi tehnyt artisti?",
+    "answer": "Hector",
+    "A": "Kirka",
+    "B": "Irwin Goodman",
+    "C": "Hector",
+    "D": "Pepe Willberg"
+  },
+  {
+    "question": "Kuka lauloi hitin '...Baby One More Time'?",
+    "answer": "Britney Spears",
+    "A": "Christina Aguilera",
+    "B": "Jessica Simpson",
+    "C": "Britney Spears",
+    "D": "Mandy Moore"
+  },
+  {
+    "question": "Mikä on Richard Wagnerin neljän oopperan sarja?",
+    "answer": "Nibelungin sormus",
+    "A": "Tristan ja Isolde",
+    "B": "Lentävä hollantilainen",
+    "C": "Nibelungin sormus",
+    "D": "Parsifal"
+  },
+  {
+    "question": "Minkä yhtyeen laulaja ja basisti on Sting?",
+    "answer": "The Police",
+    "A": "Dire Straits",
+    "B": "The Police",
+    "C": "Talking Heads",
+    "D": "The Clash"
+  },
+  {
+    "question": "Minkä suomalaisyhtyeen hitti on 'In the Shadows'?",
+    "answer": "The Rasmus",
+    "A": "Sunrise Avenue",
+    "B": "Poets of the Fall",
+    "C": "The Rasmus",
+    "D": "HIM"
+  },
+  {
+    "question": "Kuka artisti tunnetaan 'The Boss' -lempinimellä?",
+    "answer": "Bruce Springsteen",
+    "A": "Bob Dylan",
+    "B": "Neil Young",
+    "C": "Bruce Springsteen",
+    "D": "Tom Petty"
+  },
+  {
+    "question": "Mikä soitin ei kuulu perinteiseen jousikvartettiin?",
+    "answer": "Kontrabasso",
+    "A": "Viulu",
+    "B": "Alttoviulu",
+    "C": "Sello",
+    "D": "Kontrabasso"
+  },
+  {
+    "question": "Mistä kaupungista The Beatles on kotoisin?",
+    "answer": "Liverpool",
+    "A": "Lontoo",
+    "B": "Manchester",
+    "C": "Liverpool",
+    "D": "Birmingham"
+  },
+  {
+    "question": "Kuka oli Hurriganes-yhtyeen ikoninen laulaja-rumpali?",
+    "answer": "Remu Aaltonen",
+    "A": "Cisse Häkkinen",
+    "B": "Albert Järvinen",
+    "C": "Remu Aaltonen",
+    "D": "Ile Kallio"
+  },
+  {
+    "question": "Mikä on matalin miesääni?",
+    "answer": "Basso",
+    "A": "Tenori",
+    "B": "Baritoni",
+    "C": "Basso",
+    "D": "Kontratenori"
+  },
+  {
+    "question": "Minkä yhtyeen albumi on 'Rumours', yksi kaikkien aikojen myydyimmistä levyistä?",
+    "answer": "Fleetwood Mac",
+    "A": "Eagles",
+    "B": "Fleetwood Mac",
+    "C": "ABBA",
+    "D": "The Beach Boys"
+  },
+  {
+    "question": "Mitä 'a cappella' -laulaminen tarkoittaa?",
+    "answer": "Ilman soitinsäestystä",
+    "A": "Erityisen korkealta",
+    "B": "Kuorossa",
+    "C": "Ilman soitinsäestystä",
+    "D": "Mikrofoniin"
+  },
+  {
+    "question": "Kuka oli Yö-yhtyeen pitkäaikainen laulaja?",
+    "answer": "Olli Lindholm",
+    "A": "Jussi Hakulinen",
+    "B": "Olli Lindholm",
+    "C": "Pauli Hanhiniemi",
+    "D": "Kauko Röyhkä"
+  },
+  {
+    "question": "Kuka sai Nobelin kirjallisuuspalkinnon vuonna 2016 lauluteksteistään?",
+    "answer": "Bob Dylan",
+    "A": "Leonard Cohen",
+    "B": "Paul Simon",
+    "C": "Bob Dylan",
+    "D": "Joni Mitchell"
+  },
+  {
+    "question": "Mistä rap-ryhmästä Dr. Dre ja Ice Cube tulivat tunnetuiksi?",
+    "answer": "N.W.A.",
+    "A": "Public Enemy",
+    "B": "Run-DMC",
+    "C": "N.W.A.",
+    "D": "A Tribe Called Quest"
+  },
+  {
+    "question": "Minkä yhtyeen laulajana toimi Jenni Vartiainen ennen soolouraansa?",
+    "answer": "Gimmel",
+    "A": "Indica",
+    "B": "Tiktak",
+    "C": "Gimmel",
+    "D": "Nylon Beat"
+  },
+  {
+    "question": "Mitä musiikillinen termi 'crescendo' tarkoittaa?",
+    "answer": "Vähitellen voimistuen",
+    "A": "Vähitellen hidastuen",
+    "B": "Vähitellen voimistuen",
+    "C": "Nopeasti ja terävästi",
+    "D": "Erittäin hiljaa"
+  },
+  {
+    "question": "Kuka 'Man in Black' -lempinimellä tunnettu laulaja esiintyi Folsomin vankilassa?",
+    "answer": "Johnny Cash",
+    "A": "Elvis Presley",
+    "B": "Johnny Cash",
+    "C": "Merle Haggard",
+    "D": "Waylon Jennings"
+  },
+  {
+    "question": "Mistä saksalaisyhtyeestä on peräisin hitti 'Wind of Change'?",
+    "answer": "Scorpions",
+    "A": "Rammstein",
+    "B": "Accept",
+    "C": "Scorpions",
+    "D": "Helloween"
+  },
+  {
+    "question": "Kuka oli Hanoi Rocks -yhtyeen laulaja?",
+    "answer": "Michael Monroe",
+    "A": "Andy McCoy",
+    "B": "Samy Yaffa",
+    "C": "Michael Monroe",
+    "D": "Nasty Suicide"
+  },
+  {
+    "question": "Mikä on kapellimestarin kädessään pitämä tahtipuikko?",
+    "answer": "Batonki",
+    "A": "Stiletti",
+    "B": "Batonki",
+    "C": "Klaviatuuri",
+    "D": "Plektroni"
+  },
+  {
+    "question": "Minkä yhtyeen hitti on 'Smells Like Teen Spirit'?",
+    "answer": "Nirvana",
+    "A": "Red Hot Chili Peppers",
+    "B": "Green Day",
+    "C": "Nirvana",
+    "D": "The Offspring"
+  },
+  {
+    "question": "Kuka esitti alun perin kappaleen 'I Will Always Love You'?",
+    "answer": "Dolly Parton",
+    "A": "Whitney Houston",
+    "B": "Dolly Parton",
+    "C": "Mariah Carey",
+    "D": "Patsy Cline"
+  },
+  {
+    "question": "Missä italialaisessa kaupungissa sijaitsee kuuluisa La Scala -oopperatalo?",
+    "answer": "Milano",
+    "A": "Rooma",
+    "B": "Venetsia",
+    "C": "Milano",
+    "D": "Napoli"
+  },
+  {
+    "question": "Mistä yhtyeestä Paula Vesala ja Mira Luoti tulivat tunnetuksi?",
+    "answer": "PMMP",
+    "A": "Maija Vilkkumaa",
+    "B": "Tiktak",
+    "C": "PMMP",
+    "D": "Indica"
+  },
+  {
+    "question": "Mikä soitin yhdistetään yleensä skotlantilaiseen kansanmusiikkiin?",
+    "answer": "Säkkipilli",
+    "A": "Huilu",
+    "B": "Säkkipilli",
+    "C": "Harppu",
+    "D": "Viulu"
+  },
+  {
+    "question": "Minkä tyylilajin edelläkävijänä pidetään saksalaista Kraftwerk-yhtyettä?",
+    "answer": "Elektroninen musiikki",
+    "A": "Progressiivinen rock",
+    "B": "Punk",
+    "C": "Elektroninen musiikki",
+    "D": "Grunge"
+  },
+  {
+    "question": "Kuka lauloi James Bond -elokuvan 'Skyfall' tunnuskappaleen?",
+    "answer": "Adele",
+    "A": "Duffy",
+    "B": "Rihanna",
+    "C": "Adele",
+    "D": "Sia"
+  },
+  {
+    "question": "Mistä heviyhtyeestä laulaja Ozzy Osbourne alun perin nousi kuuluisuuteen?",
+    "answer": "Black Sabbath",
+    "A": "Deep Purple",
+    "B": "Black Sabbath",
+    "C": "Led Zeppelin",
+    "D": "Judas Priest"
+  },
+  {
+    "question": "Kuka on tehnyt kappaleen 'Mikan faijan BMW'?",
+    "answer": "Anssi Kela",
+    "A": "Tehosekoitin",
+    "B": "Don Huonot",
+    "C": "Anssi Kela",
+    "D": "Zen Café"
+  },
+  {
+    "question": "Mikä oli The Beatlesin viimeinen yhteinen julkinen esiintyminen?",
+    "answer": "Kattokonsertti",
+    "A": "Shea Stadiumin konsertti",
+    "B": "Woodstock-festivaali",
+    "C": "Kattokonsertti",
+    "D": "Hampurin keikat"
+  },
+  {
+    "question": "Kuka on säveltänyt Pähkinänsärkijä-baletin?",
+    "answer": "Pjotr Tšaikovski",
+    "A": "Igor Stravinski",
+    "B": "Sergei Prokofjev",
+    "C": "Pjotr Tšaikovski",
+    "D": "Aram Hatšaturjan"
+  },
+  {
+    "question": "Minkä yhtyeen laulaja on Anthony Kiedis?",
+    "answer": "Red Hot Chili Peppers",
+    "A": "Foo Fighters",
+    "B": "Red Hot Chili Peppers",
+    "C": "Rage Against the Machine",
+    "D": "Linkin Park"
+  },
+  {
+    "question": "Mikä oli ensimmäinen suomenkielinen ooppera?",
+    "answer": "Kaarle-kuninkaan metsästys",
+    "A": "Pohjalaisia",
+    "B": "Juhan ja Mian sota",
+    "C": "Viimeiset kiusaukset",
+    "D": "Kaarle-kuninkaan metsästys"
+  },
+  {
+    "question": "Kuka lauloi Destiny's Child -yhtyeessä ennen menestyksekästä soolouraansa?",
+    "answer": "Beyoncé",
+    "A": "Rihanna",
+    "B": "Alicia Keys",
+    "C": "Beyoncé",
+    "D": "Jennifer Hudson"
+  },
+  {
+    "question": "Mikä on 'tangon kuninkaana' tunnetun Olavi Virran tunnetuimpia kappaleita?",
+    "answer": "Hopeinen kuu",
+    "A": "Sininen ja valkoinen",
+    "B": "Hopeinen kuu",
+    "C": "Satumaa",
+    "D": "Paratiisi"
+  },
+  {
+    "question": "Mitä musiikillinen termi 'accelerando' tarkoittaa?",
+    "answer": "Vähitellen nopeutuen",
+    "A": "Vähitellen hiljentyen",
+    "B": "Vähitellen nopeutuen",
+    "C": "Äkkiä pysähtyen",
+    "D": "Voimakkaasti"
+  },
+  {
+    "question": "Mikä oli Queen-yhtyeen viimeinen studioalbumi, joka julkaistiin Freddie Mercuryn eläessä?",
+    "answer": "Innuendo",
+    "A": "The Miracle",
+    "B": "A Kind of Magic",
+    "C": "Innuendo",
+    "D": "Made in Heaven"
+  },
+  {
+    "question": "Kenen artistin entinen taustayhtye oli The Wailers?",
+    "answer": "Bob Marley",
+    "A": "Peter Tosh",
+    "B": "Bob Marley",
+    "C": "Jimmy Cliff",
+    "D": "Toots Hibbert"
+  },
+  {
+    "question": "Minkä metalliyhtyeen keulakuva oli laulaja-kitaristi Alexi Laiho?",
+    "answer": "Children of Bodom",
+    "A": "Amorphis",
+    "B": "Sentenced",
+    "C": "Children of Bodom",
+    "D": "Stratovarius"
+  },
+  {
+    "question": "Kuka lauloi kappaleen 'My Heart Will Go On' elokuvaan Titanic?",
+    "answer": "Céline Dion",
+    "A": "Mariah Carey",
+    "B": "Céline Dion",
+    "C": "Barbra Streisand",
+    "D": "Shania Twain"
+  },
+  {
+    "question": "Missä yhtyeessä Ismo Alanko nousi kuuluisuuteen 1980-luvun alussa?",
+    "answer": "Hassisen Kone",
+    "A": "Eppu Normaali",
+    "B": "Sielun Veljet",
+    "C": "Hassisen Kone",
+    "D": "Popeda"
+  },
+  {
+    "question": "Minkä tyylilajin edustajana tunnetaan rap-artisti Cheek?",
+    "answer": "Suomirap",
+    "A": "Iskelmä",
+    "B": "Suomirock",
+    "C": "Suomirap",
+    "D": "Folk"
+  },
+  {
+    "question": "Kuka sävelsi oopperan 'Carmen'?",
+    "answer": "Georges Bizet",
+    "A": "Giuseppe Verdi",
+    "B": "Giacomo Puccini",
+    "C": "Georges Bizet",
+    "D": "Richard Strauss"
+  },
+  {
+    "question": "Mitä tarkoittaa DJ?",
+    "answer": "Disc Jockey",
+    "A": "Digital Jammer",
+    "B": "Disco Juggler",
+    "C": "Disc Jockey",
+    "D": "Dynamic Judge"
+  },
+  {
+    "question": "Kenen laulajan oikea nimi on Anna Abreu?",
+    "answer": "ABREU",
+    "A": "Chisu",
+    "B": "SANNI",
+    "C": "ABREU",
+    "D": "Evelina"
+  },
+  {
+    "question": "Mikä on neljän laulajan muodostama lauluyhtye?",
+    "answer": "Kvartetti",
+    "A": "Duo",
+    "B": "Trio",
+    "C": "Kvartetti",
+    "D": "Oktetti"
+  },
+  {
+    "question": "Minkä yhtyeen laulaja on Lauri Ylönen?",
+    "answer": "The Rasmus",
+    "A": "Poets of the Fall",
+    "B": "The Rasmus",
+    "C": "Negative",
+    "D": "Lovex"
+  },
+  {
+    "question": "Kuka perusti Motown Records -levy-yhtiön?",
+    "answer": "Berry Gordy",
+    "A": "Quincy Jones",
+    "B": "Sam Phillips",
+    "C": "Berry Gordy",
+    "D": "Ahmet Ertegun"
+  },
+  {
+    "question": "Mikä suomalainen metalliyhtye on ottanut paljon vaikutteita Kalevalasta?",
+    "answer": "Amorphis",
+    "A": "Korpiklaani",
+    "B": "Ensiferum",
+    "C": "Amorphis",
+    "D": "Turisas"
+  },
+  {
+    "question": "Kuka on menestynein artisti Grammy-palkintojen historiassa?",
+    "answer": "Beyoncé",
+    "A": "Georg Solti",
+    "B": "Quincy Jones",
+    "C": "Beyoncé",
+    "D": "Stevie Wonder"
+  },
+  {
+    "question": "Mitä tarkoittaa musiikkitermi 'legato'?",
+    "answer": "Sitoen, sulavasti",
+    "A": "Lyhyesti, terävästi",
+    "B": "Voimakkaasti",
+    "C": "Sitoen, sulavasti",
+    "D": "Erittäin nopeasti"
+  },
+  {
+    "question": "Minkä rock-oopperan ovat säveltäneet Andrew Lloyd Webber ja Tim Rice?",
+    "answer": "Jesus Christ Superstar",
+    "A": "Tommy",
+    "B": "Hair",
+    "C": "Jesus Christ Superstar",
+    "D": "Rent"
+  },
+  {
+    "question": "Mikä soitin on theremin?",
+    "answer": "Elektroninen soitin jota soitetaan koskematta",
+    "A": "Vanha jousisoitin",
+    "B": "Afrikkalainen rumpu",
+    "C": "Elektroninen soitin jota soitetaan koskematta",
+    "D": "Puhallinsoittimien edeltäjä"
+  },
+  {
+    "question": "Kenen artistin elämästä kertoo elokuva 'Bohemian Rhapsody'?",
+    "answer": "Freddie Mercury",
+    "A": "Elton John",
+    "B": "Freddie Mercury",
+    "C": "David Bowie",
+    "D": "Johnny Cash"
+  },
+  {
+    "question": "Mistä maasta reggae-musiikki on peräisin?",
+    "answer": "Jamaika",
+    "A": "Kuuba",
+    "B": "Trinidad ja Tobago",
+    "C": "Jamaika",
+    "D": "Brasilia"
+  },
+  {
+    "question": "Minkä yhtyeen albumi on 'Nevermind'?",
+    "answer": "Nirvana",
+    "A": "Alice in Chains",
+    "B": "Nirvana",
+    "C": "Jane's Addiction",
+    "D": "Stone Temple Pilots"
+  },
+  {
+    "question": "Mikä on Suomen suurin ja vanhin rockfestivaali?",
+    "answer": "Ruisrock",
+    "A": "Provinssi",
+    "B": "Ilosaarirock",
+    "C": "Ruisrock",
+    "D": "Tuska"
+  },
+  {
+    "question": "Kuka korvasi Tarja Turusen Nightwish-yhtyeen laulajana?",
+    "answer": "Anette Olzon",
+    "A": "Floor Jansen",
+    "B": "Anette Olzon",
+    "C": "Simone Simons",
+    "D": "Sharon den Adel"
+  },
+  {
+    "question": "Mistä 1970-luvun punk-yhtyeestä Johnny Rotten (John Lydon) muistetaan?",
+    "answer": "Sex Pistols",
+    "A": "The Clash",
+    "B": "Ramones",
+    "C": "Sex Pistols",
+    "D": "The Damned"
+  },
+  {
+    "question": "Kuka suomalainen laulaja-lauluntekijä tunnetaan nimellä Pyhimys?",
+    "answer": "Mikko Kuoppala",
+    "A": "Jare Tiihonen",
+    "B": "Henri Lanz",
+    "C": "Mikko Kuoppala",
+    "D": "Aleksi Sariola"
+  },
+  {
+    "question": "Mitä soitinrakentajaa pidetään kaikkien aikojen parhaiden viulujen valmistajana?",
+    "answer": "Antonio Stradivari",
+    "A": "Giuseppe Guarneri",
+    "B": "Andrea Amati",
+    "C": "Antonio Stradivari",
+    "D": "Gasparo da Salò"
+  },
+  {
+    "question": "Minkä yhtyeen hitti on 'Don't Stop Believin''?",
+    "answer": "Journey",
+    "A": "Foreigner",
+    "B": "Boston",
+    "C": "Journey",
+    "D": "Styx"
+  },
+  {
+    "question": "Mitä tarkoittaa musiikin 'sampling'?",
+    "answer": "Ääninäytteen lainaaminen uuteen teokseen",
+    "A": "Nuottien kirjoittamista",
+    "B": "Soittimen virittämistä",
+    "C": "Ääninäytteen lainaaminen uuteen teokseen",
+    "D": "Live-esiintymisen äänittäminen"
+  },
+  {
+    "question": "Kenen laulajan oikea nimi on Heikki Harma?",
+    "answer": "Hector",
+    "A": "Freeman",
+    "B": "Costello Hautamäki",
+    "C": "Hector",
+    "D": "Mikko Alatalo"
+  },
+  {
+    "question": "Minkä rock-yhtyeen kitaristit ovat veljekset Angus ja Malcolm Young?",
+    "answer": "AC/DC",
+    "A": "Van Halen",
+    "B": "AC/DC",
+    "C": "The Kinks",
+    "D": "Dire Straits"
+  },
+  {
+    "question": "Mikä on oopperan miespäärooli, joka on tyypillisesti korkea tenori?",
+    "answer": "Sankari",
+    "A": "Pahis",
+    "B": "Koominen sivuhahmo",
+    "C": "Sankari",
+    "D": "Vanha viisas mies"
+  },
+  {
+    "question": "Kuka oli Katri Helenan puoliso ja monien hänen hittiensä säveltäjä?",
+    "answer": "Timo Kalaoja",
+    "A": "Esko Koivumies",
+    "B": "Toivo Kärki",
+    "C": "Timo Kalaoja",
+    "D": "Jukka Kuoppamäki"
+  },
+  {
+    "question": "Mikä on kuuluisa New Yorkin jazzklubi, joka on nimetty perustajansa mukaan?",
+    "answer": "Birdland",
+    "A": "The Cotton Club",
+    "B": "The Blue Note",
+    "C": "Birdland",
+    "D": "Village Vanguard"
+  },
+  {
+    "question": "Mistä maasta kotoisin oleva Måneskin-yhtye voitti Euroviisut 2021?",
+    "answer": "Italia",
+    "A": "Ranska",
+    "B": "Ukraina",
+    "C": "Italia",
+    "D": "Sveitsi"
+  },
+  {
+    "question": "Kuka oli kuuluisa oopperalaulaja, joka tunnettiin yhtenä 'Kolmesta tenorista'?",
+    "answer": "Luciano Pavarotti",
+    "A": "Andrea Bocelli",
+    "B": "Enrico Caruso",
+    "C": "Luciano Pavarotti",
+    "D": "Franco Corelli"
+  },
+  {
+    "question": "Minkä 1990-luvun tyttöbändin jäseniä olivat 'Scary', 'Sporty', 'Baby', 'Ginger' ja 'Posh'?",
+    "answer": "Spice Girls",
+    "A": "TLC",
+    "B": "All Saints",
+    "C": "Spice Girls",
+    "D": "Destiny's Child"
+  },
+  {
+    "question": "Mistä kaupungista Apulanta-yhtye on kotoisin?",
+    "answer": "Heinola",
+    "A": "Lahti",
+    "B": "Heinola",
+    "C": "Hämeenlinna",
+    "D": "Kouvola"
+  },
+  {
+    "question": "Mitä soitinta flamencokitaristi Paco de Lucía virtuoosimaisesti soitti?",
+    "answer": "Nailonkielistä kitaraa",
+    "A": "Sähkökitaraa",
+    "B": "12-kielistä kitaraa",
+    "C": "Nailonkielistä kitaraa",
+    "D": "Bassokitaraa"
+  },
+  {
+    "question": "Minkä yhtyeen laulajana ja sanoittajana toimi Jim Morrison?",
+    "answer": "The Doors",
+    "A": "The Velvet Underground",
+    "B": "Jefferson Airplane",
+    "C": "The Doors",
+    "D": "The Grateful Dead"
+  },
+  {
+    "question": "Kuka sävelsi musiikin elokuvaan 'Leijonakuningas'?",
+    "answer": "Elton John ja Hans Zimmer",
+    "A": "Alan Menken",
+    "B": "Randy Newman",
+    "C": "Elton John ja Hans Zimmer",
+    "D": "James Horner"
+  },
+  {
+    "question": "Mikä oli Nylon Beat -duon jäsenten etunimet?",
+    "answer": "Jonna ja Erin",
+    "A": "Paula ja Mira",
+    "B": "Susanna ja Salla",
+    "C": "Jonna ja Erin",
+    "D": "Maija ja Anni"
+  },
+  {
+    "question": "Mikä on oopperan alkusoitto?",
+    "answer": "Uvertyyri",
+    "A": "Aaria",
+    "B": "Resitatiivi",
+    "C": "Uvertyyri",
+    "D": "Intermezzo"
+  },
+  {
+    "question": "Minkä yhtyeen laulaja on Chris Martin?",
+    "answer": "Coldplay",
+    "A": "Muse",
+    "B": "Coldplay",
+    "C": "The Killers",
+    "D": "Snow Patrol"
+  },
+  {
+    "question": "Mitä tarkoittaa 'suoraan nuoteista' soittaminen?",
+    "answer": "Prima vista",
+    "A": "Forte",
+    "B": "A tempo",
+    "C": "Prima vista",
+    "D": "Da capo"
+  },
+  {
+    "question": "Kuka suomalaisartisti on tunnettu hiteistään 'Tinakenkätyttö' ja 'Autiotalo'?",
+    "answer": "Kaija Koo",
+    "A": "Arja Koriseva",
+    "B": "Laura Voutilainen",
+    "C": "Kaija Koo",
+    "D": "Vicky Rosti"
+  },
+  {
+    "question": "Mistä kaupungista Elvis Presley on erityisen tunnettu?",
+    "answer": "Memphis",
+    "A": "Nashville",
+    "B": "Las Vegas",
+    "C": "Memphis",
+    "D": "New Orleans"
+  },
+  {
+    "question": "Mitä soitinta on perinteisesti pidetty rock'n'rollin symbolina?",
+    "answer": "Sähkökitara",
+    "A": "Saksofoni",
+    "B": "Kontrabasso",
+    "C": "Sähkökitara",
+    "D": "Piano"
+  },
+  {
+    "question": "Kenen laulajan elämästä kertoo elokuva 'Walk the Line'?",
+    "answer": "Johnny Cash",
+    "A": "Ray Charles",
+    "B": "Jerry Lee Lewis",
+    "C": "Johnny Cash",
+    "D": "Buddy Holly"
+  },
+  {
+    "question": "Minkä yhtyeen keulahahmo oli laulaja-lauluntekijä Tom Petty?",
+    "answer": "The Heartbreakers",
+    "A": "The Traveling Wilburys",
+    "B": "The Heartbreakers",
+    "C": "The Byrds",
+    "D": "Creedence Clearwater Revival"
+  },
+  {
+    "question": "Kuka oli jazzlaulaja, joka tunnettiin lempinimellä 'Lady Day'?",
+    "answer": "Billie Holiday",
+    "A": "Sarah Vaughan",
+    "B": "Nina Simone",
+    "C": "Billie Holiday",
+    "D": "Ella Fitzgerald"
+  },
+  {
+    "question": "Minkä yhtyeen tunnetuin kappale on 'Bohemian Rhapsody'?",
+    "answer": "Queen",
+    "A": "Boston",
+    "B": "Kansas",
+    "C": "Queen",
+    "D": "Styx"
+  },
+  {
+    "question": "Mikä on sointu?",
+    "answer": "Vähintään kolmen eri sävelen samanaikainen sointi",
+    "A": "Yksi ainoa sävel",
+    "B": "Kahden sävelen välinen etäisyys",
+    "C": "Vähintään kolmen eri sävelen samanaikainen sointi",
+    "D": "Kappaleen rytmi"
+  },
+  {
+    "question": "Kuka oli rockyhtye The Whon energinen ja tunnetusti rumpusettinsä rikkonut rumpali?",
+    "answer": "Keith Moon",
+    "A": "John Bonham",
+    "B": "Ginger Baker",
+    "C": "Keith Moon",
+    "D": "Charlie Watts"
+  },
+  {
+    "question": "Minkä yhtyeen hitti on 'Zombie'?",
+    "answer": "The Cranberries",
+    "A": "The Cardigans",
+    "B": "The Cranberries",
+    "C": "Garbage",
+    "D": "No Doubt"
+  },
+  {
+    "question": "Mitä tarkoittaa, kun kappaleen tempo on 'andante'?",
+    "answer": "Käyden",
+    "A": "Nopeasti",
+    "B": "Erittäin hitaasti",
+    "C": "Käyden",
+    "D": "Leikkisästi"
+  },
+  {
+    "question": "Minkä instrumentin virtuoosi oli John Coltrane?",
+    "answer": "Saksofoni",
+    "A": "Klarinetti",
+    "B": "Flyygelitorvi",
+    "C": "Saksofoni",
+    "D": "Pasuuna"
+  },
+  {
+    "question": "Kuka artisti on levyttänyt albumin 'Purple Rain'?",
+    "answer": "Prince",
+    "A": "Stevie Wonder",
+    "B": "Prince",
+    "C": "George Michael",
+    "D": "Rick James"
+  },
+  {
+    "question": "Mikä on Suomen kansainvälisesti tunnetuin metallimusiikin festivaali?",
+    "answer": "Tuska Open Air",
+    "A": "Nummirock",
+    "B": "Steelfest Open Air",
+    "C": "Tuska Open Air",
+    "D": "Saarihelvetti"
+  },
+  {
+    "question": "Kenen laulajan kuolema vuonna 1977 järkytti musiikkimaailmaa?",
+    "answer": "Elvis Presley",
+    "A": "John Lennon",
+    "B": "Elvis Presley",
+    "C": "Jim Morrison",
+    "D": "Janis Joplin"
+  },
+  {
+    "question": "Mikä on 'Sielun Veljet' -yhtyeen laulajan nimi?",
+    "answer": "Ismo Alanko",
+    "A": "A. W. Yrjänä",
+    "B": "Kauko Röyhkä",
+    "C": "Ismo Alanko",
+    "D": "Jouni Hynynen"
+  },
+  {
+    "question": "Kuka sävelsi musiikin oopperaan 'Figaron häät'?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "A": "Joseph Haydn",
+    "B": "Gioachino Rossini",
+    "C": "Wolfgang Amadeus Mozart",
+    "D": "Christoph Willibald Gluck"
+  },
+  {
+    "question": "Mikä on rock-yhtye Lynyrd Skynyrdin tunnetuin kappale?",
+    "answer": "Sweet Home Alabama",
+    "A": "Free Bird",
+    "B": "Simple Man",
+    "C": "Sweet Home Alabama",
+    "D": "Tuesday's Gone"
+  },
+  {
+    "question": "Mikä on 'sinfonia'?",
+    "answer": "Laaja, moniosainen sävellys orkesterille",
+    "A": "Kappale yhdelle soittimelle",
+    "B": "Laaja, moniosainen sävellys orkesterille",
+    "C": "Oopperan laulunumero",
+    "D": "Uskonnollinen kuoroteos"
+  },
+  {
+    "question": "Mikä oli rap-artisti Eminemin ensimmäinen suuri hitti?",
+    "answer": "My Name Is",
+    "A": "Lose Yourself",
+    "B": "The Real Slim Shady",
+    "C": "My Name Is",
+    "D": "Stan"
+  },
+  {
+    "question": "Kuka oli Vesa-Matti Loirin tunnetuin roolihahmo, joka myös lauloi?",
+    "answer": "Jean-Pierre Kusela",
+    "A": "Uuno Turhapuro",
+    "B": "Nasse-setä",
+    "C": "Jean-Pierre Kusela",
+    "D": "Tyyne"
+  },
+  {
+    "question": "Mikä on The Rolling Stones -yhtyeen ikoninen logo?",
+    "answer": "Suu ja kieli",
+    "A": "Prisma",
+    "B": "Salama",
+    "C": "Suu ja kieli",
+    "D": "Lentävä sika"
+  },
+  {
+    "question": "Kuka on tehnyt tunnetuksi tangon 'Satumaa'?",
+    "answer": "Reijo Taipale",
+    "A": "Tapio Rautavaara",
+    "B": "Henry Theel",
+    "C": "Reijo Taipale",
+    "D": "Eino Grön"
+  },
+  {
+    "question": "Minkä tyylilajin edustaja on laulaja-lauluntekijä Amy Winehouse?",
+    "answer": "Soul ja jazz",
+    "A": "Pop ja R&B",
+    "B": "Folk ja country",
+    "C": "Soul ja jazz",
+    "D": "Rock ja blues"
+  },
+  {
+    "question": "Minkä yhtyeen veljekset ovat Liam ja Noel Gallagher?",
+    "answer": "Oasis",
+    "A": "Blur",
+    "B": "Pulp",
+    "C": "Oasis",
+    "D": "Suede"
+  },
+  {
+    "question": "Mikä on 'kontsertto'?",
+    "answer": "Sävellys soolosoittimelle ja orkesterille",
+    "A": "Kuoroteos ilman säestystä",
+    "B": "Sävellys soolosoittimelle ja orkesterille",
+    "C": "Hidas ja tunnelmallinen kappale",
+    "D": "Tanssillinen sävellys"
+  },
+  {
+    "question": "Kuka on laulanut hitin '2080-luvulla'?",
+    "answer": "SANNI",
+    "A": "Vesala",
+    "B": "Ellinoora",
+    "C": "SANNI",
+    "D": "Anna Puu"
+  },
+  {
+    "question": "Minkä yhtyeen rumpalina toimi John Bonham?",
+    "answer": "Led Zeppelin",
+    "A": "The Jimi Hendrix Experience",
+    "B": "Cream",
+    "C": "Led Zeppelin",
+    "D": "Black Sabbath"
+  },
+  {
+    "question": "Kuka on menestynein naisartisti Suomen virallisella listalla albumimyynnin perusteella?",
+    "answer": "Madonna",
+    "A": "Kaija Koo",
+    "B": "Jenni Vartiainen",
+    "C": "Madonna",
+    "D": "Tarja Turunen"
+  },
+  {
+    "question": "Mitä soitinta yhdistetään erityisesti irlantilaiseen kansanmusiikkiin?",
+    "answer": "Tinapilli",
+    "A": "Panhuilu",
+    "B": "Oboe",
+    "C": "Tinapilli",
+    "D": "Klarinetti"
+  },
+  {
+    "question": "Minkä yhtyeen hitti on 'Every Breath You Take'?",
+    "answer": "The Police",
+    "A": "Duran Duran",
+    "B": "The Police",
+    "C": "Tears for Fears",
+    "D": "Simple Minds"
+  },
+  {
+    "question": "Mikä on 'polyrytmiikka'?",
+    "answer": "Usean eri rytmin samanaikainen käyttö",
+    "A": "Erittäin nopea rytmi",
+    "B": "Rytmin täydellinen puuttuminen",
+    "C": "Usean eri rytmin samanaikainen käyttö",
+    "D": "Vain yhden soittimen rytmi"
+  },
+  {
+    "question": "Kenen laulajan elämästä kertoo elokuva 'Rocketman'?",
+    "answer": "Elton John",
+    "A": "Liberace",
+    "B": "Elton John",
+    "C": "Billy Joel",
+    "D": "Freddie Mercury"
+  },
+  {
+    "question": "Mistä Stam1na-yhtye on tunnettu kielellisesti?",
+    "answer": "Lemin murteen käytöstä",
+    "A": "Laulamisesta englanniksi",
+    "B": "Useiden kielien sekoittamisesta",
+    "C": "Lemin murteen käytöstä",
+    "D": "Täysin keksityn kielen käytöstä"
+  },
+  {
+    "question": "Mikä on kitaran osa, jossa virityskoneisto sijaitsee?",
+    "answer": "Lapa",
+    "A": "Kaula",
+    "B": "Runko",
+    "C": "Lapa",
+    "D": "Talla"
+  },
+  {
+    "question": "Kuka oli Yhdysvaltain ensimmäinen 'American Idol' -voittaja?",
+    "answer": "Kelly Clarkson",
+    "A": "Carrie Underwood",
+    "B": "Jennifer Hudson",
+    "C": "Kelly Clarkson",
+    "D": "Fantasia Barrino"
+  },
+  {
+    "question": "Minkä tyylisuunnan edustaja on klassinen säveltäjä Claude Debussy?",
+    "answer": "Impressionismi",
+    "A": "Romantiikka",
+    "B": "Barokki",
+    "C": "Impressionismi",
+    "D": "Klassismi"
+  },
+  {
+    "question": "Kuka on Tehosekoitin-yhtyeen laulaja?",
+    "answer": "Otto Grundström",
+    "A": "Herra Ylppö",
+    "B": "Olavi Uusivirta",
+    "C": "Otto Grundström",
+    "D": "Marzi Nyman"
+  },
+  {
+    "question": "Mikä on soinnun käännös?",
+    "answer": "Soinnun sävelten järjestys on muutettu",
+    "A": "Sointu soitetaan kovempaa",
+    "B": "Soinnun sävelten järjestys on muutettu",
+    "C": "Sointu soitetaan toisella soittimella",
+    "D": "Sointuun lisätään uusi sävel"
+  },
+  {
+    "question": "Minkä yhtyeen albumi on 'Led Zeppelin IV', jolla on kappale 'Stairway to Heaven'?",
+    "answer": "Led Zeppelin",
+    "A": "The Rolling Stones",
+    "B": "Led Zeppelin",
+    "C": "Deep Purple",
+    "D": "Jethro Tull"
+  },
+  {
+    "question": "Kuka on Suomen menestynein naisartisti Emma-palkintojen historiassa?",
+    "answer": "Vesala",
+    "A": "Kaija Koo",
+    "B": "Jenni Vartiainen",
+    "C": "Vesala",
+    "D": "Chisu"
+  },
+  {
+    "question": "Mikä on punk-yhtye Ramonesin tunnetuin iskulause?",
+    "answer": "Hey! Ho! Let's Go!",
+    "A": "Anarchy in the U.K.!",
+    "B": "God Save the Queen!",
+    "C": "Hey! Ho! Let's Go!",
+    "D": "No Future!"
+  },
+  {
+    "question": "Mikä artisti teki platinaa myyneen 'Graceland'-albumin, jossa on vaikutteita eteläafrikkalaisesta musiikista?",
+    "answer": "Paul Simon",
+    "A": "Peter Gabriel",
+    "B": "Paul Simon",
+    "C": "David Byrne",
+    "D": "Sting"
+  },
+  {
+    "question": "Mikä on suomalaisen tangon 'pääkaupunki', jossa järjestetään vuosittain Tangomarkkinat?",
+    "answer": "Seinäjoki",
+    "A": "Tampere",
+    "B": "Pori",
+    "C": "Seinäjoki",
+    "D": "Lappeenranta"
+  },
+  {
+    "question": "Minkä tyylilajin edelläkävijänä pidetään James Brownia?",
+    "answer": "Funk",
+    "A": "Disco",
+    "B": "Funk",
+    "C": "Hip hop",
+    "D": "Rock and roll"
+  },
+  {
+    "question": "Kuka on CMX-yhtyeen laulaja ja pääasiallinen sanoittaja?",
+    "answer": "A. W. Yrjänä",
+    "A": "Timo Rautiainen",
+    "B": "Kaarle Viikate",
+    "C": "A. W. Yrjänä",
+    "D": "Jouni Hynynen"
+  },
+  {
+    "question": "Mikä on musiikkitermi kappaleen lopetukselle?",
+    "answer": "Coda",
+    "A": "Intro",
+    "B": "Bridge",
+    "C": "Coda",
+    "D": "Verse"
+  },
+  {
+    "question": "Kuka on menestynyt ruotsalainen DJ ja tuottaja, joka kuoli vuonna 2018?",
+    "answer": "Avicii",
+    "A": "Swedish House Mafia",
+    "B": "Eric Prydz",
+    "C": "Avicii",
+    "D": "Kygo"
+  },
+  {
+    "question": "Mikä oli The Clash -yhtyeen poliittisesti latautunut tupla-albumi?",
+    "answer": "London Calling",
+    "A": "The Clash",
+    "B": "Sandinista!",
+    "C": "London Calling",
+    "D": "Combat Rock"
+  },
+  {
+    "question": "Kuka on säveltänyt musiikin oopperabalettiin 'Punainen huone'?",
+    "answer": "Aulis Sallinen",
+    "A": "Joonas Kokkonen",
+    "B": "Einojuhani Rautavaara",
+    "C": "Aulis Sallinen",
+    "D": "Kalevi Aho"
+  },
+  {
+    "question": "Mikä on yksi oopperan tunnetuimmista tenorien bravuuriaarioista, jossa on yhdeksän korkeaa c-säveltä?",
+    "answer": "'Ah! mes amis'",
+    "A": "'Nessun dorma'",
+    "B": "'La donna è mobile'",
+    "C": "'Ah! mes amis'",
+    "D": "'Vesti la giubba'"
+  },
+  {
+    "question": "Minkä yhtyeen jäsenet tunnetaan paremmin nimillä 'The Fab Four'?",
+    "answer": "The Beatles",
+    "A": "The Beach Boys",
+    "B": "The Monkees",
+    "C": "The Beatles",
+    "D": "The Kinks"
+  },
+  {
+    "question": "Minkä soittimen mukaan on nimetty pianon edeltäjä, klavikordi?",
+    "answer": "Kieli (chorda)",
+    "A": "Kosketin (clavis)",
+    "B": "Vasara (hammer)",
+    "C": "Kieli (chorda)",
+    "D": "Runko (corpus)"
+  },
+  {
+    "question": "Minkä suomalaisen rock-yhtyeen 40-vuotisjuhlakonsertti Ratinan stadionilla keräsi yli 30 000 katsojaa?",
+    "answer": "Eppu Normaali",
+    "A": "Popeda",
+    "B": "Yö",
+    "C": "Eppu Normaali",
+    "D": "Hassisen Kone"
+  },
+  {
+    "question": "Mikä on Woodstock-festivaalin järjestämisvuosi?",
+    "answer": "1969",
+    "A": "1967",
+    "B": "1971",
+    "C": "1969",
+    "D": "1970"
+  },
+  {
+    "question": "Minkä metalliyhtyeen keulakuvia ovat laulaja James Hetfield ja rumpali Lars Ulrich?",
+    "answer": "Metallica",
+    "A": "Slayer",
+    "B": "Megadeth",
+    "C": "Metallica",
+    "D": "Anthrax"
+  },
+  {
+    "question": "Mitä musiikkitermi 'staccato' tarkoittaa?",
+    "answer": "Lyhyesti, erotellusti",
+    "A": "Pehmeästi ja laulavasti",
+    "B": "Lyhyesti, erotellusti",
+    "C": "Erittäin voimakkaasti",
+    "D": "Nopeutuen"
+  }
+]
 }

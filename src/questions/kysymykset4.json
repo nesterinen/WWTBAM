@@ -1,4 +1,1277 @@
 {
-  "description": "tyhjä",
-  "questions": []
+  "description": "Urheilu: 159kpl",
+  "questions": [
+  {
+    "question": "Kuinka monta olympiakultaa juoksija Paavo Nurmi voitti urallaan?",
+    "answer": "9",
+    "A": "7",
+    "B": "9",
+    "C": "10",
+    "D": "12"
+  },
+  {
+    "question": "Minkä NHL-seuran riveissä Teemu Selänne voitti Stanley Cupin?",
+    "answer": "Anaheim Ducks",
+    "A": "Winnipeg Jets",
+    "B": "San Jose Sharks",
+    "C": "Colorado Avalanche",
+    "D": "Anaheim Ducks"
+  },
+  {
+    "question": "Missä kaupungissa pidettiin vuoden 1952 kesäolympialaiset?",
+    "answer": "Helsinki",
+    "A": "Tukholma",
+    "B": "Lontoo",
+    "C": "Helsinki",
+    "D": "Oslo"
+  },
+  {
+    "question": "Kuka on eniten Formula 1 -maailmanmestaruuksia voittanut kuljettaja Michael Schumacherin ohella?",
+    "answer": "Lewis Hamilton",
+    "A": "Ayrton Senna",
+    "B": "Alain Prost",
+    "C": "Lewis Hamilton",
+    "D": "Sebastian Vettel"
+  },
+  {
+    "question": "Mikä maa on voittanut eniten jalkapallon miesten maailmanmestaruuksia?",
+    "answer": "Brasilia",
+    "A": "Saksa",
+    "B": "Argentiina",
+    "C": "Italia",
+    "D": "Brasilia"
+  },
+  {
+    "question": "Mikä on maratonjuoksun tarkka virallinen mitta?",
+    "answer": "42,195 kilometriä",
+    "A": "40 kilometriä",
+    "B": "42,195 kilometriä",
+    "C": "41,5 kilometriä",
+    "D": "43 kilometriä"
+  },
+  {
+    "question": "Kuka suomalainen voitti Formula 1 -maailmanmestaruuden vuonna 2007?",
+    "answer": "Kimi Räikkönen",
+    "A": "Mika Häkkinen",
+    "B": "Valtteri Bottas",
+    "C": "Kimi Räikkönen",
+    "D": "Keke Rosberg"
+  },
+  {
+    "question": "Mikä on Wayne Gretzkyn lempinimi?",
+    "answer": "The Great One",
+    "A": "Super Mario",
+    "B": "The Finnish Flash",
+    "C": "The Great One",
+    "D": "The Rocket"
+  },
+  {
+    "question": "Mistä lajista Matti Nykänen on tunnetuin?",
+    "answer": "Mäkihyppy",
+    "A": "Keihäänheitto",
+    "B": "Yhdistetty",
+    "C": "Mäkihyppy",
+    "D": "Alppihiihto"
+  },
+  {
+    "question": "Kuinka monta pelaajaa on jääkiekkojoukkueella kentällä kerrallaan maalivahti mukaan lukien?",
+    "answer": "6",
+    "A": "5",
+    "B": "6",
+    "C": "7",
+    "D": "11"
+  },
+  {
+    "question": "Kuka on kaikkien aikojen eniten maaleja NHL:n runkosarjassa tehnyt pelaaja?",
+    "answer": "Wayne Gretzky",
+    "A": "Gordie Howe",
+    "B": "Jaromir Jagr",
+    "C": "Wayne Gretzky",
+    "D": "Alex Ovechkin"
+  },
+  {
+    "question": "Missä urheilulajissa kilpaillaan Stanley Cupin voitosta?",
+    "answer": "Jääkiekko",
+    "A": "Koripallo",
+    "B": "Baseball",
+    "C": "Jääkiekko",
+    "D": "Amerikkalainen jalkapallo"
+  },
+  {
+    "question": "Mikä on Suomen kansallispeli?",
+    "answer": "Pesäpallo",
+    "A": "Salibandy",
+    "B": "Jääkiekko",
+    "C": "Pesäpallo",
+    "D": "Keilailu"
+  },
+  {
+    "question": "Kuka piti hallussaan keihäänheiton maailmanennätystä ennen Jan Železnýä?",
+    "answer": "Steve Backley",
+    "A": "Seppo Räty",
+    "B": "Aki Parviainen",
+    "C": "Steve Backley",
+    "D": "Tero Pitkämäki"
+  },
+  {
+    "question": "Mistä lajista Michael Jordan tunnetaan?",
+    "answer": "Koripallo",
+    "A": "Baseball",
+    "B": "Uinti",
+    "C": "Koripallo",
+    "D": "Yleisurheilu"
+  },
+  {
+    "question": "Minä vuonna Suomi voitti historiansa ensimmäisen jääkiekon miesten maailmanmestaruuden?",
+    "answer": "1995",
+    "A": "1994",
+    "B": "1995",
+    "C": "2001",
+    "D": "2011"
+  },
+  {
+    "question": "Mikä tennisturnaus pelataan ruohokentällä Lontoossa?",
+    "answer": "Wimbledon",
+    "A": "Ranskan avoimet",
+    "B": "Yhdysvaltain avoimet",
+    "C": "Wimbledon",
+    "D": "Australian avoimet"
+  },
+  {
+    "question": "Kuka on ainoa urheilija, joka on voittanut kultaa sekä kesä- että talviolympialaisissa eri lajeissa?",
+    "answer": "Eddie Eagan",
+    "A": "Clara Hughes",
+    "B": "Christa Luding-Rothenburger",
+    "C": "Eddie Eagan",
+    "D": "Shaun White"
+  },
+  {
+    "question": "Minkä maalivahtilegendan mukaan on nimetty NHL:n parhaan maalivahdin palkinto?",
+    "answer": "Georges Vézina",
+    "A": "Terry Sawchuk",
+    "B": "Ken Dryden",
+    "C": "Georges Vézina",
+    "D": "Patrick Roy"
+  },
+  {
+    "question": "Kuka on voittanut eniten rallin maailmanmestaruuksia?",
+    "answer": "Sébastien Loeb",
+    "A": "Tommi Mäkinen",
+    "B": "Juha Kankkunen",
+    "C": "Sébastien Loeb",
+    "D": "Sébastien Ogier"
+  },
+  {
+    "question": "Mitä tarkoittaa 'hat-trick' eli hattutemppu jalkapallossa?",
+    "answer": "Sama pelaaja tekee kolme maalia yhdessä ottelussa",
+    "A": "Kolme peräkkäistä voittoa",
+    "B": "Sama pelaaja tekee kolme maalia yhdessä ottelussa",
+    "C": "Kolme syöttöpistettä yhdessä ottelussa",
+    "D": "Maali, syöttö ja varoitus samassa pelissä"
+  },
+  {
+    "question": "Minkä kaupungin NBA-joukkue on Los Angeles Lakers?",
+    "answer": "Los Angeles",
+    "A": "Chicago",
+    "B": "Boston",
+    "C": "Los Angeles",
+    "D": "Miami"
+  },
+  {
+    "question": "Kuka suomalainen nyrkkeilijä voitti olympiakultaa Roomassa 1960?",
+    "answer": "Sten Suvio",
+    "A": "Pentti Hämäläinen",
+    "B": "Olli Mäki",
+    "C": "Sten Suvio",
+    "D": "Gunnar Bärlund"
+  },
+  {
+    "question": "Minkä maan jalkapallomaajoukkueen lempinimi on 'Azzurri'?",
+    "answer": "Italia",
+    "A": "Ranska",
+    "B": "Espanja",
+    "C": "Italia",
+    "D": "Argentiina"
+  },
+  {
+    "question": "Mikä on ampumahiihdon kahden lajin yhdistelmä?",
+    "answer": "Maastohiihto ja ammunta",
+    "A": "Mäkihyppy ja ammunta",
+    "B": "Maastohiihto ja ammunta",
+    "C": "Alppihiihto ja ammunta",
+    "D": "Hiihtosuunnistus ja ammunta"
+  },
+  {
+    "question": "Kuka juoksija teki 'tuplan' voittamalla sekä 5000 että 10000 metrin juoksut sekä Münchenin 1972 että Montrealin 1976 olympialaisissa?",
+    "answer": "Lasse Virén",
+    "A": "Paavo Nurmi",
+    "B": "Emil Zátopek",
+    "C": "Lasse Virén",
+    "D": "Haile Gebrselassie"
+  },
+  {
+    "question": "Mikä on suurin numero, jonka F1-auto voi käyttää?",
+    "answer": "99",
+    "A": "100",
+    "B": "99",
+    "C": "77",
+    "D": "44"
+  },
+  {
+    "question": "Mitä lajia on The Masters Tournament?",
+    "answer": "Golf",
+    "A": "Tennis",
+    "B": "Snooker",
+    "C": "Golf",
+    "D": "Ratsastus"
+  },
+  {
+    "question": "Kuka on eniten Stanley Cup -mestaruuksia voittanut pelaaja?",
+    "answer": "Henri Richard",
+    "A": "Wayne Gretzky",
+    "B": "Jean Béliveau",
+    "C": "Henri Richard",
+    "D": "Maurice Richard"
+  },
+  {
+    "question": "Mikä on Usain Boltin maailmanennätys 100 metrillä?",
+    "answer": "9,58 s",
+    "A": "9,69 s",
+    "B": "9,58 s",
+    "C": "9,63 s",
+    "D": "9,72 s"
+  },
+  {
+    "question": "Missä urheilulajissa käytetään termiä 'sulka'?",
+    "answer": "Sulkapallo",
+    "A": "Nyrkkeily",
+    "B": "Jousiammunta",
+    "C": "Sulkapallo",
+    "D": "Melonta"
+  },
+  {
+    "question": "Minkä seuran riveissä Jari Litmanen voitti Mestarien liigan?",
+    "answer": "Ajax",
+    "A": "Barcelona",
+    "B": "Liverpool",
+    "C": "Ajax",
+    "D": "Bayern München"
+  },
+  {
+    "question": "Mikä on pesäpallossa 'kunniajuoksu'?",
+    "answer": "Lyöjä kiertää kerralla kaikki pesät tyhjään kenttään",
+    "A": "Ottelun viimeinen juoksu",
+    "B": "Lyöjä kiertää kerralla kaikki pesät tyhjään kenttään",
+    "C": "Juoksu, joka ratkaisee ottelun voiton",
+    "D": "Joukkueen sadas juoksu kaudella"
+  },
+  {
+    "question": "Kuka on eniten tenniksen Grand Slam -turnauksia voittanut miespelaaja?",
+    "answer": "Novak Djokovic",
+    "A": "Roger Federer",
+    "B": "Rafael Nadal",
+    "C": "Novak Djokovic",
+    "D": "Pete Sampras"
+  },
+  {
+    "question": "Mistä lajista Muhammad Ali (Cassius Clay) muistetaan?",
+    "answer": "Nyrkkeily",
+    "A": "Paini",
+    "B": "Koripallo",
+    "C": "Nyrkkeily",
+    "D": "Amerikkalainen jalkapallo"
+  },
+  {
+    "question": "Monesko Keke Rosberg oli Formula 1:n maailmanmestaruussarjassa voittaessaan mestaruuden vuonna 1982?",
+    "answer": "Hän voitti vain yhden osakilpailun",
+    "A": "Hän voitti 5 osakilpailua",
+    "B": "Hän voitti 3 osakilpailua",
+    "C": "Hän voitti vain yhden osakilpailun",
+    "D": "Hän ei voittanut yhtään osakilpailua"
+  },
+  {
+    "question": "Mikä seuraavista EI ole yksi tenniksen neljästä Grand Slam -turnauksesta?",
+    "answer": "Miamin avoimet",
+    "A": "Wimbledon",
+    "B": "Ranskan avoimet",
+    "C": "Miamin avoimet",
+    "D": "Australian avoimet"
+  },
+  {
+    "question": "Kuinka monta rengasta on olympialipussa?",
+    "answer": "Viisi",
+    "A": "Neljä",
+    "B": "Viisi",
+    "C": "Kuusi",
+    "D": "Seitsemän"
+  },
+  {
+    "question": "Mikä on Super Bowl?",
+    "answer": "Amerikkalaisen jalkapallon NFL-liigan loppuottelu",
+    "A": "Baseball-liigan loppuottelu",
+    "B": "Koripallon yliopistosarjan loppuottelu",
+    "C": "Amerikkalaisen jalkapallon NFL-liigan loppuottelu",
+    "D": "Suurin keilailuturnaus"
+  },
+  {
+    "question": "Mikä suomalainen kaupunki isännöi hiihdon MM-kisoja seitsemän kertaa?",
+    "answer": "Lahti",
+    "A": "Kuopio",
+    "B": "Rovaniemi",
+    "C": "Lahti",
+    "D": "Helsinki"
+  },
+  {
+    "question": "Minkä pyöräilykilpailun voittaja saa keltaisen paidan?",
+    "answer": "Tour de France",
+    "A": "Giro d'Italia",
+    "B": "Vuelta a España",
+    "C": "Tour de France",
+    "D": "Pariisi-Roubaix"
+  },
+  {
+    "question": "Minkä maan hiihtäjä on Marit Bjørgen, kaikkien aikojen menestynein talviolympiaurheilija?",
+    "answer": "Norja",
+    "A": "Ruotsi",
+    "B": "Norja",
+    "C": "Suomi",
+    "D": "Saksa"
+  },
+  {
+    "question": "Mikä on uimari Michael Phelpsin kotimaa?",
+    "answer": "Yhdysvallat",
+    "A": "Australia",
+    "B": "Saksa",
+    "C": "Yhdysvallat",
+    "D": "Iso-Britannia"
+  },
+  {
+    "question": "Kuka on ainoa nyrkkeilijä, joka on lopettanut uransa voittamattomana raskaansarjan maailmanmestarina?",
+    "answer": "Rocky Marciano",
+    "A": "Muhammad Ali",
+    "B": "Joe Louis",
+    "C": "Rocky Marciano",
+    "D": "Tyson Fury"
+  },
+  {
+    "question": "Missä lajissa Suomi voitti olympiakultaa Riossa 2016?",
+    "answer": "Paini",
+    "A": "Nyrkkeily",
+    "B": "Purjehdus",
+    "C": "Paini",
+    "D": "Uinti"
+  },
+  {
+    "question": "Mitä tarkoittaa 'paitsio' jalkapallossa?",
+    "answer": "Hyökkäävä pelaaja on lähempänä vastustajan päätyrajaa kuin pallo ja toiseksi alin vastustaja",
+    "A": "Pelaaja potkaisee pallon yli sivurajan",
+    "B": "Maalivahti ottaa pallon käsiinsä oman pelaajan syötöstä",
+    "C": "Hyökkäävä pelaaja on lähempänä vastustajan päätyrajaa kuin pallo ja toiseksi alin vastustaja",
+    "D": "Pelaaja rikkoo vastustajaa takaapäin"
+  },
+  {
+    "question": "Montako pistettä on täydellinen sarja keilailussa?",
+    "answer": "300",
+    "A": "250",
+    "B": "300",
+    "C": "270",
+    "D": "200"
+  },
+  {
+    "question": "Kuka on Suomen naisten jalkapallomaajoukkueen kaikkien aikojen paras maalintekijä?",
+    "answer": "Linda Sällström",
+    "A": "Laura Österberg Kalmari",
+    "B": "Sanna Talonen",
+    "C": "Linda Sällström",
+    "D": "Sanna Valkonen"
+  },
+  {
+    "question": "Mikä on telinevoimistelun laji, jossa kilpaillaan vain miehillä?",
+    "answer": "Renkaat",
+    "A": "Puomi",
+    "B": "Eritasonojapuut",
+    "C": "Renkaat",
+    "D": "Hyppy"
+  },
+  {
+    "question": "Missä lajissa kilpaillaan Ryder Cupissa?",
+    "answer": "Golf",
+    "A": "Kriketti",
+    "B": "Polo",
+    "C": "Golf",
+    "D": "Rugby"
+  },
+  {
+    "question": "Minkä painoluokan maailmanmestaruuden Eva Wahlström voitti ensimmäisenä suomalaisnaisena?",
+    "answer": "Yleinen höyhensarja",
+    "A": "Kevytsarja",
+    "B": "Kärpässarja",
+    "C": "Yleinen höyhensarja",
+    "D": "Keskisarja"
+  },
+  {
+    "question": "Mikä on Iivo Niskasen paraatimatka hiihdossa?",
+    "answer": "50 km perinteinen",
+    "A": "Sprintti",
+    "B": "15 km vapaa",
+    "C": "50 km perinteinen",
+    "D": "Yhdistelmähiihto"
+  },
+  {
+    "question": "Kuka on eniten maaleja yhden NHL-kauden aikana tehnyt pelaaja?",
+    "answer": "Wayne Gretzky",
+    "A": "Mario Lemieux",
+    "B": "Wayne Gretzky",
+    "C": "Brett Hull",
+    "D": "Teemu Selänne"
+  },
+  {
+    "question": "Mikä maa voitti ensimmäisen jalkapallon Euroopan-mestaruuden vuonna 1960?",
+    "answer": "Neuvostoliitto",
+    "A": "Jugoslavia",
+    "B": "Espanja",
+    "C": "Neuvostoliitto",
+    "D": "Tšekkoslovakia"
+  },
+  {
+    "question": "Mikä on 'judo'?",
+    "answer": "Japanilainen kamppailulaji",
+    "A": "Korealainen itsepuolustuslaji",
+    "B": "Kiinalainen voimistelumuoto",
+    "C": "Japanilainen kamppailulaji",
+    "D": "Brasilialainen tanssi"
+  },
+  {
+    "question": "Kuka suomalainen keihäänheittäjä voitti olympiakultaa Atlantassa 1996?",
+    "answer": "Heli Rantanen",
+    "A": "Aki Parviainen",
+    "B": "Seppo Räty",
+    "C": "Heli Rantanen",
+    "D": "Tero Pitkämäki"
+  },
+  {
+    "question": "Mikä joukkue on voittanut eniten pesäpallon miesten Suomen mestaruuksia?",
+    "answer": "Sotkamon Jymy",
+    "A": "Vimpelin Veto",
+    "B": "Kouvolan Pallonlyöjät",
+    "C": "Sotkamon Jymy",
+    "D": "Oulun Lippo"
+  },
+  {
+    "question": "Missä kaupungissa sijaitsee kuuluisa Maracanã-stadion?",
+    "answer": "Rio de Janeiro",
+    "A": "Buenos Aires",
+    "B": "São Paulo",
+    "C": "Rio de Janeiro",
+    "D": "Montevideo"
+  },
+  {
+    "question": "Mitä lajia edustaa Roger Federer?",
+    "answer": "Tennis",
+    "A": "Pöytätennis",
+    "B": "Sulkapallo",
+    "C": "Tennis",
+    "D": "Squash"
+  },
+  {
+    "question": "Kuinka kauan kestävyysjuoksija Lasse Virén kaatui 10 000 metrin finaalissa Münchenin olympialaisissa, mutta voitti silti kultaa?",
+    "answer": "Hän kaatui, mutta nousi ja voitti",
+    "A": "Hän ei kaatunut",
+    "B": "Hän kaatui ja keskeytti",
+    "C": "Hän kaatui, mutta nousi ja voitti",
+    "D": "Hän kaatui ja sijoittui hopealle"
+  },
+  {
+    "question": "Mistä lajista Tiger Woods on tunnettu?",
+    "answer": "Golf",
+    "A": "Uinti",
+    "B": "Autourheilu",
+    "C": "Golf",
+    "D": "Biljardi"
+  },
+  {
+    "question": "Missä joukkueessa Lauri Markkanen aloitti NBA-uransa?",
+    "answer": "Chicago Bulls",
+    "A": "Cleveland Cavaliers",
+    "B": "Utah Jazz",
+    "C": "Chicago Bulls",
+    "D": "Minnesota Timberwolves"
+  },
+  {
+    "question": "Mikä on 'nelson' painissa?",
+    "answer": "Sidontaote",
+    "A": "Heitto",
+    "B": "Kaato",
+    "C": "Sidontaote",
+    "D": "Irtiotto"
+  },
+  {
+    "question": "Kuka on kaikkien aikojen nuorin Formula 1 -maailmanmestari?",
+    "answer": "Sebastian Vettel",
+    "A": "Lewis Hamilton",
+    "B": "Fernando Alonso",
+    "C": "Sebastian Vettel",
+    "D": "Max Verstappen"
+  },
+  {
+    "question": "Mitä tarkoittaa 'deuce' tenniksessä?",
+    "answer": "Tasapeli 40-40",
+    "A": "Syötön uusiminen",
+    "B": "Pelin päättyminen",
+    "C": "Tasapeli 40-40",
+    "D": "Tuplavirhe"
+  },
+  {
+    "question": "Minkä lajin parissa Kalle Palander saavutti menestystä?",
+    "answer": "Alppihiihto",
+    "A": "Freestylehiihto",
+    "B": "Maastohiihto",
+    "C": "Alppihiihto",
+    "D": "Lumilautailu"
+  },
+  {
+    "question": "Mikä on korkein mahdollinen pistemäärä yhdellä tikkasarjalla (3 tikkaa) dartsissa?",
+    "answer": "180",
+    "A": "150",
+    "B": "180",
+    "C": "200",
+    "D": "177"
+  },
+  {
+    "question": "Kuka on eniten maaleja Suomen jalkapallomaajoukkueessa tehnyt pelaaja?",
+    "answer": "Jari Litmanen",
+    "A": "Mikael Forssell",
+    "B": "Teemu Pukki",
+    "C": "Jari Litmanen",
+    "D": "Jonatan Johansson"
+  },
+  {
+    "question": "Mikä on voimistelija Nadia Comănecin kotimaa?",
+    "answer": "Romania",
+    "A": "Unkari",
+    "B": "Venäjä",
+    "C": "Romania",
+    "D": "Bulgaria"
+  },
+  {
+    "question": "Mistä lajista Janne Ahonen tunnetaan?",
+    "answer": "Mäkihyppy",
+    "A": "Yhdistetty",
+    "B": "Ampumahiihto",
+    "C": "Mäkihyppy",
+    "D": "Lumilautailu"
+  },
+  {
+    "question": "Kuinka monta pelaajaa on koripallojoukkueessa kentällä kerrallaan?",
+    "answer": "5",
+    "A": "6",
+    "B": "7",
+    "C": "5",
+    "D": "4"
+  },
+  {
+    "question": "Mikä on Hannes Kolehmaisen lempinimi?",
+    "answer": "Lentävä suomalainen",
+    "A": "Hymyilevä Hannes",
+    "B": "Karhu",
+    "C": "Lentävä suomalainen",
+    "D": "Turun tuima"
+  },
+  {
+    "question": "Mikä on pisin uintimatka olympialaisissa altaassa?",
+    "answer": "1500 metriä",
+    "A": "800 metriä",
+    "B": "1000 metriä",
+    "C": "1500 metriä",
+    "D": "2000 metriä"
+  },
+  {
+    "question": "Kuka on ainoa F1-kuljettaja, joka on voittanut maailmanmestaruuden postuumisti?",
+    "answer": "Jochen Rindt",
+    "A": "Ayrton Senna",
+    "B": "Gilles Villeneuve",
+    "C": "Jochen Rindt",
+    "D": "Ronnie Peterson"
+  },
+  {
+    "question": "Mitä lajia on curling?",
+    "answer": "Jäällä pelattava joukkuepeli",
+    "A": "Mailapeli",
+    "B": "Kamppailulaji",
+    "C": "Jäällä pelattava joukkuepeli",
+    "D": "Vesiurheilulaji"
+  },
+  {
+    "question": "Kuka on kaikkien aikojen eniten olympialaisia voittanut urheilija?",
+    "answer": "Michael Phelps",
+    "A": "Larisa Latynina",
+    "B": "Paavo Nurmi",
+    "C": "Michael Phelps",
+    "D": "Usain Bolt"
+  },
+  {
+    "question": "Minkä maalainen on jalkapalloilija Zlatan Ibrahimović?",
+    "answer": "Ruotsalainen",
+    "A": "Bosnialainen",
+    "B": "Kroatialainen",
+    "C": "Ruotsalainen",
+    "D": "Serbialainen"
+  },
+  {
+    "question": "Missä kaupungissa NBA-joukkue Toronto Raptors pelaa kotiottelunsa?",
+    "answer": "Toronto",
+    "A": "Montreal",
+    "B": "Vancouver",
+    "C": "Toronto",
+    "D": "Ottawa"
+  },
+  {
+    "question": "Mikä on 'yhdistetty' talviurheilulajina?",
+    "answer": "Mäkihyppy ja maastohiihto",
+    "A": "Ampumahiihto ja pujottelu",
+    "B": "Mäkihyppy ja maastohiihto",
+    "C": "Pikaluistelu ja maastohiihto",
+    "D": "Syöksylasku ja pujottelu"
+  },
+  {
+    "question": "Kuka on eniten maaleja yhden kauden aikana salibandyn miesten F-liigassa tehnyt pelaaja?",
+    "answer": "Sami Nyman",
+    "A": "Mika Kohonen",
+    "B": "Eero Kosonen",
+    "C": "Sami Nyman",
+    "D": "Petteri Nykky"
+  },
+  {
+    "question": "Mikä on NFL-joukkueen Green Bay Packersin kotikaupunki?",
+    "answer": "Green Bay",
+    "A": "Milwaukee",
+    "B": "Madison",
+    "C": "Green Bay",
+    "D": "Chicago"
+  },
+  {
+    "question": "Mistä lajista on kyse, kun puhutaan 'Grand Slamista' rugbyssä?",
+    "answer": "Voittaa kaikki muut joukkueet Six Nations -turnauksessa",
+    "A": "Tehdä neljä maalia yhdessä pelissä",
+    "B": "Voittaa kaikki muut joukkueet Six Nations -turnauksessa",
+    "C": "Voittaa maailmanmestaruus",
+    "D": "Pelaajan sadannes maaottelu"
+  },
+  {
+    "question": "Mikä on Teemu Pukin nykyinen seura (heinäkuu 2025)?",
+    "answer": "Minnesota United FC",
+    "A": "Norwich City",
+    "B": "Minnesota United FC",
+    "C": "HJK",
+    "D": "Brøndby IF"
+  },
+  {
+    "question": "Mitä tarkoittaa 'eagle' golfissa?",
+    "answer": "Kaksi lyöntiä alle reiän ihannetuloksen (par)",
+    "A": "Yksi lyönti alle parin",
+    "B": "Kaksi lyöntiä alle reiän ihannetuloksen (par)",
+    "C": "Yksi lyönti yli parin",
+    "D": "Reiän pelaaminen yhdellä lyönnillä"
+  },
+  {
+    "question": "Kuka suomalainen voitti painonnoston olympiakultaa vuonna 2000?",
+    "answer": "Ei kukaan, hopeaa tuli",
+    "A": "Kaarlo Kangasniemi",
+    "B": "Pekka Niemi",
+    "C": "Ei kukaan, hopeaa tuli",
+    "D": "Jouni Grönman"
+  },
+  {
+    "question": "Mikä maa voitti jääkiekon miesten olympiakultaa Pyeongchangissa 2018?",
+    "answer": "Venäjän olympiaurheilijat",
+    "A": "Kanada",
+    "B": "Saksa",
+    "C": "Venäjän olympiaurheilijat",
+    "D": "Ruotsi"
+  },
+  {
+    "question": "Minkä urheilulajin väline on 'mela'?",
+    "answer": "Melonta",
+    "A": "Soutu",
+    "B": "Uinti",
+    "C": "Melonta",
+    "D": "Purjehdus"
+  },
+  {
+    "question": "Kuka on eniten maailmanmestaruuksia voittanut naiskeihäänheittäjä?",
+    "answer": "Kelsey-Lee Barber",
+    "A": "Trine Hattestad",
+    "B": "Barbora Špotáková",
+    "C": "Kelsey-Lee Barber",
+    "D": "Steffi Nerius"
+  },
+  {
+    "question": "Mikä oli Jari Kurrin pelinumero Edmonton Oilersissa?",
+    "answer": "17",
+    "A": "99",
+    "B": "11",
+    "C": "17",
+    "D": "8"
+  },
+  {
+    "question": "Mikä on KHL?",
+    "answer": "Kansainvälinen jääkiekkoliiga",
+    "A": "Suomen koripalloliiga",
+    "B": "Kansainvälinen jääkiekkoliiga",
+    "C": "Pohjois-Amerikan hevosurheiluliitto",
+    "D": "Kansainvälinen käsipalloliiga"
+  },
+  {
+    "question": "Mikä on shakin nappula, joka voi liikkua vain viistoon?",
+    "answer": "Lähetti",
+    "A": "Torni",
+    "B": "Ratsu",
+    "C": "Lähetti",
+    "D": "Sotilas"
+  },
+  {
+    "question": "Mistä lajista on kyse, kun puhutaan 'Val di Fiemmen loppunoususta'?",
+    "answer": "Maastohiihto",
+    "A": "Maastopyöräily",
+    "B": "Alppihiihto",
+    "C": "Maastohiihto",
+    "D": "Mäkihyppy"
+  },
+  {
+    "question": "Kuka oli ensimmäinen suomalainen F1-maailmanmestari?",
+    "answer": "Keke Rosberg",
+    "A": "Leo Kinnunen",
+    "B": "Mika Häkkinen",
+    "C": "Keke Rosberg",
+    "D": "JJ Lehto"
+  },
+  {
+    "question": "Mikä on Veikkausliiga?",
+    "answer": "Jalkapallon Suomen pääsarja",
+    "A": "Jääkiekon Suomen pääsarja",
+    "B": "Koripallon Suomen pääsarja",
+    "C": "Jalkapallon Suomen pääsarja",
+    "D": "Pesäpallon Suomen pääsarja"
+  },
+  {
+    "question": "Missä olympialaisissa Veli-Matti 'Aku' Partanen saavutti uransa parhaan olympiasijoituksen?",
+    "answer": "Tokio 2020 (pidettiin 2021)",
+    "A": "Rio 2016",
+    "B": "Lontoo 2012",
+    "C": "Tokio 2020 (pidettiin 2021)",
+    "D": "Peking 2008"
+  },
+  {
+    "question": "Kuinka monta erää pelataan lentopallo-ottelun voittoon?",
+    "answer": "Kolme",
+    "A": "Kaksi",
+    "B": "Kolme",
+    "C": "Neljä",
+    "D": "Viisi"
+  },
+  {
+    "question": "Kenen F1-kuljettajan lempinimi on 'Iceman'?",
+    "answer": "Kimi Räikkönen",
+    "A": "Valtteri Bottas",
+    "B": "Mika Salo",
+    "C": "Kimi Räikkönen",
+    "D": "Heikki Kovalainen"
+  },
+  {
+    "question": "Mikä maa on hallitseva (2024) miesten koripallon maailmanmestari?",
+    "answer": "Saksa",
+    "A": "Yhdysvallat",
+    "B": "Espanja",
+    "C": "Saksa",
+    "D": "Serbia"
+  },
+  {
+    "question": "Missä lajissa Pertti Karppinen voitti kolme peräkkäistä olympiakultaa?",
+    "answer": "Soutu",
+    "A": "Melonta",
+    "B": "Purjehdus",
+    "C": "Soutu",
+    "D": "Uinti"
+  },
+  {
+    "question": "Mikä on 'bullseye' darts-taulussa?",
+    "answer": "Taulun keskipiste",
+    "A": "Uloin rengas",
+    "B": "Taulun keskipiste",
+    "C": "Korkeimman pistemäärän sektori",
+    "D": "Tuplarengas"
+  },
+  {
+    "question": "Mistä lajista on peräisin sanonta 'heitä sikaa'?",
+    "answer": "Curling",
+    "A": "Keilailu",
+    "B": "Kuulantyöntö",
+    "C": "Curling",
+    "D": "Petankki"
+  },
+  {
+    "question": "Minkä maalainen on alppihiihtäjä Mikaela Shiffrin?",
+    "answer": "Yhdysvaltalainen",
+    "A": "Itävaltalainen",
+    "B": "Sveitsiläinen",
+    "C": "Yhdysvaltalainen",
+    "D": "Norjalainen"
+  },
+  {
+    "question": "Minkä NHL-seuran Saku ja Mikko Koivu ovat molemmat toimineet kapteenina?",
+    "answer": "Montreal Canadiens (Saku) & Minnesota Wild (Mikko)",
+    "A": "Ei minkään",
+    "B": "Montreal Canadiens",
+    "C": "Anaheim Ducks",
+    "D": "TPS"
+  },
+  {
+    "question": "Mikä on krikettiottelun tavoite?",
+    "answer": "Kerätä enemmän juoksuja kuin vastustaja",
+    "A": "Saada pallo maaliin",
+    "B": "Lyödä pallo kentän ulkopuolelle",
+    "C": "Kerätä enemmän juoksuja kuin vastustaja",
+    "D": "Polttaa kaikki vastustajan pelaajat"
+  },
+  {
+    "question": "Mikä on 'jokeri' pesäpallossa?",
+    "answer": "Pelaaja, joka voi lyödä, mutta ei osallistu ulkopeliin normaalisti",
+    "A": "Varamaalivahti",
+    "B": "Joukkueen kapteeni",
+    "C": "Pelaaja, joka voi lyödä, mutta ei osallistu ulkopeliin normaalisti",
+    "D": "Nopein juoksija"
+  },
+  {
+    "question": "Mistä lajista on kyse, kun puhutaan 'Tour de Ski'stä?",
+    "answer": "Maastohiihto",
+    "A": "Pyöräily",
+    "B": "Uinti",
+    "C": "Maastohiihto",
+    "D": "Ratsastus"
+  },
+  {
+    "question": "Kuka on eniten otteluita Suomen jääkiekkomaajoukkueessa pelannut pelaaja?",
+    "answer": "Raimo Helminen",
+    "A": "Ville Peltonen",
+    "B": "Lasse Oksanen",
+    "C": "Raimo Helminen",
+    "D": "Timo Jutila"
+  },
+  {
+    "question": "Mikä on 'Grand Slam' baseballissa?",
+    "answer": "Kunnari täysillä pesillä",
+    "A": "Kolme paloa yhdellä syötöllä",
+    "B": "Kunnari täysillä pesillä",
+    "C": "Pelaajan neljäs kunnari kaudella",
+    "D": "Voittaa kaikki neljä suurinta liigaa"
+  },
+  {
+    "question": "Minkä seuran managerina Sir Alex Ferguson saavutti suurimmat menestyksensä?",
+    "answer": "Manchester United",
+    "A": "Liverpool",
+    "B": "Arsenal",
+    "C": "Manchester United",
+    "D": "Aberdeen"
+  },
+  {
+    "question": "Mitä lajia edustaa suomalainen Petteri Koponen?",
+    "answer": "Koripallo",
+    "A": "Lentopallo",
+    "B": "Käsipallo",
+    "C": "Koripallo",
+    "D": "Salibandy"
+  },
+  {
+    "question": "Mikä on suurin mahdollinen pistemäärä, jonka yhdellä korilla voi saada koripallossa?",
+    "answer": "4",
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "6"
+  },
+  {
+    "question": "Mikä on 'Ironman'-triathlonin uintimatka?",
+    "answer": "3,86 km",
+    "A": "1,5 km",
+    "B": "2,5 km",
+    "C": "3,86 km",
+    "D": "5 km"
+  },
+  {
+    "question": "Mikä maa on voittanut eniten miesten käsipallon maailmanmestaruuksia?",
+    "answer": "Ranska",
+    "A": "Ruotsi",
+    "B": "Saksa",
+    "C": "Ranska",
+    "D": "Tanska"
+  },
+  {
+    "question": "Kuka suomalainen hiihtäjä voitti ensimmäisenä Tour de Skin?",
+    "answer": "Virpi Kuitunen",
+    "A": "Aino-Kaisa Saarinen",
+    "B": "Kerttu Niskanen",
+    "C": "Virpi Kuitunen",
+    "D": "Krista Pärmäkoski"
+  },
+  {
+    "question": "Mikä on 'pakkipari' jääkiekossa?",
+    "answer": "Kaksi puolustajaa, jotka pelaavat yhdessä",
+    "A": "Kaksi hyökkääjää samassa ketjussa",
+    "B": "Maalivahti ja hänen varamiehensä",
+    "C": "Kaksi puolustajaa, jotka pelaavat yhdessä",
+    "D": "Kaksi veljestä samassa joukkueessa"
+  },
+  {
+    "question": "Missä kaupungissa sijaitsee kuuluisa Wembley Stadium?",
+    "answer": "Lontoo",
+    "A": "Manchester",
+    "B": "Liverpool",
+    "C": "Lontoo",
+    "D": "Cardiff"
+  },
+  {
+    "question": "Mikä on 'punainen kortti' jalkapallossa?",
+    "answer": "Ulosajo pelistä",
+    "A": "Varoitus",
+    "B": "Ulosajo pelistä",
+    "C": "Vapaapotku",
+    "D": "Paitsio"
+  },
+  {
+    "question": "Mistä lajista on kyse, kun puhutaan 'hole-in-one'sta?",
+    "answer": "Golf",
+    "A": "Keilailu",
+    "B": "Minigolf",
+    "C": "Golf",
+    "D": "Biljardi"
+  },
+  {
+    "question": "Kuka on kaikkien aikojen menestynein suomalainen naisurheilija olympialaisissa?",
+    "answer": "Marja-Liisa Kirvesniemi",
+    "A": "Siiri Rantanen",
+    "B": "Hilkka Riihivuori",
+    "C": "Marja-Liisa Kirvesniemi",
+    "D": "Riitta-Liisa Roponen"
+  },
+  {
+    "question": "Mitä lajia on 'UFC'?",
+    "answer": "Vapaaottelu",
+    "A": "Showpaini",
+    "B": "Nyrkkeily",
+    "C": "Vapaaottelu",
+    "D": "Sumopaini"
+  },
+  {
+    "question": "Mistä maasta jalkapalloilija Lionel Messi on kotoisin?",
+    "answer": "Argentiina",
+    "A": "Brasilia",
+    "B": "Espanja",
+    "C": "Argentiina",
+    "D": "Portugali"
+  },
+  {
+    "question": "Mikä on jääkiekon MM-kisojen virallinen järjestäjä?",
+    "answer": "IIHF",
+    "A": "NHL",
+    "B": "KHL",
+    "C": "IIHF",
+    "D": "WHA"
+  },
+  {
+    "question": "Minkä urheilulajin parissa Tommi Mäkinen on nelinkertainen maailmanmestari?",
+    "answer": "Ralli",
+    "A": "Rata-autoilu",
+    "B": "Enduro",
+    "C": "Ralli",
+    "D": "Formula 1"
+  },
+  {
+    "question": "Mikä on beach volleyn pelaajamäärä joukkuetta kohti kentällä?",
+    "answer": "2",
+    "A": "3",
+    "B": "4",
+    "C": "2",
+    "D": "1"
+  },
+  {
+    "question": "Kuka on 'Lentävä kalakukko'?",
+    "answer": "Matti Nykänen",
+    "A": "Jari Puikkonen",
+    "B": "Janne Ahonen",
+    "C": "Matti Nykänen",
+    "D": "Ari-Pekka Nikkola"
+  },
+  {
+    "question": "Missä urheilulajissa jaetaan 'Kultainen pallo' (Ballon d'Or)?",
+    "answer": "Jalkapallo",
+    "A": "Koripallo",
+    "B": "Käsipallo",
+    "C": "Jalkapallo",
+    "D": "Lentopallo"
+  },
+  {
+    "question": "Minkä kaupungin joukkue on AC Milan?",
+    "answer": "Milano",
+    "A": "Rooma",
+    "B": "Torino",
+    "C": "Milano",
+    "D": "Napoli"
+  },
+  {
+    "question": "Kuinka pitkä on yksi erä ammattilaisnyrkkeilyssä miehillä?",
+    "answer": "3 minuuttia",
+    "A": "2 minuuttia",
+    "B": "3 minuuttia",
+    "C": "4 minuuttia",
+    "D": "5 minuuttia"
+  },
+  {
+    "question": "Mitä lajia on 'skeet'?",
+    "answer": "Ammunta",
+    "A": "Jousiammunta",
+    "B": "Ammunta",
+    "C": "Miekkailu",
+    "D": "Melonta"
+  },
+  {
+    "question": "Kuka oli ensimmäinen suomalainen NHL-pelaaja?",
+    "answer": "Pentti Lund",
+    "A": "Matti Hagman",
+    "B": "Pekka Rautakallio",
+    "C": "Pentti Lund",
+    "D": "Jari Kurri"
+  },
+  {
+    "question": "Mikä urheilutapahtuma tunnetaan myös nimellä 'The Championships'?",
+    "answer": "Wimbledon",
+    "A": "The Masters",
+    "B": "Super Bowl",
+    "C": "Wimbledon",
+    "D": "Olympialaiset"
+  },
+  {
+    "question": "Mikä on snooker-pöydän pallojen kokonaismäärä pelin alussa (pois lukien valkoinen pallo)?",
+    "answer": "21",
+    "A": "15",
+    "B": "22",
+    "C": "21",
+    "D": "16"
+  },
+  {
+    "question": "Minkä urheilulajin väline on 'floretti'?",
+    "answer": "Miekkailu",
+    "A": "Voimistelu",
+    "B": "Melonta",
+    "C": "Miekkailu",
+    "D": "Ammunta"
+  },
+  {
+    "question": "Missä maassa järjestettiin ensimmäiset talviolympialaiset?",
+    "answer": "Ranska",
+    "A": "Sveitsi",
+    "B": "Norja",
+    "C": "Ranska",
+    "D": "Yhdysvallat"
+  },
+  {
+    "question": "Minkä joukkueen Patrik Laine varasi NHL:ään?",
+    "answer": "Winnipeg Jets",
+    "A": "Columbus Blue Jackets",
+    "B": "Florida Panthers",
+    "C": "Winnipeg Jets",
+    "D": "Toronto Maple Leafs"
+  },
+  {
+    "question": "Mitä tarkoittaa 'ykkösellä sisään' pesäpallossa?",
+    "answer": "Lyöjä menee suoraan ykköspesälle, eikä kukaan pala",
+    "A": "Ensimmäinen lyönti on kunnari",
+    "B": "Lyöjä menee suoraan ykköspesälle, eikä kukaan pala",
+    "C": "Joukkueen ensimmäinen juoksu",
+    "D": "Ensimmäinen lyöjä palaa"
+  },
+  {
+    "question": "Kuka on naisten 100 metrin aitajuoksun maailmanennätyksen haltija?",
+    "answer": "Tobi Amusan",
+    "A": "Kendra Harrison",
+    "B": "Jordanka Donkova",
+    "C": "Tobi Amusan",
+    "D": "Sally Pearson"
+  },
+  {
+    "question": "Mikä on 'moguli' freestylehiihdossa?",
+    "answer": "Kumpare",
+    "A": "Hyppyri",
+    "B": "Kouru",
+    "C": "Kumpare",
+    "D": "Temppu"
+  },
+  {
+    "question": "Minkä lajin tähti on Tom Brady?",
+    "answer": "Amerikkalainen jalkapallo",
+    "A": "Baseball",
+    "B": "Jääkiekko",
+    "C": "Amerikkalainen jalkapallo",
+    "D": "Lacrosse"
+  },
+  {
+    "question": "Mitä lajia on 'keilaus'?",
+    "answer": "Peli, jossa yritetään kaataa keiloja pallolla",
+    "A": "Heittolaji kentällä",
+    "B": "Peli, jossa yritetään kaataa keiloja pallolla",
+    "C": "Taitoluistelun elementti",
+    "D": "Voimistelulaji"
+  },
+  {
+    "question": "Mikä on Saksan jalkapallon pääsarjan nimi?",
+    "answer": "Bundesliiga",
+    "A": "Serie A",
+    "B": "La Liga",
+    "C": "Bundesliiga",
+    "D": "Ligue 1"
+  },
+  {
+    "question": "Kuka voitti soudun yksiköissä olympiakultaa kolmissa peräkkäisissä kisoissa?",
+    "answer": "Pertti Karppinen",
+    "A": "Thomas Lange",
+    "B": "Vjatsheslav Ivanov",
+    "C": "Pertti Karppinen",
+    "D": "Olaf Tufte"
+  },
+  {
+    "question": "Mistä lajista on peräisin termi 'kova kuin kivi'?",
+    "answer": "Curling",
+    "A": "Nyrkkeily",
+    "B": "Painonnosto",
+    "C": "Curling",
+    "D": "Kiipeily"
+  },
+  {
+    "question": "Mikä on 'keltaisen kortin' merkitys jalkapallossa?",
+    "answer": "Varoitus",
+    "A": "Ulosajo",
+    "B": "Varoitus",
+    "C": "Pelaajan vaihto",
+    "D": "Lisäaika"
+  },
+  {
+    "question": "Mikä maa on voittanut eniten miesten lentopallon maailmanmestaruuksia?",
+    "answer": "Neuvostoliitto/Venäjä",
+    "A": "Brasilia",
+    "B": "Italia",
+    "C": "Neuvostoliitto/Venäjä",
+    "D": "Yhdysvallat"
+  },
+  {
+    "question": "Mikä oli Hannes Kolehmaisen voittama ensimmäinen olympiamatka Tukholmassa 1912?",
+    "answer": "10 000 metriä",
+    "A": "5 000 metriä",
+    "B": "Maraton",
+    "C": "10 000 metriä",
+    "D": "Maastojuoksu"
+  },
+  {
+    "question": "Mistä lajista on kyse, kun puhutaan 'liukkaan kelin especialista'?",
+    "answer": "Ralli",
+    "A": "Pikaluistelu",
+    "B": "Uinti",
+    "C": "Ralli",
+    "D": "Alppihiihto"
+  },
+  {
+    "question": "Mikä on 'erä' nyrkkeilyssä?",
+    "answer": "Määrätyn pituinen ottelujakso",
+    "A": "Isku",
+    "B": "Määrätyn pituinen ottelujakso",
+    "C": "Tulos",
+    "D": "Tauko"
+  },
+  {
+    "question": "Missä maassa pelataan 'El Clásico' -jalkapallo-ottelu?",
+    "answer": "Espanja",
+    "A": "Italia",
+    "B": "Englanti",
+    "C": "Espanja",
+    "D": "Saksa"
+  },
+  {
+    "question": "Mikä on 'rangaistuspotku' jalkapallossa?",
+    "answer": "Potku 11 metristä rikkeen jälkeen",
+    "A": "Vapaapotku sivurajalta",
+    "B": "Potku 11 metristä rikkeen jälkeen",
+    "C": "Kulmapotku",
+    "D": "Aloituspotku"
+  },
+  {
+    "question": "Minkä lajin urheilija on Valtteri Bottas?",
+    "answer": "Formula 1",
+    "A": "Ralli",
+    "B": "Moottoripyöräily",
+    "C": "Formula 1",
+    "D": "Rata-autoilu (DTM)"
+  },
+  {
+    "question": "Mitä lajia kutsutaan 'herrasmiesurheiluksi'?",
+    "answer": "Kriketti",
+    "A": "Nyrkkeily",
+    "B": "Rugby",
+    "C": "Kriketti",
+    "D": "Polo"
+  },
+  {
+    "question": "Mikä on 'haasto' pesäpallossa?",
+    "answer": "Heitto, jolla yritetään polttaa etenijä pesien välille",
+    "A": "Lyöjän lyöntivuoron haastaminen",
+    "B": "Heitto, jolla yritetään polttaa etenijä pesien välille",
+    "C": "Tuomarin päätöksen kyseenalaistaminen",
+    "D": "Vastustajan juoksijan kilpajuoksuun haastaminen"
+  },
+  {
+    "question": "Kuka on kaikkien aikojen menestynein suomalainen tennispelaaja?",
+    "answer": "Jarkko Nieminen",
+    "A": "Henri Kontinen",
+    "B": "Veli Paloheimo",
+    "C": "Jarkko Nieminen",
+    "D": "Emil Ruusuvuori"
+  },
+  {
+    "question": "Mikä on 'olympiamitta' uima-altaassa?",
+    "answer": "50 metriä",
+    "A": "25 metriä",
+    "B": "100 metriä",
+    "C": "50 metriä",
+    "D": "33,3 metriä"
+  },
+  {
+    "question": "Minkä NHL-joukkueen lempinimi on 'Habs'?",
+    "answer": "Montreal Canadiens",
+    "A": "Toronto Maple Leafs",
+    "B": "Boston Bruins",
+    "C": "Montreal Canadiens",
+    "D": "Chicago Blackhawks"
+  },
+  {
+    "question": "Mikä on suurin pistemäärä, jonka yksittäisellä heitolla voi saada koripallon pelitilanteessa?",
+    "answer": "3",
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "1"
+  },
+  {
+    "question": "Mikä on 'maantiepyöräily'?",
+    "answer": "Kilpapyöräilyä maanteillä",
+    "A": "Pyöräilyä sisäradalla",
+    "B": "Pyöräilyä maastossa",
+    "C": "Kilpapyöräilyä maanteillä",
+    "D": "Temppupyöräilyä"
+  },
+  {
+    "question": "Missä lajissa Juha Mieto ja Thomas Wassberg jakoivat hopean 15 sekunnin sadasosan erolla?",
+    "answer": "Maastohiihto",
+    "A": "Pikaluistelu",
+    "B": "Ampumahiihto",
+    "C": "Maastohiihto",
+    "D": "Yhdistetty"
+  }
+]
 }
