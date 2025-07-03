@@ -10,7 +10,11 @@ import millionareLogo from '/WWTBAMUS2020Logo.png'
 import './App.css'
 import './css/confetti.css'
 
-import testiKysym from './questions/kysymykset.json'
+import kysymykset from './questions/kysymykset.json'
+import kysymykset1 from './questions/kysymykset1.json'
+import kysymykset2 from './questions/kysymykset2.json'
+import kysymykset3 from './questions/kysymykset3.json'
+import kysymykset4 from './questions/kysymykset4.json'
 
 const salasana = 'root'
 
@@ -525,14 +529,32 @@ function App() {
   const [muteEffects, setMuteEffects] = useState(false)
   //highscores should probably created into custom react hook.
   const [highscores, setHighscores] = useState<Score[]>([])
+  const [currentQuiz, setCurrentQuiz] = useState(kysymykset)
 
+/*
   useEffect(() => {
-    const newStageMag = loadAndRandomizeQuiz(stageMag, testiKysym)
+    const newStageMag = loadAndRandomizeQuiz(stageMag, currentQuiz)
     setStageMagazine(newStageMag)
     //console.log(stageMag)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[gameState])
-  
+  },[gameState === 'stage'])
+*/
+
+  function changeQuiz(quizNum: number){ // quizNum: 0 | 1 | 2 | 3 | 4
+    const quizArr = [kysymykset, kysymykset1, kysymykset2, kysymykset3, kysymykset4]
+    if(quizArr[quizNum] && quizArr[quizNum].length > 15){
+      console.log('quiz changed.', quizArr[quizNum])
+      setCurrentQuiz(quizArr[quizNum])
+      return true
+    } else {
+      return false
+    }
+  }
+
+  function changeStage(){
+    const newStageMag = loadAndRandomizeQuiz(stageMag, currentQuiz)
+    setStageMagazine(newStageMag)
+  }
 
   useEffect(() => {
     AudioPreloader(stageMagazine)
@@ -609,8 +631,12 @@ function App() {
         <div className='menuState'>
           <img src={millionareLogo} className="logo" alt="Millionare logo" />
           <div className='menuButtonsContainer'>
-            <button className='menuButton sb' onClick={() => setGameState('stage')}>Pelaa</button>
+            <button className='menuButton sb' onClick={() => {
+              changeStage()
+              setGameState('stage')
+            }}>Pelaa</button>
             <button className='menuButton sb' onClick={() => setGameState('scores')}>Top10</button>
+            <button className='menuButton sb' onClick={() => setGameState('settings')}>Asetukset</button>
           </div>
           <SettingsBar/>
         </div>
@@ -637,6 +663,30 @@ function App() {
           }}>Poista</button>
           <SettingsBar/>
         </>
+      )
+
+    case 'settings':
+      return(
+        <div className='settingsStage'>
+          <label htmlFor='quizSelect' className='quizLabel'>Kysymykset:</label>
+          <select onChange={(e) => {
+            const result = changeQuiz(parseInt(e.target.value))
+            const labelElement: HTMLLabelElement | null = document.querySelector('.quizLabel')
+            if(result){
+              if(labelElement) labelElement.style = 'color: green;'
+            } else {
+              alert(`kysymykset(${e.target.value}) on vähemmän kuin 15 vastausta tai tiedosto on puutteellinen`)
+              if(labelElement) labelElement.style = 'color: red;'
+            }
+            }} id='quizSelect'>
+            <option value={0}>0 kysymykset.json</option>
+            <option value={1}>1 kysymykset1.json</option>
+            <option value={2}>2 kysymykset2.json</option>
+            <option value={3}>3 kysymykset3.json</option>
+            <option value={4}>4 kysymykset4.json</option>
+          </select>
+          <SettingsBar/>
+        </div>
       )
 
     default:

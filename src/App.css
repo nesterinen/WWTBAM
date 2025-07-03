@@ -292,6 +292,17 @@
   background-clip: padding-box;
   transition: background 0.25s;
 }
+
+.settingsStage label {
+  font-size: clamp(1rem, 3vh, 3vh);
+}
+
+.settingsStage select {
+  height: clamp(2rem, 5vh, 5vh);
+  /*width: clamp(3rem, 5vw, 5vw);*/
+  font-size: clamp(1rem, 3vh, 3vh);
+}
+
 /*
 .selectedAnswer {
   background-color: coral;
