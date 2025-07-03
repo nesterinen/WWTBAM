@@ -1,1 +1,1422 @@
-[]
+{
+  "description": "Vakio200",
+  "questions":
+[
+  {
+    "question": "Mikä on Suomen pääkaupunki?",
+    "answer": "Helsinki",
+    "A": "Tampere",
+    "B": "Turku",
+    "C": "Helsinki",
+    "D": "Oulu"
+  },
+  {
+    "question": "Kuka kirjoitti kirjan 'Seitsemän veljestä'?",
+    "answer": "Aleksis Kivi",
+    "A": "Väinö Linna",
+    "B": "Aleksis Kivi",
+    "C": "Elias Lönnrot",
+    "D": "Mika Waltari"
+  },
+  {
+    "question": "Mikä on maailman suurin valtameri?",
+    "answer": "Tyynimeri",
+    "A": "Atlantin valtameri",
+    "B": "Intian valtameri",
+    "C": "Tyynimeri",
+    "D": "Eteläinen jäämeri"
+  },
+  {
+    "question": "Kuka maalasi teoksen 'Mona Lisa'?",
+    "answer": "Leonardo da Vinci",
+    "A": "Vincent van Gogh",
+    "B": "Pablo Picasso",
+    "C": "Michelangelo",
+    "D": "Leonardo da Vinci"
+  },
+  {
+    "question": "Mikä on aurinkokuntamme suurin planeetta?",
+    "answer": "Jupiter",
+    "A": "Saturnus",
+    "B": "Jupiter",
+    "C": "Maa",
+    "D": "Mars"
+  },
+  {
+    "question": "Minä vuonna Suomi itsenäistyi?",
+    "answer": "1917",
+    "A": "1905",
+    "B": "1917",
+    "C": "1920",
+    "D": "1809"
+  },
+  {
+    "question": "Mikä on Japanin pääkaupunki?",
+    "answer": "Tokio",
+    "A": "Kioto",
+    "B": "Osaka",
+    "C": "Tokio",
+    "D": "Peking"
+  },
+  {
+    "question": "Kuka sävelsi 'Finlandian'?",
+    "answer": "Jean Sibelius",
+    "A": "Oskar Merikanto",
+    "B": "Jean Sibelius",
+    "C": "Leevi Madetoja",
+    "D": "Toivo Kuula"
+  },
+  {
+    "question": "Mikä on veden kemiallinen kaava?",
+    "answer": "H2O",
+    "A": "CO2",
+    "B": "O2",
+    "C": "H2O",
+    "D": "NaCl"
+  },
+  {
+    "question": "Mikä on Suomen kansallislintu?",
+    "answer": "Laulujoutsen",
+    "A": "Varpunen",
+    "B": "Talitiainen",
+    "C": "Laulujoutsen",
+    "D": "Kotka"
+  },
+  {
+    "question": "Kuka oli Suomen ensimmäinen presidentti?",
+    "answer": "K. J. Ståhlberg",
+    "A": "C. G. E. Mannerheim",
+    "B": "P. E. Svinhufvud",
+    "C": "K. J. Ståhlberg",
+    "D": "Urho Kekkonen"
+  },
+  {
+    "question": "Missä kaupungissa sijaitsee Eiffel-torni?",
+    "answer": "Pariisi",
+    "A": "Lontoo",
+    "B": "Rooma",
+    "C": "Pariisi",
+    "D": "Berliini"
+  },
+  {
+    "question": "Mikä on maailman korkein vuori?",
+    "answer": "Mount Everest",
+    "A": "K2",
+    "B": "Mount Everest",
+    "C": "Kangchenjunga",
+    "D": "Lhotse"
+  },
+  {
+    "question": "Kuka loi Muumi-hahmot?",
+    "answer": "Tove Jansson",
+    "A": "Astrid Lindgren",
+    "B": "Tove Jansson",
+    "C": "Kirsi Kunnas",
+    "D": "Zachris Topelius"
+  },
+  {
+    "question": "Mikä on ihmisen suurin elin?",
+    "answer": "Iho",
+    "A": "Maksa",
+    "B": "Aivot",
+    "C": "Iho",
+    "D": "Keuhkot"
+  },
+  {
+    "question": "Kuka on tunnettu 'Lentävänä suomalaisena'?",
+    "answer": "Paavo Nurmi",
+    "A": "Lasse Virén",
+    "B": "Paavo Nurmi",
+    "C": "Mika Häkkinen",
+    "D": "Matti Nykänen"
+  },
+  {
+    "question": "Mikä on Australian pääkaupunki?",
+    "answer": "Canberra",
+    "A": "Sydney",
+    "B": "Melbourne",
+    "C": "Canberra",
+    "D": "Perth"
+  },
+  {
+    "question": "Minkä yhtyeen laulaja oli Freddie Mercury?",
+    "answer": "Queen",
+    "A": "The Beatles",
+    "B": "Queen",
+    "C": "Led Zeppelin",
+    "D": "The Rolling Stones"
+  },
+  {
+    "question": "Mikä kaasu on yleisin Maan ilmakehässä?",
+    "answer": "Typpi",
+    "A": "Happi",
+    "B": "Hiilidioksidi",
+    "C": "Typpi",
+    "D": "Argon"
+  },
+  {
+    "question": "Mikä on Suomen suurin järvi?",
+    "answer": "Saimaa",
+    "A": "Päijänne",
+    "B": "Inarijärvi",
+    "C": "Saimaa",
+    "D": "Oulujärvi"
+  },
+  {
+    "question": "Minä vuonna ensimmäinen ihminen käveli Kuussa?",
+    "answer": "1969",
+    "A": "1961",
+    "B": "1969",
+    "C": "1972",
+    "D": "1957"
+  },
+  {
+    "question": "Kuka ohjasi elokuvan 'Tuntematon sotilas' (1955)?",
+    "answer": "Edvin Laine",
+    "A": "Aki Kaurismäki",
+    "B": "Renny Harlin",
+    "C": "Edvin Laine",
+    "D": "Aku Louhimies"
+  },
+  {
+    "question": "Mikä on Italian pääkaupunki?",
+    "answer": "Rooma",
+    "A": "Milano",
+    "B": "Venetsia",
+    "C": "Rooma",
+    "D": "Napoli"
+  },
+  {
+    "question": "Kuka kirjoitti 'Kalevalan'?",
+    "answer": "Elias Lönnrot",
+    "A": "J. L. Runeberg",
+    "B": "Elias Lönnrot",
+    "C": "Aleksis Kivi",
+    "D": "Sakari Topelius"
+  },
+  {
+    "question": "Mikä on ihmiskehon vahvin lihas suhteessa kokoonsa?",
+    "answer": "Leukalihas",
+    "A": "Sydän",
+    "B": "Reisilihas",
+    "C": "Leukalihas",
+    "D": "Kieli"
+  },
+  {
+    "question": "Missä kaupungissa pidettiin vuoden 1952 kesäolympialaiset?",
+    "answer": "Helsinki",
+    "A": "Lontoo",
+    "B": "Tukholma",
+    "C": "Helsinki",
+    "D": "Oslo"
+  },
+  {
+    "question": "Mikä on Espanjan kansallistanssi?",
+    "answer": "Flamenco",
+    "A": "Tango",
+    "B": "Salsa",
+    "C": "Flamenco",
+    "D": "Valssi"
+  },
+  {
+    "question": "Mikä alkuaine on timantin pääainesosa?",
+    "answer": "Hiili",
+    "A": "Pii",
+    "B": "Happi",
+    "C": "Hiili",
+    "D": "Kulta"
+  },
+  {
+    "question": "Mikä on Kiinan pääkaupunki?",
+    "answer": "Peking",
+    "A": "Shanghai",
+    "B": "Hongkong",
+    "C": "Peking",
+    "D": "Kanton"
+  },
+  {
+    "question": "Kuka oli Rooman ensimmäinen keisari?",
+    "answer": "Augustus",
+    "A": "Julius Caesar",
+    "B": "Nero",
+    "C": "Augustus",
+    "D": "Caligula"
+  },
+  {
+    "question": "Mikä on Suomen kansalliseläin?",
+    "answer": "Karhu",
+    "A": "Susi",
+    "B": "Hirvi",
+    "C": "Karhu",
+    "D": "Ilves"
+  },
+  {
+    "question": "Kuka maalasi 'Taistelevat metsot'?",
+    "answer": "Ferdinand von Wright",
+    "A": "Akseli Gallen-Kallela",
+    "B": "Ferdinand von Wright",
+    "C": "Hugo Simberg",
+    "D": "Albert Edelfelt"
+  },
+  {
+    "question": "Mikä on maailman suurin aavikko?",
+    "answer": "Antarktiksen manner",
+    "A": "Sahara",
+    "B": "Gobi",
+    "C": "Antarktiksen manner",
+    "D": "Kalahari"
+  },
+  {
+    "question": "Kuinka monta pelaajaa on jääkiekkojoukkueessa kentällä kerrallaan (sis. maalivahdin)?",
+    "answer": "6",
+    "A": "5",
+    "B": "6",
+    "C": "7",
+    "D": "11"
+  },
+  {
+    "question": "Mikä on Venäjän pääkaupunki?",
+    "answer": "Moskova",
+    "A": "Pietari",
+    "B": "Novosibirsk",
+    "C": "Moskova",
+    "D": "Jekaterinburg"
+  },
+  {
+    "question": "Kuka kirjoitti Harry Potter -kirjasarjan?",
+    "answer": "J. K. Rowling",
+    "A": "Stephen King",
+    "B": "J. R. R. Tolkien",
+    "C": "J. K. Rowling",
+    "D": "George R. R. Martin"
+  },
+  {
+    "question": "Mikä on valonnopeus tyhjiössä?",
+    "answer": "Noin 300 000 km/s",
+    "A": "Noin 150 000 km/s",
+    "B": "Noin 300 000 km/s",
+    "C": "Noin 450 000 km/s",
+    "D": "Noin 1 000 000 km/s"
+  },
+  {
+    "question": "Kuka oli Suomen ensimmäinen naispresidentti?",
+    "answer": "Tarja Halonen",
+    "A": "Riitta Uosukainen",
+    "B": "Elisabeth Rehn",
+    "C": "Tarja Halonen",
+    "D": "Anneli Jäätteenmäki"
+  },
+  {
+    "question": "Missä maassa sijaitsee Kheopsin pyramidi?",
+    "answer": "Egypti",
+    "A": "Sudan",
+    "B": "Meksiko",
+    "C": "Egypti",
+    "D": "Peru"
+  },
+  {
+    "question": "Minkä soittimen mestari oli Jimi Hendrix?",
+    "answer": "Sähkökitara",
+    "A": "Piano",
+    "B": "Rummut",
+    "C": "Sähkökitara",
+    "D": "Saksofoni"
+  },
+  {
+    "question": "Montako osavaltiota on Yhdysvalloissa?",
+    "answer": "50",
+    "A": "48",
+    "B": "50",
+    "C": "52",
+    "D": "45"
+  },
+  {
+    "question": "Kuka kehitti suhteellisuusteorian?",
+    "answer": "Albert Einstein",
+    "A": "Isaac Newton",
+    "B": "Galileo Galilei",
+    "C": "Albert Einstein",
+    "D": "Nikola Tesla"
+  },
+  {
+    "question": "Mikä on Suomen pisin joki?",
+    "answer": "Kemijoki",
+    "A": "Oulujoki",
+    "B": "Tornionjoki",
+    "C": "Kemijoki",
+    "D": "Iijoki"
+  },
+  {
+    "question": "Mikä on Kreikan pääkaupunki?",
+    "answer": "Ateena",
+    "A": "Thessaloniki",
+    "B": "Sparta",
+    "C": "Ateena",
+    "D": "Rodos"
+  },
+  {
+    "question": "Kuka sävelsi oopperan 'Taika-ampuja'?",
+    "answer": "Carl Maria von Weber",
+    "A": "Wolfgang Amadeus Mozart",
+    "B": "Richard Wagner",
+    "C": "Carl Maria von Weber",
+    "D": "Giuseppe Verdi"
+  },
+  {
+    "question": "Mikä on Nobel-palkinnon perustajan Alfred Nobelin kansalaisuus?",
+    "answer": "Ruotsalainen",
+    "A": "Norjalainen",
+    "B": "Tanskalainen",
+    "C": "Ruotsalainen",
+    "D": "Saksalainen"
+  },
+  {
+    "question": "Kuka voitti Formula 1 -maailmanmestaruuden vuonna 1998?",
+    "answer": "Mika Häkkinen",
+    "A": "Michael Schumacher",
+    "B": "Ayrton Senna",
+    "C": "Mika Häkkinen",
+    "D": "Kimi Räikkönen"
+  },
+  {
+    "question": "Mikä on maapallon ytimen uloin kerros?",
+    "answer": "Ulompi ydin",
+    "A": "Maan kuori",
+    "B": "Vaippa",
+    "C": "Ulompi ydin",
+    "D": "Sisempi ydin"
+  },
+  {
+    "question": "Mikä on maailman suurin saari?",
+    "answer": "Grönlanti",
+    "A": "Uusi-Guinea",
+    "B": "Borneo",
+    "C": "Grönlanti",
+    "D": "Madagaskar"
+  },
+  {
+    "question": "Kuka kirjoitti romaanin 'Sinuhe egyptiläinen'?",
+    "answer": "Mika Waltari",
+    "A": "Väinö Linna",
+    "B": "F. E. Sillanpää",
+    "C": "Mika Waltari",
+    "D": "Tove Jansson"
+  },
+  {
+    "question": "Mikä on Kanadan pääkaupunki?",
+    "answer": "Ottawa",
+    "A": "Toronto",
+    "B": "Montreal",
+    "C": "Ottawa",
+    "D": "Vancouver"
+  },
+  {
+    "question": "Milloin Berliinin muuri murtui?",
+    "answer": "1989",
+    "A": "1987",
+    "B": "1991",
+    "C": "1989",
+    "D": "1990"
+  },
+  {
+    "question": "Mikä on hapan liuoksen pH-arvo?",
+    "answer": "Alle 7",
+    "A": "Yli 7",
+    "B": "Tasan 7",
+    "C": "Alle 7",
+    "D": "Tasan 0"
+  },
+  {
+    "question": "Kuka on Kreikan mytologian ylijumala?",
+    "answer": "Zeus",
+    "A": "Poseidon",
+    "B": "Hades",
+    "C": "Zeus",
+    "D": "Apollon"
+  },
+  {
+    "question": "Mikä maa voitti jalkapallon MM-kisat vuonna 2014?",
+    "answer": "Saksa",
+    "A": "Brasilia",
+    "B": "Argentiina",
+    "C": "Saksa",
+    "D": "Espanja"
+  },
+  {
+    "question": "Mikä on Suomen kansalliskukka?",
+    "answer": "Kielo",
+    "A": "Ruusu",
+    "B": "Orvokki",
+    "C": "Kielo",
+    "D": "Valkovuokko"
+  },
+  {
+    "question": "Kuka oli kuuluisa renessanssitaiteilija ja -keksijä?",
+    "answer": "Leonardo da Vinci",
+    "A": "Donatello",
+    "B": "Rafael",
+    "C": "Leonardo da Vinci",
+    "D": "Caravaggio"
+  },
+  {
+    "question": "Mikä on Brasilian virallinen kieli?",
+    "answer": "Portugali",
+    "A": "Espanja",
+    "B": "Brasilia",
+    "C": "Portugali",
+    "D": "Englanti"
+  },
+  {
+    "question": "Montako hammasta aikuisella ihmisellä on yleensä?",
+    "answer": "32",
+    "A": "28",
+    "B": "30",
+    "C": "32",
+    "D": "36"
+  },
+  {
+    "question": "Kuka ohjasi elokuvan 'Pulp Fiction'?",
+    "answer": "Quentin Tarantino",
+    "A": "Steven Spielberg",
+    "B": "Martin Scorsese",
+    "C": "Quentin Tarantino",
+    "D": "James Cameron"
+  },
+  {
+    "question": "Mikä on Etelä-Afrikan pääkaupunki (hallinnollinen)?",
+    "answer": "Pretoria",
+    "A": "Kapkaupunki",
+    "B": "Johannesburg",
+    "C": "Pretoria",
+    "D": "Durban"
+  },
+  {
+    "question": "Minkä sodan aikana tapahtui Normandian maihinnousu?",
+    "answer": "Toinen maailmansota",
+    "A": "Ensimmäinen maailmansota",
+    "B": "Vietnamin sota",
+    "C": "Toinen maailmansota",
+    "D": "Korean sota"
+  },
+  {
+    "question": "Mikä eläin on изображен Venäjän vaakunassa?",
+    "answer": "Kaksipäinen kotka",
+    "A": "Karhu",
+    "B": "Susi",
+    "C": "Kaksipäinen kotka",
+    "D": "Leijona"
+  },
+  {
+    "question": "Kuka kirjoitti näytelmän 'Romeo ja Julia'?",
+    "answer": "William Shakespeare",
+    "A": "Charles Dickens",
+    "B": "Oscar Wilde",
+    "C": "William Shakespeare",
+    "D": "Molière"
+  },
+  {
+    "question": "Mikä on Marsin lempinimi?",
+    "answer": "Punainen planeetta",
+    "A": "Sininen planeetta",
+    "B": "Kaasuplaneetta",
+    "C": "Punainen planeetta",
+    "D": "Kääpiöplaneetta"
+  },
+  {
+    "question": "Mikä urheilulaji tunnetaan nimellä 'The Beautiful Game'?",
+    "answer": "Jalkapallo",
+    "A": "Koripallo",
+    "B": "Tennis",
+    "C": "Jalkapallo",
+    "D": "Golf"
+  },
+  {
+    "question": "Mikä on Norjan pääkaupunki?",
+    "answer": "Oslo",
+    "A": "Bergen",
+    "B": "Tukholma",
+    "C": "Oslo",
+    "D": "Kööpenhamina"
+  },
+  {
+    "question": "Kuka maalasi 'Tähtikirkas yö' -teoksen?",
+    "answer": "Vincent van Gogh",
+    "A": "Claude Monet",
+    "B": "Édouard Manet",
+    "C": "Vincent van Gogh",
+    "D": "Paul Cézanne"
+  },
+  {
+    "question": "Mistä alkuaineesta kulta koostuu?",
+    "answer": "Kulta (Au)",
+    "A": "Hopea (Ag)",
+    "B": "Kupari (Cu)",
+    "C": "Kulta (Au)",
+    "D": "Platina (Pt)"
+  },
+  {
+    "question": "Mikä on Intian pääkaupunki?",
+    "answer": "New Delhi",
+    "A": "Mumbai",
+    "B": "Kalkutta",
+    "C": "New Delhi",
+    "D": "Bangalore"
+  },
+  {
+    "question": "Kuka oli Rooman mytologian sodan jumala?",
+    "answer": "Mars",
+    "A": "Jupiter",
+    "B": "Neptunus",
+    "C": "Mars",
+    "D": "Vulcanus"
+  },
+  {
+    "question": "Mikä on NBA:n lyhenne?",
+    "answer": "National Basketball Association",
+    "A": "National Baseball Association",
+    "B": "National Boxing Association",
+    "C": "National Basketball Association",
+    "D": "North Basketball Alliance"
+  },
+  {
+    "question": "Mikä on maailman pisin joki?",
+    "answer": "Niili",
+    "A": "Amazon",
+    "B": "Jangtse",
+    "C": "Niili",
+    "D": "Mississippi"
+  },
+  {
+    "question": "Kuka sävelsi neljä vuodenaikaa?",
+    "answer": "Antonio Vivaldi",
+    "A": "Johann Sebastian Bach",
+    "B": "Wolfgang Amadeus Mozart",
+    "C": "Antonio Vivaldi",
+    "D": "Ludwig van Beethoven"
+  },
+  {
+    "question": "Mikä on kemiallinen symboli raudalle?",
+    "answer": "Fe",
+    "A": "Ra",
+    "B": "Au",
+    "C": "Fe",
+    "D": "Ag"
+  },
+  {
+    "question": "Mikä on Argentiinan pääkaupunki?",
+    "answer": "Buenos Aires",
+    "A": "Santiago",
+    "B": "Rio de Janeiro",
+    "C": "Buenos Aires",
+    "D": "Bogotá"
+  },
+  {
+    "question": "Kuka oli kuuluisa Amerikan sisällissodan presidentti?",
+    "answer": "Abraham Lincoln",
+    "A": "George Washington",
+    "B": "Thomas Jefferson",
+    "C": "Abraham Lincoln",
+    "D": "Theodore Roosevelt"
+  },
+  {
+    "question": "Mikä on shakin heikoin nappula?",
+    "answer": "Sotilas",
+    "A": "Torni",
+    "B": "Ratsu",
+    "C": "Sotilas",
+    "D": "Lähetti"
+  },
+  {
+    "question": "Minkä värinen on Smaragdi?",
+    "answer": "Vihreä",
+    "A": "Punainen",
+    "B": "Sininen",
+    "C": "Vihreä",
+    "D": "Keltainen"
+  },
+  {
+    "question": "Kuka kirjoitti kirjan 'Taru sormusten herrasta'?",
+    "answer": "J. R. R. Tolkien",
+    "A": "C. S. Lewis",
+    "B": "George R. R. Martin",
+    "C": "J. R. R. Tolkien",
+    "D": "J. K. Rowling"
+  },
+  {
+    "question": "Mikä on aurinkokuntamme kuumin planeetta?",
+    "answer": "Venus",
+    "A": "Merkurius",
+    "B": "Maa",
+    "C": "Venus",
+    "D": "Mars"
+  },
+  {
+    "question": "Mikä on Ruotsin pääkaupunki?",
+    "answer": "Tukholma",
+    "A": "Göteborg",
+    "B": "Malmö",
+    "C": "Tukholma",
+    "D": "Oslo"
+  },
+  {
+    "question": "Kuka ohjasi elokuvan 'Titanic' (1997)?",
+    "answer": "James Cameron",
+    "A": "Steven Spielberg",
+    "B": "George Lucas",
+    "C": "James Cameron",
+    "D": "Peter Jackson"
+  },
+  {
+    "question": "Mistä kolmesta väristä Ranskan lippu koostuu?",
+    "answer": "Sininen, valkoinen, punainen",
+    "A": "Vihreä, valkoinen, punainen",
+    "B": "Sininen, keltainen, punainen",
+    "C": "Sininen, valkoinen, punainen",
+    "D": "Musta, punainen, kulta"
+  },
+  {
+    "question": "Kuka oli 'Rautarouva'?",
+    "answer": "Margaret Thatcher",
+    "A": "Angela Merkel",
+    "B": "Indira Gandhi",
+    "C": "Margaret Thatcher",
+    "D": "Golda Meir"
+  },
+  {
+    "question": "Monesko Urho Kekkonen oli Suomen presidenteistä?",
+    "answer": "Kahdeksas",
+    "A": "Viides",
+    "B": "Seitsemäs",
+    "C": "Kahdeksas",
+    "D": "Kymmenes"
+  },
+  {
+    "question": "Mikä on maailman suurin manner?",
+    "answer": "Aasia",
+    "A": "Afrikka",
+    "B": "Pohjois-Amerikka",
+    "C": "Aasia",
+    "D": "Etelämanner"
+  },
+  {
+    "question": "Kuka maalasi 'Guernican'?",
+    "answer": "Pablo Picasso",
+    "A": "Salvador Dalí",
+    "B": "Joan Miró",
+    "C": "Pablo Picasso",
+    "D": "Francisco Goya"
+  },
+  {
+    "question": "Mikä on ihmisen kuuloalueen yläraja (noin)?",
+    "answer": "20 000 hertsiä",
+    "A": "10 000 hertsiä",
+    "B": "15 000 hertsiä",
+    "C": "20 000 hertsiä",
+    "D": "30 000 hertsiä"
+  },
+  {
+    "question": "Mikä on Saksan pääkaupunki?",
+    "answer": "Berliini",
+    "A": "München",
+    "B": "Hampuri",
+    "C": "Berliini",
+    "D": "Frankfurt"
+  },
+  {
+    "question": "Kuka voitti tenniksen Wimbledonin turnauksen useimmin miesten kaksinpelissä?",
+    "answer": "Roger Federer",
+    "A": "Pete Sampras",
+    "B": "Rafael Nadal",
+    "C": "Roger Federer",
+    "D": "Novak Djokovic"
+  },
+  {
+    "question": "Mikä on 'H2SO4'?",
+    "answer": "Rikkihappo",
+    "A": "Suolahappo",
+    "B": "Typpihappo",
+    "C": "Rikkihappo",
+    "D": "Fosforihappo"
+  },
+  {
+    "question": "Kuka perusti Microsoftin Bill Gatesin kanssa?",
+    "answer": "Paul Allen",
+    "A": "Steve Jobs",
+    "B": "Steve Wozniak",
+    "C": "Paul Allen",
+    "D": "Larry Page"
+  },
+  {
+    "question": "Mikä on Turkin pääkaupunki?",
+    "answer": "Ankara",
+    "A": "Istanbul",
+    "B": "Izmir",
+    "C": "Ankara",
+    "D": "Antalya"
+  },
+  {
+    "question": "Mikä on Japanin valuutta?",
+    "answer": "Jeni",
+    "A": "Yuan",
+    "B": "Won",
+    "C": "Jeni",
+    "D": "Rupia"
+  },
+  {
+    "question": "Kuka on Aku Ankan luoja?",
+    "answer": "Walt Disney",
+    "A": "Carl Barks",
+    "B": "Don Rosa",
+    "C": "Walt Disney",
+    "D": "Tex Avery"
+  },
+  {
+    "question": "Montako pistettä on täydellinen sarja keilailussa?",
+    "answer": "300",
+    "A": "200",
+    "B": "250",
+    "C": "300",
+    "D": "350"
+  },
+  {
+    "question": "Mikä on Thaimaan pääkaupunki?",
+    "answer": "Bangkok",
+    "A": "Phuket",
+    "B": "Chiang Mai",
+    "C": "Bangkok",
+    "D": "Pattaya"
+  },
+  {
+    "question": "Kuka on 'popin kuningas'?",
+    "answer": "Michael Jackson",
+    "A": "Elvis Presley",
+    "B": "Prince",
+    "C": "Michael Jackson",
+    "D": "Madonna"
+  },
+  {
+    "question": "Mikä on painovoiman kiihtyvyys maanpinnalla?",
+    "answer": "Noin 9,81 m/s²",
+    "A": "Noin 5,61 m/s²",
+    "B": "Noin 9,81 m/s²",
+    "C": "Noin 12,21 m/s²",
+    "D": "Noin 8,71 m/s²"
+  },
+  {
+    "question": "Kuka oli Neuvostoliiton viimeinen johtaja?",
+    "answer": "Mihail Gorbatšov",
+    "A": "Leonid Brežnev",
+    "B": "Juri Andropov",
+    "C": "Mihail Gorbatšov",
+    "D": "Boris Jeltsin"
+  },
+  {
+    "question": "Missä maassa sijaitsee Machu Picchu?",
+    "answer": "Peru",
+    "A": "Chile",
+    "B": "Bolivia",
+    "C": "Peru",
+    "D": "Kolumbia"
+  },
+  {
+    "question": "Minkä yhtyeen albumi on 'The Dark Side of the Moon'?",
+    "answer": "Pink Floyd",
+    "A": "The Who",
+    "B": "Genesis",
+    "C": "Pink Floyd",
+    "D": "Yes"
+  },
+  {
+    "question": "Mikä on Etelä-Korean pääkaupunki?",
+    "answer": "Soul",
+    "A": "Pjongjang",
+    "B": "Busan",
+    "C": "Soul",
+    "D": "Incheon"
+  },
+  {
+    "question": "Kuka kirjoitti kirjan 'Rikos ja rangaistus'?",
+    "answer": "Fjodor Dostojevski",
+    "A": "Leo Tolstoi",
+    "B": "Anton Tšehov",
+    "C": "Fjodor Dostojevski",
+    "D": "Ivan Turgenev"
+  },
+  {
+    "question": "Mikä on happamuutta neutraloiva aine?",
+    "answer": "Emäs",
+    "A": "Hiekka",
+    "B": "Sokeri",
+    "C": "Emäs",
+    "D": "Suola"
+  },
+  {
+    "question": "Mikä on Yhdistyneen kuningaskunnan pääkaupunki?",
+    "answer": "Lontoo",
+    "A": "Manchester",
+    "B": "Birmingham",
+    "C": "Lontoo",
+    "D": "Edinburgh"
+  },
+  {
+    "question": "Kuka on ainoa urheilija, joka on voittanut kultaa sekä kesä- että talviolympialaisissa eri lajeissa?",
+    "answer": "Eddie Eagan",
+    "A": "Clara Hughes",
+    "B": "Christa Luding-Rothenburger",
+    "C": "Eddie Eagan",
+    "D": "Lauryn Williams"
+  },
+  {
+    "question": "Mikä on Niagaran putousten sijaintimaa?",
+    "answer": "Kanada ja Yhdysvallat",
+    "A": "Brasilia ja Argentiina",
+    "B": "Sambia ja Zimbabwe",
+    "C": "Kanada ja Yhdysvallat",
+    "D": "Meksiko"
+  },
+  {
+    "question": "Mikä on kofeiinin päälähde maailmassa?",
+    "answer": "Kahvipapu",
+    "A": "Teelehti",
+    "B": "Kaakaopapu",
+    "C": "Kahvipapu",
+    "D": "Koolapähkinä"
+  },
+  {
+    "question": "Kuka oli faarao, jonka hauta löydettiin lähes koskemattomana vuonna 1922?",
+    "answer": "Tutankhamon",
+    "A": "Ramses II",
+    "B": "Kleopatra",
+    "C": "Tutankhamon",
+    "D": "Akhenaten"
+  },
+  {
+    "question": "Minkä elokuvan kuuluisa lause on 'May the Force be with you'?",
+    "answer": "Tähtien sota",
+    "A": "Alien",
+    "B": "E.T.",
+    "C": "Tähtien sota",
+    "D": "Blade Runner"
+  },
+  {
+    "question": "Mikä on Portugalin pääkaupunki?",
+    "answer": "Lissabon",
+    "A": "Madrid",
+    "B": "Porto",
+    "C": "Lissabon",
+    "D": "Faro"
+  },
+  {
+    "question": "Mikä on otsonikerroksen päätehtävä?",
+    "answer": "Suojata haitalliselta UV-säteilyltä",
+    "A": "Tuottaa happea",
+    "B": "Säädellä lämpötilaa",
+    "C": "Suojata haitalliselta UV-säteilyltä",
+    "D": "Aiheuttaa kasvihuoneilmiötä"
+  },
+  {
+    "question": "Kuka voitti vuoden 2007 Formula 1 maailmanmestaruuden?",
+    "answer": "Kimi Räikkönen",
+    "A": "Fernando Alonso",
+    "B": "Lewis Hamilton",
+    "C": "Kimi Räikkönen",
+    "D": "Felipe Massa"
+  },
+  {
+    "question": "Mikä on Irlannin pääkaupunki?",
+    "answer": "Dublin",
+    "A": "Belfast",
+    "B": "Cork",
+    "C": "Dublin",
+    "D": "Galway"
+  },
+  {
+    "question": "Kuka sävelsi Kuutamosonaatin?",
+    "answer": "Ludwig van Beethoven",
+    "A": "Franz Schubert",
+    "B": "Frédéric Chopin",
+    "C": "Ludwig van Beethoven",
+    "D": "Johann Sebastian Bach"
+  },
+  {
+    "question": "Mistä materiaalista tehtiin ensimmäiset farkut?",
+    "answer": "Denim",
+    "A": "Sametti",
+    "B": "Nahka",
+    "C": "Denim",
+    "D": "Pellava"
+  },
+  {
+    "question": "Kuka oli ensimmäinen etelänaparetkeilijä?",
+    "answer": "Roald Amundsen",
+    "A": "Robert Falcon Scott",
+    "B": "Ernest Shackleton",
+    "C": "Roald Amundsen",
+    "D": "James Cook"
+  },
+  {
+    "question": "Mikä on Meksikon pääkaupunki?",
+    "answer": "México",
+    "A": "Cancún",
+    "B": "Guadalajara",
+    "C": "México",
+    "D": "Tijuana"
+  },
+  {
+    "question": "Minkä yhtyeen jäseniä olivat John, Paul, George ja Ringo?",
+    "answer": "The Beatles",
+    "A": "The Rolling Stones",
+    "B": "The Kinks",
+    "C": "The Beatles",
+    "D": "The Who"
+  },
+  {
+    "question": "Mikä on fotosynteesin päätuote kasville?",
+    "answer": "Glukoosi (sokeri)",
+    "A": "Vesi",
+    "B": "Happi",
+    "C": "Glukoosi (sokeri)",
+    "D": "Hiilidioksidi"
+  },
+  {
+    "question": "Mikä on Sveitsin pääkaupunki?",
+    "answer": "Bern",
+    "A": "Zürich",
+    "B": "Geneve",
+    "C": "Bern",
+    "D": "Basel"
+  },
+  {
+    "question": "Kuka on voittanut eniten Stanley Cup -mestaruuksia pelaajana?",
+    "answer": "Henri Richard",
+    "A": "Wayne Gretzky",
+    "B": "Jean Béliveau",
+    "C": "Henri Richard",
+    "D": "Jari Kurri"
+  },
+  {
+    "question": "Mikä on maailman pienin valtio?",
+    "answer": "Vatikaanivaltio",
+    "A": "Monaco",
+    "B": "Nauru",
+    "C": "Vatikaanivaltio",
+    "D": "San Marino"
+  },
+  {
+    "question": "Kuka kirjoitti teoksen 'Don Quijote'?",
+    "answer": "Miguel de Cervantes",
+    "A": "Gabriel García Márquez",
+    "B": "Jorge Luis Borges",
+    "C": "Miguel de Cervantes",
+    "D": "Lope de Vega"
+  },
+  {
+    "question": "Mikä planeetta on lähinnä Aurinkoa?",
+    "answer": "Merkurius",
+    "A": "Venus",
+    "B": "Maa",
+    "C": "Merkurius",
+    "D": "Mars"
+  },
+  {
+    "question": "Mikä on Itävallan pääkaupunki?",
+    "answer": "Wien",
+    "A": "Salzburg",
+    "B": "Innsbruck",
+    "C": "Wien",
+    "D": "Graz"
+  },
+  {
+    "question": "Kuka maalasi 'Auringonkukkia' -sarjan?",
+    "answer": "Vincent van Gogh",
+    "A": "Paul Gauguin",
+    "B": "Claude Monet",
+    "C": "Vincent van Gogh",
+    "D": "Pierre-Auguste Renoir"
+  },
+  {
+    "question": "Mikä on suurin Pohjoismaa pinta-alaltaan?",
+    "answer": "Tanska (Grönlannin kanssa)",
+    "A": "Ruotsi",
+    "B": "Norja",
+    "C": "Tanska (Grönlannin kanssa)",
+    "D": "Suomi"
+  },
+  {
+    "question": "Mikä on 'NaCl'?",
+    "answer": "Ruokasuola",
+    "A": "Sokeri",
+    "B": "Etikka",
+    "C": "Ruokasuola",
+    "D": "Leivinjauhe"
+  },
+  {
+    "question": "Kuka oli Kuuban johtaja suurimman osan kylmän sodan ajasta?",
+    "answer": "Fidel Castro",
+    "A": "Che Guevara",
+    "B": "Fulgencio Batista",
+    "C": "Fidel Castro",
+    "D": "Raúl Castro"
+  },
+  {
+    "question": "Minkä lajin legenda on Michael Jordan?",
+    "answer": "Koripallo",
+    "A": "Baseball",
+    "B": "Amerikkalainen jalkapallo",
+    "C": "Koripallo",
+    "D": "Jääkiekko"
+  },
+  {
+    "question": "Mikä on Puolan pääkaupunki?",
+    "answer": "Varsova",
+    "A": "Krakova",
+    "B": "Gdańsk",
+    "C": "Varsova",
+    "D": "Wrocław"
+  },
+  {
+    "question": "Kuka ohjasi 'Kummisetä'-elokuvatrilogian?",
+    "answer": "Francis Ford Coppola",
+    "A": "Martin Scorsese",
+    "B": "Brian De Palma",
+    "C": "Francis Ford Coppola",
+    "D": "Sergio Leone"
+  },
+  {
+    "question": "Mistä valaat ovat kehittyneet?",
+    "answer": "Maalla eläneistä nisäkkäistä",
+    "A": "Kaloista",
+    "B": "Matelijoista",
+    "C": "Maalla eläneistä nisäkkäistä",
+    "D": "Sammakoeläimistä"
+  },
+  {
+    "question": "Mikä on Unkarin pääkaupunki?",
+    "answer": "Budapest",
+    "A": "Praha",
+    "B": "Wien",
+    "C": "Budapest",
+    "D": "Bukarest"
+  },
+  {
+    "question": "Kuka oli antiikin Kreikan lääketieteen isä?",
+    "answer": "Hippokrates",
+    "A": "Sokrates",
+    "B": "Platon",
+    "C": "Hippokrates",
+    "D": "Aristoteles"
+  },
+  {
+    "question": "Mitä lajia pelataan Super Bowlissa?",
+    "answer": "Amerikkalaista jalkapalloa",
+    "A": "Baseballia",
+    "B": "Koripalloa",
+    "C": "Amerikkalaista jalkapalloa",
+    "D": "Jääkiekkoa"
+  },
+  {
+    "question": "Mikä on Tšekin pääkaupunki?",
+    "answer": "Praha",
+    "A": "Bratislava",
+    "B": "Budapest",
+    "C": "Praha",
+    "D": "Varsova"
+  },
+  {
+    "question": "Kuka sävelsi oopperan 'Carmen'?",
+    "answer": "Georges Bizet",
+    "A": "Giuseppe Verdi",
+    "B": "Giacomo Puccini",
+    "C": "Georges Bizet",
+    "D": "Richard Wagner"
+  },
+  {
+    "question": "Mikä on maailman suurin elävä rakenne?",
+    "answer": "Iso valliriutta",
+    "A": "Punapuumetsä",
+    "B": "Amazonin sademetsä",
+    "C": "Iso valliriutta",
+    "D": "Sieniverkosto Oregonissa"
+  },
+  {
+    "question": "Millä nimellä tunnetaan Tukholman vanhakaupunki?",
+    "answer": "Gamla stan",
+    "A": "Södermalm",
+    "B": "Norrmalm",
+    "C": "Gamla stan",
+    "D": "Östermalm"
+  },
+  {
+    "question": "Kuka oli Apartheidin vastaisen taistelun symboli Etelä-Afrikassa?",
+    "answer": "Nelson Mandela",
+    "A": "Desmond Tutu",
+    "B": "F. W. de Klerk",
+    "C": "Nelson Mandela",
+    "D": "Steve Biko"
+  },
+  {
+    "question": "Mikä on maratonin juoksumatka?",
+    "answer": "42,195 kilometriä",
+    "A": "35,550 kilometriä",
+    "B": "40,000 kilometriä",
+    "C": "42,195 kilometriä",
+    "D": "50,000 kilometriä"
+  },
+  {
+    "question": "Mikä on Belgian pääkaupunki?",
+    "answer": "Bryssel",
+    "A": "Antwerpen",
+    "B": "Brugge",
+    "C": "Bryssel",
+    "D": "Gent"
+  },
+  {
+    "question": "Kuka on kirjoittanut kirjan 'Ylpeys ja ennakkoluulo'?",
+    "answer": "Jane Austen",
+    "A": "Charlotte Brontë",
+    "B": "Emily Brontë",
+    "C": "Jane Austen",
+    "D": "George Eliot"
+  },
+  {
+    "question": "Mikä on aurinkokunnan pienin planeetta?",
+    "answer": "Merkurius",
+    "A": "Mars",
+    "B": "Venus",
+    "C": "Merkurius",
+    "D": "Pluto (kääpiöplaneetta)"
+  },
+  {
+    "question": "Missä sijaitsee Vapaudenpatsas?",
+    "answer": "New York",
+    "A": "Washington D.C.",
+    "B": "Los Angeles",
+    "C": "New York",
+    "D": "San Francisco"
+  },
+  {
+    "question": "Minkä yhtyeen hitti on 'Bohemian Rhapsody'?",
+    "answer": "Queen",
+    "A": "Pink Floyd",
+    "B": "Led Zeppelin",
+    "C": "Queen",
+    "D": "ABBA"
+  },
+  {
+    "question": "Mikä on Suomen korkein rakennus?",
+    "answer": "Majakka (Kalasatama)",
+    "A": "Näsinneula",
+    "B": "Cirrus",
+    "C": "Majakka (Kalasatama)",
+    "D": "Hotelli Torni"
+  },
+  {
+    "question": "Mikä on Alankomaiden pääkaupunki?",
+    "answer": "Amsterdam",
+    "A": "Rotterdam",
+    "B": "Haag",
+    "C": "Amsterdam",
+    "D": "Utrecht"
+  },
+  {
+    "question": "Kuka löysi penisilliinin?",
+    "answer": "Alexander Fleming",
+    "A": "Louis Pasteur",
+    "B": "Marie Curie",
+    "C": "Alexander Fleming",
+    "D": "Robert Koch"
+  },
+  {
+    "question": "Montako reikää on standardilla golf-kentällä?",
+    "answer": "18",
+    "A": "9",
+    "B": "12",
+    "C": "18",
+    "D": "21"
+  },
+  {
+    "question": "Mikä on Uuden-Seelannin pääkaupunki?",
+    "answer": "Wellington",
+    "A": "Auckland",
+    "B": "Christchurch",
+    "C": "Wellington",
+    "D": "Queenstown"
+  },
+  {
+    "question": "Kuka maalasi 'Päivällinen Emmauksessa'?",
+    "answer": "Caravaggio",
+    "A": "Rembrandt",
+    "B": "Tizian",
+    "C": "Caravaggio",
+    "D": "Velázquez"
+  },
+  {
+    "question": "Minkä eläimen maito on yleisin juuston valmistuksessa maailmanlaajuisesti?",
+    "answer": "Lehmän",
+    "A": "Vuohen",
+    "B": "Lampaat",
+    "C": "Lehmän",
+    "D": "Puhvelin"
+  },
+  {
+    "question": "Kuka oli Kiinan kansantasavallan ensimmäinen johtaja?",
+    "answer": "Mao Zedong",
+    "A": "Deng Xiaoping",
+    "B": "Sun Yat-sen",
+    "C": "Mao Zedong",
+    "D": "Chiang Kai-shek"
+  },
+  {
+    "question": "Mikä on Tanskan pääkaupunki?",
+    "answer": "Kööpenhamina",
+    "A": "Århus",
+    "B": "Odense",
+    "C": "Kööpenhamina",
+    "D": "Malmö"
+  },
+  {
+    "question": "Minkä yhtyeen albumi on 'Hotel California'?",
+    "answer": "Eagles",
+    "A": "Fleetwood Mac",
+    "B": "The Doors",
+    "C": "Eagles",
+    "D": "Creedence Clearwater Revival"
+  },
+  {
+    "question": "Mikä on maapallon ikä arviolta?",
+    "answer": "4,5 miljardia vuotta",
+    "A": "3,5 miljardia vuotta",
+    "B": "5,5 miljardia vuotta",
+    "C": "4,5 miljardia vuotta",
+    "D": "6,5 miljardia vuotta"
+  },
+  {
+    "question": "Mikä on Saudi-Arabian pääkaupunki?",
+    "answer": "Riad",
+    "A": "Mekka",
+    "B": "Jedda",
+    "C": "Riad",
+    "D": "Medina"
+  },
+  {
+    "question": "Kuka on Suomen menestynein keihäänheittäjä olympialaisissa?",
+    "answer": "Tapio Rautavaara / Pauli Nevala / Arto Härkönen / Tapio Korjus / Heli Rantanen (kaikilla 1 kulta)",
+    "A": "Tero Pitkämäki",
+    "B": "Aki Parviainen",
+    "C": "Seppo Räty",
+    "D": "Heli Rantanen"
+  },
+  {
+    "question": "Mikä on ihmisen normaali ruumiinlämpö?",
+    "answer": "Noin 37 °C",
+    "A": "Noin 36 °C",
+    "B": "Noin 38 °C",
+    "C": "Noin 37 °C",
+    "D": "Noin 35 °C"
+  },
+  {
+    "question": "Kuka kirjoitti 'Odysseian'?",
+    "answer": "Homeros",
+    "A": "Vergilius",
+    "B": "Sofokles",
+    "C": "Homeros",
+    "D": "Ovidius"
+  },
+  {
+    "question": "Mikä on Egyptin pääkaupunki?",
+    "answer": "Kairo",
+    "A": "Aleksandria",
+    "B": "Giza",
+    "C": "Kairo",
+    "D": "Luxor"
+  },
+  {
+    "question": "Kuka oli The Beatles -yhtyeen rumpali?",
+    "answer": "Ringo Starr",
+    "A": "John Lennon",
+    "B": "Paul McCartney",
+    "C": "Ringo Starr",
+    "D": "George Harrison"
+  },
+  {
+    "question": "Mikä on suurin elin ihmisen kehossa?",
+    "answer": "Iho",
+    "A": "Maksa",
+    "B": "Aivot",
+    "C": "Iho",
+    "D": "Suolisto"
+  },
+  {
+    "question": "Mikä on Marokon pääkaupunki?",
+    "answer": "Rabat",
+    "A": "Casablanca",
+    "B": "Marrakesh",
+    "C": "Rabat",
+    "D": "Fès"
+  },
+  {
+    "question": "Kuka oli Neuvostoliiton johdossa toisen maailmansodan aikana?",
+    "answer": "Josif Stalin",
+    "A": "Vladimir Lenin",
+    "B": "Nikita Hruštšov",
+    "C": "Josif Stalin",
+    "D": "Leonid Brežnev"
+  },
+  {
+    "question": "Mikä on suosituin urheilulaji maailmassa katsojamäärillä mitattuna?",
+    "answer": "Jalkapallo",
+    "A": "Kriketti",
+    "B": "Koripallo",
+    "C": "Jalkapallo",
+    "D": "Tennis"
+  },
+  {
+    "question": "Mikä on Viron pääkaupunki?",
+    "answer": "Tallinna",
+    "A": "Riika",
+    "B": "Vilna",
+    "C": "Tallinna",
+    "D": "Tartto"
+  },
+  {
+    "question": "Kuka sävelsi oopperan 'Figaron häät'?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "A": "Gioachino Rossini",
+    "B": "Gaetano Donizetti",
+    "C": "Wolfgang Amadeus Mozart",
+    "D": "Richard Strauss"
+  },
+  {
+    "question": "Mikä on nopein maaeläin?",
+    "answer": "Gepardi",
+    "A": "Leijona",
+    "B": "Antilooppi",
+    "C": "Gepardi",
+    "D": "Strutsi"
+  },
+  {
+    "question": "Mikä on Romanian pääkaupunki?",
+    "answer": "Bukarest",
+    "A": "Budapest",
+    "B": "Sofia",
+    "C": "Bukarest",
+    "D": "Cluj-Napoca"
+  },
+  {
+    "question": "Kuka oli Yhdysvaltain ensimmäinen presidentti?",
+    "answer": "George Washington",
+    "A": "Thomas Jefferson",
+    "B": "John Adams",
+    "C": "George Washington",
+    "D": "Benjamin Franklin"
+  },
+  {
+    "question": "Kuinka monta rengasta on Audin logossa?",
+    "answer": "Neljä",
+    "A": "Kolme",
+    "B": "Viisi",
+    "C": "Neljä",
+    "D": "Kuusi"
+  }
+]
+}

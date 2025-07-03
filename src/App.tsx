@@ -10,6 +10,7 @@ import millionareLogo from '/WWTBAMUS2020Logo.png'
 import './App.css'
 import './css/confetti.css'
 
+//import kysymykset from './questions/kysymykset.json'
 import kysymykset from './questions/kysymykset.json'
 import kysymykset1 from './questions/kysymykset1.json'
 import kysymykset2 from './questions/kysymykset2.json'
@@ -48,7 +49,8 @@ function StageMachine(
   }
   ) {
   const [stageIndex, setStageIndex] = useState(0)
-  const [lifeLines, setLifeLines] = useState({fiftyFifty: true, todo1: true, todo2: true})
+  const [lifeLines, setLifeLines] = useState({fiftyFifty: true, double: true, todo2: true})
+  const [doubleDip, setDoubleDip] = useState(false)
   const [soundTrack, setSoundTrack] = useState(stageMagazine[0].sounds.theme)
   const [startTime,] = useState(new Date()) 
   const [gameOver, setGameOver] = useState(false)
@@ -262,6 +264,15 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
       }
     }
 
+    function doubleDipEffect(clickId: string){
+      if(!buttons)  return
+      for (const button of buttons){
+        if(button.id === clickId){
+          button.classList.add('removedBy50')
+        }
+      }
+    }
+
     if(isAnimated){ //isAnimated
       event.currentTarget.classList.add('selectedAnswer')
       if(buttons){
@@ -283,6 +294,12 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
                   classCleanUp()
                 }, animationWaitBeforeNext) // 500
               } else {
+                if(doubleDip){
+                  classCleanUp()
+                  doubleDipEffect(answer)
+                  setDoubleDip(false)
+                  return
+                }
                 button.classList.add('wrongAnswer')
                 playSound(stageMagazine[stageIndex].sounds.lose, 0.3)
                 setTimeout(() => {
@@ -301,6 +318,12 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
         setStageIndex(stageIndex + 1)
         classCleanUp()
       } else {
+        if(doubleDip){
+          classCleanUp()
+          doubleDipEffect(answer)
+          setDoubleDip(false)
+          return
+        }
         playSound(stageMagazine[stageIndex].sounds.lose, 0.3)
         setGameOver(true)
         classCleanUp()
@@ -310,6 +333,7 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
   }
 
   function lifeLine5050(){
+      playSound('67 50-50.mp3')
       const buttons = document.querySelector('.answerButtonsContainer')?.querySelectorAll('button')
       
       const answers = ['A', 'B', 'C', 'D']
@@ -325,6 +349,13 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
           }
         }
       }
+  }
+
+  function lifeLineDoubleDip(){
+    if(lifeLines.double === true){
+      setDoubleDip(true)
+      setLifeLines({...lifeLines, double: false})
+    }
   }
 
   interface SideBarPrizeProps {
@@ -352,6 +383,7 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
 
         <div className='lifeLineContainer'>
           <button className='lifeLineButton' onClick={() => lifeLine5050()} disabled={!lifeLines.fiftyFifty}>50:50</button>
+          <button className='lifeLineButton' onClick={() => lifeLineDoubleDip()} disabled={!lifeLines.double}>Double Dip</button>
         </div>
 
         <h1 className='questionHeader sb'>{stageMagazine[stageIndex].quiz.question}</h1>
@@ -531,7 +563,7 @@ function App() {
   const [muteEffects, setMuteEffects] = useState(false)
   //highscores should probably created into custom react hook.
   const [highscores, setHighscores] = useState<Score[]>([])
-  const [currentQuiz, setCurrentQuiz] = useState(kysymykset)
+  const [currentQuiz, setCurrentQuiz] = useState(kysymykset.questions)
 
 /*
   useEffect(() => {
@@ -543,7 +575,7 @@ function App() {
 */
 
   function changeQuiz(quizNum: number){ // quizNum: 0 | 1 | 2 | 3 | 4
-    const quizArr = [kysymykset, kysymykset1, kysymykset2, kysymykset3, kysymykset4]
+    const quizArr = [kysymykset.questions, kysymykset1.questions, kysymykset2.questions, kysymykset3.questions, kysymykset4.questions]
     if(quizArr[quizNum] && quizArr[quizNum].length > 15){
       console.log('quiz changed.', quizArr[quizNum])
       setCurrentQuiz(quizArr[quizNum])
@@ -673,6 +705,7 @@ function App() {
         <div className='settingsStage'>
           <label htmlFor='quizSelect' className='quizLabel'>Kysymykset:</label>
           <select onChange={(e) => {
+            console.log('event', e)
             const result = changeQuiz(parseInt(e.target.value))
             const labelElement: HTMLLabelElement | null = document.querySelector('.quizLabel')
             if(result){
@@ -682,11 +715,11 @@ function App() {
               if(labelElement) labelElement.style = 'color: red;'
             }
             }} id='quizSelect'>
-            <option value={0}>0 kysymykset.json</option>
-            <option value={1}>1 kysymykset1.json</option>
-            <option value={2}>2 kysymykset2.json</option>
-            <option value={3}>3 kysymykset3.json</option>
-            <option value={4}>4 kysymykset4.json</option>
+            <option value={0}>{kysymykset.description}</option>
+            <option value={1}>{kysymykset1.description}</option>
+            <option value={2}>{kysymykset2.description}</option>
+            <option value={3}>{kysymykset3.description}</option>
+            <option value={4}>{kysymykset4.description}</option>
           </select>
           <SettingsBar/>
         </div>

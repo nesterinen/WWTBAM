@@ -1,3 +1,6 @@
+{
+  "description": "Vakio100",
+  "questions":
 [
   {
     "question": "Mikä on Suomen pääkaupunki?",
@@ -800,3 +803,4 @@
     "D": "Diana"
   }
 ]
+}
