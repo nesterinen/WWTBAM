@@ -16,6 +16,8 @@ import kysymykset2 from './questions/kysymykset2.json'
 import kysymykset3 from './questions/kysymykset3.json'
 import kysymykset4 from './questions/kysymykset4.json'
 
+import Balls from './balls'
+
 const salasana = 'root'
 
 //https://stackoverflow.com/questions/29816872/how-can-i-convert-milliseconds-to-hhmmss-format-using-javascript
@@ -647,6 +649,7 @@ function App() {
         <>
           <StageMachine backToMenu={() => setGameState('menu')} muted={muted} muteEffects={muteEffects} stageMagazine={stageMag} addScore={addScoreToHighscores}/>
           <SettingsBar/>
+          <Balls/>
         </>
       )
 

@@ -96,10 +96,12 @@
 */
 
 .sideBar {
+  background-color: #232626;
   border-left: 4px solid white;
   width: 100%;
   overflow: hidden;
   margin-left: 1rem;
+  z-index: 5;
 }
 
 .sideBarPrize {
