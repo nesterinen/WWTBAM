@@ -16,6 +16,9 @@ import kysymykset1 from './questions/kysymykset1.json'
 import kysymykset2 from './questions/kysymykset2.json'
 import kysymykset3 from './questions/kysymykset3.json'
 import kysymykset4 from './questions/kysymykset4.json'
+import kysymykset5 from './questions/kysymykset5.json'
+import kysymykset6 from './questions/kysymykset6.json'
+
 
 import Balls from './balls'
 
@@ -576,7 +579,7 @@ function App() {
 */
 
   function changeQuiz(quizNum: number){ // quizNum: 0 | 1 | 2 | 3 | 4
-    const quizArr = [kysymykset.questions, kysymykset1.questions, kysymykset2.questions, kysymykset3.questions, kysymykset4.questions]
+    const quizArr = [kysymykset.questions, kysymykset1.questions, kysymykset2.questions, kysymykset3.questions, kysymykset4.questions, kysymykset5.questions, kysymykset6.questions]
     if(quizArr[quizNum] && quizArr[quizNum].length > 15){
       console.log('quiz changed.', quizArr[quizNum])
       setCurrentQuiz(quizArr[quizNum])
@@ -720,6 +723,8 @@ function App() {
             <option value={2}>{kysymykset2.description}</option>
             <option value={3}>{kysymykset3.description}</option>
             <option value={4}>{kysymykset4.description}</option>
+            <option value={5}>{kysymykset5.description}</option>
+            <option value={6}>{kysymykset6.description}</option>
           </select>
           <SettingsBar/>
         </div>

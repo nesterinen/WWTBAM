@@ -1,0 +1,397 @@
+{
+  "description": "Yhdistyskysymykset: 49kpl",
+  "questions": [
+  {
+    "question": "Minkä niminen on Pohjois-Karjalan Mielenterveydentuki ry:n ylläpitämä ikäihmisten kohtaamispaikka?",
+    "answer": "Torikievari 2.0",
+    "A": "Olohuone Kotoisa",
+    "B": "Torikievari 2.0",
+    "C": "Kulttuuripaja Kuohu",
+    "D": "Kotikievari"
+  },
+  {
+    "question": "Mille ikäryhmälle Kulttuuripaja Kuohun toiminta on pääasiassa suunnattu?",
+    "answer": "16–29-vuotiaille nuorille",
+    "A": "Vain opiskelijoille",
+    "B": "Yli 65-vuotiaille",
+    "C": "Lapsiperheille",
+    "D": "16–29-vuotiaille nuorille"
+  },
+  {
+    "question": "Mikä on Pohjois-Karjalan Mielenterveydentuki ry:n Y-tunnus?",
+    "answer": "0918041-5",
+    "A": "0918041-5",
+    "B": "1234567-8",
+    "C": "003721291126",
+    "D": "918041-5"
+  },
+  {
+    "question": "Mitä KELA:n kustantamaa palvelua yhdistys tarjoaa 16–29-vuotiaille nuorille?",
+    "answer": "NUOTTI-valmennus",
+    "A": "Starttivalmennus",
+    "B": "NUOTTI-valmennus",
+    "C": "Työkykyneuvonta",
+    "D": "Opintopolku-ohjaus"
+  },
+  {
+    "question": "Mikä seuraavista on kaikille avoin matalan kynnyksen kohtaamispaikka?",
+    "answer": "Olohuone Kotoisa",
+    "A": "Jokikievari",
+    "B": "Kotikievari",
+    "C": "Olohuone Kotoisa",
+    "D": "Päämajanpaja"
+  },
+  {
+    "question": "Mikä on yhdistyksen keskuksen puhelinnumero?",
+    "answer": "013 316 388",
+    "A": "112",
+    "B": "013 316 388",
+    "C": "10022",
+    "D": "010 123 456"
+  },
+  {
+    "question": "Mitä palvelua Kotihoito Tukikievari tarjoaa?",
+    "answer": "Tukea omaan kotiin",
+    "A": "Asunnonvälitystä",
+    "B": "Ryhmäasumista",
+    "C": "Tukea omaan kotiin",
+    "D": "Päivätoimintaa"
+  },
+  {
+    "question": "Missä osoitteessa Pohjois-Karjalan Mielenterveydentuki ry:n keskus sijaitsee?",
+    "answer": "Torikatu 36 A-talo",
+    "A": "Siltakatu 14",
+    "B": "Kirkkokatu 10",
+    "C": "Kauppakatu 25",
+    "D": "Torikatu 36 A-talo"
+  },
+  {
+    "question": "Minkä nimisiä yhteisötaloja yhdistys ylläpitää?",
+    "answer": "Jokikievari ja Kotikievari",
+    "A": "Päiväpirtti ja Iltarusko",
+    "B": "Jokikievari ja Kotikievari",
+    "C": "Torikievari ja Olohuone",
+    "D": "Kuohu ja Kotoisa"
+  },
+  {
+    "question": "Mitä yhdistys tarjoaa mielenterveyskuntoutujille ja haastavassa elämäntilanteessa oleville nuorille?",
+    "answer": "Asumis- ja asumisen tukipalveluita",
+    "A": "Ainoastaan talousneuvontaa",
+    "B": "Asumis- ja asumisen tukipalveluita",
+    "C": "Vain lakipalveluita",
+    "D": "Urheiluvalmennusta"
+  },
+  {
+    "question": "Mitä toimintaa yhdistyksen pajoissa ja ryhmissä on tarjolla?",
+    "answer": "Kuntouttavaa työtoimintaa ja sosiaalista kuntoutusta",
+    "A": "Korkeakouluopintoja",
+    "B": "Ammatillista koulutusta",
+    "C": "Kuntouttavaa työtoimintaa ja sosiaalista kuntoutusta",
+    "D": "Palkkatyötä teollisuudessa"
+  },
+  {
+    "question": "Mitä kuuluu yhdistyksen toimintaan kansalaistoiminnan ja kuntoutuspalveluiden lisäksi?",
+    "answer": "Mielenhyvinvointia ja -terveyttä edistävät hankkeet",
+    "A": "Kansainvälinen avustustoiminta",
+    "B": "Mielenhyvinvointia ja -terveyttä edistävät hankkeet",
+    "C": "Poliittinen vaikuttaminen",
+    "D": "Sijoitustoiminta"
+  },
+  {
+    "question": "Kuka on asiakkaan rooli yhdistyksen toimintaperiaatteen mukaan?",
+    "answer": "Oman elämänsä paras asiantuntija",
+    "A": "Passiivinen avun vastaanottaja",
+    "B": "Ainoastaan vertaistukija",
+    "C": "Oman elämänsä paras asiantuntija",
+    "D": "Työntekijän alainen"
+  },
+  {
+    "question": "Mitä yhdistys ei tee asiakkaan puolesta?",
+    "answer": "Päätöksiä",
+    "A": "Auta tavoitteiden saavuttamisessa",
+    "B": "Kannusta unelmoimaan",
+    "C": "Tarjoa vertaistukea",
+    "D": "Päätöksiä"
+  },
+  {
+    "question": "Mikä on yhdistyksen verkkolaskutusoperaattori?",
+    "answer": "Maventa",
+    "A": "Posti",
+    "B": "Verifone",
+    "C": "Maventa",
+    "D": "OpusCapita"
+  },
+  {
+    "question": "Mihin yhdistyksen toiminta keskittyy Pohjois-Karjalan maakunnan alueella?",
+    "answer": "Työhön, toimintaan, tukeen ja asumiseen",
+    "A": "Ainoastaan asumiseen",
+    "B": "Vain työllistämiseen",
+    "C": "Pelkästään neuvontaan",
+    "D": "Työhön, toimintaan, tukeen ja asumiseen"
+  },
+  {
+    "question": "Mitä yhdistyksen sivuilla mainitaan matkojen ja retkien järjestämisestä?",
+    "answer": "Ne ovat osa kohtaamispaikkatoimintaa",
+    "A": "Niitä ei järjestetä lainkaan",
+    "B": "Ne ovat vain jäsenille",
+    "C": "Ne ovat osa kohtaamispaikkatoimintaa",
+    "D": "Ne ovat maksullisia kaikille"
+  },
+  {
+    "question": "Mitä palvelua yhdistykseltä on mahdollista ostaa?",
+    "answer": "Työnohjauspalveluita",
+    "A": "Siivouspalveluita",
+    "B": "IT-tukipalveluita",
+    "C": "Työnohjauspalveluita",
+    "D": "Kirjanpitopalveluita"
+  },
+  {
+    "question": "Mitä tietoja yhdistyksestä kertovasta osiosta löytyy?",
+    "answer": "Hallituksen kokoonpano ja jäsentiedotteet",
+    "A": "Taloudellinen tilinpäätös",
+    "B": "Työntekijöiden palkkatiedot",
+    "C": "Hallituksen kokoonpano ja jäsentiedotteet",
+    "D": "Asiakastyytyväisyyskyselyiden tulokset"
+  },
+  {
+    "question": "Mitä sosiaalisen median kanavia yhdistys käyttää verkkosivujen mukaan?",
+    "answer": "Facebook, Twitter, Instagram",
+    "A": "LinkedIn, TikTok",
+    "B": "Facebook, Twitter, Instagram",
+    "C": "Snapchat, Pinterest",
+    "D": "YouTube, WhatsApp"
+  },
+  {
+    "question": "Kenelle yhteisötalo Jokikievari tarjoaa asumispalveluita?",
+    "answer": "Mielenterveyskuntoutujille",
+    "A": "Vain opiskelijoille",
+    "B": "Mielenterveyskuntoutujille",
+    "C": "Senioreille",
+    "D": "Vammaisille"
+  },
+  {
+    "question": "Minkälaista toimintaa Kulttuuripaja Kuohu tarjoaa?",
+    "answer": "Luovaa ja osallistavaa toimintaa nuorille",
+    "A": "Kuntosaliharjoittelua",
+    "B": "Luovaa ja osallistavaa toimintaa nuorille",
+    "C": "Ruuanlaittokursseja senioreille",
+    "D": "Autonkorjauspajatoimintaa"
+  },
+  {
+    "question": "Mikä on Olohuone Kotoisan perusajatus?",
+    "answer": "Toimia matalan kynnyksen kohtaamispaikkana",
+    "A": "Tarjota terapiaa",
+    "B": "Toimia matalan kynnyksen kohtaamispaikkana",
+    "C": "Järjestää urheilukilpailuja",
+    "D": "Olla yömaja"
+  },
+  {
+    "question": "Mikä on yhdistyksen verkkosivujen suunnittelija?",
+    "answer": "Elegant Themes",
+    "A": "Tovari",
+    "B": "WordPress",
+    "C": "Elegant Themes",
+    "D": "Maventa"
+  },
+  {
+    "question": "Mitä 'Tervetuloa sellaisena kuin olet' -lause viestii?",
+    "answer": "Hyväksyvää ja tuomitsematonta ilmapiiriä",
+    "A": "Asiakkaiden tulee olla omatoimisia",
+    "B": "Palvelu on tarkoitettu vain tietyille ihmisille",
+    "C": "Hyväksyvää ja tuomitsematonta ilmapiiriä",
+    "D": "Toiminnalla on tiukat säännöt"
+  },
+  {
+    "question": "Mikä on yhdistyksen rooli asiakkaan unelmien ja tavoitteiden suhteen?",
+    "answer": "Kannustaa ja tukea",
+    "A": "Määrittää tavoitteet asiakkaan puolesta",
+    "B": "Suhtautua niihin välinpitämättömästi",
+    "C": "Kannustaa ja tukea",
+    "D": "Arvostella tavoitteiden realistisuutta"
+  },
+  {
+    "question": "Mikä on vertaistuen merkitys yhdistyksen toiminnassa?",
+    "answer": "Se on keskeinen osa toimintaa ja sitä voi sekä saada että antaa",
+    "A": "Sitä ei ole saatavilla",
+    "B": "Sitä tarjoavat vain ammattilaiset",
+    "C": "Se on keskeinen osa toimintaa ja sitä voi sekä saada että antaa",
+    "D": "Se on tarkoitettu vain ryhmäkeskusteluihin"
+  },
+  {
+    "question": "Mihin tarkoitukseen yhdistys tarjoaa vuokra-asuntojen välitystä?",
+    "answer": "Tuetun asumisen mahdollistamiseksi",
+    "A": "Liiketoiminnan harjoittamiseen",
+    "B": "Sijoittajille",
+    "C": "Tuetun asumisen mahdollistamiseksi",
+    "D": "Vain lyhytaikaiseen majoitukseen"
+  },
+  {
+    "question": "Mitä 'sinä olet tärkeä juuri sellaisena kuin olet' -periaate tarkoittaa?",
+    "answer": "Jokaisen ihmisen itseisarvoa ja hyväksyntää",
+    "A": "Asiakkaan on muututtava saadakseen apua",
+    "B": "Jokaisen ihmisen itseisarvoa ja hyväksyntää",
+    "C": "Palvelut on räätälöity vain tietyntyyppisille ihmisille",
+    "D": "Vain tietyt ominaisuudet ovat tärkeitä"
+  },
+  {
+    "question": "Mikä on yhdistyksen tavoite auttaa ihmistä löytämään oma roolinsa?",
+    "answer": "Omassa yhteisössään ja ympäröivässä yhteiskunnassa",
+    "A": "Vain perheen sisällä",
+    "B": "Ainoastaan työelämässä",
+    "C": "Omassa yhteisössään ja ympäröivässä yhteiskunnassa",
+    "D": "Harrastusryhmissä"
+  },
+  {
+    "question": "Mitä tarkoitetaan 'matalan kynnyksen' kohtaamispaikalla?",
+    "answer": "Paikkaan on helppo tulla ilman lähetettä tai ajanvarausta",
+    "A": "Paikka sijaitsee katutasossa",
+    "B": "Palvelu on tarkoitettu vain vähävaraisille",
+    "C": "Paikkaan on helppo tulla ilman lähetettä tai ajanvarausta",
+    "D": "Toiminta on hyvin rajoitettua"
+  },
+  {
+    "question": "Missä kerroksessa yhdistyksen keskus sijaitsee?",
+    "answer": "3. kerroksessa",
+    "A": "Katutasossa",
+    "B": "2. kerroksessa",
+    "C": "3. kerroksessa",
+    "D": "Ylimmässä kerroksessa"
+  },
+  {
+    "question": "Mitä verkkosivujen 'Kalenteri'-osio todennäköisesti sisältää?",
+    "answer": "Tietoa tulevista tapahtumista ja ryhmistä",
+    "A": "Historiallisia päivämääriä",
+    "B": "Työntekijöiden lomakalenterin",
+    "C": "Tietoa tulevista tapahtumista ja ryhmistä",
+    "D": "Juhlapyhien luettelon"
+  },
+  {
+    "question": "Mikä on 'Media'-osion tarkoitus yhdistyksen sivuilla?",
+    "answer": "Tarjota julkisia materiaaleja, kuten esitteitä ja logoja",
+    "A": "Julkaista uutisartikkeleita",
+    "B": "Näyttää mainoksia",
+    "C": "Tarjota julkisia materiaaleja, kuten esitteitä ja logoja",
+    "D": "Linkittää muihin medioihin"
+  },
+  {
+    "question": "Mitä 'Liity jäseneksi' -sivulla todennäköisesti voi tehdä?",
+    "answer": "Täyttää lomakkeen liittyäkseen yhdistyksen jäseneksi",
+    "A": "Lukea jäsenten blogeja",
+    "B": "Täyttää lomakkeen liittyäkseen yhdistyksen jäseneksi",
+    "C": "Maksaa jäsenmaksun suoraan",
+    "D": "Selata nykyisten jäsenten luetteloa"
+  },
+  {
+    "question": "Minkä tyyppistä sisältöä 'Blogit'-osiosta löytyy?",
+    "answer": "Kirjoituksia ja tarinoita mielenhyvinvointiin liittyen",
+    "A": "Virallisia tiedotteita",
+    "B": "Tieteellisiä artikkeleita",
+    "C": "Kirjoituksia ja tarinoita mielenhyvinvointiin liittyen",
+    "D": "Kuvagallerioita"
+  },
+  {
+    "question": "Mihin 'Päättyneet hankkeet' -osio viittaa?",
+    "answer": "Yhdistyksen aiemmin toteuttamiin, jo päättyneisiin projekteihin",
+    "A": "Epäonnistuneisiin projekteihin",
+    "B": "Yhdistyksen aiemmin toteuttamiin, jo päättyneisiin projekteihin",
+    "C": "Tulevaisuuden hankesuunnitelmiin",
+    "D": "Muiden organisaatioiden hankkeisiin"
+  },
+  {
+    "question": "Mitä 'Ohjaus- ja valmennuspalvelut' -otsikon alla esitellään NUOTTI-valmennuksen lisäksi?",
+    "answer": "Työnohjauspalvelut",
+    "A": "Lakineuvonta",
+    "B": "Ravitsemusneuvonta",
+    "C": "Työnohjauspalvelut",
+    "D": "Liikuntavalmennus"
+  },
+  {
+    "question": "Mikä on 'Asumispalvelut'-valikon kolmas kohta yhteisötalojen jälkeen?",
+    "answer": "Vuokra-asunnot",
+    "A": "Kotihoito",
+    "B": "Vuokra-asunnot",
+    "C": "Tukiasunnot",
+    "D": "Asuntolainaneuvonta"
+  },
+  {
+    "question": "Mikä on Torikatu 36:n A-talon postinumero?",
+    "answer": "80100",
+    "A": "80110",
+    "B": "80100",
+    "C": "80200",
+    "D": "80130"
+  },
+  {
+    "question": "Minkä toimijan tuella verkkosivut on toimitettu?",
+    "answer": "WordPress",
+    "A": "Elegant Themes",
+    "B": "WordPress",
+    "C": "Maventa",
+    "D": "Tovari"
+  },
+  {
+    "question": "Mitä tarkoittaa, että yhdistys tarjoaa 'tukea, työtä, toimintaa ja asumista'?",
+    "answer": "Se tarjoaa monipuolisia palveluita elämän eri osa-alueille",
+    "A": "Asiakkaan on osallistuttava kaikkiin osa-alueisiin",
+    "B": "Se tarjoaa monipuolisia palveluita elämän eri osa-alueille",
+    "C": "Palvelut ovat vain työikäisille",
+    "D": "Toiminta on jaettu neljään erilliseen yksikköön"
+  },
+  {
+    "question": "Kenelle Torikievari 2.0 on tarkoitettu?",
+    "answer": "Senioreille",
+    "A": "Nuorille aikuisille",
+    "B": "Lapsiperheille",
+    "C": "Opiskelijoille",
+    "D": "Senioreille"
+  },
+  {
+    "question": "Minkälaista tukea yhdistys lupaa, kun asiakas työskentelee tavoitteidensa eteen?",
+    "answer": "He ovat tukena",
+    "A": "He tekevät työn asiakkaan puolesta",
+    "B": "He ovat tukena",
+    "C": "He tarjoavat taloudellista avustusta",
+    "D": "He takaavat onnistumisen"
+  },
+  {
+    "question": "Mistä yhdistyksen verkkosivujen RSS-syötteen voi tilata?",
+    "answer": "Sivun alalaidan ikoneista",
+    "A": "Yhteystiedot-sivulta",
+    "B": "Sivun alalaidan ikoneista",
+    "C": "Blogi-osiosta",
+    "D": "Ajankohtaista-sivulta"
+  },
+  {
+    "question": "Minkä tyyppistä toimintaa 'Työpajatoiminta'-osio käsittelee?",
+    "answer": "Kuntouttavia toimintoja",
+    "A": "Palkkatyötä",
+    "B": "Vapaaehtoistyötä ulkomailla",
+    "C": "Kuntouttavia toimintoja",
+    "D": "Ammatillista koulutusta"
+  },
+  {
+    "question": "Mitä palvelua NUOTTI-valmennus on?",
+    "answer": "Kelan kustantamaa henkilökohtaista valmennusta nuorille",
+    "A": "Yhdistyksen omaa maksullista koulutusta",
+    "B": "Musiikkiterapiaa",
+    "C": "Kelan kustantamaa henkilökohtaista valmennusta nuorille",
+    "D": "Ryhmämuotoista liikuntaa"
+  },
+  {
+    "question": "Mitä 'Yhteisötalo'-termi tarkoittaa yhdistyksen yhteydessä?",
+    "answer": "Tuetun asumisen yksikköä",
+    "A": "Harrastetilaa kaikille kaupunkilaisille",
+    "B": "Tuetun asumisen yksikköä",
+    "C": "Toimistorakennusta",
+    "D": "Juhlien pitopaikkaa"
+  },
+  {
+    "question": "Mikä on 'Ajankohtaista'-sivun todennäköinen sisältö?",
+    "answer": "Uutisia ja ilmoituksia yhdistyksen toiminnasta",
+    "A": "Yleisiä uutisia maailmalta",
+    "B": "Uutisia ja ilmoituksia yhdistyksen toiminnasta",
+    "C": "Vanhoja lehtiartikkeleita",
+    "D": "Työntekijöiden henkilökohtaisia kuulumisia"
+  }
+]
+}

@@ -1,0 +1,1429 @@
+{
+  "description": "Nörttikysymykset: 158kpl",
+  "questions": [
+  {
+    "question": "Mikä on Marvel-universumin sankari, joka tunnetaan myös nimellä Tony Stark?",
+    "answer": "Rautamies",
+    "A": "Kapteeni Amerikka",
+    "B": "Hulk",
+    "C": "Thor",
+    "D": "Rautamies"
+  },
+  {
+    "question": "Mikä on Harry Potterin tupa Tylypahkassa?",
+    "answer": "Rohkelikko",
+    "A": "Luihuinen",
+    "B": "Rohkelikko",
+    "C": "Korpinkynsi",
+    "D": "Puuskupuh"
+  },
+  {
+    "question": "Minkä videopelisarjan päähahmo on sininen, huippunopea siili?",
+    "answer": "Sonic the Hedgehog",
+    "A": "Super Mario",
+    "B": "Crash Bandicoot",
+    "C": "Sonic the Hedgehog",
+    "D": "Mega Man"
+  },
+  {
+    "question": "Kuka on Batmanin tunnetuin arkkivihollinen?",
+    "answer": "Jokeri",
+    "A": "Pingviini",
+    "B": "Arvuuttaja",
+    "C": "Jokeri",
+    "D": "Kissnainen"
+  },
+  {
+    "question": "Mitä lyhenne 'CPU' tarkoittaa tietotekniikassa?",
+    "answer": "Suoritin (Central Processing Unit)",
+    "A": "Tietokoneen virtalähde",
+    "B": "Keskusmuisti",
+    "C": "Suoritin (Central Processing Unit)",
+    "D": "Emolevy"
+  },
+  {
+    "question": "Mikä on Star Wars -elokuvien kuuluisa voima, joka sitoo galaksin yhteen?",
+    "answer": "Voima",
+    "A": "Virta",
+    "B": "Henki",
+    "C": "Taika",
+    "D": "Voima"
+  },
+  {
+    "question": "Minkä pelikonsolin Nintendo julkaisi Euroopassa vuonna 1986?",
+    "answer": "Nintendo Entertainment System (NES)",
+    "A": "Super Nintendo",
+    "B": "Nintendo 64",
+    "C": "Game Boy",
+    "D": "Nintendo Entertainment System (NES)"
+  },
+  {
+    "question": "Mikä on Frodo Reppulin tehtävä Taru sormusten herrasta -kirjasarjassa?",
+    "answer": "Tuhota Valtasormus",
+    "A": "Löytää Aragorn",
+    "B": "Tuhota Valtasormus",
+    "C": "Valloittaa Mordor",
+    "D": "Pelastaa Gandalf"
+  },
+  {
+    "question": "Mikä on pääkaupunki Westerosin mantereella Game of Thrones -sarjassa?",
+    "answer": "Kuninkaansatama",
+    "A": "Talvivaara",
+    "B": "Casterlynkallio",
+    "C": "Kuninkaansatama",
+    "D": "Meereen"
+  },
+  {
+    "question": "Mitä eläintä edustaa Pokémon-sarjan ikonisin hahmo Pikachu?",
+    "answer": "Hiiri",
+    "A": "Kani",
+    "B": "Orava",
+    "C": "Hiiri",
+    "D": "Kettu"
+  },
+  {
+    "question": "Kuka kirjoitti Narnian tarinat -kirjasarjan?",
+    "answer": "C.S. Lewis",
+    "A": "J.R.R. Tolkien",
+    "B": "J.K. Rowling",
+    "C": "C.S. Lewis",
+    "D": "George R.R. Martin"
+  },
+  {
+    "question": "Mikä on Han Solon aluksen nimi Star Warsissa?",
+    "answer": "Millennium Falcon",
+    "A": "Slave I",
+    "B": "X-siipinen",
+    "C": "Tähtituhoaja",
+    "D": "Millennium Falcon"
+  },
+  {
+    "question": "Mistä planeetalta Teräsmies (Superman) on kotoisin?",
+    "answer": "Krypton",
+    "A": "Mars",
+    "B": "Krypton",
+    "C": "Asgard",
+    "D": "Tatooine"
+  },
+  {
+    "question": "Mikä on yleisin noppatyyppi tärkeisiin heittoihin Dungeons & Dragons -roolipelissä?",
+    "answer": "d20",
+    "A": "d6",
+    "B": "d10",
+    "C": "d12",
+    "D": "d20"
+  },
+  {
+    "question": "Mikä on Doctor Whon avaruusaluksen ja aikakoneen nimi, joka näyttää brittiläiseltä poliisikopilta?",
+    "answer": "TARDIS",
+    "A": "Enterprise",
+    "B": "Serenity",
+    "C": "TARDIS",
+    "D": "DeLorean"
+  },
+  {
+    "question": "Mitä tarkoittaa HTML?",
+    "answer": "HyperText Markup Language",
+    "A": "High-Tech Mail Logic",
+    "B": "HyperText Markup Language",
+    "C": "Home Tool Management Link",
+    "D": "Hyperlink and Text Manipulation Language"
+  },
+  {
+    "question": "Kuka on Linkin päävihollinen The Legend of Zelda -pelisarjassa?",
+    "answer": "Ganon",
+    "A": "Bowser",
+    "B": "Dr. Eggman",
+    "C": "Sephiroth",
+    "D": "Ganon"
+  },
+  {
+    "question": "Mikä on Thorin vasaran nimi?",
+    "answer": "Mjolnir",
+    "A": "Stormbreaker",
+    "B": "Gungnir",
+    "C": "Mjolnir",
+    "D": "Excalibur"
+  },
+  {
+    "question": "Mikä yritys kehitti Windows-käyttöjärjestelmän?",
+    "answer": "Microsoft",
+    "A": "Apple",
+    "B": "Google",
+    "C": "IBM",
+    "D": "Microsoft"
+  },
+  {
+    "question": "Kuka on Pokémon-kouluttaja, jonka tavoitteena on 'saada kaikki'?",
+    "answer": "Ash Ketchum",
+    "A": "Gary Oak",
+    "B": "Misty",
+    "C": "Brock",
+    "D": "Ash Ketchum"
+  },
+  {
+    "question": "Mikä on Pac-Manin tavoite samannimisessä pelissä?",
+    "answer": "Syödä kaikki pisteet",
+    "A": "Pelastaa prinsessa",
+    "B": "Voittaa haamuja",
+    "C": "Syödä kaikki pisteet",
+    "D": "Kerätä kolikoita"
+  },
+  {
+    "question": "Mikä on jedien käyttämä ase Star Warsissa?",
+    "answer": "Valomiekka",
+    "A": "Sädease",
+    "B": "Voimakeihäs",
+    "C": "Valomiekka",
+    "D": "Laserkivääri"
+  },
+  {
+    "question": "Mikä on sen avaruusaluksen nimi, jota kapteeni Kirk komentaa Star Trekissä?",
+    "answer": "USS Enterprise",
+    "A": "USS Voyager",
+    "B": "USS Defiant",
+    "C": "USS Enterprise",
+    "D": "Battlestar Galactica"
+  },
+  {
+    "question": "Mikä on Super Marion veljen nimi?",
+    "answer": "Luigi",
+    "A": "Wario",
+    "B": "Waluigi",
+    "C": "Toad",
+    "D": "Luigi"
+  },
+  {
+    "question": "Mikä on 'The Matrix' -elokuvien päähenkilön hakkeroitu nimi?",
+    "answer": "Neo",
+    "A": "Morpheus",
+    "B": "Trinity",
+    "C": "Neo",
+    "D": "Agentti Smith"
+  },
+  {
+    "question": "Mikä on Hämähäkkimiehen oikea nimi?",
+    "answer": "Peter Parker",
+    "A": "Bruce Wayne",
+    "B": "Clark Kent",
+    "C": "Peter Parker",
+    "D": "Steve Rogers"
+  },
+  {
+    "question": "Minkä värinen on Hulk?",
+    "answer": "Vihreä",
+    "A": "Punainen",
+    "B": "Sininen",
+    "C": "Keltainen",
+    "D": "Vihreä"
+  },
+  {
+    "question": "Mikä on se ikoninen rakennusmateriaali, jota pelaajat louhivat Minecraftissa?",
+    "answer": "Kuutiopalikat",
+    "A": "Pyramidit",
+    "B": "Pallot",
+    "C": "Kuutiopalikat",
+    "D": "Kolmiot"
+  },
+  {
+    "question": "Kuka on 'Alien'-elokuvasarjan sankaritar?",
+    "answer": "Ellen Ripley",
+    "A": "Sarah Connor",
+    "B": "Leia Organa",
+    "C": "Ellen Ripley",
+    "D": "Katniss Everdeen"
+  },
+  {
+    "question": "Mikä on se olento, joka kantaa sormusta Mordoriin?",
+    "answer": "Hobitti",
+    "A": "Kääpiö",
+    "B": "Haltia",
+    "C": "Ihminen",
+    "D": "Hobitti"
+  },
+  {
+    "question": "Mitä ainetta vastaan Teräsmies on heikko?",
+    "answer": "Kryptoniitti",
+    "A": "Plutonium",
+    "B": "Titaani",
+    "C": "Kryptoniitti",
+    "D": "Adamantium"
+  },
+  {
+    "question": "Mikä on se laite, jolla voi matkustaa ajassa elokuvassa 'Paluu tulevaisuuteen'?",
+    "answer": "DeLorean-auto",
+    "A": "Puhelinkoppi",
+    "B": "Urheiluauto",
+    "C": "DeLorean-auto",
+    "D": "Höyryjuna"
+  },
+  {
+    "question": "Kuka on 'The Witcher' -sarjan päähenkilö?",
+    "answer": "Geralt Rivialainen",
+    "A": "Jaskier",
+    "B": "Emhyr var Emreis",
+    "C": "Geralt Rivialainen",
+    "D": "Triss Merigold"
+  },
+  {
+    "question": "Mistä 'Fallout'-pelisarjan post-apokalyptinen maailma tunnetaan?",
+    "answer": "Ydinsodan jälkeisestä autiomaasta",
+    "A": "Zombien valtaamasta kaupungista",
+    "B": "Fantasiametsästä",
+    "C": "Ydinsodan jälkeisestä autiomaasta",
+    "D": "Tulevaisuuden suurkaupungista"
+  },
+  {
+    "question": "Mikä on 'Ikuisuuskivi', joka hallitsee aikaa Marvel-universumissa?",
+    "answer": "Aikakivi",
+    "A": "Sielukivi",
+    "B": "Mielikivi",
+    "C": "Aikakivi",
+    "D": "Tilakivi"
+  },
+  {
+    "question": "Mikä on 'Firefly'-televisiosarjan aluksen nimi?",
+    "answer": "Serenity",
+    "A": "Normandy",
+    "B": "Pillar of Autumn",
+    "C": "Serenity",
+    "D": "Galactica"
+  },
+  {
+    "question": "Mikä on päähenkilön nimi 'Half-Life'-pelisarjassa?",
+    "answer": "Gordon Freeman",
+    "A": "Adrian Shephard",
+    "B": "Barney Calhoun",
+    "C": "G-Man",
+    "D": "Gordon Freeman"
+  },
+  {
+    "question": "Minkä niminen tekoäly auttaa Master Chiefiä 'Halo'-pelisarjassa?",
+    "answer": "Cortana",
+    "A": "GLaDOS",
+    "B": "SHODAN",
+    "C": "Cortana",
+    "D": "Siri"
+  },
+  {
+    "question": "Mikä on 'Cowboy Bebop' -animesarjan päähenkilöiden aluksen nimi?",
+    "answer": "Bebop",
+    "A": "Swordfish II",
+    "B": "Red Tail",
+    "C": "Hammerhead",
+    "D": "Bebop"
+  },
+  {
+    "question": "Mikä on sen vuoren nimi, jonne Frodon on vietävä sormus?",
+    "answer": "Tuomiovuori",
+    "A": "Yksinäinen vuori",
+    "B": "Sumuvuoret",
+    "C": "Tuomiovuori",
+    "D": "Rautavuoret"
+  },
+  {
+    "question": "Kuka loi Dothraki-kielen 'Game of Thrones' -sarjaa varten?",
+    "answer": "David J. Peterson",
+    "A": "J.R.R. Tolkien",
+    "B": "George R.R. Martin",
+    "C": "David J. Peterson",
+    "D": "Marc Okrand"
+  },
+  {
+    "question": "Mikä on se laite, jolla 'Ghostbusters'-ryhmä vangitsee haamuja?",
+    "answer": "Protonireppu ja ansa",
+    "A": "Aaveimuri",
+    "B": "Ektoplasmatykit",
+    "C": "Protonireppu ja ansa",
+    "D": "Henkiverkko"
+  },
+  {
+    "question": "Mikä on alkuperäinen ohjelmointikieli, jolla Linux-ydin kirjoitettiin?",
+    "answer": "C",
+    "A": "Java",
+    "B": "Python",
+    "C": "C++",
+    "D": "C"
+  },
+  {
+    "question": "Kuka on 'Blade Runner' -elokuvan ohjaaja?",
+    "answer": "Ridley Scott",
+    "A": "Steven Spielberg",
+    "B": "James Cameron",
+    "C": "Ridley Scott",
+    "D": "George Lucas"
+  },
+  {
+    "question": "Mikä on 'Final Fantasy VII' -pelin päähenkilön nimi?",
+    "answer": "Cloud Strife",
+    "A": "Squall Leonhart",
+    "B": "Tidus",
+    "C": "Zidane Tribal",
+    "D": "Cloud Strife"
+  },
+  {
+    "question": "Mikä on Kapteeni Amerikan kilven materiaali?",
+    "answer": "Vibranium",
+    "A": "Adamantium",
+    "B": "Uru",
+    "C": "Vibranium",
+    "D": "Titaani"
+  },
+  {
+    "question": "Mitä tarkoittaa lyhenne 'LAN' verkkotekniikassa?",
+    "answer": "Local Area Network",
+    "A": "Long Antenna Network",
+    "B": "Logical Access Node",
+    "C": "Local Area Network",
+    "D": "Latency and Noise"
+  },
+  {
+    "question": "Mikä on 'Akira'-animen ja -mangan tapahtumapaikka?",
+    "answer": "Neo-Tokio",
+    "A": "Neo-Kioto",
+    "B": "Kyber-Osaka",
+    "C": "Neo-Tokio",
+    "D": "Mega-Japani"
+  },
+  {
+    "question": "Kuka on 'Sandman'-sarjakuvan päähenkilö?",
+    "answer": "Uni (Dream)",
+    "A": "Kuolema (Death)",
+    "B": "Kohtalo (Destiny)",
+    "C": "Uni (Dream)",
+    "D": "Himo (Desire)"
+  },
+  {
+    "question": "Mikä on 'Portal'-pelien kehittäjä?",
+    "answer": "Valve",
+    "A": "Blizzard",
+    "B": "Bethesda",
+    "C": "Valve",
+    "D": "BioWare"
+  },
+  {
+    "question": "Minkä niminen on tekoäly '2001: Avaruusseikkailu' -elokuvassa?",
+    "answer": "HAL 9000",
+    "A": "SAL 9000",
+    "B": "Skynet",
+    "C": "HAL 9000",
+    "D": "VIKI"
+  },
+  {
+    "question": "Mikä on vulkaanien looginen tervehdys Star Trekissä?",
+    "answer": "Elä kauan ja menesty",
+    "A": "Voima olkoon kanssasi",
+    "B": "Vastarinta on turhaa",
+    "C": "Elä kauan ja menesty",
+    "D": "Rauhaa ja pitkää ikää"
+  },
+  {
+    "question": "Mikä on se voimakas loitsu, jolla Harry Potter voi torjua ankeuttajia?",
+    "answer": "Suojelius (Patronus)",
+    "A": "Avada Kedavra",
+    "B": "Siipirikkoisku (Wingardium Leviosa)",
+    "C": "Suojelius (Patronus)",
+    "D": "Umpisukkelo (Sectumsempra)"
+  },
+  {
+    "question": "Kuka on 'Metal Gear Solid' -pelisarjan päähenkilö?",
+    "answer": "Solid Snake",
+    "A": "Liquid Snake",
+    "B": "Big Boss",
+    "C": "Solid Snake",
+    "D": "Raiden"
+  },
+  {
+    "question": "Mikä on 'Doom'-pelisarjan päähenkilön lempinimi?",
+    "answer": "Doomguy / Doom Slayer",
+    "A": "Duke Nukem",
+    "B": "Serious Sam",
+    "C": "B.J. Blazkowicz",
+    "D": "Doomguy / Doom Slayer"
+  },
+  {
+    "question": "Mikä on suurin alkuluku alle sadan?",
+    "answer": "97",
+    "A": "89",
+    "B": "91",
+    "C": "97",
+    "D": "99"
+  },
+  {
+    "question": "Kuka on 'Watchmen'-sarjakuvan ainoa hahmo, jolla on todellisia supervoimia?",
+    "answer": "Tohtori Manhattan",
+    "A": "Ozymandias",
+    "B": "Rorschach",
+    "C": "Koomikko",
+    "D": "Tohtori Manhattan"
+  },
+  {
+    "question": "Mikä on 'BioShock'-pelisarjan vedenalaisen kaupungin nimi?",
+    "answer": "Rapture",
+    "A": "Columbia",
+    "B": "Atlantis",
+    "C": "Rapture",
+    "D": "Dunwall"
+  },
+  {
+    "question": "Minkä niminen on lohikäärme, jota Smaug vartioi 'Hobitti'-kirjassa?",
+    "answer": "Smaug",
+    "A": "Ancalagon",
+    "B": "Glaurung",
+    "C": "Smaug",
+    "D": "Saphira"
+  },
+  {
+    "question": "Mikä on se tietokonevirus, joka melkein tuhosi verkon elokuvassa 'Hakkerit' (1995)?",
+    "answer": "Da Vinci -virus",
+    "A": "Morris-mato",
+    "B": "ILOVEYOU-virus",
+    "C": "Da Vinci -virus",
+    "D": "Stuxnet"
+  },
+  {
+    "question": "Mikä on 'Dune'-kirjasarjan tärkein resurssi, jota löytyy vain Arrakis-planeetalta?",
+    "answer": "Ruoho (Spice)",
+    "A": "Vesi",
+    "B": "Vibranium",
+    "C": "Ruoho (Spice)",
+    "D": "Unobtanium"
+  },
+  {
+    "question": "Mikä on nopein valoa nopeampi matkustustapa 'Star Wars' -universumissa?",
+    "answer": "Hyperajo",
+    "A": "Loimimoottori",
+    "B": "Hyppyajo",
+    "C": "Hyperajo",
+    "D": "Madonreikä"
+  },
+  {
+    "question": "Kuka on 'Mass Effect' -trilogian ihmiskunnan ensimmäinen Spectre-agentti?",
+    "answer": "Kommodori Shepard",
+    "A": "David Anderson",
+    "B": "Garrus Vakarian",
+    "C": "Kommodori Shepard",
+    "D": "Saren Arterius"
+  },
+  {
+    "question": "Mitä tarkoittaa '42' teoksessa 'Linnunradan käsikirja liftareille'?",
+    "answer": "Vastaus elämään, universumiin ja kaikkeen muuhun sellaiseen",
+    "A": "Maapallon ikä",
+    "B": "Vastaus elämään, universumiin ja kaikkeen muuhun sellaiseen",
+    "C": "Lopullinen kysymys",
+    "D": "Delfiinien viimeinen viesti"
+  },
+  {
+    "question": "Mikä on 'The Elder Scrolls V: Skyrim' -pelin päähenkilön nimitys?",
+    "answer": "Dovahkiin (Dragonborn)",
+    "A": "Nerevarine",
+    "B": "Kvatchin sankari",
+    "C": "Dovahkiin (Dragonborn)",
+    "D": "Vestige"
+  },
+  {
+    "question": "Mikä on se kuuluisa koodi, jolla saa 30 elämää Konamin peleissä?",
+    "answer": "Ylös, ylös, alas, alas, vasen, oikea, vasen, oikea, B, A",
+    "A": "A, B, A, C, A, B, B",
+    "B": "Ylös, alas, ylös, alas, vasen, oikea, A, B, Start",
+    "C": "Ylös, ylös, alas, alas, vasen, oikea, vasen, oikea, B, A",
+    "D": "Alas, R, ylös, L, Y, B"
+  },
+  {
+    "question": "Mikä on 'Terminator'-elokuvien tekoälyverkon nimi?",
+    "answer": "Skynet",
+    "A": "Cyberdyne",
+    "B": "Genisys",
+    "C": "Skynet",
+    "D": "Legion"
+  },
+  {
+    "question": "Mikä on Isaac Asimovin ensimmäinen robotiikan laki?",
+    "answer": "Robotti ei saa vahingoittaa ihmistä...",
+    "A": "Robotin on toteltava ihmisen käskyjä...",
+    "B": "Robotti ei saa vahingoittaa ihmistä...",
+    "C": "Robotin on suojeltava omaa olemassaoloaan...",
+    "D": "Robotti ei saa muuttaa omaa ohjelmointiaan."
+  },
+  {
+    "question": "Kuka on Rick Sanchezin aisapari animaatiosarjassa 'Rick and Morty'?",
+    "answer": "Morty Smith",
+    "A": "Jerry Smith",
+    "B": "Summer Smith",
+    "C": "Morty Smith",
+    "D": "Birdperson"
+  },
+  {
+    "question": "Mikä on se peli, jossa pelaajat yrittävät selviytyä saarella ja olla viimeinen elossa?",
+    "answer": "PlayerUnknown's Battlegrounds (PUBG) / Fortnite",
+    "A": "The Sims",
+    "B": "Animal Crossing",
+    "C": "PlayerUnknown's Battlegrounds (PUBG) / Fortnite",
+    "D": "Stardew Valley"
+  },
+  {
+    "question": "Minkä anime-studion perustivat Hayao Miyazaki ja Isao Takahata?",
+    "answer": "Studio Ghibli",
+    "A": "Toei Animation",
+    "B": "Sunrise",
+    "C": "Studio Ghibli",
+    "D": "Madhouse"
+  },
+  {
+    "question": "Mikä on 'StarCraft'-pelin kolme pelattavaa rotua?",
+    "answer": "Terran, Zerg, Protoss",
+    "A": "Ihminen, Örkki, Haltia",
+    "B": "Terran, Zerg, Protoss",
+    "C": "GDI, Nod, Scrin",
+    "D": "Ihmiset, Liitto, Tulva"
+  },
+  {
+    "question": "Minkä elokuvan ikoninen lause on 'Olen isäsi'?",
+    "answer": "Imperiumin vastaisku",
+    "A": "Tähtien sota",
+    "B": "Jedin paluu",
+    "C": "Imperiumin vastaisku",
+    "D": "Sithin kosto"
+  },
+  {
+    "question": "Mikä on 'Red Dead Redemption 2' -pelin päähenkilö?",
+    "answer": "Arthur Morgan",
+    "A": "John Marston",
+    "B": "Dutch van der Linde",
+    "C": "Arthur Morgan",
+    "D": "Micah Bell"
+  },
+  {
+    "question": "Mikä on se laite, joka mahdollistaa kommunikoinnin eri aikajanojen välillä 'Steins;Gate'-sarjassa?",
+    "answer": "Puhelinmikroaaltouuni (nimetty)",
+    "A": "Aikahyppykone",
+    "B": "D-Mail",
+    "C": "Puhelinmikroaaltouuni (nimetty)",
+    "D": "SERN:n hiukkaskiihdytin"
+  },
+  {
+    "question": "Kuka on 'Neon Genesis Evangelion' -sarjan päähenkilö ja Eva Yksikön 01 pilotti?",
+    "answer": "Shinji Ikari",
+    "A": "Asuka Langley Soryu",
+    "B": "Rei Ayanami",
+    "C": "Shinji Ikari",
+    "D": "Kaworu Nagisa"
+  },
+  {
+    "question": "Mikä on 'God of War' -pelisarjan päähenkilön, Kratoksen, alkuperä?",
+    "answer": "Spartalainen soturi",
+    "A": "Ateenalainen filosofi",
+    "B": "Olympoksen jumala",
+    "C": "Spartalainen soturi",
+    "D": "Roomalainen gladiaattori"
+  },
+  {
+    "question": "Mikä on TCP/IP-mallin kerros, joka vastaa reitityksestä verkkojen välillä?",
+    "answer": "Verkkokerros (Internet Layer)",
+    "A": "Kuljetuskerros (Transport Layer)",
+    "B": "Sovelluskerros (Application Layer)",
+    "C": "Verkkokerros (Internet Layer)",
+    "D": "Linkkikerros (Link Layer)"
+  },
+  {
+    "question": "Mikä on valoa nopeammin (teoriassa) liikkuva hypoteettinen hiukkanen?",
+    "answer": "Takyoni",
+    "A": "Fotoni",
+    "B": "Neutriino",
+    "C": "Takyoni",
+    "D": "Kvarkki"
+  },
+  {
+    "question": "Mikä on 'Gattaca'-elokuvan päähenkilön tavoite?",
+    "answer": "Matkustaa avaruuteen",
+    "A": "Tulla geneettisesti täydelliseksi",
+    "B": "Paljastaa yhteiskunnan salaisuudet",
+    "C": "Matkustaa avaruuteen",
+    "D": "Löytää veljensä"
+  },
+  {
+    "question": "Mikä on 'League of Legends' -pelin maailman nimi?",
+    "answer": "Runeterra",
+    "A": "Azeroth",
+    "B": "Tyria",
+    "C": "Runeterra",
+    "D": "Eorzea"
+  },
+  {
+    "question": "Mikä on 'Dark Souls' -pelisarjan keskeinen pelimekaniikka, johon kuolema liittyy?",
+    "answer": "Sielujen menetys ja uudelleensyntyminen nuotiolla",
+    "A": "Lopullinen kuolema (permadeath)",
+    "B": "Aikamatkustus menneisyyteen",
+    "C": "Sielujen menetys ja uudelleensyntyminen nuotiolla",
+    "D": "Välitön uudelleenkäynnistys"
+  },
+  {
+    "question": "Mitä Schrödinger-yhtälö kuvaa kvanttimekaniikassa?",
+    "answer": "Aaltofunktion kehitystä ajassa",
+    "A": "Painovoiman voimakkuutta",
+    "B": "Planeettojen kiertoratoja",
+    "C": "Aaltofunktion kehitystä ajassa",
+    "D": "Yleistä suhteellisuusteoriaa"
+  },
+  {
+    "question": "Mikä on Philip K. Dickin romaani, johon 'Blade Runner' -elokuva perustuu?",
+    "answer": "Palkkionmetsästäjä (Do Androids Dream of Electric Sheep?)",
+    "A": "Ubik",
+    "B": "Oraakkeli (A Scanner Darkly)",
+    "C": "Palkkionmetsästäjä (Do Androids Dream of Electric Sheep?)",
+    "D": "Mies korkeassa linnassa (The Man in the High Castle)"
+  },
+  {
+    "question": "Mikä on se organisaatio, jolle Fox Mulder ja Dana Scully työskentelevät 'Salaiset kansiot' -sarjassa?",
+    "answer": "FBI",
+    "A": "CIA",
+    "B": "NSA",
+    "C": "FBI",
+    "D": "Men in Black"
+  },
+  {
+    "question": "Minkä niminen on tekoäly 'System Shock' -pelisarjassa?",
+    "answer": "SHODAN",
+    "A": "GLaDOS",
+    "B": "Cortana",
+    "C": "SHODAN",
+    "D": "The Master"
+  },
+  {
+    "question": "Mikä on 'Warhammer 40,000' -universumin ihmiskunnan hallitsijan nimi?",
+    "answer": "Ihmiskunnan Keisari",
+    "A": "Horus Lupercal",
+    "B": "Roboute Guilliman",
+    "C": "Ihmiskunnan Keisari",
+    "D": "Abaddon the Despoiler"
+  },
+  {
+    "question": "Mikä on 'Cyberpunk 2077' -pelin tapahtumakaupunki?",
+    "answer": "Night City",
+    "A": "Neo Los Angeles",
+    "B": "Mega-Tokyo",
+    "C": "Night City",
+    "D": "Coruscant"
+  },
+  {
+    "question": "Mikä on se kyky, jota 'Minority Report' -elokuvan Pre-Cogit käyttävät rikosten ennustamiseen?",
+    "answer": "Ennakkotietäminen",
+    "A": "Telepatia",
+    "B": "Telekinesia",
+    "C": "Ennakkotietäminen",
+    "D": "Mielenhallinta"
+  },
+  {
+    "question": "Kuka on 'One-Punch Man' -sarjan päähenkilö?",
+    "answer": "Saitama",
+    "A": "Genos",
+    "B": "Mumen Rider",
+    "C": "Saitama",
+    "D": "King"
+  },
+  {
+    "question": "Mikä on 'Stranger Things' -sarjan rinnakkaistodellisuuden nimi?",
+    "answer": "Ylösalainen maailma (The Upside Down)",
+    "A": "Varjomaailma",
+    "B": "Toinen puoli",
+    "C": "Ylösalainen maailma (The Upside Down)",
+    "D": "Pimeä ulottuvuus"
+  },
+  {
+    "question": "Mikä on 'Kerbal Space Program' -pelin tavoite?",
+    "answer": "Rakentaa ja hallita toimivaa avaruusohjelmaa",
+    "A": "Valloittaa vieraita planeettoja",
+    "B": "Taistella avaruusolioita vastaan",
+    "C": "Rakentaa ja hallita toimivaa avaruusohjelmaa",
+    "D": "Louhia asteroideja"
+  },
+  {
+    "question": "Mikä on se maaginen esine, jonka avulla voi nähdä tulevaisuuteen 'Taru sormusten herrasta' -kirjoissa?",
+    "answer": "Palantír",
+    "A": "Galadrielin peili",
+    "B": "Valtasormus",
+    "C": "Palantír",
+    "D": "Arkkikivi"
+  },
+  {
+    "question": "Mikä on 'Battlestar Galactican' (2004) ihmiskunnan vihollisten, kylonien, tunnuslause?",
+    "answer": "Kaikki tämä on tapahtunut ennenkin ja kaikki tämä tulee tapahtumaan uudelleen.",
+    "A": "Vastarinta on turhaa.",
+    "B": "Jumalan nimessä.",
+    "C": "Kaikki tämä on tapahtunut ennenkin ja kaikki tämä tulee tapahtumaan uudelleen.",
+    "D": "Tuhotkaa kaikki ihmiset."
+  },
+  {
+    "question": "Mikä on 'Left 4 Dead' -pelisarjan neljän selviytyjän tavoite?",
+    "answer": "Päästä turvahuoneeseen",
+    "A": "Löytää parannuskeino",
+    "B": "Tuhota kaikki zombit",
+    "C": "Päästä turvahuoneeseen",
+    "D": "Pelastaa muita selviytyjiä"
+  },
+  {
+    "question": "Kuka on 'Fullmetal Alchemist' -sarjan päähenkilö, joka menetti kätensä ja jalkansa?",
+    "answer": "Edward Elric",
+    "A": "Alphonse Elric",
+    "B": "Roy Mustang",
+    "C": "Edward Elric",
+    "D": "Winry Rockbell"
+  },
+  {
+    "question": "Mikä on tiedoston enimmäiskoko FAT32-tiedostojärjestelmässä?",
+    "answer": "4 gigatavua",
+    "A": "2 gigatavua",
+    "B": "32 gigatavua",
+    "C": "4 gigatavua",
+    "D": "Rajoittamaton"
+  },
+  {
+    "question": "Mikä on 'X-Men'-sarjakuvien perustajan ja telepaatin nimi?",
+    "answer": "Professori Charles Xavier",
+    "A": "Magneto",
+    "B": "Wolverine",
+    "C": "Professori Charles Xavier",
+    "D": "Kyklopsi"
+  },
+  {
+    "question": "Mikä on 'Stargate SG-1' -sarjan päävihollinen?",
+    "answer": "Goa'uld",
+    "A": "Replicatorit",
+    "B": "Wraith",
+    "C": "Goa'uld",
+    "D": "Ori"
+  },
+  {
+    "question": "Mikä on 'The Hitchhiker's Guide to the Galaxy' -kirjan kannessa oleva teksti?",
+    "answer": "ÄLÄ HÄTÄILE (DON'T PANIC)",
+    "A": "Ole rohkea",
+    "B": "Luota pyyhkeeseen",
+    "C": "ÄLÄ HÄTÄILE (DON'T PANIC)",
+    "D": "Vastaus on 42"
+  },
+  {
+    "question": "Mikä on 'World of Warcraft' -pelin kahden pääfraktion nimet?",
+    "answer": "Liittouma ja Lauma",
+    "A": "Valo ja Pimeys",
+    "B": "Järjestys ja Kaaos",
+    "C": "Liittouma ja Lauma",
+    "D": "Imperiumi ja Kapina"
+  },
+  {
+    "question": "Kuka on 'Death Note' -animesarjan päähenkilö, joka löytää kuoleman muistikirjan?",
+    "answer": "Light Yagami",
+    "A": "L",
+    "B": "Ryuk",
+    "C": "Light Yagami",
+    "D": "Misa Amane"
+  },
+  {
+    "question": "Mitkä ovat 'Pac-Man' -pelin neljän haamun nimet englanniksi?",
+    "answer": "Blinky, Pinky, Inky, Clyde",
+    "A": "Shadow, Speedy, Bashful, Pokey",
+    "B": "Blinky, Pinky, Inky, Clyde",
+    "C": "Punainen, Pinkki, Sininen, Oranssi",
+    "D": "Akabei, Pinky, Aosuke, Guzuta"
+  },
+  {
+    "question": "Mikä on 'Jurassic Park' -elokuvan dinosaurusten DNA:n lähde?",
+    "answer": "Meripihkaan fossiloitunut hyttynen",
+    "A": "Löydetyt dinosauruksen luut",
+    "B": "Sammakon DNA",
+    "C": "Meripihkaan fossiloitunut hyttynen",
+    "D": "Synteettisesti luotu DNA"
+  },
+  {
+    "question": "Mikä on 'Fallout: New Vegas' -pelin päähenkilön ammatti ennen pelin alkua?",
+    "answer": "Kuriiri",
+    "A": "Vaultin asukas",
+    "B": "Palkkasoturi",
+    "C": "Kuriiri",
+    "D": "Lainsuojaton"
+  },
+  {
+    "question": "Mikä on HTTP-tilakoodi onnistuneelle pyynnölle?",
+    "answer": "200 OK",
+    "A": "404 Not Found",
+    "B": "500 Internal Server Error",
+    "C": "200 OK",
+    "D": "301 Moved Permanently"
+  },
+  {
+    "question": "Mikä on 'Firefly'-sarjan kapteeni Malcolm Reynoldsin tausta?",
+    "answer": "Itsenäisyyssodan veteraani (Browncoat)",
+    "A": "Liittouman upseeri",
+    "B": "Salakuljettaja lapsesta asti",
+    "C": "Itsenäisyyssodan veteraani (Browncoat)",
+    "D": "Palkkionmetsästäjä"
+  },
+  {
+    "question": "Kuka on 'Avatar: The Last Airbender' -sarjan päähenkilö?",
+    "answer": "Aang",
+    "A": "Zuko",
+    "B": "Katara",
+    "C": "Aang",
+    "D": "Sokka"
+  },
+  {
+    "question": "Mikä on 'Ender's Game' -kirjan päähenkilön oikea nimi?",
+    "answer": "Andrew Wiggin",
+    "A": "Bean Delphiki",
+    "B": "Peter Wiggin",
+    "C": "Andrew Wiggin",
+    "D": "Mazer Rackham"
+  },
+  {
+    "question": "Mikä on 'Deus Ex' -pelisarjan päähenkilön, JC Dentonin, erikoisuus?",
+    "answer": "Nanoteknologialla paranneltu agentti",
+    "A": "Kyberneettinen robotti",
+    "B": "Luonnollinen telepaatti",
+    "C": "Nanoteknologialla paranneltu agentti",
+    "D": "Kloonattu salamurhaaja"
+  },
+  {
+    "question": "Mikä on 'Final Fantasy X' -pelin pääkaupunki?",
+    "answer": "Luca",
+    "A": "Zanarkand",
+    "B": "Bevelle",
+    "C": "Luca",
+    "D": "Midgar"
+  },
+  {
+    "question": "Mikä on 'Westworld'-televisiosarjan teemapuiston isäntien (hosts) päätavoite?",
+    "answer": "Saavuttaa tietoisuus",
+    "A": "Palvella vieraita",
+    "B": "Paeta puistosta",
+    "C": "Saavuttaa tietoisuus",
+    "D": "Tuhota ihmiskunta"
+  },
+  {
+    "question": "Kuka on 'JoJo's Bizarre Adventure' -sarjan ensimmäisen osan ('Phantom Blood') päähenkilö?",
+    "answer": "Jonathan Joestar",
+    "A": "Joseph Joestar",
+    "B": "Jotaro Kujo",
+    "C": "Jonathan Joestar",
+    "D": "Dio Brando"
+  },
+  {
+    "question": "Mikä on 'The Expanse' -sarjan protomolekyylin alkuperäinen tarkoitus?",
+    "answer": "Rakentaa portteja muihin tähtiin",
+    "A": "Ase ihmiskuntaa vastaan",
+    "B": "Terraformoida planeettoja",
+    "C": "Rakentaa portteja muihin tähtiin",
+    "D": "Parantaa sairauksia"
+  },
+  {
+    "question": "Mikä on 'Artemis Fowl' -kirjasarjan päähenkilön tavoite ensimmäisessä kirjassa?",
+    "answer": "Varastaa keijujen kultaa",
+    "A": "Pelastaa isänsä",
+    "B": "Valloittaa maailma",
+    "C": "Varastaa keijujen kultaa",
+    "D": "Tulla suurimmaksi rikollisneroksi"
+  },
+  {
+    "question": "Mikä on 'Magic: The Gathering' -korttipelin viisi väriä?",
+    "answer": "Valkoinen, sininen, musta, punainen, vihreä",
+    "A": "Kulta, hopea, pronssi, rauta, kupari",
+    "B": "Maa, vesi, ilma, tuli, henki",
+    "C": "Valkoinen, sininen, musta, punainen, vihreä",
+    "D": "Järjestys, kaaos, luonto, tieto, pimeys"
+  },
+  {
+    "question": "Mikä on 'Donnie Darko' -elokuvan päähenkilön näkemän jättiläispupun nimi?",
+    "answer": "Frank",
+    "A": "Harvey",
+    "B": "Roger",
+    "C": "Frank",
+    "D": "Bunnicula"
+  },
+  {
+    "question": "Mikä on se laite, joka antaa 'Green Lantern' -sankareille voimansa?",
+    "answer": "Voimasormus",
+    "A": "Voimakivi",
+    "B": "Voimalyhty",
+    "C": "Voimasormus",
+    "D": "Voima-amuletti"
+  },
+  {
+    "question": "Mikä on 'Attack on Titan' -animesarjan muurien sisällä elävän ihmiskunnan päävihollinen?",
+    "answer": "Titaanit",
+    "A": "Toiset ihmiset",
+    "B": "Hirviöt",
+    "C": "Titaanit",
+    "D": "Luonnonkatastrofit"
+  },
+  {
+    "question": "Mikä on 'The Oregon Trail' -pelin kuuluisa ja usein toistuva kuolinsyy?",
+    "answer": "Punatauti (dysentery)",
+    "A": "Hukkuminen jokeen",
+    "B": "Käärmeenpurema",
+    "C": "Punatauti (dysentery)",
+    "D": "Nälkään nääntyminen"
+  },
+  {
+    "question": "Mikä on 'V for Vendetta' -sarjakuvan ja -elokuvan päähenkilön käyttämä naamio?",
+    "answer": "Guy Fawkes -naamio",
+    "A": "Anonymous-naamio",
+    "B": "Jokerin naamio",
+    "C": "Guy Fawkes -naamio",
+    "D": "Oopperan kummituksen naamio"
+  },
+  {
+    "question": "Mikä on 'Command & Conquer' -pelisarjan kahden ikonisen osapuolen nimet?",
+    "answer": "GDI ja Nod-veljeskunta",
+    "A": "Liittoutuneet ja Neuvostoliitto",
+    "B": "Terran ja Zerg",
+    "C": "GDI ja Nod-veljeskunta",
+    "D": "Liittouma ja Lauma"
+  },
+  {
+    "question": "Mikä on 'Babylon 5' -avaruusaseman päätarkoitus?",
+    "answer": "Toimia rauhan ja diplomatian keskuksena",
+    "A": "Olla sotilastukikohta",
+    "B": "Toimia kauppasatamana",
+    "C": "Toimia rauhan ja diplomatian keskuksena",
+    "D": "Olla tutkimusasema"
+  },
+  {
+    "question": "Mikä on 'Planescape: Torment' -pelin päähenkilön nimi?",
+    "answer": "The Nameless One (Nimetön)",
+    "A": "Adahn",
+    "B": "Morte",
+    "C": "The Nameless One (Nimetön)",
+    "D": "Dak'kon"
+  },
+  {
+    "question": "Mikä on 'Saga'-sarjakuvan päähenkilöiden, Alanan ja Markon, rotujen välinen konflikti?",
+    "answer": "Heidän planeettansa ovat sodassa keskenään",
+    "A": "Heidän perheensä vihaavat toisiaan",
+    "B": "Heidän rotunsa ovat geneettisesti yhteensopimattomia",
+    "C": "Heidän planeettansa ovat sodassa keskenään",
+    "D": "Uskonnolliset erimielisyydet"
+  },
+  {
+    "question": "Mikä on 'Borderlands'-pelisarjan planeetan nimi?",
+    "answer": "Pandora",
+    "A": "Elpis",
+    "B": "Promethea",
+    "C": "Pandora",
+    "D": "Nekrotafeyo"
+  },
+  {
+    "question": "Mikä on 'Discworld'-kirjasarjan maailman muoto?",
+    "answer": "Litteä kiekko, jota kannattelee neljä elefanttia, jotka seisovat jättiläiskilpikonnan selässä",
+    "A": "Pallomainen planeetta",
+    "B": "Kuution muotoinen maailma",
+    "C": "Litteä kiekko, jota kannattelee neljä elefanttia, jotka seisovat jättiläiskilpikonnan selässä",
+    "D": "Ontto pallo, jonka sisällä on aurinko"
+  },
+  {
+    "question": "Kuka on 'Castlevania'-pelisarjan pääsankari, joka taistelee Draculaa vastaan?",
+    "answer": "Joku Belmont-suvun jäsen",
+    "A": "Alucard",
+    "B": "Richter",
+    "C": "Joku Belmont-suvun jäsen",
+    "D": "Soma Cruz"
+  },
+  {
+    "question": "Mikä on 'Farscape'-televisiosarjan elävän avaruusaluksen nimi?",
+    "answer": "Moya",
+    "A": "Talyn",
+    "B": "Leviathan",
+    "C": "Moya",
+    "D": "Rogue"
+  },
+  {
+    "question": "Mikä on OSI-mallin seitsemäs ja ylin kerros?",
+    "answer": "Sovelluskerros (Application Layer)",
+    "A": "Esitystapakerros (Presentation Layer)",
+    "B": "Istuntokerros (Session Layer)",
+    "C": "Sovelluskerros (Application Layer)",
+    "D": "Fyysinen kerros (Physical Layer)"
+  },
+  {
+    "question": "Mikä on 'Silent Hill' -pelisarjan sumuisen kaupungin taustalla vaikuttava voima?",
+    "answer": "Kaupungin henkinen energia, joka manifestoituu ihmisten pelkoina",
+    "A": "Teollisuussaasteet",
+    "B": "Muinaisten intiaanien hautausmaa",
+    "C": "Kaupungin henkinen energia, joka manifestoituu ihmisten pelkoina",
+    "D": "Salainen hallituksen koe"
+  },
+  {
+    "question": "Mikä on 'Monkey Island' -seikkailupelisarjan päähenkilön tavoite?",
+    "answer": "Tulla mahtavaksi merirosvoksi",
+    "A": "Löytää aarresaari",
+    "B": "Pelastaa kuvernööri Marley",
+    "C": "Tulla mahtavaksi merirosvoksi",
+    "D": "Voittaa LeChuck"
+  },
+  {
+    "question": "Mikä on 'The Thing – “Se” jostakin' -elokuvan muotoaan muuttavan avaruusolion heikkous?",
+    "answer": "Tuli",
+    "A": "Sähkö",
+    "B": "Vesi",
+    "C": "Tuli",
+    "D": "Ääni"
+  },
+  {
+    "question": "Mikä on 'WarGames – sotaleikit' -elokuvan supertietokoneen nimi?",
+    "answer": "WOPR (War Operation Plan Response)",
+    "A": "Skynet",
+    "B": "Colossus",
+    "C": "WOPR (War Operation Plan Response)",
+    "D": "Proteus IV"
+  },
+  {
+    "question": "Mikä on 'Gears of War' -pelisarjan maanalainen vihollisrotu?",
+    "answer": "Locust-parvi",
+    "A": "The Swarm",
+    "B": "Lambent",
+    "C": "Locust-parvi",
+    "D": "Kantus"
+  },
+  {
+    "question": "Mikä on 'Halt and Catch Fire' -televisiosarjan keskiössä oleva teollisuudenala?",
+    "answer": "Henkilökohtaisten tietokoneiden ja internetin nousu",
+    "A": "Videopeliteollisuus",
+    "B": "Matkapuhelinteknologia",
+    "C": "Henkilökohtaisten tietokoneiden ja internetin nousu",
+    "D": "Tekoälyn kehitys"
+  },
+  {
+    "question": "Mikä on 'Hyperion Cantos' -kirjasarjan salaperäisen olennon nimi?",
+    "answer": "The Shrike",
+    "A": "The Technocore",
+    "B": "The Ousters",
+    "C": "The Shrike",
+    "D": "The Consul"
+  },
+  {
+    "question": "Mikä on 'Chrono Trigger' -roolipelin päähenkilön nimi?",
+    "answer": "Crono",
+    "A": "Marle",
+    "B": "Lucca",
+    "C": "Crono",
+    "D": "Frog"
+  },
+  {
+    "question": "Mikä on 'Mortal Kombat' -pelisarjan ikoninen lopetusliike?",
+    "answer": "Fatality",
+    "A": "Brutality",
+    "B": "Animality",
+    "C": "Fatality",
+    "D": "Friendship"
+  },
+  {
+    "question": "Kuka on 'My Hero Academia' -sarjan päähenkilö, joka syntyi ilman erikoiskykyä (Quirk)?",
+    "answer": "Izuku Midoriya",
+    "A": "Katsuki Bakugo",
+    "B": "All Might",
+    "C": "Izuku Midoriya",
+    "D": "Shoto Todoroki"
+  },
+  {
+    "question": "Mikä on 'The Witcher 3: Wild Hunt' -pelin pääjuonen tavoite?",
+    "answer": "Löytää Ciri",
+    "A": "Tappaa Wild Huntin kuningas",
+    "B": "Löytää parannuskeino kiroukseen",
+    "C": "Löytää Ciri",
+    "D": "Yhdistää pohjoiset kuningaskunnat"
+  },
+  {
+    "question": "Mikä on 'Star Trek: The Next Generation' -sarjan androidiupseerin nimi?",
+    "answer": "Data",
+    "A": "Lore",
+    "B": "B-4",
+    "C": "Data",
+    "D": "Lal"
+  },
+  {
+    "question": "Mikä on 'Resident Evil' -pelisarjan ensimmäisen pelin tapahtumapaikka?",
+    "answer": "Spencerin kartano",
+    "A": "Raccoon Cityn poliisiasema",
+    "B": "Laboratorio",
+    "C": "Spencerin kartano",
+    "D": "Hylätty sairaala"
+  },
+  {
+    "question": "Mikä on 'Dr. Strangelove' -elokuvan alaotsikko?",
+    "answer": "eli: Kuinka lakkasin olemasta huolissani ja opin rakastamaan pommia",
+    "A": "Maailmanloppu on lähellä",
+    "B": "Punainen vaara",
+    "C": "eli: Kuinka lakkasin olemasta huolissani ja opin rakastamaan pommia",
+    "D": "Rauha on tehtävämme"
+  },
+  {
+    "question": "Mikä on 'The Last of Us' -pelin maailmanlopun aiheuttanut sieni-infektio?",
+    "answer": "Cordyceps",
+    "A": "Mycelium",
+    "B": "Aspergillus",
+    "C": "Cordyceps",
+    "D": "Amanita"
+  },
+  {
+    "question": "Mikä on 'Puolenkuun Prinsessa' -animesarjan päähenkilön Sailor Moonin oikea nimi?",
+    "answer": "Usagi Tsukino",
+    "A": "Ami Mizuno",
+    "B": "Rei Hino",
+    "C": "Usagi Tsukino",
+    "D": "Makoto Kino"
+  },
+  {
+    "question": "Mikä on 'Galaxy Quest' -elokuvan avaruusolentojen nimi, jotka uskovat televisiosarjan olevan todellisuutta?",
+    "answer": "Thermianit",
+    "A": "Nibirulaiset",
+    "B": "Markalaiset",
+    "C": "Thermianit",
+    "D": "Zetialaiset"
+  },
+  {
+    "question": "Mikä on 'Civilization'-pelisarjan tavoite?",
+    "answer": "Johtaa sivilisaatio kivikaudelta avaruusaikaan",
+    "A": "Valloittaa koko maailma sotilaallisesti",
+    "B": "Rakentaa seitsemän ihmettä",
+    "C": "Johtaa sivilisaatio kivikaudelta avaruusaikaan",
+    "D": "Tulla rikkaimmaksi sivilisaatioksi"
+  },
+  {
+    "question": "Mikä on 'Black Mirror' -televisiosarjan kantava teema?",
+    "answer": "Teknologian pimeä puoli ja sen vaikutus yhteiskuntaan",
+    "A": "Tulevaisuuden utopiat",
+    "B": "Avaruusmatkailu",
+    "C": "Teknologian pimeä puoli ja sen vaikutus yhteiskuntaan",
+    "D": "Yliluonnolliset ilmiöt"
+  },
+  {
+    "question": "Mikä on 'Fringe – Rajamailla' -sarjan keskeinen elementti, jota tutkitaan?",
+    "answer": "Rinnakkaisuniversumi",
+    "A": "Aikamatkustus",
+    "B": "Avaruusoliot",
+    "C": "Rinnakkaisuniversumi",
+    "D": "Telepatia"
+  },
+  {
+    "question": "Mikä on 'Persona 5' -pelin päähenkilöiden ryhmän nimi?",
+    "answer": "Sydänten haamu-varkaat (Phantom Thieves of Hearts)",
+    "A": "Tutkintaryhmä (Investigation Team)",
+    "B": "SEES",
+    "C": "Sydänten haamu-varkaat (Phantom Thieves of Hearts)",
+    "D": "Sumaru-jengi"
+  },
+  {
+    "question": "Mikä on 'Undertale'-pelin erikoisuus taistelumekaniikassa?",
+    "answer": "Pelaaja voi säästää hirviöt tappamisen sijaan",
+    "A": "Vuoropohjainen strategia",
+    "B": "Reaaliaikainen toiminta",
+    "C": "Pelaaja voi säästää hirviöt tappamisen sijaan",
+    "D": "Korttipohjainen taistelu"
+  },
+  {
+    "question": "Mikä on 'Marvel Cinematic Universe' -elokuvasarjan ensimmäinen elokuva?",
+    "answer": "Iron Man (2008)",
+    "A": "The Incredible Hulk (2008)",
+    "B": "Captain America: The First Avenger (2011)",
+    "C": "Iron Man (2008)",
+    "D": "Thor (2011)"
+  },
+  {
+    "question": "Mikä on 'Dragon Ball Z' -sarjan päähenkilön, Son Gokun, alkuperäinen rotu?",
+    "answer": "Saiyalainen",
+    "A": "Namekilainen",
+    "B": "Ihminen",
+    "C": "Saiyalainen",
+    "D": "Freezerin rotu"
+  },
+  {
+    "question": "Mikä on 'The IT Crowd' -komediasarjan hätänumero, johon Roy ja Moss vastaavat?",
+    "answer": "0118 999 881 999 119 725 3",
+    "A": "911",
+    "B": "999",
+    "C": "0118 999 881 999 119 725 3",
+    "D": "42"
+  },
+  {
+    "question": "Mikä on 'Diablo'-pelisarjan päävihollinen?",
+    "answer": "Diablo, Kauhun herra",
+    "A": "Baal, Tuhon herra",
+    "B": "Mephisto, Vihan herra",
+    "C": "Diablo, Kauhun herra",
+    "D": "Malthael, Kuoleman enkeli"
+  },
+  {
+    "question": "Mikä on 'Tron'-elokuvan (1982) päähenkilön, Kevin Flynnin, ammatti?",
+    "answer": "Ohjelmoija ja pelinkehittäjä",
+    "A": "Toimitusjohtaja",
+    "B": "Verkkoinsinööri",
+    "C": "Ohjelmoija ja pelinkehittäjä",
+    "D": "Laitteistoasiantuntija"
+  },
+  {
+    "question": "Mikä on 'Horizon Zero Dawn' -pelin päähenkilön, Aloyn, ase?",
+    "answer": "Jousi ja keihäs",
+    "A": "Miekka ja kilpi",
+    "B": "Tuliaseet",
+    "C": "Jousi ja keihäs",
+    "D": "Taika"
+  },
+  {
+    "question": "Mikä on 'Ready Player One' -kirjan ja -elokuvan virtuaalitodellisuuden nimi?",
+    "answer": "OASIS",
+    "A": "Metaverse",
+    "B": "Matrix",
+    "C": "OASIS",
+    "D": "Cyberspace"
+  },
+  {
+    "question": "Mikä on 'GitHub'-palvelun päätarkoitus?",
+    "answer": "Ohjelmistokehityksen ja versionhallinnan isännöinti",
+    "A": "Sosiaalinen media ohjelmoijille",
+    "B": "Pilvitallennuspalvelu",
+    "C": "Ohjelmistokehityksen ja versionhallinnan isännöinti",
+    "D": "Verkkokauppaalusta"
+  },
+  {
+    "question": "Mikä on 'Arch Linux' -jakelun suunnittelufilosofia?",
+    "answer": "Yksinkertaisuus ja käyttäjän hallinta",
+    "A": "Käyttäjäystävällisyys aloittelijoille",
+    "B": "Vakaus ja luotettavuus palvelimille",
+    "C": "Yksinkertaisuus ja käyttäjän hallinta",
+    "D": "Kaikki valmiiksi asennettuna"
+  },
+  {
+    "question": "Mikä on 'Mr. Robot' -sarjan päähenkilön, Elliot Aldersonin, työpaikka?",
+    "answer": "Kyberturvallisuusinsinööri Allsafessa",
+    "A": "Hakkeri fsocietyssä",
+    "B": "Ohjelmoija E Corpissa",
+    "C": "Kyberturvallisuusinsinööri Allsafessa",
+    "D": "Freelance-kehittäjä"
+  },
+  {
+    "question": "Ketkä ovat 'Street Fighter II' -pelin kahdeksan alkuperäistä valittavaa hahmoa?",
+    "answer": "Ryu, Ken, Chun-Li, Guile, Blanka, Zangief, E. Honda, Dhalsim",
+    "A": "Ryu, Ken, Akuma, Sakura, Sagat, M. Bison, Vega, Balrog",
+    "B": "Ryu, Ken, Chun-Li, Guile, Blanka, Zangief, E. Honda, Dhalsim",
+    "C": "Scorpion, Sub-Zero, Liu Kang, Raiden, Johnny Cage, Kano, Sonya",
+    "D": "Terry Bogard, Andy Bogard, Joe Higashi, Kim Kaphwan, Mai Shiranui"
+  },
+  {
+    "question": "Mikä on 'Foundation'-kirjasarjan (Säätiö) matemaattinen tiede, joka ennustaa tulevaisuutta?",
+    "answer": "Psykohistoria",
+    "A": "Sosiologia",
+    "B": "Tulevaisuudentutkimus",
+    "C": "Psykohistoria",
+    "D": "Kvanttimekaniikka"
+  },
+  {
+    "question": "Mikä on 'Seinfeld'-sarjan nörttihahmon, Newmanin, ammatti?",
+    "answer": "Postimies",
+    "A": "Ohjelmoija",
+    "B": "Sarjakuvakaupan myyjä",
+    "C": "Postimies",
+    "D": "Kirjastonhoitaja"
+  },
+  {
+    "question": "Mikä on 'Pi'-elokuvan (1998) päähenkilön etsimä lukujono?",
+    "answer": "Lukujono, joka liittyy pörssikursseihin ja Tooraan",
+    "A": "Fibonaccin sarja",
+    "B": "Pörssikurssien ennustuskaava",
+    "C": "Lukujono, joka liittyy pörssikursseihin ja Tooraan",
+    "D": "Seuraava suuri alkuluku"
+  },
+  {
+    "question": "Mikä on 'Snow Crash' -romaanin virtuaalitodellisuuden nimi?",
+    "answer": "Metaverse",
+    "A": "OASIS",
+    "B": "Cyberspace",
+    "C": "Metaverse",
+    "D": "The Grid"
+  },
+  {
+    "question": "Mikä on 'Princess Bride' -elokuvan Vizzinin toistuva lausahdus?",
+    "answer": "Käsittämätöntä! (Inconceivable!)",
+    "A": "Kuten toivotte (As you wish)",
+    "B": "Valmistaudu kuolemaan (Prepare to die)",
+    "C": "Käsittämätöntä! (Inconceivable!)",
+    "D": "Pidä hauskaa linnan valtauksessa (Have fun storming the castle)"
+  },
+  {
+    "question": "Mikä on 'Final Fantasy VII: Remake' -pelin taistelujärjestelmän nimi?",
+    "answer": "Hybridijärjestelmä reaaliaikaisesta toiminnasta ja strategisesta valikosta",
+    "A": "Active Time Battle (ATB)",
+    "B": "Conditional Turn-Based Battle (CTB)",
+    "C": "Hybridijärjestelmä reaaliaikaisesta toiminnasta ja strategisesta valikosta",
+    "D": "Vuoropohjainen taistelu"
+  },
+  {
+    "question": "Mikä on 'The Martian' (Yksin Marsissa) -kirjan ja -elokuvan päähenkilön Mark Watneyn erikoisala?",
+    "answer": "Kasvitieteilijä ja insinööri",
+    "A": "Lääkäri ja lentäjä",
+    "B": "Geologi ja kemisti",
+    "C": "Kasvitieteilijä ja insinööri",
+    "D": "Astrofyysikko ja ohjelmoija"
+  },
+  {
+    "question": "Mikä on 'Magic: The Gathering' -kortin 'Black Lotus' harvinaisuusluokka?",
+    "answer": "Rare",
+    "A": "Mythic Rare",
+    "B": "Uncommon",
+    "C": "Rare",
+    "D": "Common"
+  },
+  {
+    "question": "Kuka on 'Neuromancer'-kyberpunk-romaanin päähenkilö?",
+    "answer": "Henry Dorsett Case",
+    "A": "Molly Millions",
+    "B": "Armitage",
+    "C": "Henry Dorsett Case",
+    "D": "Wintermute"
+  },
+  {
+    "question": "Mikä on 'Starship Troopers' -elokuvan (1997) ihmiskunnan päävihollinen?",
+    "answer": "Araknidit (Bugs)",
+    "A": "Kylönit",
+    "B": "Muukalaiset",
+    "C": "Araknidit (Bugs)",
+    "D": "Skrullit"
+  },
+  {
+    "question": "Mikä on 'The Legend of Zelda: Ocarina of Time' -pelin kolme henkistä kiveä?",
+    "answer": "Kokirin smaragdi, Goronin rubiini, Zoran safiiri",
+    "A": "Metsän medaljonki, Tulen medaljonki, Veden medaljonki",
+    "B": "Rohkeuden Triforce, Viisauden Triforce, Voiman Triforce",
+    "C": "Kokirin smaragdi, Goronin rubiini, Zoran safiiri",
+    "D": "Master Sword, Hylian Shield, Ocarina of Time"
+  },
+  {
+    "question": "Mikä on 'Super Metroid' -pelin viimeinen pomo?",
+    "answer": "Mother Brain",
+    "A": "Ridley",
+    "B": "Kraid",
+    "C": "Mother Brain",
+    "D": "Metroid Prime"
+  },
+  {
+    "question": "Mitä P vs NP -ongelma tietojenkäsittelytieteessä käsittelee?",
+    "answer": "Kysymystä siitä, voidaanko kaikki nopeasti tarkistettavat ongelmat myös ratkaista nopeasti",
+    "A": "Prosessorien ja näytönohjainten nopeuseroa",
+    "B": "Pythonin ja Node.js:n paremmuutta",
+    "C": "Kysymystä siitä, voidaanko kaikki nopeasti tarkistettavat ongelmat myös ratkaista nopeasti",
+    "D": "Kvanttitietokoneiden ja klassisten tietokoneiden eroa"
+  },
+  {
+    "question": "Mikä on 'Futurama'-sarjan professori Farnsworthin usein toistama lausahdus?",
+    "answer": "Good news, everyone!",
+    "A": "Bite my shiny metal ass!",
+    "B": "Oh my, yes.",
+    "C": "Good news, everyone!",
+    "D": "Wha...?"
+  },
+  {
+    "question": "Mikä on 'Initial D' -animesarjan päähenkilön, Takumi Fujiwaran, auto?",
+    "answer": "Toyota Sprinter Trueno (AE86)",
+    "A": "Mazda RX-7 (FD3S)",
+    "B": "Nissan Skyline GT-R (R32)",
+    "C": "Toyota Sprinter Trueno (AE86)",
+    "D": "Subaru Impreza WRX STi"
+  }
+]
+}
