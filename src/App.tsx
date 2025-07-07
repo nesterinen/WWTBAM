@@ -57,6 +57,7 @@ function StageMachine(
   const [soundTrack, setSoundTrack] = useState(stageMagazine[0].sounds.theme)
   const [startTime,] = useState(new Date()) 
   const [gameOver, setGameOver] = useState(false)
+  const [trackDuration, setTrackDuration] = useState(0)
 
   function returnToMenu(){
       setSoundTrack(null)
@@ -82,7 +83,7 @@ function StageMachine(
       win.volume = volume
       win.play()
       if(soundTrack instanceof HTMLAudioElement){
-        soundTrack.volume = 0
+        soundTrack.volume = 0.5
       }
       return
     }
@@ -100,11 +101,22 @@ function StageMachine(
     }
 
     if(soundTrack instanceof HTMLAudioElement){
+
+      if(trackDuration >= soundTrack.duration){
+        soundTrack.currentTime = 0
+        setTrackDuration(0)
+      } else {
+        soundTrack.currentTime = trackDuration
+      }
+
       soundTrack.volume = 1
       soundTrack.loop = true
       soundTrack.play()
 
-      return () => soundTrack.pause()
+      return () => {
+        setTrackDuration(soundTrack.currentTime)
+        soundTrack.pause()
+      }
     } else {
       const themeAudio = new Audio('/sounds/' + soundTrack)
       //const themeAudio = new Audio('/sounds/' + stageMagazine[stageIndex].sounds.theme)
@@ -596,6 +608,7 @@ function App() {
   }
 
   function changeStage(){
+    return false
     const newStageMag = loadAndRandomizeQuiz(stageMag, currentQuiz)
     setStageMagazine(newStageMag)
   }
