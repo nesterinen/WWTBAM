@@ -258,10 +258,13 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
 
     const buttons = document.querySelector('.answerButtonsContainer')?.querySelectorAll('button')
 
-    function classCleanUp(){
+    function classCleanUp(remove50=true){
       if(buttons){
         for(const button of buttons){
-          button.classList.remove('selectedAnswer', 'correctAnswer', 'wrongAnswer', 'removedBy50')
+          button.classList.remove('selectedAnswer', 'correctAnswer', 'wrongAnswer')
+          if(remove50){
+            button.classList.remove('removedBy50')
+          }
           button.disabled = false
         }
       }
@@ -298,7 +301,7 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
                 }, animationWaitBeforeNext) // 500
               } else {
                 if(doubleDip){
-                  classCleanUp()
+                  classCleanUp(false)
                   doubleDipEffect(answer)
                   setDoubleDip(false)
                   return
