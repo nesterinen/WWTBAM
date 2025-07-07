@@ -295,6 +295,9 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
                 button.classList.add('correctAnswer')
                 playSound(stageMagazine[stageIndex].sounds.win, 0.3)
                 setTimeout(() => {
+                  if(doubleDip){
+                    setDoubleDip(false)
+                  }
                   nextTrack()
                   setStageIndex(stageIndex + 1)
                   classCleanUp()
