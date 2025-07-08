@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 import { type Stage, type Quiz, type Score } from './Types'
 
@@ -35,6 +35,23 @@ function msToHMS( ms: number ): string {
     return `${hours}h ${minutes}m ${seconds.toFixed(2)}s`
 }
 
+function msToHMSspecial( ms: number ){
+    let seconds = ms / 1000;
+    const hours = Math.floor(seconds / 3600); // 3,600 seconds in 1 hour
+    seconds = seconds % 3600; // seconds remaining after extracting hours
+    const minutes = Math.floor( seconds / 60 ); // 60 seconds in 1 minute
+    seconds = seconds % 60;
+    //return hours+":"+minutes+":"+Math.floor(seconds)
+    if(hours){
+      return `${hours}h ${minutes}m ${seconds.toFixed(0)}s`
+    }
+    if(minutes) {
+      return `${minutes}m ${seconds.toFixed(0)}s`
+    }
+    return `${seconds.toFixed(0)}s`
+}
+
+
 function StageMachine(
   {
     backToMenu, 
@@ -55,9 +72,24 @@ function StageMachine(
   const [lifeLines, setLifeLines] = useState({fiftyFifty: true, double: true, todo2: true})
   const [doubleDip, setDoubleDip] = useState(false)
   const [soundTrack, setSoundTrack] = useState(stageMagazine[0].sounds.theme)
-  const [startTime,] = useState(new Date()) 
+  const [startTime,] = useState(new Date())
   const [gameOver, setGameOver] = useState(false)
   const [trackDuration, setTrackDuration] = useState(0)
+
+  //for displaying time spent since start.
+  const timerElement = useRef<null | HTMLParagraphElement>(null)
+  useEffect(() => {
+    const timerInterval = setInterval(() => {
+      if(timerElement.current){
+        //timerElement.current.textContent = ((Date.now() - startTime.getTime()) / 1000).toFixed(1)
+        timerElement.current.textContent = msToHMSspecial(Date.now() - startTime.getTime())
+      }
+    }, 1000)
+
+    return () => {
+      clearInterval(timerInterval)
+    }
+  }, [startTime])
 
   function returnToMenu(){
       setSoundTrack(null)
@@ -403,6 +435,8 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
     <div className='stageMachine'>
       <div className='gameContainer'>
         <img src={millionareLogo} className="logo" alt="Millionare logo" />
+
+        <p ref={timerElement} style={{fontSize:'2rem', margin:0, padding:0, position:'absolute', left:100}}>-.-</p>
 
         <div className='lifeLineContainer'>
           <button className='lifeLineButton' onClick={() => lifeLine5050()} disabled={!lifeLines.fiftyFifty}>50:50</button>
