@@ -33,5 +33,6 @@ export interface Score {
     id: number, //ms since 1970
     timeSpent: number, // milliseconds spent on a game
     stage: number, //how many questions correct
-    name: string // player name
+    name: string, // player name
+    quizName?: string
 }

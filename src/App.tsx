@@ -513,10 +513,12 @@ function loadAndRandomizeQuiz(stageMagazine: Stage[], file: { question: string; 
 function HighscoresMenu(
   {
     highscores,
-    deleteById
+    deleteById,
+    quizDescription
     }:{
     highscores: Score[],
-    deleteById: (id: number) => void
+    deleteById: (id: number) => void,
+    quizDescription: string
   }){
   if(!highscores){
     return (
@@ -540,11 +542,13 @@ function HighscoresMenu(
     return 0
   }
 
-  const sortedScores = highscores.sort(sortFunction)
+  const filteredScores = highscores.filter(score => score.quizName === quizDescription)
+  const sortedScores = filteredScores.sort(sortFunction)
 
   return (
     <>
       <h1>Top10</h1>
+      <h2>{quizDescription}</h2>
       <table className='highScoreTable'>
       <tbody>
         <tr>
@@ -586,7 +590,8 @@ function App() {
   const [muteEffects, setMuteEffects] = useState(false)
   //highscores should probably created into custom react hook.
   const [highscores, setHighscores] = useState<Score[]>([])
-  const [currentQuiz, setCurrentQuiz] = useState(kysymykset.questions)
+  const quizArray = [kysymykset, kysymykset1, kysymykset2, kysymykset3, kysymykset4, kysymykset5, kysymykset6]
+  const [currentQuiz, setCurrentQuiz] = useState(quizArray[0])
 
 /*
   useEffect(() => {
@@ -598,10 +603,10 @@ function App() {
 */
 
   function changeQuiz(quizNum: number){ // quizNum: 0 | 1 | 2 | 3 | 4
-    const quizArr = [kysymykset.questions, kysymykset1.questions, kysymykset2.questions, kysymykset3.questions, kysymykset4.questions, kysymykset5.questions, kysymykset6.questions]
-    if(quizArr[quizNum] && quizArr[quizNum].length > 15){
-      console.log('quiz changed.', quizArr[quizNum])
-      setCurrentQuiz(quizArr[quizNum])
+    //const quizArr = [kysymykset.questions, kysymykset1.questions, kysymykset2.questions, kysymykset3.questions, kysymykset4.questions, kysymykset5.questions, kysymykset6.questions]
+    if(quizArray[quizNum] && quizArray[quizNum].questions.length > 15){
+      console.log('quiz changed.', quizArray[quizNum].description)
+      setCurrentQuiz(quizArray[quizNum])
       return true
     } else {
       return false
@@ -610,7 +615,7 @@ function App() {
 
   function changeStage(){
     //return false
-    const newStageMag = loadAndRandomizeQuiz(stageMag, currentQuiz)
+    const newStageMag = loadAndRandomizeQuiz(stageMag, currentQuiz.questions)
     setStageMagazine(newStageMag)
   }
 
@@ -673,6 +678,7 @@ function App() {
   }
 
   function addScoreToHighscores(score: Score){
+    score.quizName = currentQuiz.description
     setHighscores([...highscores, score])
     localStorage.setItem('highScores', JSON.stringify([...highscores, score]))
   }
@@ -688,6 +694,7 @@ function App() {
       return (
         <div className='menuState'>
           <img src={millionareLogo} className="logo" alt="Millionare logo" />
+          <p>{currentQuiz.description}</p>
           <div className='menuButtonsContainer'>
             <button className='menuButton sb' onClick={() => {
               changeStage()
@@ -712,7 +719,7 @@ function App() {
     case 'scores':
       return (
         <>
-          <HighscoresMenu highscores={highscores} deleteById={removeScoreFromHighscores}/>
+          <HighscoresMenu highscores={highscores} deleteById={removeScoreFromHighscores} quizDescription={currentQuiz.description}/>
           <button className='deleteScoresButton' onClick={() => {
             //const deleteScores = confirm('Poista kaikki pisteet?')
             const deleteScores = prompt('Poistaaksesi pisteet anna salasana:')
@@ -728,7 +735,7 @@ function App() {
       return(
         <div className='settingsStage'>
           <label htmlFor='quizSelect' className='quizLabel'>Kysymykset:</label>
-          <select onChange={(e) => {
+          <select id='quizSelect' onChange={(e) => {
             const result = changeQuiz(parseInt(e.target.value))
             const labelElement: HTMLLabelElement | null = document.querySelector('.quizLabel')
             if(result){
@@ -737,15 +744,18 @@ function App() {
               alert(`kysymykset(${e.target.value}) on vähemmän kuin 15 vastausta tai tiedosto on puutteellinen`)
               if(labelElement) labelElement.style = 'color: red;'
             }
-            }} id='quizSelect'>
-            <option value={0}>{kysymykset.description}</option>
-            <option value={1}>{kysymykset1.description}</option>
-            <option value={2}>{kysymykset2.description}</option>
-            <option value={3}>{kysymykset3.description}</option>
-            <option value={4}>{kysymykset4.description}</option>
-            <option value={5}>{kysymykset5.description}</option>
-            <option value={6}>{kysymykset6.description}</option>
+            }}>
+            {quizArray.map((quiz, index) => {
+              return <option value={index} key={index}>{quiz.description}</option>
+            })}
           </select>
+
+          <div className='menuButtonsContainer'>
+            <button className='menuButton sb' onClick={() => {
+              changeStage()
+              setGameState('stage')
+            }}>Pelaa {currentQuiz.description}</button>
+          </div>
           <SettingsBar/>
         </div>
       )
