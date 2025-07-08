@@ -71,6 +71,10 @@ function StageMachine(
         if(newTrack.src === soundTrack.src){
           return
         }
+
+        if(stageIndex > 4){
+          setTrackDuration(soundTrack.currentTime)
+        }
       }
       if(newTrack) setSoundTrack(newTrack)
     }
@@ -114,7 +118,6 @@ function StageMachine(
       soundTrack.play()
 
       return () => {
-        setTrackDuration(soundTrack.currentTime)
         soundTrack.pause()
       }
     } else {
@@ -130,9 +133,7 @@ function StageMachine(
         themeAudio.pause()
       }
     }
-    
-    
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [soundTrack, muted])
 
 
@@ -608,7 +609,7 @@ function App() {
   }
 
   function changeStage(){
-    return false
+    //return false
     const newStageMag = loadAndRandomizeQuiz(stageMag, currentQuiz)
     setStageMagazine(newStageMag)
   }
