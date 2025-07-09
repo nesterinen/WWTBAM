@@ -680,361 +680,196 @@ const stageMagazine: Stage[] = [
     prize: 100,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '11 $100-$1,000 Questions.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: null,
       lose: '16 $2,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 200,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '11 $100-$1,000 Questions.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: null,
       lose: '16 $2,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 300,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '11 $100-$1,000 Questions.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: null,
       lose: '16 $2,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 500,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '11 $100-$1,000 Questions.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: null,
       lose: '16 $2,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 1_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '11 $100-$1,000 Questions.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: null,
       lose: '16 $2,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 2_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '14 $2,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '17 $2,000 Win.mp3',
       lose: '16 $2,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 4_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '19 $4,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '22 $4,000 Win.mp3',
       lose: '21 $4,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 8_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '24 $8,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '27 $8,000 Win.mp3',
       lose: '26 $8,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 16_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '29 $16,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '32 $16,000 Win.mp3',
       lose: '31 $16,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 32_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '34 $32,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '32 $16,000 Win.mp3',
       //win: '37 $32,000 Win.mp3',  //32k win is long because in the show it is a minimum victory treshold
       lose: '36 $32,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 64_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '39 $64,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '42 $64,000 Win.mp3',
       lose: '41 $64,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 125_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '44 $125,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '47 $125,000 Win.mp3',
       lose: '46 $125,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 250_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '49 $250,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '52 $250,000 Win.mp3',
       lose: '51 $250,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 500_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '54 $500,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: '57 $500,000 Win.mp3',
       lose: '56 $500,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   },
   {
     prize: 1_000_000,
     quiz: {
       question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
-      answers: {
-        A: 'Moth',
-        B: 'Roach',
-        C: 'Fly',
-        D: 'Japanese beetle'
-      },
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
     sounds: {
       theme: '59 $1,000,000 Question.mp3',
-      letsPlay: null,
-      question: null,
-      finalAnswer: null,
       win: null,//'57 $500,000 Win.mp3',
       lose: '61 $1,000,000 Lose.mp3'
-    },
-    animations: {
-      todo: false,
     }
   }
 ]
