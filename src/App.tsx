@@ -10,7 +10,6 @@ import millionareLogo from '/WWTBAMUS2020Logo.png'
 import './App.css'
 import './css/confetti.css'
 
-//import kysymykset from './questions/kysymykset.json'
 import kysymykset from './questions/kysymykset.json'
 import kysymykset1 from './questions/kysymykset1.json'
 import kysymykset2 from './questions/kysymykset2.json'
@@ -20,7 +19,7 @@ import kysymykset5 from './questions/kysymykset5.json'
 import kysymykset6 from './questions/kysymykset6.json'
 
 
-import Balls from './balls'
+import Balls from './effects/balls_background/balls.tsx'
 
 const salasana = 'root'
 
@@ -35,7 +34,7 @@ function msToHMS( ms: number ): string {
     return `${hours}h ${minutes}m ${seconds.toFixed(2)}s`
 }
 
-function msToHMSspecial( ms: number ){
+function msToHMSvaried( ms: number ){
     let seconds = ms / 1000;
     const hours = Math.floor(seconds / 3600); // 3,600 seconds in 1 hour
     seconds = seconds % 3600; // seconds remaining after extracting hours
@@ -82,7 +81,7 @@ function StageMachine(
     const timerInterval = setInterval(() => {
       if(timerElement.current){
         //timerElement.current.textContent = ((Date.now() - startTime.getTime()) / 1000).toFixed(1)
-        timerElement.current.textContent = msToHMSspecial(Date.now() - startTime.getTime())
+        timerElement.current.textContent = msToHMSvaried(Date.now() - startTime.getTime())
       }
     }, 1000)
 
@@ -620,8 +619,8 @@ function HighscoresMenu(
 function App() {
   const [stageMag, setStageMagazine] = useState(stageMagazine)
   const [gameState, setGameState] = useState('menu')
-  const [muted, setMuted] = useState(false)
-  const [muteEffects, setMuteEffects] = useState(false)
+  const [muted, setMuted] = useState(true) //set false after refactor
+  const [muteEffects, setMuteEffects] = useState(true) //set false after refactor
   //highscores should probably created into custom react hook.
   const [highscores, setHighscores] = useState<Score[]>([])
   const quizArray = [kysymykset, kysymykset1, kysymykset2, kysymykset3, kysymykset4, kysymykset5, kysymykset6]
