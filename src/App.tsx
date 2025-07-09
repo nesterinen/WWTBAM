@@ -2,13 +2,15 @@ import { useState, useEffect, useRef } from 'react'
 
 import { type Stage, type Quiz, type Score } from './Types'
 
+import {msToHMS, msToHMSvaried} from './utils/msToHMS.ts'
+import audioPreloader from './utils/audioPreloader.ts'
+
 import musicNote from './assets/music-note.svg'
 import musicNoteSlash from './assets/music-note-slash.svg'
 import exitSvg from './assets/exit.svg'
 
 import millionareLogo from '/WWTBAMUS2020Logo.png'
 import './App.css'
-import './css/confetti.css'
 
 import kysymykset from './questions/kysymykset.json'
 import kysymykset1 from './questions/kysymykset1.json'
@@ -23,33 +25,6 @@ import Balls from './effects/balls_background/Balls.tsx'
 import Confetti from './effects/confetti_background/Confetti.tsx'
 
 const salasana = 'root'
-
-//https://stackoverflow.com/questions/29816872/how-can-i-convert-milliseconds-to-hhmmss-format-using-javascript
-function msToHMS( ms: number ): string {
-    let seconds = ms / 1000;
-    const hours = Math.floor(seconds / 3600); // 3,600 seconds in 1 hour
-    seconds = seconds % 3600; // seconds remaining after extracting hours
-    const minutes = Math.floor( seconds / 60 ); // 60 seconds in 1 minute
-    seconds = seconds % 60;
-    //return hours+":"+minutes+":"+Math.floor(seconds)
-    return `${hours}h ${minutes}m ${seconds.toFixed(2)}s`
-}
-
-function msToHMSvaried( ms: number ){
-    let seconds = ms / 1000;
-    const hours = Math.floor(seconds / 3600); // 3,600 seconds in 1 hour
-    seconds = seconds % 3600; // seconds remaining after extracting hours
-    const minutes = Math.floor( seconds / 60 ); // 60 seconds in 1 minute
-    seconds = seconds % 60;
-    //return hours+":"+minutes+":"+Math.floor(seconds)
-    if(hours){
-      return `${hours}h ${minutes}m ${seconds.toFixed(0)}s`
-    }
-    if(minutes) {
-      return `${minutes}m ${seconds.toFixed(0)}s`
-    }
-    return `${seconds.toFixed(0)}s`
-}
 
 function StageMachine(
   {
@@ -450,42 +425,6 @@ function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<H
   )
 }
 
-function AudioPreloader(stageMagazine: Stage[]){
-  stageMagazine.map((stage, index) => {
-    for(const [key, sound] of Object.entries(stage.sounds)){
-      if(sound === null) continue
-      switch (key) {
-        case 'theme':
-          stageMagazine[index].sounds['theme'] = new Audio('/sounds/' + sound)
-          break;
-
-        case 'win':
-          stageMagazine[index].sounds['win'] = new Audio('/sounds/' + sound)
-          break;
-
-        case 'lose':
-          stageMagazine[index].sounds['lose'] = new Audio('/sounds/' + sound)
-          break;
-
-        case 'letsPlay':
-          stageMagazine[index].sounds['letsPlay'] = new Audio('/sounds/' + sound)
-          break;
-
-        case 'question':
-          stageMagazine[index].sounds['question'] = new Audio('/sounds/' + sound)
-          break;
-
-        case 'finalAnswer':
-          stageMagazine[index].sounds['finalAnswer'] = new Audio('/sounds/' + sound)
-          break;
-
-        default:
-          break;
-      }
-    }
-  })
-}
-
 function loadAndRandomizeQuiz(stageMagazine: Stage[], file: { question: string; answer: string; A: string; B: string; C: string; D: string; }[]){
     file.sort(() => Math.random() - 0.5)
     //spilce deletes the selected objects from the array.
@@ -631,7 +570,7 @@ function App() {
   }
 
   useEffect(() => {
-    AudioPreloader(stageMagazine)
+    audioPreloader(stageMagazine)
 
     const scoresFromStorage = localStorage.getItem('highScores')
     if(scoresFromStorage){
@@ -777,8 +716,6 @@ function App() {
       )
   }
 }
-
-//const prizes = [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 250000, 500000, 1000000]
 
 const stageMagazine: Stage[] = [
   {
@@ -1145,19 +1082,3 @@ const stageMagazine: Stage[] = [
 ]
 
 export default App
-
-/*
-import { createRoot } from 'react-dom/client'
-function settingsDialog(switchMute: () => void){
-  const dialog = document.createElement('dialog')
-  createRoot(dialog).render(
-    <>
-      <h1>Settings</h1>
-      <button onClick={() => {dialog.remove()}}>Close</button>
-      <button onClick={switchMute}>mute</button>
-    </>
-  )
-  document.body.appendChild(dialog)
-  dialog.show()
-}
-*/
