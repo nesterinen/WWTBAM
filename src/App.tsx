@@ -428,13 +428,21 @@ function StageMachine(
   )
 }
 
+
+import { useHighscores } from './customHooks/highscores.ts'
 function App() {
   const [stageMag, setStageMagazine] = useState(stageMagazine)
   const [gameState, setGameState] = useState('menu')
   const [muted, setMuted] = useState(true) //set false after refactor
   const [muteEffects, setMuteEffects] = useState(true) //set false after refactor
   //highscores should probably created into custom react hook.
-  const [highscores, setHighscores] = useState<Score[]>([])
+  //const [highscores, setHighscores] = useState<Score[]>([])
+  const {highscores,
+        fetchScoresFromStorage,
+        flushHighscores,
+        addScoreToHighscores,
+        removeScoreFromHighscores} = useHighscores()
+
   const quizArray = [kysymykset, kysymykset1, kysymykset2, kysymykset3, kysymykset4, kysymykset5, kysymykset6]
   const [currentQuiz, setCurrentQuiz] = useState(quizArray[0])
 
@@ -458,13 +466,9 @@ function App() {
 
   useEffect(() => {
     audioPreloader(stageMagazine)
-
-    const scoresFromStorage = localStorage.getItem('highScores')
-    if(scoresFromStorage){
-      const parsedScores: Score[] = JSON.parse(scoresFromStorage)
-      //console.log('parsedScores:', parsedScores)
-      setHighscores(parsedScores)
-    }
+    fetchScoresFromStorage()
+    // adding fetchScoresFromStorage dependancy to useEffect causes massive performance issues.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   function switchMute(){
@@ -509,21 +513,8 @@ function App() {
     //<img src={musicNote} alt='music/on' width='32' height='32'/>
   }
 
-  function flushHighscores(){
-    setHighscores([])
-    localStorage.setItem('highScores', '')
-  }
-
-  function addScoreToHighscores(score: Score){
-    score.quizName = currentQuiz.description
-    setHighscores([...highscores, score])
-    localStorage.setItem('highScores', JSON.stringify([...highscores, score]))
-  }
-
-  function removeScoreFromHighscores(id: number){
-    const filtered = highscores.filter(val => val.id !== id)
-    setHighscores(filtered)
-    localStorage.setItem('highScores', JSON.stringify(filtered))
+  const addScore = (score: Score) => {
+    addScoreToHighscores(score, currentQuiz.description)
   }
 
   switch (gameState) {
@@ -547,7 +538,7 @@ function App() {
     case 'stage':
       return (
         <>
-          <StageMachine backToMenu={() => setGameState('menu')} muted={muted} muteEffects={muteEffects} stageMagazine={stageMag} addScore={addScoreToHighscores}/>
+          <StageMachine backToMenu={() => setGameState('menu')} muted={muted} muteEffects={muteEffects} stageMagazine={stageMag} addScore={addScore}/>
           <SettingsBar/>
           <Balls/>
         </>
