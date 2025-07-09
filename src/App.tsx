@@ -8,6 +8,8 @@ import loadAndRandomizeQuiz from './utils/loadAndRandomizeQuiz.ts'
 
 import HighscoresMenu from './menus/HighScoresMenu.tsx'
 
+import { password } from './config/admin.json'
+
 import musicNote from './assets/music-note.svg'
 import musicNoteSlash from './assets/music-note-slash.svg'
 import exitSvg from './assets/exit.svg'
@@ -26,8 +28,6 @@ import kysymykset6 from './questions/kysymykset6.json'
 
 import Balls from './effects/balls_background/Balls.tsx'
 import Confetti from './effects/confetti_background/Confetti.tsx'
-
-const salasana = 'root'
 
 function StageMachine(
   {
@@ -232,7 +232,7 @@ function StageMachine(
     )
   }
 
-function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<HTMLButtonElement>){
+  function answerFunction(answer: 'A' | 'B' | 'C' | 'D', event: React.MouseEvent<HTMLButtonElement>){
     const isAnimated = true
 
     let animationRevealSpeed = 250
@@ -560,7 +560,7 @@ function App() {
           <button className='deleteScoresButton' onClick={() => {
             //const deleteScores = confirm('Poista kaikki pisteet?')
             const deleteScores = prompt('Poistaaksesi pisteet anna salasana:')
-            if (deleteScores === salasana){
+            if (deleteScores === password){
               flushHighscores()
             }
           }}>Poista</button>
