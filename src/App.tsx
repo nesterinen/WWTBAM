@@ -19,7 +19,8 @@ import kysymykset5 from './questions/kysymykset5.json'
 import kysymykset6 from './questions/kysymykset6.json'
 
 
-import Balls from './effects/balls_background/balls.tsx'
+import Balls from './effects/balls_background/Balls.tsx'
+import Confetti from './effects/confetti_background/Confetti.tsx'
 
 const salasana = 'root'
 
@@ -49,7 +50,6 @@ function msToHMSvaried( ms: number ){
     }
     return `${seconds.toFixed(0)}s`
 }
-
 
 function StageMachine(
   {
@@ -175,26 +175,6 @@ function StageMachine(
     win: boolean
   }
   function GameOverScreen(props:GOSprops){
-    // victory confetti stuff.
-    function getRandomColor() {
-      const colors = ['#ff6347', '#ffa500', '#32cd32', '#1e90ff', '#ff69b4'];
-      return colors[Math.floor(Math.random() * colors.length)];
-    }
-    useEffect(() => {
-      if(!props.win) return
-      const confettiWrapper = document.querySelector('.confettiWrapper');
-      if(!confettiWrapper) return
-      // Generate confetti
-      for (let i = 0; i < 50; i++) {
-        const confetti = document.createElement('div');
-        confetti.classList.add('confetti-piece');
-        confetti.style.left = `${Math.random() * 100}%`;
-        confetti.style.setProperty('--fall-duration', `${Math.random() * 3 + 3}s`);
-        confetti.style.setProperty('--confetti-color', getRandomColor());
-        confettiWrapper.appendChild(confetti);
-      }
-    })
-
     const winClass = props.win ? ' win' : ' lose'
 
     return (
@@ -238,9 +218,7 @@ function StageMachine(
         }}>Palaa valikkoon</button>
 
         {props.win ?
-          <>
-            <div className='confettiWrapper'></div>
-          </>
+        <Confetti/>
         : <></>}
       </div>
     )
