@@ -10,6 +10,8 @@ import HighscoresMenu from './menus/HighScoresMenu.tsx'
 
 import { password } from './config/admin.json'
 
+import { useHighscores } from './customHooks/highscores.ts'
+
 import musicNote from './assets/music-note.svg'
 import musicNoteSlash from './assets/music-note-slash.svg'
 import exitSvg from './assets/exit.svg'
@@ -428,15 +430,11 @@ function StageMachine(
   )
 }
 
-
-import { useHighscores } from './customHooks/highscores.ts'
 function App() {
   const [stageMag, setStageMagazine] = useState(stageMagazine)
   const [gameState, setGameState] = useState('menu')
-  const [muted, setMuted] = useState(true) //set false after refactor
-  const [muteEffects, setMuteEffects] = useState(true) //set false after refactor
-  //highscores should probably created into custom react hook.
-  //const [highscores, setHighscores] = useState<Score[]>([])
+  const [muted, setMuted] = useState(false) //set false after refactor
+  const [muteEffects, setMuteEffects] = useState(false) //set false after refactor
   const {highscores,
         fetchScoresFromStorage,
         flushHighscores,
@@ -448,7 +446,6 @@ function App() {
 
 
   function changeQuiz(quizNum: number){ // quizNum: 0 | 1 | 2 | 3 | 4
-    //const quizArr = [kysymykset.questions, kysymykset1.questions, kysymykset2.questions, kysymykset3.questions, kysymykset4.questions, kysymykset5.questions, kysymykset6.questions]
     if(quizArray[quizNum] && quizArray[quizNum].questions.length > 15){
       console.log('quiz changed.', quizArray[quizNum].description)
       setCurrentQuiz(quizArray[quizNum])
@@ -509,13 +506,9 @@ function App() {
         : <></>}
       </div>
     )
-
-    //<img src={musicNote} alt='music/on' width='32' height='32'/>
   }
 
-  const addScore = (score: Score) => {
-    addScoreToHighscores(score, currentQuiz.description)
-  }
+  const addScore = (score: Score) => {addScoreToHighscores(score, currentQuiz.description)}
 
   switch (gameState) {
     case 'menu':
