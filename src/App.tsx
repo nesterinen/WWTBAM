@@ -470,8 +470,8 @@ function StageMachine(
 function App() {
   const [stageMag, setStageMagazine] = useState(stageMagazine)
   const [gameState, setGameState] = useState('menu')
-  const [muted, setMuted] = useState(true) //set false after refactor
-  const [muteEffects, setMuteEffects] = useState(true) //set false after refactor
+  const [muted, setMuted] = useState(false)
+  const [muteEffects, setMuteEffects] = useState(false)
   const {highscores,
         fetchScoresFromStorage,
         flushHighscores,
