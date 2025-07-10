@@ -24,11 +24,18 @@
   border-color: grey;
 }
 
-
-.questionHeader {
+.questionContainer {
   margin-left: 1rem;
+  margin-top: 0.5rem;
   padding-top: 0.25rem !important;
   padding-bottom: 1rem !important;
+  height: 20vh;
+  align-content: center;
+}
+
+.questionHeader {
+  font-size: 10vh;
+  display: inline;
 }
 
 .answerButtonsContainer {

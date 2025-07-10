@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useLayoutEffect } from 'react'
 
 import { type Stage, type Score } from './Types'
 
@@ -388,6 +388,45 @@ function StageMachine(
     )
   }
 
+  function QuestionHeader({question}:{question: string}){
+    const element = useRef<HTMLHeadingElement | null>(null)
+    useLayoutEffect(() => {
+      if(!element.current) return
+      const lines = element.current.getClientRects().length
+
+      switch(true){
+        case lines === 2:
+          element.current.style = `font-size: 9vh;`
+          break
+        case lines === 3:
+          element.current.style = `font-size: 6.5vh;`
+          break
+        case lines === 4:
+          element.current.style = `font-size: 6vh;`
+          break
+        case lines === 5:
+          element.current.style = `font-size: 6vh;`
+          break
+        case lines === 6:
+          element.current.style = `font-size: 5vh;`
+          break
+        case lines === 7:
+          element.current.style = `font-size: 4vh;`
+          break
+        case lines >= 8:
+          element.current.style = `font-size: ${10/lines}vh;`
+      }
+    })
+
+    return(
+      <div className='questionContainer sb'>
+        <h1 className='questionHeader' ref={element}>{question}</h1>
+      </div>
+   )
+  }
+
+  //<h1 className='questionHeader sb'>{stageMagazine[stageIndex].quiz.question}</h1>
+
   return (
     <div className='stageMachine'>
       <div className='gameContainer'>
@@ -400,8 +439,8 @@ function StageMachine(
           <button className='lifeLineButton' onClick={() => lifeLineDoubleDip()} disabled={!lifeLines.double}>Double Dip</button>
         </div>
 
-        <h1 className='questionHeader sb'>{stageMagazine[stageIndex].quiz.question}</h1>
-
+        <QuestionHeader question={stageMagazine[stageIndex].quiz.question}/>
+        
         <div className='answerButtonsContainer'>
           <button className='answerButton sb' onClick={(e) => answerFunction('A', e)} id='A'>
             A: {stageMagazine[stageIndex].quiz.answers.A}
@@ -433,8 +472,8 @@ function StageMachine(
 function App() {
   const [stageMag, setStageMagazine] = useState(stageMagazine)
   const [gameState, setGameState] = useState('menu')
-  const [muted, setMuted] = useState(false) //set false after refactor
-  const [muteEffects, setMuteEffects] = useState(false) //set false after refactor
+  const [muted, setMuted] = useState(true) //set false after refactor
+  const [muteEffects, setMuteEffects] = useState(true) //set false after refactor
   const {highscores,
         fetchScoresFromStorage,
         flushHighscores,
@@ -592,7 +631,7 @@ const stageMagazine: Stage[] = [
   {
     prize: 100,
     quiz: {
-      question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
+      question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"? Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
       answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
       correct: 'A'
     },
