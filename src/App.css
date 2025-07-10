@@ -5,10 +5,12 @@
 }
 
 .lifeLineContainer {
-  margin-top: 1rem;
+  margin-top: 0.75vh;
 }
 
 .lifeLineButton {
+  height: 5vh;
+  font-size: 1.65vh;
   border-radius: 50%;
   width: 8rem;
   margin-left: 0.5rem;
@@ -26,9 +28,8 @@
 
 .questionContainer {
   margin-left: 1rem;
-  margin-top: 0.5rem;
-  padding-top: 0.25rem !important;
-  padding-bottom: 1rem !important;
+  margin-top: 0.75vh;
+  padding-top: 0 !important;
   height: 20vh;
   align-content: center;
 }
@@ -51,7 +52,7 @@
   font-size: larger;
   font-weight: bold;
   white-space:nowrap;
-  margin: 0.5em;
+  margin: 0.5vh;
 }
 .answerButton:disabled {
   color: white;
@@ -132,10 +133,10 @@
 }
 
 .logo {
-  height: 30vh;
+  height: 33vh;
   will-change: filter;
   transition: filter 300ms;
-  margin: 1rem;
+  margin: 0.5vh;
 }
 
 .logo:hover {

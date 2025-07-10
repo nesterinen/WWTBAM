@@ -425,14 +425,12 @@ function StageMachine(
    )
   }
 
-  //<h1 className='questionHeader sb'>{stageMagazine[stageIndex].quiz.question}</h1>
-
   return (
     <div className='stageMachine'>
       <div className='gameContainer'>
         <img src={millionareLogo} className="logo" alt="Millionare logo" />
 
-        <p ref={timerElement} style={{fontSize:'2rem', margin:0, padding:0, position:'absolute', left:100}}>-.-</p>
+        <p ref={timerElement} style={{fontSize:'3vh', margin:0, padding:0, position:'absolute', left:'2.5vw', fontWeight:'bold', textShadow:'2px 2px 4px black'}}>-.-</p>
 
         <div className='lifeLineContainer'>
           <button className='lifeLineButton' onClick={() => lifeLine5050()} disabled={!lifeLines.fiftyFifty}>50:50</button>
