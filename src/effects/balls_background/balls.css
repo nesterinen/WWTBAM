@@ -32,6 +32,18 @@
     color: #363434
 }
 
+@media (prefers-color-scheme: light) {
+  .background {
+    background: white;
+  }
+  .ball:nth-child(odd) {
+    color: lightblue;
+  }
+  .ball:nth-child(even) {
+    color: lightgray
+  }
+}
+
 /* Using a custom attribute for variability */
 .ball:nth-child(1) {
   top: 77%;

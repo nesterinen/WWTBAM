@@ -42,6 +42,15 @@
   display: inline;
 }
 
+@media (prefers-color-scheme: light) {
+  .lifeLineButton {
+    color: white;
+  }
+  .questionHeader {
+    color: black;
+  }
+}
+
 .answerButtonsContainer {
   margin-left: 1rem;
   display: flex;
@@ -123,6 +132,17 @@
   grid-template-columns: 20% 20% 60%;
 }
 
+@media (prefers-color-scheme: light) {
+  .sideBar {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+  .sideBarPrize {
+    outline: 2px solid black;
+  }
+}
+
 .sideBar .isSelected {
   /*background-color: coral;*/
   background: linear-gradient(-45deg, blue, aqua, blue, aqua);
@@ -167,10 +187,16 @@
   box-shadow: 3px 3px 6px black;
 }
 
-.settingsButton img {
-  filter: brightness(0) invert(1);
+@media (prefers-color-scheme: dark) {
+  .settingsButton img{
+    filter: brightness(0) invert(1);
+  }
 }
-
+@media (prefers-color-scheme: light) {
+  .settingsButton {
+    background-color: white;
+  }
+}
 .menuButtonsContainer {
   display: grid;
   grid-template-columns: 100%;
@@ -194,12 +220,41 @@
   padding: 0.8rem;
 }
 
+@media (prefers-color-scheme: light) {
+  .highScoreTable {
+    outline: 1px solid black;
+  }
+
+  .highScoreTable tr {
+    outline: 1px solid black;
+  }
+
+  .deleteScoresButton {
+    background-color: white;
+    outline: 1px solid black;
+  }
+
+  .highScoreTable button {
+    background-color: white;
+    outline: 1px solid black;
+  }
+
+  .GameOverScreen button {
+    background-color: white;
+  }
+}
+
 .deleteScoresButton {
   margin-top: 1rem;
   width: 100%;
 }
 
 .deleteScoresButton:hover {
+  background-color: red;
+  border-color: darkred !important;
+}
+
+.highScoreTable button:hover {
   background-color: red;
   border-color: darkred !important;
 }
@@ -293,6 +348,14 @@
     z-index: -1;
     border-radius: 24px;
 }
+
+@media (prefers-color-scheme: light) {
+  .sb {
+    background: linear-gradient(white, white);
+    background-clip: padding-box;
+  }
+}
+
 .selectedAnswer {
   background: linear-gradient(coral, #ed5a24);
   background-clip: padding-box;
@@ -329,6 +392,17 @@
   height: 6vh;
   font-size: 4.5vh;
   text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  .menuBackGround {
+    background: white;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .menuBackGround {
+    background: linear-gradient(160deg, #505959, #232626);
+  }
 }
 
 /*

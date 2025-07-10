@@ -547,7 +547,7 @@ function App() {
 
   function MenuBackGround(){
     return (
-      <div className='menuBackGround' style={{position:'absolute', top:0, left:0, width:'100vw', height:'100vh', zIndex:-2, background:'linear-gradient(160deg, #505959, #232626)'}}></div>
+      <div className='menuBackGround' style={{position:'absolute', top:0, left:0, width:'100vw', height:'100vh', zIndex:-2}}></div>
     )
   }
 
