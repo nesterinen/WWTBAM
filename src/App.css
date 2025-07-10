@@ -29,6 +29,7 @@
 .questionContainer {
   margin-left: 1rem;
   margin-top: 0.75vh;
+  margin-bottom: 0.5vh;
   padding-top: 0 !important;
   height: 20vh;
   align-content: center;
@@ -49,9 +50,9 @@
 }
 
 .answerButton {
-  font-size: larger;
+  height: 16.5vh;
+  font-size: 2.5vh;
   font-weight: bold;
-  white-space:nowrap;
   margin: 0.5vh;
 }
 .answerButton:disabled {
