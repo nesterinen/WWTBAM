@@ -589,7 +589,7 @@ function App() {
         </>
       )
 
-    case 'settings':
+    case 'settings': //quizArray.map((q, i) => {if(q.description === currentQuiz.description) return i})
       return(
         <div className='settingsStage'>
           <label htmlFor='quizSelect' className='quizLabel'>Kysymykset:</label>
@@ -604,7 +604,7 @@ function App() {
             }
             }}>
             {quizArray.map((quiz, index) => {
-              return <option value={index} key={index}>{quiz.description}</option>
+              return <option value={index} key={index} selected={quiz.description === currentQuiz.description}>{quiz.description}</option>
             })}
           </select>
 
