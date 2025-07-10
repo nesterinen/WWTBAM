@@ -399,16 +399,16 @@ function StageMachine(
           element.current.style = `font-size: 9vh;`
           break
         case lines === 3:
-          element.current.style = `font-size: 6.5vh;`
+          element.current.style = `font-size: 6vh;`
           break
         case lines === 4:
-          element.current.style = `font-size: 6vh;`
+          element.current.style = `font-size: 5vh;`
           break
         case lines === 5:
-          element.current.style = `font-size: 6vh;`
+          element.current.style = `font-size: 5vh;`
           break
         case lines === 6:
-          element.current.style = `font-size: 5vh;`
+          element.current.style = `font-size: 4vh;`
           break
         case lines === 7:
           element.current.style = `font-size: 4vh;`
@@ -545,6 +545,12 @@ function App() {
     )
   }
 
+  function MenuBackGround(){
+    return (
+      <div className='menuBackGround' style={{position:'absolute', top:0, left:0, width:'100vw', height:'100vh', zIndex:-2, background:'linear-gradient(160deg, #505959, #232626)'}}></div>
+    )
+  }
+
   const addScore = (score: Score) => {addScoreToHighscores(score, currentQuiz.description)}
 
   switch (gameState) {
@@ -552,7 +558,7 @@ function App() {
       return (
         <div className='menuState'>
           <img src={millionareLogo} className="logo" alt="Millionare logo" />
-          <p>{currentQuiz.description}</p>
+          <p style={{textShadow:'2px 2px 4px black'}}>{currentQuiz.description}</p>
           <div className='menuButtonsContainer'>
             <button className='menuButton sb' onClick={() => {
               changeStage()
@@ -561,6 +567,7 @@ function App() {
             <button className='menuButton sb' onClick={() => setGameState('scores')}>Top10</button>
             <button className='menuButton sb' onClick={() => setGameState('settings')}>Asetukset</button>
           </div>
+          <MenuBackGround/>
           <SettingsBar/>
         </div>
       )
