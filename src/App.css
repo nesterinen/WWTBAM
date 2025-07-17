@@ -6,11 +6,12 @@
 
 .lifeLineContainer {
   margin-top: 0.75vh;
+  margin-bottom: 2vh;
 }
 
 .lifeLineButton {
-  height: 5vh;
-  font-size: 1.6vh;
+  height: 7vh;
+  font-size: 2vh;
   white-space: nowrap;
   border-radius: 50%;
   width: 8rem;
@@ -120,17 +121,17 @@
   border-left: 4px solid white;
   width: 100%;
   overflow: hidden;
-  margin-left: 1rem;
+  margin-left: 2vw;
   z-index: 5;
 }
 
 .sideBarPrize {
-  font-size: larger;
+  font-size: 3.5vh;
   outline: 2px solid white;
   width: 100%;
   height: 6.66vh;
   display: grid;
-  grid-template-columns: 20% 20% 60%;
+  grid-template-columns: 20% 10% 60%;
 }
 
 @media (prefers-color-scheme: light) {
@@ -157,7 +158,7 @@
 }
 
 .logo {
-  height: 33vh;
+  height: 25vh;
   will-change: filter;
   transition: filter 300ms;
   margin: 0.5vh;
@@ -171,7 +172,8 @@
 
 .menuState {
   width: 80vw;
-  height: 80vh;
+  height: 95vh;
+  padding-top: 5vh;
 }
 
 .settingsContainer {
@@ -263,19 +265,33 @@
 .GameOverScreen {
   display: grid;
   grid-template-columns: 100%;
-  height: 60vh;
+  height: 100vh;
   width: 60vw;
 }
 
 .GameOverScreen button {
-  margin: 0.25rem;
+  margin: 0.5vh;
   border: 2px solid grey;
+  font-size: 3.5vh;
+  height: 10vh;
 }
 
 .GameOverScreen input {
-  margin: 0.25rem;
+  margin: 0.25vh;
   text-align: center;
-  font-size: 3vh;
+  font-size: 5vh;
+  height: 8vh;
+}
+
+.GameOverScreen h2 {
+  font-size: 4vh;
+  margin: 0.25vh;
+}
+
+.GameOverScreen h1 {
+  margin-top: 5vh;
+  margin-bottom: 2.5vh;
+  font-size: 10vh;
 }
 
 .win h1 {
