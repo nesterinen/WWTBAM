@@ -62,7 +62,7 @@
 
 .answerButton {
   height: 16.5vh;
-  font-size: 2.5vh;
+  font-size: 4vh;
   font-weight: bold;
   margin: 0.5vh;
 }
@@ -125,6 +125,7 @@
 }
 
 .sideBarPrize {
+  font-size: larger;
   outline: 2px solid white;
   width: 100%;
   height: 6.66vh;
@@ -333,7 +334,7 @@
     background: linear-gradient(#232626, #0e0f0f);
     background-clip: padding-box;
     padding: 10px;
-    box-shadow: 0 3px 9px black, inset 0 0 9px black;
+    box-shadow: 0 3px 9px black/*, inset 0 0 9px black;*/
 }
 .sb::after {
     position: absolute;

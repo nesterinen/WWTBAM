@@ -430,7 +430,7 @@ function StageMachine(
       <div className='gameContainer'>
         <img src={millionareLogo} className="logo" alt="Millionare logo" />
 
-        <p ref={timerElement} style={{fontSize:'3vh', margin:0, padding:0, position:'absolute', left:'2.5vw', fontWeight:'bold', textShadow:'2px 2px 4px black'}}>-.-</p>
+        <p ref={timerElement} style={{fontSize:'3vh', margin:0, padding:0, position:'absolute', left:'2.5vw', fontWeight:'bold'/*, textShadow:'2px 2px 2px black'*/}}>-.-</p>
 
         <div className='lifeLineContainer'>
           <button className='lifeLineButton' onClick={() => lifeLine5050()} disabled={!lifeLines.fiftyFifty}>50:50</button>
