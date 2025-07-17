@@ -17,6 +17,7 @@ function audioPreloader(stageMagazine: Stage[]){
           stageMagazine[index].sounds['lose'] = new Audio('/sounds/' + sound)
           break;
 
+        /*
         case 'letsPlay':
           stageMagazine[index].sounds['letsPlay'] = new Audio('/sounds/' + sound)
           break;
@@ -28,7 +29,7 @@ function audioPreloader(stageMagazine: Stage[]){
         case 'finalAnswer':
           stageMagazine[index].sounds['finalAnswer'] = new Audio('/sounds/' + sound)
           break;
-
+        */
         default:
           break;
       }

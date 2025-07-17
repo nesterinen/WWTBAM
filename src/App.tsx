@@ -31,6 +31,52 @@ import kysymykset6 from './questions/kysymykset6.json'
 import Balls from './effects/balls_background/Balls.tsx'
 import Confetti from './effects/confetti_background/Confetti.tsx'
 
+import '../public/sounds/11 $100-$1,000 Questions.mp3'
+
+import '../public/sounds/16 $2,000 Lose.mp3'
+import '../public/sounds/14 $2,000 Question.mp3'
+import '../public/sounds/17 $2,000 Win.mp3'
+
+import '../public/sounds/19 $4,000 Question.mp3'
+import '../public/sounds/21 $4,000 Lose.mp3'
+import '../public/sounds/22 $4,000 Win.mp3'
+
+import '../public/sounds/24 $8,000 Question.mp3'
+import '../public/sounds/26 $8,000 Lose.mp3'
+import '../public/sounds/27 $8,000 Win.mp3'
+
+import '../public/sounds/29 $16,000 Question.mp3'
+import '../public/sounds/31 $16,000 Lose.mp3'
+import '../public/sounds/32 $16,000 Win.mp3'
+
+//32k win is long because in the show it is a minimum victory treshold
+//16k win is used at 32k
+import '../public/sounds/34 $32,000 Question.mp3'
+import '../public/sounds/36 $32,000 Lose.mp3'
+
+import '../public/sounds/39 $64,000 Question.mp3'
+import '../public/sounds/41 $64,000 Lose.mp3'
+import '../public/sounds/42 $64,000 Win.mp3'
+
+import '../public/sounds/44 $125,000 Question.mp3'
+import '../public/sounds/46 $125,000 Lose.mp3'
+import '../public/sounds/47 $125,000 Win.mp3'
+
+import '../public/sounds/49 $250,000 Question.mp3'
+import '../public/sounds/51 $250,000 Lose.mp3'
+import '../public/sounds/52 $250,000 Win.mp3'
+
+import '../public/sounds/54 $500,000 Question.mp3'
+import '../public/sounds/56 $500,000 Lose.mp3'
+import '../public/sounds/57 $500,000 Win.mp3'
+
+import '../public/sounds/59 $1,000,000 Question.mp3'
+import '../public/sounds/61 $1,000,000 Lose.mp3'
+import '../public/sounds/62 $1,000,000 Win.mp3'
+
+import '../public/sounds/67 50-50.mp3'
+
+
 function StageMachine(
   {
     backToMenu, 
