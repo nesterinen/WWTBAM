@@ -31,6 +31,7 @@ import kysymykset6 from './questions/kysymykset6.json'
 import Balls from './effects/balls_background/Balls.tsx'
 import Confetti from './effects/confetti_background/Confetti.tsx'
 
+/*
 import '../public/sounds/11 $100-$1,000 Questions.mp3'
 
 import '../public/sounds/16 $2,000 Lose.mp3'
@@ -75,7 +76,7 @@ import '../public/sounds/61 $1,000,000 Lose.mp3'
 import '../public/sounds/62 $1,000,000 Win.mp3'
 
 import '../public/sounds/67 50-50.mp3'
-
+*/
 
 function StageMachine(
   {
