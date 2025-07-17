@@ -28,7 +28,7 @@ import kysymykset5 from './questions/kysymykset5.json'
 import kysymykset6 from './questions/kysymykset6.json'
 
 
-import Balls from './effects/balls_background/Balls.tsx'
+import Balls from './effects/balls_background/balls.tsx'
 import Confetti from './effects/confetti_background/Confetti.tsx'
 
 /*
