@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useLayoutEffect, use } from 'react'
+import { useState, useEffect, useRef, useLayoutEffect } from 'react'
 
 import { type Stage, type Score } from './Types'
 
@@ -77,7 +77,6 @@ import '../public/sounds/62 $1,000,000 Win.mp3'
 
 import '../public/sounds/67 50-50.mp3'
 */
-import { type Quiz } from './Types'
 
 function StageMachine(
   {
