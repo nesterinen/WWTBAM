@@ -426,11 +426,13 @@ function StageMachine(
 
     const isSelected = props.stageIndex === props.index ? ' isSelected' : ''
 
+    let formattedPrice = props.prize.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1 ") + '€'
+
     return (
       <div className={props.className + isSelected}>
         <h3>{props.index}</h3>
         {props.stageIndex >= props.index ? <h3>⬥</h3> : <h3></h3>}
-        <h3>{props.prize}</h3>
+        <h3>{formattedPrice}</h3>
       </div>
     )
   }
@@ -540,7 +542,7 @@ function App() {
   }
 
   function changeStage(){
-    //return false
+    return false
     const newStageMag = loadAndRandomizeQuiz(stageMag, currentQuiz.questions)
     setStageMagazine(newStageMag)
   }
