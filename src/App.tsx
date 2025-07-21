@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useLayoutEffect } from 'react'
+import { useState, useEffect, useRef, useLayoutEffect, use } from 'react'
 
 import { type Stage, type Score } from './Types'
 
@@ -77,6 +77,7 @@ import '../public/sounds/62 $1,000,000 Win.mp3'
 
 import '../public/sounds/67 50-50.mp3'
 */
+import { type Quiz } from './Types'
 
 function StageMachine(
   {
@@ -95,12 +96,19 @@ function StageMachine(
   }
   ) {
   const [stageIndex, setStageIndex] = useState(0)
-  const [lifeLines, setLifeLines] = useState({fiftyFifty: true, double: true, todo2: true})
+  const [lifeLines, setLifeLines] = useState({fiftyFifty: true, double: true, reroll: true})
   const [doubleDip, setDoubleDip] = useState(false)
   const [soundTrack, setSoundTrack] = useState(stageMagazine[0].sounds.theme)
   const [startTime,] = useState(new Date())
   const [gameOver, setGameOver] = useState(false)
   const [trackDuration, setTrackDuration] = useState(0)
+
+  const [currentQuiz, setCurrentQuiz] = useState(stageMagazine[0].quiz)
+  useEffect(() => {
+    setCurrentQuiz(stageMagazine[stageIndex].quiz)
+  }, [stageIndex])
+
+  const maxStageIndex = 15
 
   //for displaying time spent since start.
   const timerElement = useRef<null | HTMLParagraphElement>(null)
@@ -213,8 +221,8 @@ function StageMachine(
         :
         <div style={{}}>
           <h2>
-            {stageMagazine[stageIndex].quiz.question} <br></br>
-            {stageMagazine[stageIndex].quiz.answers[stageMagazine[stageIndex].quiz.correct]}
+            {currentQuiz.question} <br></br>
+            {currentQuiz.answers[currentQuiz.correct]}
           </h2>
         </div>
         }
@@ -265,7 +273,7 @@ function StageMachine(
   }
 
   // Victory condition
-  if(stageIndex >= stageMagazine.length){
+  if(stageIndex >= maxStageIndex){
     if(soundTrack instanceof HTMLAudioElement){
       soundTrack.pause()
     }
@@ -339,7 +347,7 @@ function StageMachine(
       setTimeout(async () => {
         if(buttons){
           for(const button of buttons){
-            if(button.id === stageMagazine[stageIndex].quiz.correct){
+            if(button.id === currentQuiz.correct){
               if(button.id === answer){
                 button.classList.add('correctAnswer')
                 playSound(stageMagazine[stageIndex].sounds.win, 0.3)
@@ -370,7 +378,7 @@ function StageMachine(
         }
       }, animationRevealSpeed) //250
     } else {
-      if(answer === stageMagazine[stageIndex].quiz.correct){
+      if(answer === currentQuiz.correct){
         playSound(stageMagazine[stageIndex].sounds.win, 0.3) //.then(() => nextTrack())
         nextTrack()
         setStageIndex(stageIndex + 1)
@@ -395,7 +403,7 @@ function StageMachine(
       const buttons = document.querySelector('.answerButtonsContainer')?.querySelectorAll('button')
       
       const answers = ['A', 'B', 'C', 'D']
-      const remaining = answers.filter(val => val !== stageMagazine[stageIndex].quiz.correct)
+      const remaining = answers.filter(val => val !== currentQuiz.correct)
       const randomIndex = Math.floor(Math.random() * remaining.length)
       remaining.splice(randomIndex, 1)
 
@@ -415,6 +423,12 @@ function StageMachine(
       setDoubleDip(true)
       setLifeLines({...lifeLines, double: false})
     }
+  }
+
+  function lifeLineReroll(){
+    playSound('67 50-50.mp3')
+    setCurrentQuiz(stageMagazine[15].quiz)
+    setLifeLines({...lifeLines, reroll: false})
   }
 
   interface SideBarPrizeProps {
@@ -484,32 +498,34 @@ function StageMachine(
         <div className='lifeLineContainer'>
           <button className='lifeLineButton' onClick={() => lifeLine5050()} disabled={!lifeLines.fiftyFifty}>50:50</button>
           <button className='lifeLineButton' onClick={() => lifeLineDoubleDip()} disabled={!lifeLines.double}>Double Dip</button>
+          <button className='lifeLineButton' onClick={() => lifeLineReroll()} disabled={!lifeLines.reroll}>Reroll</button>
         </div>
 
-        <QuestionHeader question={stageMagazine[stageIndex].quiz.question}/>
+        <QuestionHeader question={currentQuiz.question}/>
         
         <div className='answerButtonsContainer'>
           <button className='answerButton sb' onClick={(e) => answerFunction('A', e)} id='A'>
-            A: {stageMagazine[stageIndex].quiz.answers.A}
+            A: {currentQuiz.answers.A}
           </button>
 
           <button className='answerButton sb' onClick={(e) => answerFunction('B', e)} id='B'>
-            B: {stageMagazine[stageIndex].quiz.answers.B}
+            B: {currentQuiz.answers.B}
           </button>
 
           <button className='answerButton sb' onClick={(e) => answerFunction('C', e)} id='C'>
-            C: {stageMagazine[stageIndex].quiz.answers.C}
+            C: {currentQuiz.answers.C}
           </button>
 
           <button className='answerButton sb' onClick={(e) => answerFunction('D', e)} id='D'>
-            D: {stageMagazine[stageIndex].quiz.answers.D}
+            D: {currentQuiz.answers.D}
           </button>
         </div>
+
       </div>
 
       <div className='sideBar'>
-        {stageMagazine.slice(0).reverse().map((stage, index)=> {
-          return <SideBarPrize prize={stage.prize} index={stageMagazine.length - index} stageIndex={stageIndex} className='sideBarPrize' key={index}/>
+        {stageMagazine.slice(0, 15).reverse().map((stage, index)=> {
+          return <SideBarPrize prize={stage.prize} index={maxStageIndex - index} stageIndex={stageIndex} className='sideBarPrize' key={index}/>
         })}
       </div>
     </div>
@@ -542,7 +558,7 @@ function App() {
   }
 
   function changeStage(){
-    return false
+    //return false
     const newStageMag = loadAndRandomizeQuiz(stageMag, currentQuiz.questions)
     setStageMagazine(newStageMag)
   }
@@ -876,6 +892,19 @@ const stageMagazine: Stage[] = [
       theme: '59 $1,000,000 Question.mp3',
       win: null,//'57 $500,000 Win.mp3',
       lose: '61 $1,000,000 Lose.mp3'
+    }
+  },
+  { // question 16 is lifeline question
+    prize: 0,
+    quiz: {
+      question: 'Which insect shorted out an early supercomputer and inspired the term "computer bug"?',
+      answers: {A: 'Moth', B: 'Roach', C: 'Fly', D: 'Japanese beetle'},
+      correct: 'A'
+    },
+    sounds: {
+      theme: null,
+      win: null,//'57 $500,000 Win.mp3',
+      lose: null
     }
   }
 ]

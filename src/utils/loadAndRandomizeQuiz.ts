@@ -4,7 +4,7 @@ function loadAndRandomizeQuiz(stageMagazine: Stage[], file: { question: string; 
     file.sort(() => Math.random() - 0.5)
     //spilce deletes the selected objects from the array.
     //slice creates shallow copy, otherwise we will run out of questions pretty soon.
-    const quiz15 = file.slice().splice(0, 15) 
+    const quiz15 = file.slice().splice(0, 16) 
     const formattedQuiz: Quiz[] = []
   
     type Corrects = 'A' | 'B' | 'C' | 'D'
