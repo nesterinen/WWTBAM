@@ -26,6 +26,7 @@ import kysymykset3 from './questions/kysymykset3.json'
 import kysymykset4 from './questions/kysymykset4.json'
 import kysymykset5 from './questions/kysymykset5.json'
 import kysymykset6 from './questions/kysymykset6.json'
+import kysymykset7 from './questions/kysymykset7.json'
 
 
 import Balls from './effects/balls_background/balls.tsx'
@@ -542,7 +543,7 @@ function App() {
         addScoreToHighscores,
         removeScoreFromHighscores} = useHighscores()
 
-  const quizArray = [kysymykset, kysymykset1, kysymykset2, kysymykset3, kysymykset4, kysymykset5, kysymykset6]
+  const quizArray = [kysymykset, kysymykset1, kysymykset2, kysymykset3, kysymykset4, kysymykset5, kysymykset6, kysymykset7]
   const [currentQuiz, setCurrentQuiz] = useState(quizArray[0])
 
 
@@ -670,7 +671,7 @@ function App() {
             if(result){
               if(labelElement) labelElement.style = 'color: green;'
             } else {
-              alert(`kysymykset(${e.target.value}) on vähemmän kuin 15 vastausta tai tiedosto on puutteellinen`)
+              alert(`kysymykset(${e.target.value}) on vähemmän kuin 16 vastausta tai tiedosto on puutteellinen`)
               if(labelElement) labelElement.style = 'color: red;'
             }
             }}>

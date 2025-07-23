@@ -1,0 +1,13 @@
+{
+  "description": "Esimerkki: 1kpl",
+  "questions": [
+    {
+    "question": "Mikä on Suomen pääkaupunki?",
+    "answer": "Helsinki",
+    "A": "Tampere",
+    "B": "Turku",
+    "C": "Helsinki",
+    "D": "Oulu"
+    }
+  ]
+}
