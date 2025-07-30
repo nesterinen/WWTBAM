@@ -866,7 +866,8 @@ const stageMagazine: Stage[] = [
     sounds: {
       theme: '49 $250,000 Question.mp3',
       win: '52 $250,000 Win.mp3',
-      lose: '51 $250,000 Lose.mp3'
+      //lose: '51 $250,000 Lose.mp3'
+      lose: '61 $1,000,000 Lose.mp3'
     }
   },
   {
@@ -879,7 +880,8 @@ const stageMagazine: Stage[] = [
     sounds: {
       theme: '54 $500,000 Question.mp3',
       win: '57 $500,000 Win.mp3',
-      lose: '56 $500,000 Lose.mp3'
+      lose: '61 $1,000,000 Lose.mp3'
+      //lose: '56 $500,000 Lose.mp3'
     }
   },
   {
