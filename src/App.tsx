@@ -117,6 +117,7 @@ function StageMachine(
       if(timerElement.current){
         //timerElement.current.textContent = ((Date.now() - startTime.getTime()) / 1000).toFixed(1)
         timerElement.current.textContent = msToHMSvaried(Date.now() - startTime.getTime())
+        //timerElement.current.textContent = '12h 34m 56s'
       }
     }, 1000)
 
