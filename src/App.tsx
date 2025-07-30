@@ -581,6 +581,22 @@ function App() {
   }
 
   function SettingsBar(){
+    // Check if the user is accessing the page on a mobile device
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    // hide audio buttons when using mobile and in game stage.
+    // this is done because otherwise settings buttons go over lifeline buttons
+    if (isMobile && gameState == 'stage') {
+      // User is accessing the page on a mobile device
+      return (
+        <div className='settingsContainer'>
+            <button className='settingsButton' onClick={() => setGameState('menu')}>
+              <img src={exitSvg} alt='exit' width='32' height='32'/>
+            </button>
+        </div>
+      )
+    }
+
     return (
       <div className='settingsContainer'>
         <button className='settingsButton' onClick={() => switchEffectMute()}>
