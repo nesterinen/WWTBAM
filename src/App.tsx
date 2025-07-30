@@ -459,22 +459,22 @@ function StageMachine(
 
       switch(true){
         case lines === 2:
-          element.current.style = `font-size: 9vh;`
+          element.current.style = `font-size: 10vh;`
           break
         case lines === 3:
-          element.current.style = `font-size: 6vh;`
+          element.current.style = `font-size: 9vh;`
           break
         case lines === 4:
-          element.current.style = `font-size: 5vh;`
+          element.current.style = `font-size: 7.5vh;`
           break
         case lines === 5:
-          element.current.style = `font-size: 5vh;`
+          element.current.style = `font-size: 6.5vh;`
           break
         case lines === 6:
-          element.current.style = `font-size: 4vh;`
+          element.current.style = `font-size: 5.75vh;`
           break
         case lines === 7:
-          element.current.style = `font-size: 4vh;`
+          element.current.style = `font-size: 5.25vh;`
           break
         case lines >= 8:
           element.current.style = `font-size: ${10/lines}vh;`
@@ -488,12 +488,13 @@ function StageMachine(
    )
   }
 
+  //<img src={millionareLogo} className="logo" alt="Millionare logo" />
   return (
     <div className='stageMachine'>
       <div className='gameContainer'>
-        <img src={millionareLogo} className="logo" alt="Millionare logo" />
+        <div className='topSpacer'></div>
 
-        <p ref={timerElement} style={{fontSize:'3vh', margin:0, padding:0, position:'absolute', left:'2.5vw', fontWeight:'bold'/*, textShadow:'2px 2px 2px black'*/}}>-.-</p>
+        <p ref={timerElement} className='timerDisplay'>-.-</p>
 
         <div className='lifeLineContainer'>
           <button className='lifeLineButton' onClick={() => lifeLine5050()} disabled={!lifeLines.fiftyFifty}>50:50</button>

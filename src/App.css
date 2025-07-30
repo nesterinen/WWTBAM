@@ -4,17 +4,30 @@
   text-align: center;
 }
 
+.topSpacer {
+  height: 56px;
+}
+
+/*fontSize:'3vh', margin:0, padding:0, position:'absolute', left:'2.5vw', fontWeight:'bold'*/
+.timerDisplay {
+  font-size: 3vh;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 1vw;
+}
+
 .lifeLineContainer {
   margin-top: 0.75vh;
   margin-bottom: 2vh;
 }
 
 .lifeLineButton {
-  height: 7vh;
-  font-size: 2vh;
+  height: 10vh;
+  font-size: 3vh;
   white-space: nowrap;
   border-radius: 50%;
-  width: 8rem;
+  width: 14rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   border: 2px solid white;
@@ -34,12 +47,13 @@
   margin-top: 0.75vh;
   margin-bottom: 0.5vh;
   padding-top: 0 !important;
-  height: 20vh;
+  height: 28vh;
   align-content: center;
+  padding: 0;
 }
 
 .questionHeader {
-  font-size: 10vh;
+  font-size: 12vh;
   display: inline;
 }
 
@@ -56,14 +70,14 @@
   margin-left: 1rem;
   display: flex;
   flex-wrap: wrap;
-  height: 33vh;
+  height: 44vh;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
 .answerButton {
-  height: 16.5vh;
-  font-size: 4vh;
+  height: 22vh;
+  font-size: 5vh;
   font-weight: bold;
   margin: 0.5vh;
 }
@@ -121,7 +135,7 @@
   border-left: 4px solid white;
   width: 100%;
   overflow: hidden;
-  margin-left: 2vw;
+  margin-left: 1vw;
   z-index: 5;
 }
 
@@ -132,6 +146,7 @@
   height: 6.66vh;
   display: grid;
   grid-template-columns: 20% 10% 60%;
+  text-wrap: nowrap;
 }
 
 @media (prefers-color-scheme: light) {
@@ -180,7 +195,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin: 0.5rem;
 }
 
 .settingsButton {
@@ -345,7 +359,7 @@
 }
 .sb {
     position: relative;
-    border: 4px solid transparent;
+    border: 6px solid transparent;
     border-radius: 24px;
     background: linear-gradient(#232626, #0e0f0f);
     background-clip: padding-box;
@@ -354,8 +368,8 @@
 }
 .sb::after {
     position: absolute;
-    top: -4px; bottom: -4px;
-    left: -4px; right: -4px;
+    top: -6px; bottom: -6px;
+    left: -6px; right: -6px;
     
     background: linear-gradient(-45deg, blue, aqua, blue, aqua);
     background-size: 400% 400%;
