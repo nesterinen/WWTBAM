@@ -222,9 +222,10 @@
 }
 
 .menuButton {
-  margin-bottom: 1rem;
+  font-size: 5vh;
+  margin-bottom: 2vh;
   min-height: 3rem;
-  height: 10vh;
+  height: 15vh;
 }
 
 .highScoreTable {
